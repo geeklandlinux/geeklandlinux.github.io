@@ -7,7 +7,8 @@ categories:
 tags: 
   - "surfshark"
   - "vpn"
-coverImage: "como-surfshark-te-ayuda-a-navegar-sin-limites-en-china.webp"
+cover:
+  image: "como-surfshark-te-ayuda-a-navegar-sin-limites-en-china.webp"
 ---
 
 Cuando se trata de viajar o vivir en China, tienes que prepararte para enfrentarte al **Gran Cortafuegos Chino**. Este sofisticado sistema de censura restringe el acceso a plataformas tan cotidianas como Google, WhatsApp o Instagram, convirtiendo tareas simples en una misión casi imposible.
