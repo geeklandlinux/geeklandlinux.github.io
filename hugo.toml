@@ -1,0 +1,16 @@
+baseURL = "https://geeklandlinux.github.io/"
+languageCode = "es-es"
+title = "Geekland"
+theme = "PaperMod"
+defaultContentLanguage = "es"
+enableEmoji = true
+
+[params]
+  description = "Blog sobre tecnología, Linux, privacidad y software libre"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Artículos"
+    url = "/posts/"
+    weight = 1
