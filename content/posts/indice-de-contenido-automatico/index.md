@@ -8,7 +8,9 @@ tags:
   - "libreoffice"
   - "productividad"
   - "writer"
-coverImage: "1-Índices-de-contenido-automáticos-con-Libreoffice-Writter.png"
+cover:
+  image: "images/1-Índices-de-contenido-automáticos-con-Libreoffice-Writter.png"
+  relative: true
 ---
 
 Obviamente para redactar un documento básico no es necesario trabajar con los estilos, ni realizar Índices de contenido automáticos y numerados, ni muchas otras operaciones que realizaríamos en documentos y trabajos que tienen mayor envergadura.<!--more-->

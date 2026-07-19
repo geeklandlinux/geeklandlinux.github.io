@@ -7,7 +7,9 @@ tags:
   - "google"
   - "google-maps"
   - "google-my-maps"
-coverImage: "planificar-un-viaje-google-maps-my-maps.jpg"
+cover:
+  image: "images/planificar-un-viaje-google-maps-my-maps.jpg"
+  relative: true
 ---
 
 A pesar que Google Maps es una herramienta que vulnera nuestra privacidad también que hay remarcar que es una herramienta muy útil para organizar y planificar nuestros viajes. Por este motivo en el siguiente enlace veremos como podemos organizar y planificar nuestro viaje con Google Maps y My Maps en tan solo cuestión de minutos.<!--more-->

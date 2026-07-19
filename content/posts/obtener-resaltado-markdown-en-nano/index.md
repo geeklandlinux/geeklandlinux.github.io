@@ -6,7 +6,9 @@ categories:
 tags: 
   - "markdown"
   - "nano"
-coverImage: "Obtener-resaltado-Markdown-en-el-editor-de-textos-nano.png"
+cover:
+  image: "images/Obtener-resaltado-Markdown-en-el-editor-de-textos-nano.png"
+  relative: true
 ---
 
 Es posible que alguien pretenda usar nano para editar o crear un fichero en Markdown. Si lo hacen verán que nano no tiene ningún tipo de resaltado Markdown.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "fingerprint"
   - "seguridad"
   - "ssh"
-coverImage: "que-es-fingerprint-servidor-SSH.jpg"
+cover:
+  image: "images/que-es-fingerprint-servidor-SSH.jpg"
+  relative: true
 ---
 
 La primera vez que nos conectamos a un servidor SSH obtenemos mensajes de advertencia sobre el fingerprint similares al siguiente:

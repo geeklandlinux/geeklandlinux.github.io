@@ -6,7 +6,9 @@ categories:
 tags: 
   - "facebook"
   - "privacidad"
-coverImage: "motivos-para-no-usar-facebook.jpg"
+cover:
+  image: "images/motivos-para-no-usar-facebook.jpg"
+  relative: true
 ---
 
 A día de hoy creo que a nadie se le escapa que Facebook es la red social más usada y más grande del mundo. No obstante como red social deja bastante que desear y es otro claro ejemplo que no siempre lo mejor es lo que acaba triunfando.

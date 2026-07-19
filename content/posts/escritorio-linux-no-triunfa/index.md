@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "opinion"
-coverImage: "Linux-no-triunfa-en-el-escritorio.png"
+cover:
+  image: "images/Linux-no-triunfa-en-el-escritorio.png"
+  relative: true
 ---
 
 Todos sabéis que el sistema operativo GNU-Linux está extendido en servidores, ha tenido cierto éxito en teléfonos móviles y en multitud de otros campos, pero la realidad es que no han dominado el escritorio Linux. ¿Por qué? Frente a esta pregunta Linus Torvalds, el día 14 de Junio de 2012, respondió lo que podéis ver en el siguiente vídeo:<!--more-->

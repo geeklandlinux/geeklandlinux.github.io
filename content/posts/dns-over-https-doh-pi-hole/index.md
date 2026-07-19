@@ -10,7 +10,9 @@ tags:
   - "dns"
   - "privacidad"
   - "seguridad"
-coverImage: "Configurar-Pi-Hole-para-usar-DNS-over-https-DoH-en-una-Raspberry-Pi.jpg"
+cover:
+  image: "images/Configurar-Pi-Hole-para-usar-DNS-over-https-DoH-en-una-Raspberry-Pi.jpg"
+  relative: true
 ---
 
 El sistema de resolución de peticiones DNS es un sistema que se desarrolló hace muchos años. La consecuencia directa de lo que acabo de citar es que el sistema actual es obsoleto y presenta carencias en el campo de la seguridad y privacidad. Por esto motivo Cloudflare, Mozilla y Chrome están trabajando en soluciones para que permitan usar un nuevo protocolo de resoluciones DNS llamado DNS over HTTPS.<!--more-->

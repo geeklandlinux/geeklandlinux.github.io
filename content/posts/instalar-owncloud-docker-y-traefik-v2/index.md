@@ -10,7 +10,9 @@ tags:
   - "servicios-en-la-nube"
   - "software"
   - "traefik"
-coverImage: "Instalar-Owncloud-Docker-raspberry-pi.jpg"
+cover:
+  image: "images/Instalar-Owncloud-Docker-raspberry-pi.jpg"
+  relative: true
 ---
 
 A continuación veremos como instalar la última versión de Owncloud mediante Docker y el Proxy inverso Traefik V2. El método que verán a continuación se puede aplicar en equipos con arquitectura arm y amd64. En mi caso he seguido el procedimiento que veréis a continuación en una Raspberry Pi 4.<!--more-->

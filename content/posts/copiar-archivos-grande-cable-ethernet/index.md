@@ -6,7 +6,9 @@ categories:
 tags: 
   - "cable-ethernet"
   - "copiar-archivos"
-coverImage: "copiar-archivos-gran-tamaño-cable-ethernet.jpg"
+cover:
+  image: "images/copiar-archivos-gran-tamaño-cable-ethernet.jpg"
+  relative: true
 ---
 
 En mi caso tengo que copiar 10GB de fotografías y vídeos de un ordenador a otro ordenador. Existen multitud de opciones para copiar archivos de gran tamaño de un ordenador a otro. Algunas de las opciones disponibles son:<!--more-->

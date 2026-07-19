@@ -11,7 +11,9 @@ tags:
   - "openvpn"
   - "privacidad"
   - "vpn"
-coverImage: "conectarse-OpenVPN-iOS.png"
+cover:
+  image: "images/conectarse-OpenVPN-iOS.png"
+  relative: true
 ---
 
 En pasados post vimos de forma muy detallada como crear y configurar nuestro propio servidor OpenVPN con cualquier distribución derivada de Debian. Una vez instalado y configurado nuestro servidor OpenVPN lo único que falta es configurar los clientes en los distintos sistemas operativos que existen para podernos conectar al servidor OpenVPN.

@@ -8,7 +8,9 @@ tags:
   - "microsoft"
   - "privacidad"
   - "windows-10"
-coverImage: "configurar-la-privacidad-en-windows-10.png"
+cover:
+  image: "images/configurar-la-privacidad-en-windows-10.png"
+  relative: true
 ---
 
 Meses atrás vimos los [mecanismos que usa Microsoft para recolectar datos]({{< relref "/posts/metodos-windows-10-espia-sus-usuarios" >}}) de sus usuarios con el fin de poder monetizarlos de alguna forma. Si queremos evitar, o intentar minimizar, la información que Microsoft puede obtener de nuestros equipos les recomiendo que sigan los consejos para configurar las opciones de privacidad en Windows 10.<!--more-->

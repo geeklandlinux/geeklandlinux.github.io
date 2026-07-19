@@ -5,7 +5,9 @@ categories:
   - "android"
 tags: 
   - "aplicaciones"
-coverImage: "Legalidad-de-las-grabaciones-y-como-grabar-llamadas-en-Android.jpg"
+cover:
+  image: "images/Legalidad-de-las-grabaciones-y-como-grabar-llamadas-en-Android.jpg"
+  relative: true
 ---
 
 Esta semana me decidí a cambiar de compañía telefónica y utilizar un [operadora OMV](https://es.wikipedia.org/wiki/Operador_m%C3%B3vil_virtual "explicación de lo que es un operador móvil virtual"). El proceso empezó de forma habitual, contacte con la nueva compañía y empecé el proceso de portabilidad.

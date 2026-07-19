@@ -9,7 +9,9 @@ tags:
   - "pi-hole"
   - "privacidad"
   - "raspbian"
-coverImage: "combinar-pi-hole-y-openpn.png"
+cover:
+  image: "images/combinar-pi-hole-y-openpn.png"
+  relative: true
 ---
 
 En su día detallamos el procedimiento para instalar Pi-hole y bloquear la publicidad de todos los dispositivos conectados a nuestra red local. Incluso dispositivos Android sin root y iOS sin jailbreak. El problema de Pi-Hole es que solo bloquea la publicidad a nivel de red local. Si queremos bloquear la publicidad cuando estamos fuera de nuestra casa tendremos que combinar Pi-hole con OpenVPN.<!--more-->

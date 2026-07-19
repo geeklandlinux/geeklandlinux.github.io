@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "configuracion"
-coverImage: "filefrag.png"
+cover:
+  image: "images/filefrag.png"
+  relative: true
 ---
 
 ## ¿QUÉ ES LA FRAGMENTACIÓN DE UN SISTEMA DE ARCHIVOS?

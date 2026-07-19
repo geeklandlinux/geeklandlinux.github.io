@@ -6,7 +6,9 @@ categories:
 tags: 
   - "excel"
   - "ofimatica"
-coverImage: "insertar-una-imagen-dentro-de-una-celda-de-excel.png"
+cover:
+  image: "images/insertar-una-imagen-dentro-de-una-celda-de-excel.png"
+  relative: true
 ---
 
 Al insertar una imagen en Microsoft Excel queda flotando encima de la hoja de cálculo. La imagen insertada se pega en una capa aparte que no guarda ningún tipo de relación con ninguna celda. Por este motivo en el siguiente artículo veremos como insertar una imagen en una celda de Excel.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "archivos-temporales"
   - "find"
   - "systemd"
-coverImage: "Eliminar-archivos-temporales-de-forma-segura-en-Linux.jpg"
+cover:
+  image: "images/Eliminar-archivos-temporales-de-forma-segura-en-Linux.jpg"
+  relative: true
 ---
 
 En el último post vimos como gestionar el [borrado de los archivos temporales con systemd]({{< relref "/posts/borrar-los-archivos-temporales-automaticamente" >}}) y también se menciono que eliminar archivos temporales de los directorios /tmp y /var/tmp puede ser peligroso si no se hace de forma adecuada.

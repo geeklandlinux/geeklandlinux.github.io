@@ -7,7 +7,9 @@ tags:
   - "entornos-virtuales"
   - "programar"
   - "python"
-coverImage: "Crear-entornos-virtuales-de-desarrollo-Python-en-Linux.jpg"
+cover:
+  image: "images/Crear-entornos-virtuales-de-desarrollo-Python-en-Linux.jpg"
+  relative: true
 ---
 
 En siguiente artículo hablaremos de los entornos virtuales de programación en Phyton. Concretamente abordaremos su definición y sus diferentes utilidades, para posteriormente adentrarnos en el proceso de creación y eliminación de los entornos de desarrollo virtuales de Python.<!--more-->

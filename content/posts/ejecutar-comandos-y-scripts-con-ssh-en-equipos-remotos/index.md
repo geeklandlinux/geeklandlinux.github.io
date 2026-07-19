@@ -7,7 +7,9 @@ tags:
   - "nohup"
   - "screen"
   - "ssh"
-coverImage: "Ejecutar-comandos-y-scripts-con-ssh-en-equipos-remotos.png"
+cover:
+  image: "images/Ejecutar-comandos-y-scripts-con-ssh-en-equipos-remotos.png"
+  relative: true
 ---
 
 En ocasiones es necesario o práctico ejecutar un comando o un script en un equipo remoto sin tenerse que loguear a la shell del sistema operativo remoto. Para conseguir lo que acabo de realizar haremos uso de SSH para ejecutar comandos de forma remota. De esta forma podremos ejecutar comandos y scripts desde nuestro teléfono móvil con tan solo presionar un botón. También podremos automatizar un script para realizar una serie de tareas comunes en la totalidad de nuestros equipos de una sola tacada, etc.<!--more-->

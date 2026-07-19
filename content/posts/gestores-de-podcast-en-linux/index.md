@@ -7,7 +7,9 @@ tags:
   - "linux"
   - "podcast-2"
   - "software"
-coverImage: "gpodder-banner.png"
+cover:
+  image: "images/gpodder-banner.png"
+  relative: true
 ---
 
 Muchos de ustedes se hacen la pregunta de que  gestores de podcast que existen en Linux.

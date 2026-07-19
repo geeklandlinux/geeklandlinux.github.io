@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "pantalla"
   - "xrandr"
-coverImage: "Configurar-la-pantalla-del-ordenador-con-xrandr-en-Linux.jpg"
+cover:
+  image: "images/Configurar-la-pantalla-del-ordenador-con-xrandr-en-Linux.jpg"
+  relative: true
 ---
 
 En el mundo actual, tener una pantalla correctamente configurada es esencial para una experiencia informática óptima. Ya sea que esté utilizando un solo monitor o una configuración de múltiples monitores, la utilidad xrandr es una herramienta poderosa que puede ayudarlo a configurar la pantalla en un sistema Linux que ejecuta el servidor gráfico X.Org. En este artículo de blog, detallaremos como podemos usar la utilidad xrandr para configurar la pantalla o pantallas de su ordenador.<!--more-->

@@ -7,7 +7,9 @@ categories:
 tags: 
   - "comparativas"
   - "windows-10"
-coverImage: "linux-versus-windows.jpg"
+cover:
+  image: "images/linux-versus-windows.jpg"
+  relative: true
 ---
 
 Muchos usuarios de Linux y la gente en general hablan positivamente de Windows 10. Yo la verdad es que lo he probado durante unos cuantos días y no puedo hablar mal de él. Pero a pesar de todo lo que dicen y digo, creo que lo que hay que hacer es analizar punto por punto cada una de las características del sistema operativo y compararlas con GNU-Linux (en adelante Linux). Después del análisis de cada uno de los puntos vosotros podréis tener vuestras propias conclusiones y tomar decisiones sobre cual es el sistema operativo que más les conviene.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "deep-web"
   - "privacidad"
   - "tor"
-coverImage: "Que-es-y-como-funciona-la-red-Tor.jpg"
+cover:
+  image: "images/Que-es-y-como-funciona-la-red-Tor.jpg"
+  relative: true
 ---
 
 Son muchas las personas que en los últimos años usan y hablan sobre la red Tor. No obstante la gran mayoría de ellos no sabría explicar que es ni como funciona. Por este motivo en el siguiente artículo explicaremos lo que es la red Tor y como funciona.<!--more-->

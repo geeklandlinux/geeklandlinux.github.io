@@ -9,7 +9,9 @@ tags:
   - "servicios-en-la-nube"
   - "tiny-tiny-rss"
   - "ubuntu"
-coverImage: "mejorar-la-seguridad-de-tiny-tiny-rrss.jpg"
+cover:
+  image: "images/mejorar-la-seguridad-de-tiny-tiny-rrss.jpg"
+  relative: true
 ---
 
 En su día [instalamos el lector de feeds Tiny Tiny RSS]({{< relref "/posts/instalar-tiny-tiny-rss-servidor-ubuntu" >}}) en Ubuntu usando el servidor web Apache. A continuación les mostraré como podéis configurar y mejorar la seguridad de Tiny Tiny RSS.<!--more-->

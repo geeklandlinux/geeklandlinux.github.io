@@ -11,7 +11,9 @@ categories:
 tags: 
   - "owncloud"
   - "webdav"
-coverImage: "Conectarse-a-Owncloud-con-WebDAV.png"
+cover:
+  image: "images/Conectarse-a-Owncloud-con-WebDAV.png"
+  relative: true
 ---
 
 Hace unas semanas escribí un post de como [instalar nuestro propio servidor Owncloud]({{< relref "/posts/instalar-owncloud-ssl-webdav" >}}) con htpps y WebDAV. Con el fin de sacar partido a nuestro servidor Owncloud, en este artículo veremos como conectarse a Owncloud con WebDAV en lo sistemas operativos más comunes.<!--more-->

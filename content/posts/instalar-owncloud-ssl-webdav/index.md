@@ -8,7 +8,9 @@ tags:
   - "owncloud"
   - "ssl"
   - "webdav"
-coverImage: "1-Instalar-Owncloud-con-https-y-webdav.png"
+cover:
+  image: "images/1-Instalar-Owncloud-con-https-y-webdav.png"
+  relative: true
 ---
 
 Hace unas semanas vimos como instalar un servidor LAMP en Debian. Con el fin de sacar partido a nuestro servidor LAMP, en este post citaré como instalar Owncloud.<!--more-->

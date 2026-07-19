@@ -7,7 +7,9 @@ tags:
   - "conf"
   - "configuracion"
   - "memoria"
-coverImage: "swap-memory-Linux.jpg"
+cover:
+  image: "images/swap-memory-Linux.jpg"
+  relative: true
 ---
 
 Optimizar el uso de la memoria swap forma parte de una serie de post para optimizar el uso de memoria RAM en nuestro sistema operativo y de esta forma poder obtener el máximo rendimiento a nuestro equipo informático. El conjunto de post que se acaban de mencionar son los siguientes:<!--more-->

@@ -8,7 +8,9 @@ categories:
 tags: 
   - "rclone"
   - "rclone-browser"
-coverImage: "Reproducir-video-en-streaming-con-rclone-browser.jpg"
+cover:
+  image: "images/Reproducir-video-en-streaming-con-rclone-browser.jpg"
+  relative: true
 ---
 
 Si tenéis contenido multimedia, como vídeo o audio, almacenado en en una nube pública o privada mediante Rclone lo podéis reproducir en streaming de forma práctica y cómoda mediante Rclone Browser. Para ello tan solo tenéis que acceder a la configuración de Rclone Browser y modificar los siguientes parámetros.<!--more-->

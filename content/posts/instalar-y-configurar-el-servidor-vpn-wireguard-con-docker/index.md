@@ -10,7 +10,9 @@ tags:
   - "servidor"
   - "vpn"
   - "wireguard"
-coverImage: "instalar-wireguard-docker.png"
+cover:
+  image: "images/instalar-wireguard-docker.png"
+  relative: true
 ---
 
 Existen varios métodos para instalar el VPN Wireguard de forma sencilla en nuestro servidor. Podemos usar scripts que realizan todo el trabajo de forma automática. No obstante en el siguiente artículo veremos otra forma muy sencilla y práctica que es mediante un contenedor de Docker. Los pasos a seguir para realizar la instalación y configuración son los que veréis a continuación.<!--more-->

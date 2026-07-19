@@ -8,7 +8,9 @@ tags:
   - "grupo-de-trabajo"
   - "windows-10"
   - "windows-7"
-coverImage: "que-es-un-grupo-de-trabajo.jpg"
+cover:
+  image: "images/que-es-un-grupo-de-trabajo.jpg"
+  relative: true
 ---
 
 En el siguiente artículo explicaré de forma clara que es y para que sirve un grupo de trabajo en Windows. Además, en futuros artículos veremos cómo podemos configurar nuestros grupos de trabajo y compartir archivos de forma fácil y sencilla.<!--more-->

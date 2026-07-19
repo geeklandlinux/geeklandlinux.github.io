@@ -6,7 +6,9 @@ categories:
 tags: 
   - "disco-duro"
   - "trim"
-coverImage: "activar-trim-correctamente-linux.png"
+cover:
+  image: "images/activar-trim-correctamente-linux.png"
+  relative: true
 ---
 
 En pasados artículos vimos [la utilidad de TRIM]({{< relref "/posts/trim-debemos-activarlo-ssd" >}}) en las unidades de almacenamiento SSD. A continuación veremos como podemos activar TRIM de forma correcta en cualquier sistema operativo GNU-Linux.<!--more-->

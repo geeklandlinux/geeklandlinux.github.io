@@ -6,7 +6,9 @@ categories:
 tags: 
   - "aplicaciones"
   - "chrome"
-coverImage: "Integrar-Chrome-Apps-a-nuestro-escritorio.jpg"
+cover:
+  image: "images/Integrar-Chrome-Apps-a-nuestro-escritorio.jpg"
+  relative: true
 ---
 
 Las Chrome Apps o aplicaciones de Google denominadas Packaged App aparecieron el 5 de Septiembre del 2013. Inicialmente aparecieron para Chrome OS y para Windows. A partir de la versión 35 de Google Chrome también aparecieron para Linux. Por lo tanto a día de hoy podremos aplicar lo citado en este post en Linux, Windows y Mac OS X.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "mp3"
   - "ogg"
   - "software-libre"
-coverImage: "Ventajas-del-formato-ogg-respecto-el-mp3.jpg"
+cover:
+  image: "images/Ventajas-del-formato-ogg-respecto-el-mp3.jpg"
+  relative: true
 ---
 
 Entre los usuarios del software libre son muchas las ocasiones en que se habla del formato ogg. Además una pregunta bastante recurrente es:

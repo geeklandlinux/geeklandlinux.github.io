@@ -9,7 +9,9 @@ tags:
   - "networkmanager"
   - "nmcli"
   - "raspberry-pi"
-coverImage: "ip-estatica-nmcli-raspberry-pi.png"
+cover:
+  image: "images/ip-estatica-nmcli-raspberry-pi.png"
+  relative: true
 ---
 
 En este artículo, aprenderás a configurar una dirección IP estática en tu Raspberry Pi OS Bookworm usando Network Manager. A partir de la versión Raspberry Pi OS 12 (bookworm) se reemplazo dhcpcd y wpa\_supplicant por Network Manager. Esto implica que el proceso de para que nuestra Raspberry Pi tenga una IP interna fija es totalmente [diferente a como lo hacíamos con anterioridad]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}}). El proceso a seguir es el siguiente.<!--more-->

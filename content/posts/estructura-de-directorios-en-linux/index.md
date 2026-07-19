@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "estructura-de-directorios"
-coverImage: "Estructura-de-directorios-en-Linux.png"
+cover:
+  image: "images/Estructura-de-directorios-en-Linux.png"
+  relative: true
 ---
 
 Los recién iniciados en Linux, o algunas personas que quieran ir un poco más allá, seguramente alguna vez se han preguntado que contiene cada una de las carpetas de su sistema operativo. Con el fin de responder a esta inquietud he decidido redactar este artículo. Al finalizar la lectura de este artículo todo el mundo debería tener una idea clara de como se estructura un sistema operativo GNU-Linux y del contenido que hay en cada uno de los directorios del sistema operativo.<!--more-->

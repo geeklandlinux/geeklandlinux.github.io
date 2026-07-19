@@ -12,7 +12,9 @@ tags:
   - "plasma"
   - "tips"
   - "xfce"
-coverImage: "reiniciar-el-entorno-de-escritorio-linux.png"
+cover:
+  image: "images/reiniciar-el-entorno-de-escritorio-linux.png"
+  relative: true
 ---
 
 Existen ocasiones en que es necesario reiniciar el entorno de escritorio. Algunas de ellas son las siguientes:

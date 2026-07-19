@@ -7,7 +7,9 @@ tags:
   - "comandos"
   - "manpages"
   - "terminal"
-coverImage: "formas-para-obtener-ayuda-en-gnu-Linux.jpg"
+cover:
+  image: "images/formas-para-obtener-ayuda-en-gnu-Linux.jpg"
+  relative: true
 ---
 
 Todo usuario que empieza en Linux, e incluso usuarios expertos, necesitaran obtener ayuda o información sobre determinados aspectos del sistema operativo. Las fuentes disponibles para intentar obtener ayuda son las que se muestran a continuación.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "firmware"
   - "intel"
   - "solucion-de-problemas"
-coverImage: "Possible-missing-firmware-intel.jpeg"
+cover:
+  image: "images/Possible-missing-firmware-intel.jpeg"
+  relative: true
 ---
 
 En mi caso justo al actualizar el Kernel de mi sistema operativo me sale el warning Possible missing firmware /lib/firmware/i915/\* . Concretamente la salida mostrada en la terminal ha sido la siguiente:<!--more-->

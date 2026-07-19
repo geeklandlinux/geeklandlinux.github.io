@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "xfce"
-coverImage: "servidor-grafico-xfce-se-desconecta.png"
+cover:
+  image: "images/servidor-grafico-xfce-se-desconecta.png"
+  relative: true
 ---
 
 Desde la actualización a XFCE 4.14 he tenido problemas con el servidor gráfico de mi equipo. En mi caso de forma totalmente aleatoria se desconectaba el servidor gráfico de mi sistema operativo y la única forma de volver a levantarlo era reiniciarlo y perder todo el trabajo que no estuviera guardado.<!--more-->

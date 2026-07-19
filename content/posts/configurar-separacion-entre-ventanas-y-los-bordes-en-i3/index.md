@@ -8,7 +8,9 @@ tags:
   - "gestor-de-ventanas"
   - "i3"
   - "i3-gaps"
-coverImage: "separacion-entre-ventanas-en-i3.png"
+cover:
+  image: "images/separacion-entre-ventanas-en-i3.png"
+  relative: true
 ---
 
 En su día publique un artículo de como [instalar y configurar el gestor de ventanas i3]({{< relref "/posts/instalar-configurar-y-usar-el-gestor-de-ventanas-i3-en-linux" >}}). No obstante con el paso del tiempo he modificado esta configuración añadiendo algunos detalles y funcionalidades como por ejemplo la separación entre ventanas. Si quieren añadir la separación entre ventanas y configurar los bordes en su gestor de ventanas i3 deberán realizar lo siguiente.<!--more-->

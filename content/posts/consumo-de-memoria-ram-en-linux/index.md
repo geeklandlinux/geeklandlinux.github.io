@@ -6,7 +6,9 @@ categories:
 tags: 
   - "memoria"
   - "ram"
-coverImage: "Conocer-y-analizar-el-consumo-de-memoria-RAM-en-Linux.png"
+cover:
+  image: "images/Conocer-y-analizar-el-consumo-de-memoria-RAM-en-Linux.png"
+  relative: true
 ---
 
 Si en algún momento quieren conocer y analizar el consumo de memoria RAM que tiene su sistema operativo Linux pueden **ejecutar el siguiente comando en la terminal**:<!--more-->

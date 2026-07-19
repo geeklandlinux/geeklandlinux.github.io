@@ -7,7 +7,9 @@ tags:
   - "disk-drill"
   - "recuperar-archivos"
   - "seguridad"
-coverImage: "como-recuperar-archivos-disk-drill.png"
+cover:
+  image: "images/como-recuperar-archivos-disk-drill.png"
+  relative: true
 ---
 
 En anteriores ocasiones he hablado de cómo recuperar datos perdidos en medios de almacenamiento como discos duros o memorias USB. En el caso que ninguno de los métodos mencionados les haya funcionado siempre tenemos la opción de usar una opción profesional como por ejemplo Disk Drill. Disk Drill es un software que ofrece las siguientes opciones.<!--more-->

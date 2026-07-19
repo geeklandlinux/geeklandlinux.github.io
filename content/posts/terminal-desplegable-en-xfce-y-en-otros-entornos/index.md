@@ -6,7 +6,9 @@ categories:
 tags: 
   - "terminal"
   - "xfce"
-coverImage: "Terminal-desplegable-en-XFCE.png"
+cover:
+  image: "images/Terminal-desplegable-en-XFCE.png"
+  relative: true
 ---
 
 Si queremos disponer en todo momento de una terminal desplegable, en XFCE lo podemos realizar de forma muy fácil, porque a partir de la versión 0.6.0 de la [terminal de XFCE](http://docs.xfce.org/apps/terminal/start "Instrucciones de uso y configuración de la terminal de XFCE"), está característica viene incorporada de serie. Por lo tanto si usamos un entorno de escritorio XFCE actual no hace falta instalar software adicional como por ejemplo Yakuake, Guake, Tilda, etc.<!--more-->

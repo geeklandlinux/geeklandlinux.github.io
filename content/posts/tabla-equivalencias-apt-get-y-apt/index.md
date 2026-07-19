@@ -7,7 +7,9 @@ tags:
   - "apt"
   - "apt-get"
   - "equivalencias"
-coverImage: "equivalencias-comandos-apt-y-apt-get.png"
+cover:
+  image: "images/equivalencias-comandos-apt-y-apt-get.png"
+  relative: true
 ---
 
 En el artículo que escribí recientemente vimos las [similitudes y diferencias existentes]({{< relref "/posts/apt-y-apt-get-similitudes-y-diferencias" >}}) entre apt-get y apt. Para los lectores que estén interesados en probar apt, a continuación les mostraré una tabla de equivalencias entre estos 2 comandos. Además también encontrarán una explicación detallada de la función que realizan cada uno de los comandos que hablaremos.<!--more-->

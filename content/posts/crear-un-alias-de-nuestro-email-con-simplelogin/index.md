@@ -3,7 +3,9 @@ title: "Crear un alias de nuestro email con SimpleLogin para evitar el spam"
 date: 2020-06-02
 categories: 
   - "seguridad-informatica"
-coverImage: "Crear-un-alias-de-nuestro-email-con-SimpleLogin.png"
+cover:
+  image: "images/Crear-un-alias-de-nuestro-email-con-SimpleLogin.png"
+  relative: true
 ---
 
 En el pasado escribí un artículo sobre los servicios de correo temporal. Estos servicios son útiles cuando necesitamos suscribirnos a un servicio y no queremos proporcionar nuestro email. No obstante tienen el problema que si necesitamos recibir información como por ejemplo una newsletter no la podremos recibir. La solución a este problema es crear un alias de nuestro email y usar este alias para suscribirnos a la newsletter. De esta forma:<!--more-->

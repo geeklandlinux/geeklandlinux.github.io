@@ -5,7 +5,9 @@ categories:
   - "varios"
 tags: 
   - "software-libre"
-coverImage: "Ventajas-del-Software-Libre-sobre-al-software-privativo.jpg"
+cover:
+  image: "images/Ventajas-del-Software-Libre-sobre-al-software-privativo.jpg"
+  relative: true
 ---
 
 Existe un grupo importante de personas que piensan que la única ventaja del software libre respecto al software privativo es que es gratis. Este pensamiento es totalmente falso y en este post intentaré detallar la totalidad de ventajas del software libre sobre el software privativo.<!--more-->

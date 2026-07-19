@@ -6,7 +6,9 @@ categories:
 tags: 
   - "privacidad"
   - "repositorios"
-coverImage: "que-son-los-repositorios.png"
+cover:
+  image: "images/que-son-los-repositorios.png"
+  relative: true
 ---
 
 En el momento que un usuario novel empieza a usar Linux hay muchos conceptos que desconoce. Uno de estos conceptos son los repositorios y por este motivo en el siguiente artículo detallaré de la forma más clara posible los siguientes aspectos:

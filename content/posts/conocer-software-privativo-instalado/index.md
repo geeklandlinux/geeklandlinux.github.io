@@ -8,7 +8,9 @@ tags:
   - "software"
   - "software-libre"
   - "ubuntu"
-coverImage: "Conocer-el-software-privativo-instalado-en-Debian-y-en-Ubuntu.png"
+cover:
+  image: "images/Conocer-el-software-privativo-instalado-en-Debian-y-en-Ubuntu.png"
+  relative: true
 ---
 
 Aunque GNU/Linux es un sistema operativo libre y abierto existen muchas distribuciones que incluyen software privativo en sus repositorios.

@@ -7,7 +7,9 @@ tags:
   - "correo"
   - "modo-seguro"
   - "thunderbird"
-coverImage: "Restaurar-configuración-Inicial-de-Thunderbird.png"
+cover:
+  image: "images/Restaurar-configuración-Inicial-de-Thunderbird.png"
+  relative: true
 ---
 
 Es posible que un determinado día intenten abrir el gestor de correo Thunderbird y no arranque. En la gran mayoría de casos el gestor de correo no arrancará debido a un problema de configuración o a un problema de funcionamiento de alguno de los plugins/complementos que usamos.<!--more-->

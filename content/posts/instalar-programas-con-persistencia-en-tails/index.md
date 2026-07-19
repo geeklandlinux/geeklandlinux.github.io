@@ -7,7 +7,9 @@ tags:
   - "deep-web"
   - "tails"
   - "tor"
-coverImage: "Instalar-programas-con-persistencia-en-Tails.png"
+cover:
+  image: "images/Instalar-programas-con-persistencia-en-Tails.png"
+  relative: true
 ---
 
 Hace tiempo escribí un detallado post de [como instalar tails]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}}) y poder usar sus funciones de persistencia. No tenia pensado escribir más sobre esta distribución, pero hoy estaba escuchando el podcast del [cangrejo linuxero](https://www.ivoox.com/devuanita-27-tails-sistema-operativo-anonimo-audios-mp3_rf_10261743_1.html "Link para escuchar el podcast del cangrejo Linuxero") y ha dicho que esta distribución no permite instalar software con persistencia y la verdad es que esto no es del todo cierto. Si queréis instalar un software de forma permanente en tails y evitar tener que instalarlo cada vez que abrimos el ordenador lo podemos hacer de la siguiente forma.<!--more-->

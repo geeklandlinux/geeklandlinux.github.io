@@ -6,7 +6,9 @@ categories:
 tags: 
   - "audio"
   - "vlc"
-coverImage: "Obtener-las-URL-para-poder-escuchar-radio-en-Streaming-en-VLC.jpg"
+cover:
+  image: "images/Obtener-las-URL-para-poder-escuchar-radio-en-Streaming-en-VLC.jpg"
+  relative: true
 ---
 
 Obtener las URL para poder escuchar radio en Streaming en VLC o en cualquier otro reproductor es sumamente sencillo. Tan solo precisamos de un navegador web y seguir los pasos que detallaré a continuación.<!--more-->

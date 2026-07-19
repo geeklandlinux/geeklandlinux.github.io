@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "privacidad"
   - "publicidad"
-coverImage: "Motivos-para-usar-un-bloqueador-de-publicidad-1.jpg"
+cover:
+  image: "images/Motivos-para-usar-un-bloqueador-de-publicidad-1.jpg"
+  relative: true
 ---
 
 No estoy totalmente encontra de la publicidad. Si la publicidad se hiciera de forma responsable y ética seguramente no estaría escribiendo este post ni la gente usaría herramientas como por ejemplo un bloqueador de publicidad.<!--more-->

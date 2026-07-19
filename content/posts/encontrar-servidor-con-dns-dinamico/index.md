@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "dns"
   - "internet"
-coverImage: "0-Encontrar-nuestro-servidor-en-internet.jpg"
+cover:
+  image: "images/0-Encontrar-nuestro-servidor-en-internet.jpg"
+  relative: true
 ---
 
 Hoy veremos como encontrar nuestro servidor en internet mediante un servicio de DNS dinamico. El motivo del post es que en las próximas semanas montaremos una serie de servidores en nuestra propia casa. El uso de los servidores que montaremos puede ser dentro de nuestra red local. ¿Pero que pasa si queremos acceder a nuestro servidor estando fuera de nuestra Red de área Local?<!--more-->

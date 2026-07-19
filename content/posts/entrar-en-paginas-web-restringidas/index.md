@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "proxy"
-coverImage: "Entrar-en-paginas-web-bloqueadas.jpg"
+cover:
+  image: "images/Entrar-en-paginas-web-bloqueadas.jpg"
+  relative: true
 ---
 
 Al final de la lectura del post sabrán como entrar en paginas web restringidas en el entorno laboral. La verdad es que hoy en día en prácticamente la totalidad de empresas acostumbran a bloquear el acceso a determinadas páginas de Internet como por ejemplo nuestro correo personal, Facebook, Google +, Twitter, Youtube, etc.<!--more-->

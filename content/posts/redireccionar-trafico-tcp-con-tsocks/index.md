@@ -9,7 +9,9 @@ tags:
   - "proxy"
   - "socks"
   - "ssh"
-coverImage: "Redireccionar-trafico-a-un-proxy-socks-con-tsocks.jpg"
+cover:
+  image: "images/Redireccionar-trafico-a-un-proxy-socks-con-tsocks.jpg"
+  relative: true
 ---
 
 En pasados post vimos como crear un túnel SSH y mediante un proxy socks local enviar la totalidad del tráfico de forma cifrada a través del túnel SSH que hemos creado, para de esta forma poder navegar de forma segura.

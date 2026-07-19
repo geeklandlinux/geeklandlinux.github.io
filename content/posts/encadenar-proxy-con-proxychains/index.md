@@ -11,7 +11,9 @@ tags:
   - "socks"
   - "ssh"
   - "tor"
-coverImage: "encadenar-proxy-con-proxychains.jpg"
+cover:
+  image: "images/encadenar-proxy-con-proxychains.jpg"
+  relative: true
 ---
 
 En pasados post pudimos ver detalladamente como podemos conectarnos a un servidor proxy o como podemos crear nuestro propio servidor proxy socks. A raíz de esta serie de post han salido consultas de gente preguntando si **es posible encadenar un proxy detrás de otro para así poder ocultar nuestra identidad y nuestra IP con más garantías**. La respuesta es esta pregunta es que sí.<!--more-->

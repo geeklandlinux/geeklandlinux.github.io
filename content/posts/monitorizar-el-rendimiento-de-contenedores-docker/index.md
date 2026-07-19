@@ -9,7 +9,9 @@ tags:
   - "glances"
   - "logs"
   - "monitor-de-recursos"
-coverImage: "monitorizar-el-rendimiento-de-contenedores-Docker.jpg"
+cover:
+  image: "images/monitorizar-el-rendimiento-de-contenedores-Docker.jpg"
+  relative: true
 ---
 
 Existen varias herramientas con las que podemos monitorizar el rendimiento y saber que está pasando en nuestros contenedores Docker. Algunas de estas herramientas son Ctop, Glances y ciertos comandos que trae incorporado el mismo Docker. La primera de las opciones que analizaremos y veremos como funciona es Ctop.<!--more-->

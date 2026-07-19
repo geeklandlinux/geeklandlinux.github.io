@@ -9,7 +9,9 @@ tags:
   - "path"
   - "script"
   - "sysadmin"
-coverImage: "script-no-se-ejecuta-en-cron-pero-si-en-la-terminal.png"
+cover:
+  image: "images/script-no-se-ejecuta-en-cron-pero-si-en-la-terminal.png"
+  relative: true
 ---
 
 En mi caso tengo un script y cuando lo ejecuto manualmente funciona a la perfección. El problema es que cuando quiero programar su ejecución mediante cron el script no se ejecuta y/o no hace lo que hay que hacer. En el caso que se encuentren en un caso similar al mío les recomiendo que hagan lo siguiente.<!--more-->

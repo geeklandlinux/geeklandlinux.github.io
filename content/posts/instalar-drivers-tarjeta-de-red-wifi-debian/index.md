@@ -9,7 +9,9 @@ tags:
   - "hardware"
   - "internet"
   - "tarjeta-de-red"
-coverImage: "Instalar-y-Configurar-nuestra-tarjeta-de-red-wifi-en-Debian.jpg"
+cover:
+  image: "images/Instalar-y-Configurar-nuestra-tarjeta-de-red-wifi-en-Debian.jpg"
+  relative: true
 ---
 
 Es posible que justo al terminar la instalación de Debian se encuentren con la sorpresa que no tengan Wifi y que les sea completamente imposible usar su tarjeta de red wifi.

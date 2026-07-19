@@ -5,7 +5,9 @@ categories:
   - "windows"
 tags: 
   - "configuracion"
-coverImage: "mostrar-extension-archivos-windows.png"
+cover:
+  image: "images/mostrar-extension-archivos-windows.png"
+  relative: true
 ---
 
 **Windows por defecto no muestra la extensión de los archivos. Esto genera** que un muchos casos **me resulte más difícil identificar el archivo que tengo que abrir**. Tal y como pueden ver en la captura de pantalla resulta difícil identificar el archivo de LibreOffice que está mezclado con las fotos.<!--more-->

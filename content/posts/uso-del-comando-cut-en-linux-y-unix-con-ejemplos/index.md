@@ -6,7 +6,9 @@ categories:
 tags: 
   - "bash"
   - "cut"
-coverImage: "uso-del-comando-cut-en-Linux.png"
+cover:
+  image: "images/uso-del-comando-cut-en-Linux.png"
+  relative: true
 ---
 
 Del mismo modo que vimos como [usar sed]({{< relref "/posts/uso-del-comando-sed-en-linux-y-unix-con-ejemplos" >}}) y [awk]({{< relref "/posts/uso-del-comando-awk-en-linux-y-unix-con-ejemplos" >}}), en el siguiente artículo verán todo lo necesario para empezar a usar la utilidad cut. Al igual que sed y awk, cut será extremadamente útil para realizar scripts y automatizar tareas.<!--more-->

@@ -10,7 +10,9 @@ tags:
   - "protonvpn"
   - "tips"
   - "vpn"
-coverImage: "consejos-para-usar-una-vpn-en-china.jpg"
+cover:
+  image: "images/consejos-para-usar-una-vpn-en-china.jpg"
+  relative: true
 ---
 
 Año tras año el gobierno chino pone más trabas a los servicios VPN. Usar un servicio VPN en china no es fácil. Por este motivo a continuación les explicaré porque es necesario usar un VPN en China y les daré una serie de consejos para poder usar un servicio VPN en China sin tener demasiados problemas.<!--more-->

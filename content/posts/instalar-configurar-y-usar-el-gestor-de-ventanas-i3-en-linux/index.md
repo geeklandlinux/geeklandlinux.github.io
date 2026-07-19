@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "i3"
   - "i3blocks"
-coverImage: "Instalar-configurar-y-usar-el-gestor-de-ventanas-i3.png"
+cover:
+  image: "images/Instalar-configurar-y-usar-el-gestor-de-ventanas-i3.png"
+  relative: true
 ---
 
 Actualmente estoy usando el gestor de ventanas i3 como mi escritorio principal, pero aparte de i3 también tengo instalado XFCE. El motivo es que si algún día tengo problemas con i3 podré tirar de XFCE. Además también me gusta usar gran parte de las herramientas que ofrece el escritorio XFCE en i3. Por lo tanto les detallaré como instalar y configurar el gestor de ventanas i3 partiendo de una instalación con Debian Testing, el escritorio XFCE, network manager y el gestor de sesiones Lightdm.<!--more-->

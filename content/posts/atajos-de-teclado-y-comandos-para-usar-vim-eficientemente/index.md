@@ -6,7 +6,9 @@ categories:
 tags: 
   - "atajos-de-teclado"
   - "vim"
-coverImage: "atajos-de-teclado-y-comandos-en-vim.jpg"
+cover:
+  image: "images/atajos-de-teclado-y-comandos-en-vim.jpg"
+  relative: true
 ---
 
 En su día vimos una [instalación y una configuración básica]({{< relref "/posts/instalar-y-configurar-vim" >}}) del editor de texto VIM. A continuación veremos una chuleta de atajos de teclado y comandos que vale la pena recordar para empezar a sacar partido a este editor de textos.<!--more-->

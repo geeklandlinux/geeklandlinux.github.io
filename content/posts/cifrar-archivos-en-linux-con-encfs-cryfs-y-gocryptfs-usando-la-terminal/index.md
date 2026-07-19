@@ -9,7 +9,9 @@ tags:
   - "cryfs"
   - "encfs"
   - "gocryptfs"
-coverImage: "cifrar-archivos-en-linux.jpg"
+cover:
+  image: "images/cifrar-archivos-en-linux.jpg"
+  relative: true
 ---
 
 En pasados artículos vimos opciones de Software Libre para poder [cifrar archivos en la nube]({{< relref "/posts/recomendacion-software-libre-para-cifrar-archivos-en-la-nube" >}}). A continuación veremos como podemos cifrar archivos en Linux con [EncFS](https://github.com/vgough/encfs), [CryFS](https://www.cryfs.org/) y [gocryptfs](https://nuetzlich.net/gocryptfs/) de forma detallada.<!--more-->

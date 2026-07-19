@@ -10,7 +10,9 @@ tags:
   - "privacidad"
   - "publicidad"
   - "spotify"
-coverImage: "bloquear-publicidad-spotify-android-windows-linux.jpg"
+cover:
+  image: "images/bloquear-publicidad-spotify-android-windows-linux.jpg"
+  relative: true
 ---
 
 A través del canal de Youtube [Alternativa a Windows](https://www.youtube.com/watch?v=-_fXSbz5CAc) me enteré que en la actualidad es sumamente fácil bloquear la publicidad de Spotify tanto en Windows, como en Android como en Linux.

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "pkexec"
   - "policykit"
-coverImage: "accion-de-policyKit-abrir-aplicacion-grafica-root.png"
+cover:
+  image: "images/accion-de-policyKit-abrir-aplicacion-grafica-root.png"
+  relative: true
 ---
 
 En pasados artículos comentamos que con el [comando pkexec]({{< relref "/posts/diferencias-pkexec-gksudo" >}}) podemos ejecutar cualquier comando y/o aplicación gráfica como si fuéramos otro usuario. Con el fin de controlar lo que un usuario puede realizar con el comando pkexec aprenderemos a realizar un acción de PolicyKit. No obstante, antes de iniciar la explicación es interesante que conozcan a grandes rasgos que es PolicyKit.<!--more-->

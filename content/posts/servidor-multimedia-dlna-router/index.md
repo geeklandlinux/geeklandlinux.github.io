@@ -9,7 +9,9 @@ tags:
   - "router"
   - "samba"
   - "servidor"
-coverImage: "servidor-multimedia-dlna-con-nuestro-router-para-ver-películas.png"
+cover:
+  image: "images/servidor-multimedia-dlna-con-nuestro-router-para-ver-películas.png"
+  relative: true
 ---
 
 Existen muchas personas que compran discos duros de red, dispositivos NAS, o Raspberry Pi para simplemente disponer de un disco duro de red, o para ver series y películas en su televisor, ordenador o tablet. Si la gente quiere usar estos dispositivos me parece perfecto, pero deberían saber que prácticamente la totalidad de routers actuales  disponen de un servidor multimedia DLNA incorporado. Por lo tanto, si en los routers actuales le enchufamos un disco duro, o memoria USB, podremos:<!--more-->

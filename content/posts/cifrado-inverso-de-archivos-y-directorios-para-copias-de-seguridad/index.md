@@ -8,7 +8,9 @@ tags:
   - "cifrado"
   - "encfs"
   - "gocryptfs"
-coverImage: "cifrado-inverso-de-archivos-y-directorios-para-copias-de-seguridad.jpg"
+cover:
+  image: "images/cifrado-inverso-de-archivos-y-directorios-para-copias-de-seguridad.jpg"
+  relative: true
 ---
 
 En el artículo anterior vimos [ejemplos de utilización de CryFS, EncFS y gocryptfs]({{< relref "/posts/cifrar-archivos-en-linux-con-encfs-cryfs-y-gocryptfs-usando-la-terminal" >}}). En los ejemplos partíamos de un directorio con contenido cifrado y lo que hacíamos era montar un volumen descifrado que contenía la misma información que el directorio cifrado. No obstante gocryptfs y EncFS permiten realizar lo opuesto. Por lo tanto en nuestro equipo podemos tener un directorio sin cifrar con multitud de ficheros y directorios. A partir del directorio sin cifrar podemos montar un volumen cifrado que contenga la misma información que el directorio sin cifrar. Una vez montado podemos subir la información cifrada a una nube pública o privada de forma segura. A continuación veremos como usar la opción de cifrado inverso con gocryptfs y EncFS.<!--more-->

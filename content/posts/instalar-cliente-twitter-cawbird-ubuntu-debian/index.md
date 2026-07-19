@@ -7,7 +7,9 @@ tags:
   - "cawbird"
   - "software-libre"
   - "twitter"
-coverImage: "instalar-cawbird-en-debian-ubuntu.png"
+cover:
+  image: "images/instalar-cawbird-en-debian-ubuntu.png"
+  relative: true
 ---
 
 A continuación veremos la totalidad de formas que tenemos para instalar el cliente de Twitter Cawbird en Debian, Ubuntu, Linux Mint y resto de distribuciones derivadas de les que acabo de citar.<!--more-->

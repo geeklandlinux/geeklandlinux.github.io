@@ -6,7 +6,9 @@ categories:
 tags: 
   - "enlaces-duros"
   - "enlaces-simbolicos"
-coverImage: "Que-son-y-para-que-sirven-los-enlaces-en-linux.jpg"
+cover:
+  image: "images/Que-son-y-para-que-sirven-los-enlaces-en-linux.jpg"
+  relative: true
 ---
 
 Multitud de personas que se inician en Linux se preguntan como crear lo que en Windows se denomina un acceso directo para poder acceder de forma rápida y cómoda a los programas o ubicaciones de uso más habitual. Con el fin de resolver esta duda, en este artículo explicaremos todo lo que un usuario de Gnu-Linux debería saber sobre los enlaces o accesos directos en Linux.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "interfaz-de-red"
   - "ubuntu"
-coverImage: "cambiar-nombre-interfaz-de-red.jpg"
+cover:
+  image: "images/cambiar-nombre-interfaz-de-red.jpg"
+  relative: true
 ---
 
 Ayer inicie un ordenador que tiene instalado Lubuntu y observe que los nombres de las interfaces de red eran poco habituales y difíciles de recordar. Por este motivo en el siguiente artículo veremos como cambiar el nombre de nuestra interfaz de red de forma muy sencilla. De esta forma siempre que veamos el nombre nuestra interfaz de red sabremos cual es sin dudar lo más mínimo.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "whisker-menu"
   - "xfce"
-coverImage: "Abrir-programas-y-aplicaciones-con-Whisker-menu.png"
+cover:
+  image: "images/Abrir-programas-y-aplicaciones-con-Whisker-menu.png"
+  relative: true
 ---
 
 Continuando con la serie de post de whisker menu, hoy veremos como podemos abrir programas de forma ultra rápida con Whisker menu. Para empezar os diré que hasta hace poco tiempo, en mi equipo usaba el menú tradicional de Xfce y como complemento para abrir programas y aplicaciones usaba Kupfer.<!--more-->

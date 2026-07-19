@@ -8,7 +8,9 @@ tags:
   - "malware"
   - "ransomware"
   - "seguridad"
-coverImage: "ransomware-que-es-como-actuar.jpg"
+cover:
+  image: "images/ransomware-que-es-como-actuar.jpg"
+  relative: true
 ---
 
 Durante el 2017 han proliferado los ciberataques de Ransomware y algunos de ellos han sido realmente notorios como por ejemplo el Wannacry, el WannaCryptor, el Jigsaw, el Petya, etc. Además, la previsión es que durante los próximos años se incrementen este tipo de ataques. Por este motivo, en el siguiente post hablaremos de que es un ransomware, las vías que usan los atacantes para infectarnos, las precauciones que debemos tomar y como debemos actuar en caso de ser víctimas.<!--more-->

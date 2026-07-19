@@ -8,7 +8,9 @@ categories:
 tags: 
   - "configuracion"
   - "ssh"
-coverImage: "Como-disponer-de-un-cliente-y-un-servidor-SSH-en-Windows.jpg"
+cover:
+  image: "images/Como-disponer-de-un-cliente-y-un-servidor-SSH-en-Windows.jpg"
+  relative: true
 ---
 
 Son muchos los usuarios que echan de menos disponer de un cliente y un servidor SSH en Windows. Para solventar este inconveniente existen alternativas, pero la más sencilla y efectiva es la que detallaré a continuación.

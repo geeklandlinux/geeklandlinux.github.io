@@ -7,7 +7,9 @@ tags:
   - "libreoffice"
   - "ofimatica"
   - "tips"
-coverImage: "LibreOffice-en-modo-Oscuro.png"
+cover:
+  image: "images/LibreOffice-en-modo-Oscuro.png"
+  relative: true
 ---
 
 En los últimos tiempos es común usar temas de escritorio oscuros. En mi caso me resulta mucho más cómodo escribir en letra blanca sobre un fondo oscuro. Pero el problema es que ciertas aplicaciones, como por ejemplo LibreOffice, no se amoldan completamente al modo oscuro del escritorio. A continuación pueden ver que LibreOffice tiene un tema oscuro, pero el área de escritura es 100% blanca y el texto es negro.<!--more-->

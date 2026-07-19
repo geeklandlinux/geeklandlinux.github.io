@@ -6,7 +6,9 @@ categories:
 tags: 
   - "guest-additions"
   - "virtualbox"
-coverImage: "Instalar-las-Guest-additions.png"
+cover:
+  image: "images/Instalar-las-Guest-additions.png"
+  relative: true
 ---
 
 En mi caso cada vez que me dispongo a instalar las Guest Additions, busco un tutorial en Internet y voy siguiendo los pasos uno por uno. No obstante casi nunca acostumbro a encontrar un tutorial que incluya la totalidad de pasos necesarios, y por lo tanto siempre acostumbro a tener problemas para instalarlas. A raíz de esta experiencia negativa, en el siguiente post explico de forma detallada la totalidad de acciones a realizar para instalar las Guest Additions.<!--more-->

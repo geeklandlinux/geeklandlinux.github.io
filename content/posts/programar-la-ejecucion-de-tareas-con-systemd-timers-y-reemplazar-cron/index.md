@@ -7,7 +7,9 @@ tags:
   - "systemctl"
   - "systemd"
   - "systemd-timers"
-coverImage: "Systemd-Timers-para-programar-ejecucion-tareas.jpg"
+cover:
+  image: "images/Systemd-Timers-para-programar-ejecucion-tareas.jpg"
+  relative: true
 ---
 
 En su día detallamos el [uso de cron y anacron]({{< relref "/posts/planificar-tareas-con-cron-y-anacron-en-linux" >}}) para programar la ejecución de tareas y scripts a una hora determinada. Cron y Anacron funcionan perfectamente y de hecho es el método que acostumbro a utilizar. No obstante hay alternativas para reemplazar Cron y una de ellas son los Systemd Timers. Los Timers de Systemd pueden ser una alternativa válida ya que la mayoría de distribuciones Linux incorporan Systemd.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "exchange"
   - "software"
   - "stellar"
-coverImage: "convertir-de-edb-a-pst.jpeg"
+cover:
+  image: "images/convertir-de-edb-a-pst.jpeg"
+  relative: true
 ---
 
 En el siguiente artículo veremos como usar el software [Stellar Converter for EDB](https://www.stellarinfo.com/es/conversion-de-edb-a-pst.htm) para convertir bases de datos de servidores Exchange al formato .pst. Pero antes de iniciar la explicación del proceso veremos la utilidad que tiene convertir bases de datos del formato .edb al formato .pst.<!--more-->

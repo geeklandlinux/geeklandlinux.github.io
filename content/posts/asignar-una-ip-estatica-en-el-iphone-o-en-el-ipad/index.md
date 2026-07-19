@@ -8,7 +8,9 @@ tags:
   - "ip-fija"
   - "ipad"
   - "iphone"
-coverImage: "Asignar-Ip-Estática-en-iOS.png"
+cover:
+  image: "images/Asignar-Ip-Estática-en-iOS.png"
+  relative: true
 ---
 
 En el momento de conectarnos a una red wifi el servidor DHCP del router nos asigna una dirección IP cualquiera que acostumbra a ser aleatoria dentro de un rango de números. El hecho que esta Ip sea aleatoria puede representar un inconveniente en determinadas ocasiones, por lo tanto en este post comentaremos como podemos disponer de una IP estática en el iPad o en el iPhone.<!--more-->

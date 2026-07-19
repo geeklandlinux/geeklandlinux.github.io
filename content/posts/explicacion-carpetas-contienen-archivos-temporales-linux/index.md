@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "archivos-temporales"
-coverImage: "Características-carpetas-contienen-archivos-temporales-Linux.png"
+cover:
+  image: "images/Características-carpetas-contienen-archivos-temporales-Linux.png"
+  relative: true
 ---
 
 En Linux, al igual que en otros sistemas operativos, existen los archivos temporales del sistema. Estos archivos se almacenan en las siguientes carpetas:

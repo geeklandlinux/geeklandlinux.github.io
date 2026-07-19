@@ -9,7 +9,9 @@ tags:
   - "script"
   - "thunar"
   - "xfce"
-coverImage: "Comprimir-pdf-en-Linux-con-el-gestor-de-archivos-Thunar.png"
+cover:
+  image: "images/Comprimir-pdf-en-Linux-con-el-gestor-de-archivos-Thunar.png"
+  relative: true
 ---
 
 En el presente artículo veremos como podemos comprimir pdf de forma rápida y simple usando el gestor de archivos Thunar. En cuestión de segundos y sin usar la terminal podremos reducir el tamaño de un archivo pdf sin problema alguno.

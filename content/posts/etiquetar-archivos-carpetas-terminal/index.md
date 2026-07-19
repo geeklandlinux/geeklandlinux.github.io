@@ -9,7 +9,9 @@ tags:
   - "gnome"
   - "terminal"
   - "tracker"
-coverImage: "etiquetar-archivos-y-carpetas-con-la-terminal.png"
+cover:
+  image: "images/etiquetar-archivos-y-carpetas-con-la-terminal.png"
+  relative: true
 ---
 
 Siguiendo con la serie de post relacionados con Tracker, a continuación veremos como podemos etiquetar archivos y carpetas mediante la terminal usando [Tracker]({{< relref "/posts/configurar-tracker-para-buscar-archivos-por-contenido" >}}).

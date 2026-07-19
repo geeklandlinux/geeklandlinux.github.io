@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "repositorios"
-coverImage: "Activar-los-repositorios-privativos-non-free-en-Debian.jpg"
+cover:
+  image: "images/Activar-los-repositorios-privativos-non-free-en-Debian.jpg"
+  relative: true
 ---
 
 Se que habrá gente a la que no gustará este artículo porque estarán en contra de activar los repositorios privativos en Debian. No obstante en ocasiones se hace necesario activar los repositorios privativos en Debian.<!--more-->

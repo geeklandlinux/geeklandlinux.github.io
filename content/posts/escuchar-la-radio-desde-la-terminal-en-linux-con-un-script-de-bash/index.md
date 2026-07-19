@@ -7,7 +7,9 @@ tags:
   - "audio"
   - "mpv"
   - "vlc"
-coverImage: "escuhar-la-radio-desde-la-terminal-en-linux.jpg"
+cover:
+  image: "images/escuhar-la-radio-desde-la-terminal-en-linux.jpg"
+  relative: true
 ---
 
 Si queréis una solución simple para escuchar la radio en Linux desde la terminal y que además consuma pocos recursos pueden usar el script de bash que creo Julio Serrano o realizar uno vosotros mismos de forma muy sencilla. Los script de bash que verán hacen uso de mpv o vlc para reproducir cualquier emisora de radio desde la terminal.<!--more-->

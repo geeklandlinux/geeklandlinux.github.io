@@ -6,7 +6,9 @@ categories:
 tags: 
   - "contrasenas"
   - "seguridad"
-coverImage: "buenas-practicas-gestion-de-contraseñas.jpg"
+cover:
+  image: "images/buenas-practicas-gestion-de-contraseñas.jpg"
+  relative: true
 ---
 
 En el siguiente artículos veremos algunas de las pautas que deberíamos seguir para gestionar de forma adecuada nuestras contraseñas. No obstante antes de empezar es recomendable detallar la utilidad que tienen las contraseñas.<!--more-->

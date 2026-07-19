@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "debian"
-coverImage: "linux-tux-rocket-maulanurulkhakam.com_.jpg"
+cover:
+  image: "images/linux-tux-rocket-maulanurulkhakam.com_.jpg"
+  relative: true
 ---
 
 Siguiendo el plan trazado estas últimas semana hoy explicaremos como incrementar la rapidez de ejecución de nuestras aplicaciones con Preload. Cabe recordar que el plan trazado es generar un conjunto de post para explicar como optimizar el rendimiento de nuestra memoria RAM y por lo tanto de nuestro sistema. La serie de post son los siguientes:<!--more-->

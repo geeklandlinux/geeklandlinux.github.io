@@ -8,7 +8,9 @@ tags:
   - "gtk"
   - "qt"
   - "tema-gtk"
-coverImage: "aplicaciones-qt5-integradas-con-gtk.png"
+cover:
+  image: "images/aplicaciones-qt5-integradas-con-gtk.png"
+  relative: true
 ---
 
 Ya hace mucho que tiempo que en Debian no se visualizan correctamente los programas en QT5. Un claro ejemplode ello es por ejemplo Virtualbox o Kdenlive.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "dns"
   - "duck-dns"
   - "internet"
-coverImage: "ddns-con-duck-dns-y-docker.png"
+cover:
+  image: "images/ddns-con-duck-dns-y-docker.png"
+  relative: true
 ---
 
 A continuación veremos como instalar y configurar el servicio DNS dinámico Duck DNS con Docker. Pero antes de todo veremos de forma breve que es un DNS dinámico y porque Duck DNS es una opción a tener muy en cuenta.<!--more-->

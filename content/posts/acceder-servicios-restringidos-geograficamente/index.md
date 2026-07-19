@@ -9,7 +9,9 @@ tags:
   - "internet"
   - "privacidad"
   - "vpn"
-coverImage: "Acceder-a-servicios-restringidos-geográficamente.jpg"
+cover:
+  image: "images/Acceder-a-servicios-restringidos-geográficamente.jpg"
+  relative: true
 ---
 
 Muchos de vosotros navegando se habrán encontrado con la situación que quieren visualizar un vídeo o acceder a un contenido y sencillamente es totalmente imposible porqué el vídeo o contenido está restringido a usuarios de un determinado país. Seguro que la mayoría de personas también habrán escuchado a hablar de servicios como Netflix, Pandora, Hulu u otros que solo se pueden acceder desde determinados países.<!--more-->

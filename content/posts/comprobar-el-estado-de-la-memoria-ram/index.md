@@ -6,7 +6,9 @@ categories:
 tags: 
   - "hardware"
   - "memoria"
-coverImage: "Comprobar-el-estado-del-memoria-ram.png"
+cover:
+  image: "images/Comprobar-el-estado-del-memoria-ram.png"
+  relative: true
 ---
 
 Que recuerde en un par de ocasiones mi ordenador empezó a sufrir cuelgues inesperados e incomprensibles. En las 2 ocasiones después de indagar durante días descubrí que era un módulo de la memoria RAM que estaba dañado.

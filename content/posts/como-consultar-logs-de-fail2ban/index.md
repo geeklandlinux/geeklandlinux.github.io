@@ -8,7 +8,9 @@ tags:
   - "fail2ban"
   - "seguridad"
   - "servidor"
-coverImage: "como-consultar-los-logs-de-fail2ban.png"
+cover:
+  image: "images/como-consultar-los-logs-de-fail2ban.png"
+  relative: true
 ---
 
 En el pasado artículo vimos como [instalar y configurar fail2ban]({{< relref "/posts/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta" >}}). A raíz de este artículo, a continuación veremos como podemos consultar los logs de fail2ban de forma fácil y sencilla.<!--more-->

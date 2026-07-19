@@ -9,7 +9,9 @@ tags:
   - "listados"
   - "ls"
   - "tips"
-coverImage: "crear-fichero-con-archivos-y-carpetas-de-un-directorio.gif"
+cover:
+  image: "images/crear-fichero-con-archivos-y-carpetas-de-un-directorio.gif"
+  relative: true
 ---
 
 En ocasiones puede resultar interesante disponer de un listado de los archivos y carpetas que contiene un determinado directorio. Algunas de estas ocasiones pueden ser las siguientes:

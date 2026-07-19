@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "xcalib"
-coverImage: "Invertir-colores-de-la-pantalla-en-Linux.png"
+cover:
+  image: "images/Invertir-colores-de-la-pantalla-en-Linux.png"
+  relative: true
 ---
 
 Hace ya meses publiqué un par de artículos en el que hablaba de como intentar mejorar el confort visual en el caso que tengamos que pasar muchas horas delante de la pantalla de un ordenador.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "mail-merge"
   - "mailing"
   - "thunderbird"
-coverImage: "1-Realizar-un-mailing-con-Thunderbird.jpg"
+cover:
+  image: "images/1-Realizar-un-mailing-con-Thunderbird.jpg"
+  relative: true
 ---
 
 En el siguiente post detallaré como realizar un mailing o envío de correos masivos con el gestor de correo Thunderbird. El proceso que veremos no es el mas extendido para realizar un mailing en un entorno profesional, pero aplicando la metodología descrita en este post conseguiremos realizar un mailing sin tener que depender de aplicaciones/servicios de terceros como por ejemplo el archiconocido [Mailchimp](http://mailchimp.com/ "Servicio Web para hacer mailings"), [Max Bull mailer](http://www.maxprog.com/site/software/internet-marketing/mass-bulk-emailer_sheet_es.php "Software para el envío de mailings"), etc.<!--more-->

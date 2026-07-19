@@ -7,7 +7,9 @@ tags:
   - "archivo-de-swap"
   - "particion-de-swap"
   - "swap"
-coverImage: "Crear-archivo-swap.png"
+cover:
+  image: "images/Crear-archivo-swap.png"
+  relative: true
 ---
 
 En el caso que vuestra partición de Swap sea demasiado pequeña disponemos de varias soluciones. Una de las posibles soluciones es crear un archivo de Swap.

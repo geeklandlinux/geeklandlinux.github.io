@@ -9,7 +9,9 @@ tags:
   - "raspbian"
   - "seguridad"
   - "terminal"
-coverImage: "Configurar-NordVPN-en-Linux-o-en-una-Raspberry-Pi-desde-la-terminal.png"
+cover:
+  image: "images/Configurar-NordVPN-en-Linux-o-en-una-Raspberry-Pi-desde-la-terminal.png"
+  relative: true
 ---
 
 Por la red he visto algunos tutoriales de como instalar, configurar y usar NordVPN en la terminal de Linux. La gran mayoría de ellos no era correcto o no aportaba la información necesaria. Por este motivo a continuación detallaré el procedimiento para instalar, configurar y sacar el máximo partido a NordVPN en Linux.<!--more-->

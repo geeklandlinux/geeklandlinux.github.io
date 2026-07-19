@@ -8,7 +8,9 @@ tags:
   - "i3"
   - "thunar"
   - "xfce"
-coverImage: "atajos-de-teclado-en-thunar.png"
+cover:
+  image: "images/atajos-de-teclado-en-thunar.png"
+  relative: true
 ---
 
 Si quieren usar el gestor de ficheros Thunar de forma rápida y eficiente a continuación les citaré prácticamente la totalidad de atajos de teclado disponibles. Además también verán como pueden añadir nuevos atajos de teclado y como modificar los atajos de teclado estándar. De esta forma podrán extraer el máximo rendimiento del gestor de ficheros Thunar.

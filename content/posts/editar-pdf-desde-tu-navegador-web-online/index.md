@@ -7,7 +7,9 @@ tags:
   - "formatpdf"
   - "ofimatica"
   - "pdf"
-coverImage: "Asi-puedes-editar-PDF-desde-tu-navegador-web-online.jpg"
+cover:
+  image: "images/Asi-puedes-editar-PDF-desde-tu-navegador-web-online.jpg"
+  relative: true
 ---
 
 Cuando usamos GNU Linux, Android o iOS y tenemos que gestionar, manipular y editar documentos PDF no existen muchas opciones y las que existen no son fáciles de usar para usuarios noveles. Por este motivo en el siguiente artículo les hablaré del servicio web [FormatPDF](https://www.formatpdf.com/) que les permitirá gestionar documentos PDF de forma sencilla estén donde estén. Lo único que necesitarán es una conexión a Internet y un navegador web.<!--more-->

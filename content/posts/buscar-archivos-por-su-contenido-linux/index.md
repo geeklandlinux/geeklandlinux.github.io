@@ -9,7 +9,9 @@ tags:
   - "terminal"
   - "tracker"
   - "tracker-needle"
-coverImage: "buscar-archivos-por-su-contenido-en-linux.png"
+cover:
+  image: "images/buscar-archivos-por-su-contenido-en-linux.png"
+  relative: true
 ---
 
 En el pasado vimos el proceso a seguir para [instalar y configurar Tracker]({{< relref "/posts/configurar-tracker-para-buscar-archivos-por-contenido" >}}) en nuestro equipo. Como continuación de este post pasaremos a ver como podemos buscar archivos por su contenido utilizando Tracker.<!--more-->

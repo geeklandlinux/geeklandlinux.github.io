@@ -8,7 +8,9 @@ tags:
   - "mac-address"
   - "networkmanager"
   - "privacidad"
-coverImage: "cambiar-la-mac-address-con-networkmanager.jpg"
+cover:
+  image: "images/cambiar-la-mac-address-con-networkmanager.jpg"
+  relative: true
 ---
 
 NetworkManager permite cambiar la Mac address de nuestras tarjetas de red de forma extremadamente simple. A medida que van saliendo nuevas versiones de NetworkManager se van añadiendo nuevas opciones para ocultar nuestra Mac Address, o lo que es lo mismo, para realizar Mac Spoofing.

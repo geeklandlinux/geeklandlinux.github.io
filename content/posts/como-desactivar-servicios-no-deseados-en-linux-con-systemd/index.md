@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "sysadmin"
   - "systemd"
-coverImage: "Como-detener-y-deshabilitar-servicios-no-deseados-del-sistema-Linux.jpg"
+cover:
+  image: "images/Como-detener-y-deshabilitar-servicios-no-deseados-del-sistema-Linux.jpg"
+  relative: true
 ---
 
 Las distribuciones Linux incluyen varios servicios o demonios habilitados por defecto, algunos de los cuales podrían no ser utilizados por los usuarios. Estos servicios innecesarios se ejecutan en segundo plano y consumen recursos del sistema. En este artículo, aprenderás cómo listar todos los servicios en ejecución y cómo desactivar aquellos que no se están utilizando mediante [systemd]({{< relref "/posts/systemctl-administrar-servicios-linux" >}}).<!--more-->

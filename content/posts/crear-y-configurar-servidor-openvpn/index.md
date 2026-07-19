@@ -9,7 +9,9 @@ tags:
   - "internet"
   - "openvpn"
   - "vpn"
-coverImage: "Configurar-un-servidor-OpenVPN.jpg"
+cover:
+  image: "images/Configurar-un-servidor-OpenVPN.jpg"
+  relative: true
 ---
 
 En pasados post vimos como podíamos crear muy fácilmente nuestro propio servidor VPN mediante el protocolo pptp.

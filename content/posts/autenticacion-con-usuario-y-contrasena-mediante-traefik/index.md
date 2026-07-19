@@ -8,7 +8,9 @@ tags:
   - "contrasenas"
   - "seguridad"
   - "traefik"
-coverImage: "autenticacion-con-usuario-y-contrasena-mediante-Traefik.png"
+cover:
+  image: "images/autenticacion-con-usuario-y-contrasena-mediante-Traefik.png"
+  relative: true
 ---
 
 Hay ocasiones en que levantamos un servicio autoalojado que no tienen ningún método de autenticación con usuario y contraseña. Esto significa que este servicio estará abierto a todo el mundo y será un problema en el caso que no queramos abrir el servicio al público. Si se encuentran en esta situación y están usando el [proxy inverso traefik]({{< relref "/posts/instalar-y-configurar-traefik-v2-para-usarlo-como-proxy-inverso" >}}) pueden usar un middleware de autenticación básico del modo que verán en este artículo. De este forma todo usuario que quiera usar el servicio tendrá que introducir un usuario y su correspondiente contraseña.<!--more-->

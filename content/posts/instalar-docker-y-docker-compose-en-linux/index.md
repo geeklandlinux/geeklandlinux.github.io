@@ -6,7 +6,9 @@ categories:
 tags: 
   - "docker"
   - "docker-compose"
-coverImage: "instalar-docker-y-docker-compose.jpg"
+cover:
+  image: "images/instalar-docker-y-docker-compose.jpg"
+  relative: true
 ---
 
 A continuación veremos el procedimiento más sencillo y efectivo para poder instalar Docker y Docker-compose en prácticamente cualquier distribución GNU-Linux. Por ejemplo podremos usar el siguiente método para las siguientes distribuciones:<!--more-->

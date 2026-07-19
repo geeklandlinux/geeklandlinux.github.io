@@ -6,7 +6,9 @@ categories:
 tags: 
   - "software"
   - "winrar"
-coverImage: "instalar-activar-winrar-por-vida.jpg"
+cover:
+  image: "images/instalar-activar-winrar-por-vida.jpg"
+  relative: true
 ---
 
 A continuación verán como pueden instalar y activar Winrar de forma segura y sencilla. No obstante recuerden que existen otras opciones igual de buenas como por ejemplo Winzip o 7-Zip.<!--more-->

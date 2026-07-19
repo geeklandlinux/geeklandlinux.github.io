@@ -7,7 +7,9 @@ tags:
   - "descargas"
   - "software"
   - "youtube-dl"
-coverImage: "Descargar-vídeos-de-internet-con-Youtube-dl.png"
+cover:
+  image: "images/Descargar-vídeos-de-internet-con-Youtube-dl.png"
+  relative: true
 ---
 
 Los usuarios de Gnu/Linux tienen varias alternativas para descargar vídeos de Youtube y de otras web en internet. Una de las opciones interesantes que tenemos es usar un script de phyton llamado Youtube-dl. No se dejen engañar por su nombre ya que youtube-dl, como veremos más adelante, permite descargar vídeos y audio de youtube y de muchos otros sitios web.<!--more-->

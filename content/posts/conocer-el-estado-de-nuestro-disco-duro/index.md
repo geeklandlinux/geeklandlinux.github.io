@@ -6,7 +6,9 @@ categories:
 tags: 
   - "disco-duro"
   - "hardware"
-coverImage: "comprobar-estado-disco-duro.min_.png"
+cover:
+  image: "images/comprobar-estado-disco-duro.min_.png"
+  relative: true
 ---
 
 La verdad es que nunca he tenido problemas con el disco duro de mi ordenador. Pero en dos ocasiones que recuerde mi ordenador empezó a colgarse y a tener comportamientos extraños y realmente llegue a pensar que mi disco duro podía ser el responsable porqué ya tiene sus años y sus horas de vida. Al final en las dos ocasiones el problema resulto ser con la memoria RAM.<!--more-->

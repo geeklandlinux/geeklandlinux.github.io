@@ -7,7 +7,9 @@ tags:
   - "servidor"
   - "sftp"
   - "ssh"
-coverImage: "Servidor-SFTP-enjaulado.jpg"
+cover:
+  image: "images/Servidor-SFTP-enjaulado.jpg"
+  relative: true
 ---
 
 Después de la lectura de este post, los lectores sabrán que es un servidor SFTP, las ventajas que nos da respecto un servidor FTP, los usos que pueden dar a un servidor SFTP y finalmente aprenderán a crear y configurar su propio servidor SFTP.<!--more-->

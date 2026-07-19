@@ -6,7 +6,9 @@ categories:
 tags: 
   - "terminal"
   - "trucos"
-coverImage: "trucos-para-usar-la-terminal-de-forma-eficiente-en-linux.jpeg"
+cover:
+  image: "images/trucos-para-usar-la-terminal-de-forma-eficiente-en-linux.jpeg"
+  relative: true
 ---
 
 A continuación veremos una serie de trucos y consejos que todo usuario de la terminal debería saber. Después de leer este artículo los usuarios deberían ser capaces de desenvolverse mucho mejor en la terminal. Algunos de los trucos para la terminal que verán a continuación no se acostumbran a comentar en exceso y nos proporcionarán velocidad y facilidad a la hora de realizar nuestras tareas.<!--more-->

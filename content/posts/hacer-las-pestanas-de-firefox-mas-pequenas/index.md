@@ -7,7 +7,9 @@ tags:
   - "firefox"
   - "navegadores"
   - "trucos"
-coverImage: "hacer-las-pestanas-de-firefox-mas-pequenas.png"
+cover:
+  image: "images/hacer-las-pestanas-de-firefox-mas-pequenas.png"
+  relative: true
 ---
 
 Mi navegador preferido a día de hoy es Firefox. Más que nada por temas de privacidad, porque tiene un funcionamiento digamos que aceptable y porque la aceleración gráfica por hardware funciona. No obstante algo que me molesta es que a partir de la versión 89 el tamaño de las pestañas es enorme y desperdicia tamaño del monitor. Por lo tanto en el siguiente artículo veremos los pasos a seguir para hacer las pestañas de Firefox más pequeñas.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "extensiones"
   - "firefox"
   - "privacidad"
-coverImage: "Firefox-Multi-Account-containers-para-mejorar-tu-experiencia-de-navegacion.png"
+cover:
+  image: "images/Firefox-Multi-Account-containers-para-mejorar-tu-experiencia-de-navegacion.png"
+  relative: true
 ---
 
 A continuación veremos el uso que tiene y como podemos configurar y utilizar la extensión Firefox Multi-Account Containers. Verán que es un extensión extremadamente útil y que además nos ofrece la garantía que ha sido desarrollada por la fundación Mozilla.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "sistema-de-ficheros"
   - "ssh"
   - "sshfs"
-coverImage: "Montar-sistemas-de-archivos-remotos-con-SSHFS.png"
+cover:
+  image: "images/Montar-sistemas-de-archivos-remotos-con-SSHFS.png"
+  relative: true
 ---
 
 A raíz de la propuesta de uno de los lectores del blog, en este post veremos los pasos a seguir para montar un sistema de archivos remoto usando SSHFS.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "lightdm"
   - "numix"
   - "tema-gtk"
-coverImage: "Instalar-el-tema-Numix-GTK-en-Linux.png"
+cover:
+  image: "images/Instalar-el-tema-Numix-GTK-en-Linux.png"
+  relative: true
 ---
 
 Recientemente se han actualizado las librerías gtk de mi sistema operativo a la versión 3.20 y esto ha ocasionado que se rompa el tema Numix que vengo usando desde hace ya bastante tiempo.<!--more-->

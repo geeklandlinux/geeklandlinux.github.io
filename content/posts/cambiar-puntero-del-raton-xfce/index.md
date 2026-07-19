@@ -8,7 +8,9 @@ tags:
   - "cursor"
   - "raton"
   - "xfce"
-coverImage: "Cambiar-el-puntero-del-raton-en-xfce.png"
+cover:
+  image: "images/Cambiar-el-puntero-del-raton-en-xfce.png"
+  relative: true
 ---
 
 Hace cuatro años que uso el mismo puntero de ratón en mi distribución Linux y creo que ha llegado el momento de realizar un cambio.

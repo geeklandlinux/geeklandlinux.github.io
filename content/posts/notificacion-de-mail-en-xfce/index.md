@@ -10,7 +10,9 @@ tags:
   - "email"
   - "internet"
   - "xfce"
-coverImage: "Notificacion-mail-en-xfce.png"
+cover:
+  image: "images/Notificacion-mail-en-xfce.png"
+  relative: true
 ---
 
 Muchos de vosotros sabrán que hace tiempo que utilizo Xfce. Concretamente estoy usando Xfce a diario desde que se termino el soporte para Ubuntu 11.04 y la verdad es que no hecho de menos a gnome ni a nadie.

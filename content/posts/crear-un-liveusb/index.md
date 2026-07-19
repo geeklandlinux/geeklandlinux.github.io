@@ -3,7 +3,9 @@ title: "Crear un LiveUSB"
 date: 2014-03-02
 categories: 
   - "linux-2"
-coverImage: "liveusb.png"
+cover:
+  image: "images/liveusb.png"
+  relative: true
 ---
 
 Muchas son las veces en las que hay que explicar a usuarios como realizar un LiveUSB para poder realizar las siguientes funciones:<!--more-->

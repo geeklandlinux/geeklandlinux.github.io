@@ -10,7 +10,9 @@ tags:
   - "multimedia"
   - "podcast-2"
   - "tips"
-coverImage: "generar-un-feed-de-los-ficheros-de-audios-alojados-en-archive-org.jpg"
+cover:
+  image: "images/generar-un-feed-de-los-ficheros-de-audios-alojados-en-archive-org.jpg"
+  relative: true
 ---
 
 Existen ocasiones en que el creador de un podcast sube sus audios a archive.org y no genera ningún feed para que los usuarios puedan escuchar sus podcast cómodamente. Este es el caso del [podcast de C3PO](https://archive.org/details/@c3po-podcast?tab=uploads). Para solucionar este pequeño problema mostraré el procedimiento para generar un feed de los audios alojados en una cuenta de archive.org<!--more-->

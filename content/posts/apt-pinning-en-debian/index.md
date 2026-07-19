@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "debian"
-coverImage: "target-packages-300x225.jpg"
+cover:
+  image: "images/target-packages-300x225.jpg"
+  relative: true
 ---
 
 Hoy hablamos de como realizar apt-pinning en Debian. Muchos usuarios usan Debian Stable o Debian Testing y se desesperan por no poder disponer de las últimas versiones de paquetes y tener que usar versiones de software que van 3 o 4 versiones por detrás de la última versión.<!--more-->

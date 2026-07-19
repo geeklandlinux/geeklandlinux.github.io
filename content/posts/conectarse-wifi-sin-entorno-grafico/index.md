@@ -9,7 +9,9 @@ tags:
   - "internet"
   - "ip-fija"
   - "wifi"
-coverImage: "conectarse-sin-wifi-sin-disponer-de-entorno-grafico.png"
+cover:
+  image: "images/conectarse-sin-wifi-sin-disponer-de-entorno-grafico.png"
+  relative: true
 ---
 
 **Hace unos días** tuve serios problemas con los drivers de mi tarjeta gráfica. Como consecuencia **me quedé sin entorno gráfico y solo podía arrancar mi sistema operativo Debian con el modo de recuperación**. **Con el modo de recuperación me di cuenta que mi tarjeta de red wifi no funcionaba** porqué al fallar la carga del entorno gráfico nunca llegaba a cargarse el gestor de redes Network Manager.<!--more-->

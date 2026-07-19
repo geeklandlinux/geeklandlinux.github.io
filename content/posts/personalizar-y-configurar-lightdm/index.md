@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "lightdm"
-coverImage: "Personalizar-y-configurar-Lightdm1.png"
+cover:
+  image: "images/Personalizar-y-configurar-Lightdm1.png"
+  relative: true
 ---
 
 Seguidamente veremos como personalizar y configurar el gestor de sesiones **Lightdm** pero antes de empezar con la personalización y configuración es interesante una breve introducción para que sepan que es exactamente Lightdm.<!--more-->

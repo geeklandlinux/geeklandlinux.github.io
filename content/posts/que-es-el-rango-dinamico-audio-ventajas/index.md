@@ -6,7 +6,9 @@ categories:
 tags: 
   - "audio"
   - "rango-dinamico"
-coverImage: "Que-es-y-para-que-sirve-el-rango-dinámico.png"
+cover:
+  image: "images/Que-es-y-para-que-sirve-el-rango-dinámico.png"
+  relative: true
 ---
 
 En pasados post escribimos sobre como [analizar la calidad de un archivo de audio]({{< relref "/posts/como-conocer-calidad-de-un-archivo-de-audio" >}}). A raíz de este artículo he creído interesante hablar sobre rango dinámico porque es otro de los parámetros que podemos analizar para conocer la calidad de un audio.<!--more-->

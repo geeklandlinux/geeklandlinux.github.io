@@ -7,7 +7,9 @@ tags:
   - "mpv"
   - "multimedia"
   - "software-libre"
-coverImage: "Instalar-y-configurar-el-reproductor-MPV-en-Debian-y-derivados.png"
+cover:
+  image: "images/Instalar-y-configurar-el-reproductor-MPV-en-Debian-y-derivados.png"
+  relative: true
 ---
 
 En numerosas ocasiones he escuchado gente hablando maravillas del reproductor de vídeo mpv. No obstante en mi caso lo instalaba en Debian y el rendimiento era pésimo. El consumo de CPU al reproducir los vídeos era extremadamente elevado y el motivo era porque la aceleración gráfica por hardware está deshabilitada de forma predeterminada. Por lo tanto si pretenden instalar, configurar y usar de forma satisfactoria mpv en Debian les recomiendo que sigan las siguientes instrucciones.<!--more-->

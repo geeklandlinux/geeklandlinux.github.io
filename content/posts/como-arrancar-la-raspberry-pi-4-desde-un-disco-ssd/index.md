@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "disco-duro"
   - "hardware"
-coverImage: "hacer-que-la-raspberry-pi-arranque-desde-un-SSD.jpeg"
+cover:
+  image: "images/hacer-que-la-raspberry-pi-arranque-desde-un-SSD.jpeg"
+  relative: true
 ---
 
 A día de hoy arrancar la Raspberry Pi 4 a través de una unidad de almacenamiento SSD es fácil gracias a su último firmware estable. Para ello no tenemos que hacer nada especial. Simplemente tenemos que quemar la imagen de Raspbian OS en la unidad de almacenamiento SSD, enchufarla a la Raspberry Pi y encenderla. No obstante detallaremos el procedimiento y que podemos hacer en el caso que se presenten problemas durante el proceso.<!--more-->

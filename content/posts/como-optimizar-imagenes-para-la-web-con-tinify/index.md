@@ -9,7 +9,9 @@ tags:
   - "script"
   - "thunar"
   - "xfce"
-coverImage: "optimizar-imagenes-para-subir-a-una-web.png"
+cover:
+  image: "images/optimizar-imagenes-para-subir-a-una-web.png"
+  relative: true
 ---
 
 En el siguiente artículo verán el método que utilizo para optimizar mis imágenes antes de subirlas a mi sitio web. En mi caso, utilizo un simple script que me permite usar de forma cómoda y rápida la API de Tinify. El método que verán a continuación optimiza las imágenes para mostrarlas en la web y para ello se aplica un algoritmo de compresión con pérdida. De esta forma la carga del servidor Web será menor y funcionará de forma más rápida y fluida.<!--more-->

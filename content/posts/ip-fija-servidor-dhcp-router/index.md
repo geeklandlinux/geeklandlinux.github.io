@@ -8,7 +8,9 @@ tags:
   - "dhcp"
   - "ip-fija"
   - "servidor"
-coverImage: "asignar-ip-fija-servidor-dhcp-router.jpg"
+cover:
+  image: "images/asignar-ip-fija-servidor-dhcp-router.jpg"
+  relative: true
 ---
 
 La gran mayoría de routers de hoy en día traen incorporado un servidor DHCP que podemos usar para asignar una IP fija a los dispositivos que se conectan a nuestra red. Para activar el servidor DHCP y asignar una IP Fija a nuestros dispositivos a través del router tenemos que realizar los siguientes pasos.<!--more-->

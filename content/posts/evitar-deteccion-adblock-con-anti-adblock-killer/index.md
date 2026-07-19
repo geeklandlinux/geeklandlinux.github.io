@@ -9,7 +9,9 @@ tags:
   - "internet"
   - "publicidad"
   - "ublock"
-coverImage: "Evitar-la-detección-del-bloqueador-de-publicidad-con-Anti-adblock-Killer.png"
+cover:
+  image: "images/Evitar-la-detección-del-bloqueador-de-publicidad-con-Anti-adblock-Killer.png"
+  relative: true
 ---
 
 Visitando una web me he encontrado con la sorpresa que no podía leer el artículo porque sus administradores han decidido instalar un plugin que bloquea la lectura de sus artículos a los usuarios que utilizan un bloqueador de publicidad como por ejemplo Adblock Plus o uBlock Origin. Afortunadamente en la actualidad existen soluciones para solucionar este problema como por ejemplo anti adblock killer.<!--more-->

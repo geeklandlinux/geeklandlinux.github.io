@@ -8,7 +8,9 @@ tags:
   - "opera"
   - "software"
   - "vpn"
-coverImage: "Activar-y-usar-el-servicio-VPN-gratuito-en-Opera.png"
+cover:
+  image: "images/Activar-y-usar-el-servicio-VPN-gratuito-en-Opera.png"
+  relative: true
 ---
 
 Desde la versión 40 Opera trae incorporado de serie un servicio VPN gratuito. Esto hace que Opera sea el primer navegador Web en traer un servicio VPN de forma nativa.<!--more-->

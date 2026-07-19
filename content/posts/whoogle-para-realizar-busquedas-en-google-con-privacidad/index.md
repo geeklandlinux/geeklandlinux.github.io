@@ -8,7 +8,9 @@ tags:
   - "buscar-en-google"
   - "privacidad"
   - "whoogle"
-coverImage: "Whoogle-para-buscar-en-google-respetando-privacidad.png"
+cover:
+  image: "images/Whoogle-para-buscar-en-google-respetando-privacidad.png"
+  relative: true
 ---
 
 A continuación veremos la forma de usar el buscador de Google respetando un poco más nuestra privacidad. El método que usaremos para conseguir nuestro objetivo es realizar las búsquedas mediante un buscador alternativo llamado Whoogle. Existen otras opciones similares a la que veremos en este artículo. Algunas de ellas son:<!--more-->

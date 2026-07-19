@@ -7,7 +7,9 @@ tags:
   - "bash"
   - "comandos"
   - "grep"
-coverImage: "uso-del-comando-grep-en-linux.webp"
+cover:
+  image: "images/uso-del-comando-grep-en-linux.webp"
+  relative: true
 ---
 
 A continuación mediante ejemplos y explicaciones aprenderemos a usar el comando grep para poder filtrar texto y de esta forma poder programar scripts de una forma mucho más rápida y sencilla.

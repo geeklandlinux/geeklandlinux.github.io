@@ -10,7 +10,9 @@ tags:
   - "impress"
   - "libreoffice"
   - "writer"
-coverImage: "Rotar-imagenes-en-Libreoffice.png"
+cover:
+  image: "images/Rotar-imagenes-en-Libreoffice.png"
+  relative: true
 ---
 
 Para iniciar este post, y antes de comentar como rotar imágenes en Libreofffice, voy a comentar a los lectores del blog que la totalidad de los post que redacto lo hago utilizando el programa Writer de Libreoffice.<!--more-->

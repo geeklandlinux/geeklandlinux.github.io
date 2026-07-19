@@ -7,7 +7,9 @@ tags:
   - "cifrado"
   - "servidor"
   - "ssh"
-coverImage: "Conectarse-a-un-servidor-SSH-sin-contraseña.png"
+cover:
+  image: "images/Conectarse-a-un-servidor-SSH-sin-contraseña.png"
+  relative: true
 ---
 
 En este artículo mostraremos como un cliente se puede conectar a un servidor SSH, sin la necesidad de estar introduciendo la contraseña cada vez que nos queremos conectar al servidor. La forma de conseguir esto será mediante el uso de un par claves asimétricas.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "atajos-de-teclado"
   - "xfce"
-coverImage: "Asignar-atajos-de-teclado-a-los-elementos-de-un-menú-en-XFCE.png"
+cover:
+  image: "images/Asignar-atajos-de-teclado-a-los-elementos-de-un-menú-en-XFCE.png"
+  relative: true
 ---
 
 En ocasiones para realizar una tarea tenemos que acceder a un menú y clicar encima de una de sus opciones. Este proceso es lento y muchos usuarios preferirían ejecutar la tarea con un simple atajo de teclado. Si somos usuarios del entorno de escritorio XFCE estamos de suerte porque podremos modificar o crear atajos de teclado a la totalidad de los elementos de los menús que aparecen en determinados programas.<!--more-->

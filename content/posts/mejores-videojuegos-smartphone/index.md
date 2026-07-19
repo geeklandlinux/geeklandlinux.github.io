@@ -7,7 +7,9 @@ categories:
 tags: 
   - "aplicaciones"
   - "juegos"
-coverImage: "Mejores-videojuegos-para-smartphone.jpg"
+cover:
+  image: "images/Mejores-videojuegos-para-smartphone.jpg"
+  relative: true
 ---
 
 **Los smarthpones se han convertido en la videoconsola más exitosa de la historia**. Nunca antes la penetración de éstos había alcanzado a tantos sectores de la población. Y es que, hoy día, prácticamente todo el mundo tiene un móvil inteligente y casi todos lo utilizan -también- para jugar a videojuegos. De hecho, según **[este test de Comparaíso](http://www.comparaiso.es/moviles/guias/mejor-tamano-pantalla-movil-test "Test para averiguar el tamaño ideal del móvil")**, son uno de los factores más determinantes para que las pantallas hayan aumentado tanto de tamaño.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "ifile"
   - "ipad"
   - "iphone"
-coverImage: "Instalar-el-explorador-de-archivos-iFile.jpg"
+cover:
+  image: "images/Instalar-el-explorador-de-archivos-iFile.jpg"
+  relative: true
 ---
 
 Para la gran mayoría de personas no es imprescindible disponer de un explorador de archivos para poder usar el iPad o el iPhone, pero si lo tenemos mejor que mejor ya que nos puede ser útil en ciertas situaciones que comentaremos mas adelante Por este motivo en el siguiente post detallaré el proceso para instalar el explorador de archivos iFile en nuestro dispositivo móvil iOS. Existen otros exploradores que archivos alternativos a iFile y que no requieren de Jailbreak como por ejemplo Goodreader, Documents, Briefcase Pro, etc. No obstante en este post me focalizo en iFile por ser de largo el mejor explorador de archivos existente para iOS.<!--more-->

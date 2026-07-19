@@ -8,7 +8,9 @@ tags:
   - "gnome"
   - "gnome-shell"
   - "opinion"
-coverImage: "Razones-por-las-que-no-me-gusta-Gnome-Shell.png"
+cover:
+  image: "images/Razones-por-las-que-no-me-gusta-Gnome-Shell.png"
+  relative: true
 ---
 
 Con la llegada de Gnome Shell deje de usar el escritorio de Gnome. En algunas ocasiones he intentado usarlo de nuevo pero no puedo con él. Quizás seria cuestión de darle más tiempo del que le doy. ¿Pero para que dárselo si estoy más que contento con mi escritorio actual?<!--more-->

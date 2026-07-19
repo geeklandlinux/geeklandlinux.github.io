@@ -10,7 +10,9 @@ tags:
   - "shutter"
   - "xfce"
   - "zimagez"
-coverImage: "Compartir-capturas-de-pantalla-mediantes-enlaces-de-forma-automática.jpg"
+cover:
+  image: "images/Compartir-capturas-de-pantalla-mediantes-enlaces-de-forma-automática.jpg"
+  relative: true
 ---
 
 Tal y como se puede ver en la captura de pantalla, existen ocasiones en las que tenemos que realizar capturas de pantalla para posteriormente compartirlas en internet mediante un link.<!--more-->

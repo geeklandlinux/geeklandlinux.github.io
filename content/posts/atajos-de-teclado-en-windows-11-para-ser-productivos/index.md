@@ -8,7 +8,9 @@ tags:
   - "explorador-de-archivos"
   - "lupa-de-windows"
   - "navegadores"
-coverImage: "atajos-de-teclado-en-windows-para-ser-productivos.jpg"
+cover:
+  image: "images/atajos-de-teclado-en-windows-para-ser-productivos.jpg"
+  relative: true
 ---
 
 Como todos los que leen el blog sabrán siempre que puedo utilizo Linux. No obstante en mi vida laboral estoy forzado a usar Windows y la verdad es que no funciona mal. Por lo tanto para todos los usuarios que usan o tienen que usar Windows les dejo una serie de atajos de teclado en Windows que les ayudarán a ser más productivos en sus tareas.<!--more-->

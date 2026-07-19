@@ -10,7 +10,9 @@ tags:
   - "chromium"
   - "firefox"
   - "productividad"
-coverImage: "numerar-pestanas-en-el-navegador.png"
+cover:
+  image: "images/numerar-pestanas-en-el-navegador.png"
+  relative: true
 ---
 
 Muchos de vosotros se preguntarán porque cierta persona puede tener la necesidad de numerar las pestañas del navegador Web. La respuesta es sencilla. El hecho de numerar las pestañas del navegador Web nos facilitará la tarea de navegar y cambiar de pestaña mediante atajos de teclado. De esta forma seremos más rápidos y más productivos.<!--more-->

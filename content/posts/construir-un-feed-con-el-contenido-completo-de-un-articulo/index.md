@@ -9,7 +9,9 @@ tags:
   - "lector-de-feeds"
   - "rss"
   - "tiny-tiny-rss"
-coverImage: "Construir-un-feed-con-el-contenido-completo-de-un-articulo.png"
+cover:
+  image: "images/Construir-un-feed-con-el-contenido-completo-de-un-articulo.png"
+  relative: true
 ---
 
 En mi caso leo la totalidad de artículos a través de mi [lector de feeds RSS]({{< relref "/posts/instalar-tiny-tiny-rss-con-su-docker-oficial-y-el-proxy-inverso-traefik" >}}) y para ello lo mejor es usar un feed que contenga el contenido completo de los artículos. No obstante muchos de los feeds de blogs que acostumbro a leer solo tienen las 5 o 10 primeras líneas del artículo. Seguidamente dejan el link para que podamos visitar su página web y de esta forma proseguir con la lectura. Esto para mi esto es un inconveniente porqué la mayoría de webs que podemos visitar hoy en día:<!--more-->

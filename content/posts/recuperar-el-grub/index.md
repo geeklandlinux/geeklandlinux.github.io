@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "grub"
-coverImage: "Reparar-el-grub.png"
+cover:
+  image: "images/Reparar-el-grub.png"
+  relative: true
 ---
 
 La verdad es que hoy me proponía escribir un post relacionado con el uso de Openvpn en iOS pero antes de hacer el post he tenido un pequeño accidente. Resulta que mi partición de Datos se estaba quedando sin espacio y he decidido darle más capacidad. He conseguido darle más capacidad sin problema alguno pero cuando he reiniciado el ordenador me ha aparecido la siguiente pantalla:<!--more-->

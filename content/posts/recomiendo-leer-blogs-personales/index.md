@@ -6,7 +6,9 @@ categories:
 tags: 
   - "blogger"
   - "opinion"
-coverImage: "recomiendo-leer-blogs-personales.jpg"
+cover:
+  image: "images/recomiendo-leer-blogs-personales.jpg"
+  relative: true
 ---
 
 En el fondo da igual que un blog sea personal, pequeño, grande, corporativo, que participan muchas o pocas personas, etc. Sea como sea el blog, los hay de calidad y pésimos. No obstante en mi caso prefiero visitar los blogs personales por las razones que detallaré a continuación.<!--more-->

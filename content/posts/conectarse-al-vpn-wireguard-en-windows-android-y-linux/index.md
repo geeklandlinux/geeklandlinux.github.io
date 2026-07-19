@@ -8,7 +8,9 @@ categories:
 tags: 
   - "vpn"
   - "wireguard"
-coverImage: "configurar-cliente-wireguard-en-windows-android-y-linux.jpg"
+cover:
+  image: "images/configurar-cliente-wireguard-en-windows-android-y-linux.jpg"
+  relative: true
 ---
 
 En su día instalamos el servidor [VPN Wireguard en un servidor mediante Docker]({{< relref "/posts/instalar-y-configurar-el-servidor-vpn-wireguard-con-docker" >}}). A continuación veremos como conectarse al servidor VPN Wireguard en el caso que usemos los sistemas operativos Windows, Android y Linux.<!--more-->

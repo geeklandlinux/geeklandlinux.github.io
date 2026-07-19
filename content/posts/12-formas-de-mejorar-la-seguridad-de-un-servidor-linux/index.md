@@ -11,7 +11,9 @@ tags:
   - "seguridad"
   - "ssh"
   - "vps"
-coverImage: "12-formas-de-mejorar-la-seguridad-de-un-servidor-linux.jpeg"
+cover:
+  image: "images/12-formas-de-mejorar-la-seguridad-de-un-servidor-linux.jpeg"
+  relative: true
 ---
 
 En mi caso siempre que puedo utilizo servicios autoalojados en mi Raspberry Pi o en mi servidor VPS. Algunos de los servicios que utilizo actualmente son Tiny Tiny RRS, Shaarli, Whoogle, AudioBookShelf, Trilium, FileBrowser, etc. Lo hago por temas de privacidad, porque funcionan igual de bien que los servicios de pago o servicios que se dedican a recopilar nuestros datos, y porque en muchas ocasiones los puedo adaptar mejor a mis necesidades. No obstante a la hora de autoalojar un servicio es sumamente importante securizar nuestro servidor VPS o nuestra Raspberry Pi para evitar recibir ataques de hackers o bots. Por esto motivo a continuación les dejo una serie de recomendaciones para mejorar la seguridad de su servidor VPS y/o Raspberry Pi y de esta forma evitar ataques de hackers y de bots.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "navegadores"
   - "tips-android"
   - "windows"
-coverImage: "Como-ver-cualquier-web-con-tema-oscuro-con-Dark-Reader.jpg"
+cover:
+  image: "images/Como-ver-cualquier-web-con-tema-oscuro-con-Dark-Reader.jpg"
+  relative: true
 ---
 
 Cuando uso el ordenador o el teléfono me gusta usar el modo oscuro o temas oscuros. No obstante existen webs, como la mía y muchas otras, que únicamente tienen temas claros y rompen con la estética visual del entorno de escritorio. Para solucionar este problema les mostraré como instalar Dark Reader y de este modo ver la totalidad de web que visitamos con tema oscuro. Pero antes de detallar el proceso de instalación les detallaré las ventajas de usar el modo oscuro y las funcionalidades que ofrece Dark Reader.<!--more-->

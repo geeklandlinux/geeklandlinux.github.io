@@ -7,7 +7,9 @@ tags:
   - "servicios"
   - "systemctl"
   - "systemd"
-coverImage: "administrar-servicios-en-systemd-con-systemctl.jpg"
+cover:
+  image: "images/administrar-servicios-en-systemd-con-systemctl.jpg"
+  relative: true
 ---
 
 Guste más o guste menos, systemd ha llegado para quedarse y prueba de ello es que la totalidad de distribuciones Linux grandes, excepto Gentoo, lo están usando como sistema de inicio predeterminado Por este motivo en el presente artículo veremos que es un servicio y como usar el comando systemctl para que todo usuario básico, medio o avanzado pueda gestionar la totalidad de servicios de su ordenador de forma fácil y sencilla.<!--more-->

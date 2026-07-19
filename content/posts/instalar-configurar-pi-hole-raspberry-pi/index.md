@@ -9,7 +9,9 @@ tags:
   - "pi-hole"
   - "publicidad"
   - "raspbian"
-coverImage: "Instalar-configurar-Pi-hole.png"
+cover:
+  image: "images/Instalar-configurar-Pi-hole.png"
+  relative: true
 ---
 
 A continuación verán de forma detallada los pasos a seguir para instalar y configurar Pi-Hole. La principal función de Pi-hole será la de bloquear la publicidad y aplicaciones maliciosas a nivel de red.<!--more-->

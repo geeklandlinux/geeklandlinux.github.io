@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "seguridad"
-coverImage: "problemas-seguridad-linux.jpg"
+cover:
+  image: "images/problemas-seguridad-linux.jpg"
+  relative: true
 ---
 
 A raíz del bombo mediático que se ha creado artificialmente con el malware WannaCry, muchos usuarios predican que la seguridad del sistema operativo Linux es extrema soltando frases del tipo:

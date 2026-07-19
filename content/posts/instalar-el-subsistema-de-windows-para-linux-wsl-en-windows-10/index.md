@@ -6,7 +6,9 @@ categories:
   - "windows"
 tags: 
   - "wsl"
-coverImage: "Instalar-el-Subsistema-de-Windows-para-Linux-WSL-en-Windows-10.jpg"
+cover:
+  image: "images/Instalar-el-Subsistema-de-Windows-para-Linux-WSL-en-Windows-10.jpg"
+  relative: true
 ---
 
 En el caso que tengan que usar un sistema operativo Windows por imposición y echen de menos determinadas características de Linux tienen una solución sencilla. Esta solución es instalar el subsistema de Windows para Linux (WSL). Con la versión 2 de versión de WSL tendrán una consola de bash y toda la paqueteria de la distribución que elijan. Además si tienen una build de Windows superior a la 21362 y WSL 2 podrán usar aplicaciones gráficas de Linux en Windows con un buen rendimiento y disponiendo de audio.<!--more-->

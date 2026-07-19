@@ -8,7 +8,9 @@ tags:
   - "multimedia"
   - "software"
   - "youtube-dl"
-coverImage: "configurar-youtube-dl-archivo-configuracion.png"
+cover:
+  image: "images/configurar-youtube-dl-archivo-configuracion.png"
+  relative: true
 ---
 
 Es más que posible que al usar [youtube-dl]({{< relref "/posts/descargar-videos-internet-youtube-dl" >}}) tengáis que usar una gran cantidad de parámetros para adaptar la descarga a vuestras necesidades. Por ejemplo, para definir un patrón para el nombre de los archivos descargados, obtener un fichero que contenga los metadatos del vídeo, descargar solamente el audio de un vídeo, etc. Para solucionar este pequeño inconveniente lo único que tenéis que realizar es configurar youtube-dl mediante su archivo de configuración.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "proxy-inverso"
   - "traefik"
-coverImage: "Instalar-y-configurar-el-proxy-inverso-traefik-en-Docker.png"
+cover:
+  image: "images/Instalar-y-configurar-el-proxy-inverso-traefik-en-Docker.png"
+  relative: true
 ---
 
 A continuación veremos como configurar el proxy inverso traefik en Docker para acceder a los servicios que están corriendo en nuestro servidor de forma sencilla y práctica. En mi caso lo haré usando la versión 1.7 de traefik. El motivo es que la versión 2 es más complicada de configurar y se introducen nuevos conceptos que hay que comprender.<!--more-->

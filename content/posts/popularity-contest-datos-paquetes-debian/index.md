@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "popularity-contest"
-coverImage: "Popularity-contest-estadisticas-debian.png"
+cover:
+  image: "images/Popularity-contest-estadisticas-debian.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos como podemos proporcionar datos del uso de nuestros paquetes .deb al equipo de Debian a través de popularity-contest. Obviamente el hecho de proporcionar los datos de los paquetes que más usamos será opcional y totalmente anónimo.<!--more-->

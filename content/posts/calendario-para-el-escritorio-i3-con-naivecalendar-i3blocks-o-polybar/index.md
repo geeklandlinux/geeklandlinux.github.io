@@ -7,7 +7,9 @@ tags:
   - "i3"
   - "i3blocks"
   - "naivecalendar"
-coverImage: "aspecto-del-calendario-naivecalendar-en-el-escritorio-i3.png"
+cover:
+  image: "images/aspecto-del-calendario-naivecalendar-en-el-escritorio-i3.png"
+  relative: true
 ---
 
 En mi caso estoy usando el escritorio i3 con la barra de herramientas i3blocks. El entorno de escritorio me encanta, pero para tenerlo como a uno le gusta hay que invertir horas y buscarse la vida. Una de las cosas que echaba de menos era el hecho de disponer de un calendario en mi barra de herramientas. Después de buscar encontré la opción de NaiveCalendar.<!--more-->

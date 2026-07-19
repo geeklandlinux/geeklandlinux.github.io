@@ -8,7 +8,9 @@ tags:
   - "navegadores"
   - "tips"
   - "webapps"
-coverImage: "convertir-una-web-en-una-aplicacion-de-escritorio-con-firefox.jpeg"
+cover:
+  image: "images/convertir-una-web-en-una-aplicacion-de-escritorio-con-firefox.jpeg"
+  relative: true
 ---
 
 Después de la salida de Firefox 57 considero que si vale la pena usar Firefox en detrimento de Chrome. No obstante hay algunas funcionalidades de Chrome que hecho de menos en Firefox como por ejemplo crear aplicaciones de escritorio a partir de páginas web. Por lo tanto, a continuación detallaré un método para **convertir cualquier web en una aplicación de escritorio** con el navegador Firefox en Linux.<!--more-->

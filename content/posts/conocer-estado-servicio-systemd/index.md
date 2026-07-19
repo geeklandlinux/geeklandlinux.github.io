@@ -8,7 +8,9 @@ tags:
   - "servicios"
   - "systemctl"
   - "systemd"
-coverImage: "listar-servicios-y-unidades-en-Systemd.png"
+cover:
+  image: "images/listar-servicios-y-unidades-en-Systemd.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos varios métodos para comprobar el estado de los servicios que estan disponibles en nuestro sistema operativo. De este forma podremos ver si un servicio está activo, inactivo, enmascarado, etc. Los pasos a seguir para conseguir nuestro objetivo seran los siguientes.<!--more-->

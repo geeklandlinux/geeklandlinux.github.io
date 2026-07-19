@@ -8,7 +8,9 @@ tags:
   - "recuperar-archivos"
   - "tips"
   - "windows-10"
-coverImage: "analisis-del-software-para-recuperar-datos-easeus.jpg"
+cover:
+  image: "images/analisis-del-software-para-recuperar-datos-easeus.jpg"
+  relative: true
 ---
 
 A día de hoy prácticamente todo el mundo sabe que es indispensable realizar copias de seguridad de la información importante. No obstante, es común que se den las siguientes situaciones:<!--more-->

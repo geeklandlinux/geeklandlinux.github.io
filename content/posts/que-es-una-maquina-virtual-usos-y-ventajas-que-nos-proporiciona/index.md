@@ -6,7 +6,9 @@ categories:
 tags: 
   - "maquina-virtual"
   - "virtualbox"
-coverImage: "Que-es-una-máquina-virtual.png"
+cover:
+  image: "images/Que-es-una-máquina-virtual.png"
+  relative: true
 ---
 
 En varios de mis artículos hago referencia al uso de una máquina virtual para realizar ciertas operaciones. A raíz de esto he recibido varias consultas de usuarios preguntando que es una máquina virtual y obviamente no es una cuestión fácil de responder en un email o en los comentarios del post. Por este motivo he decidido redactar este post explicando lo que es una máquina virtual y que usos podemos darle.<!--more-->

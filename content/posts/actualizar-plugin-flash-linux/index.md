@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "flash"
   - "internet"
-coverImage: "Actualizar-el-plugin-de-Flash-en-Linux.png"
+cover:
+  image: "images/Actualizar-el-plugin-de-Flash-en-Linux.png"
+  relative: true
 ---
 
 Actualmente Adobe no saca nuevas versiones de Flash en Linux, únicamente lanza actualizaciones de seguridad y es más que seguro que en un futuro no muy lejano acabará muriendo y siendo totalmente reemplazado por html5. No obstante en algunas web y en algunos casos aun sigue siendo necesario el uso de Flash.<!--more-->

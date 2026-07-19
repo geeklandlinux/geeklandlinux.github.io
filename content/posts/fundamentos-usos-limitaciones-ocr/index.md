@@ -5,7 +5,9 @@ categories:
   - "varios"
 tags: 
   - "ocr"
-coverImage: "que-es-ocr-ventajas-y-limitaciones_min.png"
+cover:
+  image: "images/que-es-ocr-ventajas-y-limitaciones_min.png"
+  relative: true
 ---
 
 **Hoy en día en el mundo empresarial, en la educación y en otros ámbitos se están aplicando técnicas de reconocimiento óptico de caracteres OCR para incrementar la competitividad, para reducir costes, para ofrecer servicios de mayor calidad, etc**. Por todos estos motivos he decido redactar un conjunto de artículos relacionados con el reconocimiento ópticos de caracteres OCR. A modo introductorio empezaremos con el siguiente articulo:<!--more-->

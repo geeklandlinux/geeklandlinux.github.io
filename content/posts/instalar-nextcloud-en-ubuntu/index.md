@@ -10,7 +10,9 @@ tags:
   - "servicios-en-la-nube"
   - "servidor"
   - "ubuntu"
-coverImage: "instalar-nextcloud-en-ubuntu-nginx.png"
+cover:
+  image: "images/instalar-nextcloud-en-ubuntu-nginx.png"
+  relative: true
 ---
 
 A continuación instalaremos una nube Nextcloud en Ubuntu 18.04, con el servidor web Nginx, php-fpm 7.2 y MariaDB. La nube Nextcloud que montaremos estará perfectamente optimizada para ser usada en un entorno plenamente productivo. Para ello seguiremos los siguientes pasos.<!--more-->

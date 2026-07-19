@@ -7,7 +7,9 @@ tags:
   - "raspbian"
   - "software"
   - "telegram"
-coverImage: "instalar-configurar-y-usar-telegram-cli.png"
+cover:
+  image: "images/instalar-configurar-y-usar-telegram-cli.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos las instrucciones para instalar y usar Telegram-cli. Telegram-cli es un software para la terminal que nos permitirá usar Telegram de forma más o menos sencilla y práctica.<!--more-->

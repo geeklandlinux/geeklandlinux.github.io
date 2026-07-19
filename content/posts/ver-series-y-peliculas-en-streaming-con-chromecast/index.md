@@ -5,7 +5,9 @@ categories:
   - "chromecast"
 tags: 
   - "aplicaciones"
-coverImage: "Ver-series-y-películas-en-streaming-con-Chromecast.jpg"
+cover:
+  image: "images/Ver-series-y-películas-en-streaming-con-Chromecast.jpg"
+  relative: true
 ---
 
 En España, después de la entrada en vigor de la nueva ley de propiedad intelectual, prácticamente la totalidad de las apps existentes para ver series y películas en streaming con nuestros dispositivos Chromecast en Android e iOS han desaparecido. Por lo tanto a día hoy, para muchas personas es completamente imposible ver series online en streaming con su chromecast.<!--more-->

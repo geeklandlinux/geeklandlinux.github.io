@@ -7,7 +7,9 @@ tags:
   - "bitcoin"
   - "criptomoneda"
   - "malware"
-coverImage: "aplicaciones-usan-nuestro-equipo-para-minar-criptomonedas.png"
+cover:
+  image: "images/aplicaciones-usan-nuestro-equipo-para-minar-criptomonedas.png"
+  relative: true
 ---
 
 Lamentablemente cada día es más frecuente que apps de nuestro dispositivo móvil, páginas web que visitamos o programas que instalamos en nuestro ordenador utilicen la capacidad de procesamiento de nuestro equipo para minar criptomonedas sin pedirnos permiso.<!--more-->

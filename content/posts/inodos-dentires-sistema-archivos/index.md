@@ -7,7 +7,9 @@ tags:
   - "dentries"
   - "inodos"
   - "sistema-de-ficheros"
-coverImage: "sistemas-archivos-basados-inodos.png"
+cover:
+  image: "images/sistemas-archivos-basados-inodos.png"
+  relative: true
 ---
 
 Bastantes usuarios de GNU/Linux, servidores web y/o servidores de email han escuchado a hablar de los inodos y no saben lo que son. Por este motivo, a continuación que veremos que son y como funcionan los sistemas de archivos basados en inodos.<!--more-->

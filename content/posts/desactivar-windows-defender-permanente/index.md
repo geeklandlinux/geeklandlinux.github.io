@@ -7,7 +7,9 @@ tags:
   - "antivirus"
   - "configuracion"
   - "windows-defender"
-coverImage: "Desactivar-Windows-Defender.png"
+cover:
+  image: "images/Desactivar-Windows-Defender.png"
+  relative: true
 ---
 
 En el presente artículo veremos el proceso para poder desactivar Windows Defender de forma permanente en nuestro sistema operativo Windows.<!--more-->

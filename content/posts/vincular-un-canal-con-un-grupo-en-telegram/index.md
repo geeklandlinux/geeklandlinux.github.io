@@ -6,7 +6,9 @@ categories:
 tags: 
   - "telegram"
   - "tips"
-coverImage: "vincular-un-canal-con-un-grupo-en-telegram.png"
+cover:
+  image: "images/vincular-un-canal-con-un-grupo-en-telegram.png"
+  relative: true
 ---
 
 A continuación veremos como podemos vincular un canal de Telegram con un grupo. Esto sin duda proporciona una serie de beneficios tanto para los lectores como para los propietarios de los canales y grupos. Algunos de los beneficios que obtendrán ambas partes son los siguientes:<!--more-->

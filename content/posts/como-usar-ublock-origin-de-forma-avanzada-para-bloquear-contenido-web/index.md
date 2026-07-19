@@ -7,7 +7,9 @@ tags:
   - "privacidad"
   - "seguridad"
   - "ublock"
-coverImage: "como-usar-ublock-origin-de-forma-avanzada.jpg"
+cover:
+  image: "images/como-usar-ublock-origin-de-forma-avanzada.jpg"
+  relative: true
 ---
 
 Existen muchos usuarios que usan uBlock Origin para unicamente bloquear la publicidad. Estos usuarios deberían saber que uBlock Origin tiene otras utilidades aparte de bloquear la publicidad. Por este motivo en el siguiente artículo veremos los usos alternativos que podemos dar al bloqueador de anuncios de uBlock Origin. Si en vuestro caso conocéis otros usos diferentes a los mencionados dejadlos en los comentarios del artículo.<!--more-->

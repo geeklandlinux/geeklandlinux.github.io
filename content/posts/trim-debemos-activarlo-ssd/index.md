@@ -8,7 +8,9 @@ categories:
 tags: 
   - "disco-duro"
   - "trim"
-coverImage: "que-es-trim-por-que-activarlo-en-ssd.png"
+cover:
+  image: "images/que-es-trim-por-que-activarlo-en-ssd.png"
+  relative: true
 ---
 
 Como muchos sabrán es importante que los usuarios de un SSD tengan activado TRIM en sus ordenadores. Por lo tanto en el siguiente artículo explicaremos que es TRIM y por qué tenemos que activarlo en nuestras unidades de almacenamiento SSD. Sin más dilación empezamos con la explicación.<!--more-->

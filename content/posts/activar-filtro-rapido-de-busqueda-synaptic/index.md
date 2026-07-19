@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "software"
   - "synaptic"
-coverImage: "Activar-el-filtro-rápido-de-búsqueda-en-Synaptic.png"
+cover:
+  image: "images/Activar-el-filtro-rápido-de-búsqueda-en-Synaptic.png"
+  relative: true
 ---
 
 En ocasiones tengo la necesidad de instalar o buscar paquetes que no se exactamente su nombre. En estas ocasiones acostumbro a utilizar el filtro rápido de búsqueda de synaptic porque ofrece una velocidad de búsqueda inigualable.<!--more-->

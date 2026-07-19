@@ -7,7 +7,9 @@ categories:
 tags: 
   - "configuracion"
   - "hora"
-coverImage: "Sincronizar-la-hora-en-Windows-y-Linux.jpg"
+cover:
+  image: "images/Sincronizar-la-hora-en-Windows-y-Linux.jpg"
+  relative: true
 ---
 
 Mi ordenador dispone de un arranque dual con Windows y Linux. El principal problema es que la hora de Windows nunca coincide con la de Linux. En mi caso siempre había un desfaz de exactamente 2 horas. Para solucionar este problema y para sincronizar la hora entre Windows y Linux en un ordenador con dual boot hay que realizar lo siguiente.<!--more-->

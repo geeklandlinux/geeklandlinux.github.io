@@ -8,7 +8,9 @@ tags:
   - "fotografia"
   - "visor-de-fotos"
   - "windows-10"
-coverImage: "recuperar-el-visor-clasico-de-fotos-en-windows-10.png"
+cover:
+  image: "images/recuperar-el-visor-clasico-de-fotos-en-windows-10.png"
+  relative: true
 ---
 
 En mi caso me gusta Windows 10, pero hay puntos que no me acaban de convencer. Uno de estos puntos es su visor de fotos. Por esto motivo en el siguiente artículo veremos cómo podemos volver a usar el visor de fotos clásico de Windows 7 u 8 en Windows 10.<!--more-->

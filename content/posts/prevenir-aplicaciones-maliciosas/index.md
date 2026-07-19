@@ -10,7 +10,9 @@ tags:
   - "ios"
   - "seguridad"
   - "tips-android"
-coverImage: "consejos-prevenir-instalacion-de-aplicaciones-maliciosas.jpg"
+cover:
+  image: "images/consejos-prevenir-instalacion-de-aplicaciones-maliciosas.jpg"
+  relative: true
 ---
 
 A medida que pasan los años se incrementa el tráfico a Internet a través de los dispositivos móviles. Esto hace que que cada día sean más los ciberdelincuentes que crean aplicaciones maliciosas para intentar sacar algún beneficio.

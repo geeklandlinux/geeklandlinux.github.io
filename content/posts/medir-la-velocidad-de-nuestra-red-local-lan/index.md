@@ -6,7 +6,9 @@ categories:
 tags: 
   - "iperf"
   - "lan"
-coverImage: "medir-velocidad-de-nuestra-red-local-LAN.jpg"
+cover:
+  image: "images/medir-velocidad-de-nuestra-red-local-LAN.jpg"
+  relative: true
 ---
 
 Por los mismos motivos que en el pasado artículo medí la [velocidad de mi conexión a Internet]({{< relref "/posts/medir-la-velocidad-de-internet-desde-la-terminal" >}}), ahora vamos a medir la velocidad de nuestra red local. Para ello usaré el software iPerf.<!--more-->

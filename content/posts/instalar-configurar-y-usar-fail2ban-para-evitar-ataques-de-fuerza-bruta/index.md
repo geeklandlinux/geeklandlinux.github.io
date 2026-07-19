@@ -8,7 +8,9 @@ tags:
   - "fail2ban"
   - "seguridad"
   - "servidor"
-coverImage: "instalar-y-configurar-fail2ban.png"
+cover:
+  image: "images/instalar-y-configurar-fail2ban.png"
+  relative: true
 ---
 
 A continuación vamos a instalar y configurar Fail2ban con el fin de prevenir ataques de fuerza bruta en nuestro equipo o en nuestro servidor.<!--more-->

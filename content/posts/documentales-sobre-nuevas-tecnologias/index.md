@@ -6,7 +6,9 @@ categories:
 tags: 
   - "documentales"
   - "podcast-2"
-coverImage: "Documentales.jpg"
+cover:
+  image: "images/Documentales.jpg"
+  relative: true
 ---
 
 Seguidamente detallamos y dejamos el link para visualizar una serie de documentales sobre nuevas tecnologias, linux, el software libre, Google, el Hacktivismo, los Hackers, los peligros en la red y otros temas relacionados con las nuevas tecnologías.<!--more-->

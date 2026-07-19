@@ -6,7 +6,9 @@ categories:
 tags: 
   - "descomprimir"
   - "unar"
-coverImage: "descomprimir-archivos-terminal-unar.png"
+cover:
+  image: "images/descomprimir-archivos-terminal-unar.png"
+  relative: true
 ---
 
 En Linux existen muchos formatos de compresión de archivos y esto hace que sea complicado recordar la totalidad de comandos existentes para descomprimir archivos desde la terminal. Para solucionar este problema existen como mínimo un par de soluciones:<!--more-->

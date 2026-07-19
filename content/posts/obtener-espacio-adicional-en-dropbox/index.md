@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "software"
   - "virtualbox"
-coverImage: "0-Obtener-espacio-adicional-en-Dropbox.png"
+cover:
+  image: "images/0-Obtener-espacio-adicional-en-Dropbox.png"
+  relative: true
 ---
 
 Para obtener espacio adicional en Dropbox lo podemos hacer de forma fácil y relativamente rápida. Además con el método que presento a continuación no tendremos que spamear ni molestar a nuestros amigos enviando invitaciones por las redes sociales como [twitter](https://twitter.com/ "Twitter") o [facebook](https://www.facebook.com "Facebook").

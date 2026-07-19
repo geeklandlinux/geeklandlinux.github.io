@@ -9,7 +9,9 @@ tags:
   - "internet"
   - "proxy"
   - "ssh"
-coverImage: "Que-son-y-para-que-sirven-los-tuneles-ssh.png"
+cover:
+  image: "images/Que-son-y-para-que-sirven-los-tuneles-ssh.png"
+  relative: true
 ---
 
 En el siguiente post averiguaremos que es  y para que sirve un túnel ssh. Además en las próximas semanas también publicaré una serie de post para solucionar los siguientes problemas:<!--more-->

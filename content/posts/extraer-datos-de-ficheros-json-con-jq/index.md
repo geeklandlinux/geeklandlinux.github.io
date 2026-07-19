@@ -8,7 +8,9 @@ tags:
   - "jq"
   - "json"
   - "programar"
-coverImage: "Extraer-datos-de-ficheros-json-con-jq.png"
+cover:
+  image: "images/Extraer-datos-de-ficheros-json-con-jq.png"
+  relative: true
 ---
 
 Son muchas las API que utilizan ficheros JSON para enviar y recibir datos. Por ejemplo es normal que una aplicación web pueda enviar datos dentro de un fichero JSON a una aplicación móvil para que la aplicación móvil pueda mostrar los datos en una interfaz de usuario amigable. Por esto motivo resulta interesante conocer algún método simple y sencillo para poder extraer los datos que queramos de los ficheros JSON. Por lo tanto, a continuación explicaremos como podemos extraer datos de un fichero JSON con la ayuda de la herramienta jq.<!--more-->

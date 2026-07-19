@@ -9,7 +9,9 @@ tags:
   - "mysql"
   - "nextcloud"
   - "raspbian"
-coverImage: "crear-copia-de-seguridad-de-nextcloud.png"
+cover:
+  image: "images/crear-copia-de-seguridad-de-nextcloud.png"
+  relative: true
 ---
 
 A todos las personas que les toque administrar una nube Nextcloud deberían realizar una copia de seguridad para prevenir la pérdida de información.

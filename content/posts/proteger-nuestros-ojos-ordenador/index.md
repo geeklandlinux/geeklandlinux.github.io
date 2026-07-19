@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "redshift"
-coverImage: "Proteger-nuestros-ojos-del-ordenador.jpg"
+cover:
+  image: "images/Proteger-nuestros-ojos-del-ordenador.jpg"
+  relative: true
 ---
 
 Hace pocas semanas publiqué como [activar el modo lectura en los navegadores Firefox, Opera y Chrome]({{< relref "/posts/modo-lectura-en-chrome-firefox-y-opera" >}}). Uno de los principales usos del modo lectura era relajar la vista y hacer que después de horas y horas delante de una pantalla no tengamos molestias en nuestros ojos y por lo tanto no sea molesto leer un artículo en nuestro navegador.<!--more-->

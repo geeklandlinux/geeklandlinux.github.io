@@ -11,7 +11,9 @@ tags:
   - "keeweb"
   - "nextcloud"
   - "privacidad"
-coverImage: "gestionar-contraseñas-de-forma-privada-y-autonoma.png"
+cover:
+  image: "images/gestionar-contraseñas-de-forma-privada-y-autonoma.png"
+  relative: true
 ---
 
 A continuación veremos una solución para poder gestionar contraseñas con software libre y sin depender de una infraestructura de terceros. La solución que propongo es la siguiente:<!--more-->

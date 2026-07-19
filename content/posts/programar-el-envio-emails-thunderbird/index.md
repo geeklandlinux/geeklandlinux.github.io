@@ -8,7 +8,9 @@ tags:
   - "enviar-mas-tarde"
   - "mailing"
   - "thunderbird"
-coverImage: "Programar-el-envío-de-emails-con-Thunderbird1.png"
+cover:
+  image: "images/Programar-el-envío-de-emails-con-Thunderbird1.png"
+  relative: true
 ---
 
 En el siguiente post veremos como podemos programar el envío de emails con el gestor de correo electrónico Thunderbird. Pero antes de explicar como hacerlo citaremos algunas de las ventajas que nos proporciona el hecho de poder programar el envío de emails a determinadas horas especificas.<!--more-->

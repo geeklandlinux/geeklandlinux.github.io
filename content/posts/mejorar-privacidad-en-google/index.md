@@ -7,7 +7,9 @@ tags:
   - "google"
   - "internet"
   - "privacidad"
-coverImage: "Mejorar-nuestra-privacidad-en-Google-y-en-Internet.jpg"
+cover:
+  image: "images/Mejorar-nuestra-privacidad-en-Google-y-en-Internet.jpg"
+  relative: true
 ---
 
 Hace escasamente unos días publiqué un artículo en el que se comentaba y denunciaba la falta de privacidad en google y en Internet. Si alguien está interesado en leer este artículo lo puede realizar en el siguiente enlace:

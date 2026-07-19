@@ -8,7 +8,9 @@ tags:
   - "windows-10"
   - "windows-7"
   - "windows-8"
-coverImage: "Crear-atajos-de-teclado-en-Windows.jpg"
+cover:
+  image: "images/Crear-atajos-de-teclado-en-Windows.jpg"
+  relative: true
 ---
 
 Normalmente no escribo sobre temas relacionados con Windows, pero aprovechando que estoy probando el nuevo Windows 10, me he animado a escribir un breve tutorial en el que detallaré, como crear atajos de teclado para abrir el programa que queramos presionando la combinación de teclas que nosotros seleccionemos.<!--more-->

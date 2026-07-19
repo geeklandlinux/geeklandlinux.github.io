@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "firewall"
   - "internet"
-coverImage: "que-es-y-para-que-sirve-un-firewall.jpg"
+cover:
+  image: "images/que-es-y-para-que-sirve-un-firewall.jpg"
+  relative: true
 ---
 
 Creo sinceramente que saber que es y para que sirve un firewall es de vital importancia para la totalidad de usuarios que disponen de un ordenador personal en su casa. Para ello he decido crear una serie de dos post con la siguiente temática:

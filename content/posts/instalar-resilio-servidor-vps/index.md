@@ -7,7 +7,9 @@ tags:
   - "resilio"
   - "servicios-en-la-nube"
   - "servidor"
-coverImage: "instalar-resilio-servidor-vps.jpg"
+cover:
+  image: "images/instalar-resilio-servidor-vps.jpg"
+  relative: true
 ---
 
 En el siguiente artículo veremos los pasos a seguir para instalar resilio en un servidor VPS de [clouding.io](https://clouding.io/). Como introducción pasaremos a ver las ventajas que nos proporciona Resilio en comparación con otras nubes como por ejemplo Dropbox<!--more-->

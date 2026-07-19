@@ -7,7 +7,9 @@ tags:
   - "libreoffice"
   - "ofimatica"
   - "software-libre"
-coverImage: "instalar-libreoffice-forma-manual.png"
+cover:
+  image: "images/instalar-libreoffice-forma-manual.png"
+  relative: true
 ---
 
 En mi caso pretendo instalar LibreOffice en un sistema operativo Debian, pero me encuentro con los siguientes problemas:

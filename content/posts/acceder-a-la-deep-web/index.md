@@ -5,7 +5,9 @@ categories:
   - "redes"
 tags: 
   - "internet"
-coverImage: "acceder-a-la-deep-web.png"
+cover:
+  image: "images/acceder-a-la-deep-web.png"
+  relative: true
 ---
 
 En el presente artículo veremos de forma detallada que es la deep web,  y como podemos acceder a ella para poder empezar a navegar de forma segura.

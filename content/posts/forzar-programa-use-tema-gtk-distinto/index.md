@@ -6,7 +6,9 @@ categories:
 tags: 
   - "gtk"
   - "tema-gtk"
-coverImage: "Forzar-que-un-programa-use-un-tema-GTK-distinto-al-configurado.png"
+cover:
+  image: "images/Forzar-que-un-programa-use-un-tema-GTK-distinto-al-configurado.png"
+  relative: true
 ---
 
 A continuación veremos como podemos forzar que un programa use un tema GTK distinto al configurado. De esta forma podremos conseguir lo que podéis observar en la captura de pantalla:<!--more-->

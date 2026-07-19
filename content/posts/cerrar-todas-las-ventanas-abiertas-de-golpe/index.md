@@ -7,7 +7,9 @@ tags:
   - "script"
   - "tips"
   - "wmctrl"
-coverImage: "Cerrar-todas-las-ventanas-abiertas-de-forma-simultánea-en-Linux.png"
+cover:
+  image: "images/Cerrar-todas-las-ventanas-abiertas-de-forma-simultánea-en-Linux.png"
+  relative: true
 ---
 
 Cuando cambio de tarea o cuando cierro el ordenador acostumbro a cerrar todas las ventanas y programas abiertos uno por uno. Esto sin duda es una pérdida de tiempo.

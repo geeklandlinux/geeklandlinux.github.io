@@ -7,7 +7,9 @@ tags:
   - "bash"
   - "terminal"
   - "tr"
-coverImage: "uso-del-comando-tr-en-linux.webp"
+cover:
+  image: "images/uso-del-comando-tr-en-linux.webp"
+  relative: true
 ---
 
 En esta ocasión veremos otra de las utilidades que nos servirán para manipular texto cuando estemos programando scripts o usando la terminal Linux o Unix. En esta ocasión veremos una serie de ejemplos que nos ayudarán a comprender el uso de la utilidad o comando tr<!--more-->

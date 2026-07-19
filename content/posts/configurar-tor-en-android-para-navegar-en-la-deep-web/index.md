@@ -8,7 +8,9 @@ tags:
   - "privacidad"
   - "proxy"
   - "tor"
-coverImage: "Configurar-tor-en-Android-para-navegar-en-la-deep-web.jpg"
+cover:
+  image: "images/Configurar-tor-en-Android-para-navegar-en-la-deep-web.jpg"
+  relative: true
 ---
 
 Hace tiempo escribí un [post]({{< relref "/posts/acceder-a-la-deep-web" >}}) en el que detallaba varios aspectos de la Deep web. A raíz de este post mucha gente ha estado pidiendo como poder acceder a la Deep web a partir de su teléfono Android. A raíz de las numerosas peticiones en el siguiente post detallaremos como acceder a la Deep Web a través de nuestro teléfono Android.<!--more-->

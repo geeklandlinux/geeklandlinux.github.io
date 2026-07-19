@@ -6,7 +6,9 @@ categories:
 tags: 
   - "alias"
   - "terminal"
-coverImage: "alias-en-linux-y-ejemplos-de-como-crearlos.jpeg"
+cover:
+  image: "images/alias-en-linux-y-ejemplos-de-como-crearlos.jpeg"
+  relative: true
 ---
 
 En ocasiones tenemos que introducir comandos largos y difíciles de recordar en la terminal. Esto acostumbra a generar errores y frustración, pero afortunadamente para solucionar este pequeño podremos usar los `alias` en Linux. Los `alias` nos ayudarán a simplificar la ejecución de un comando y de este modo el comando será más fácil de usar y de recordar. Por lo tanto en este artículo veremos que es un alias, que utilidades puede tener, como podemos crear un alias, como podemos borrar alias y como podemos listar los alias que tenemos configurados en nuestra terminal.<!--more-->

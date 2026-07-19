@@ -9,7 +9,9 @@ tags:
   - "raspbian"
   - "seguridad"
   - "videovigilancia"
-coverImage: "Sistema-de-videovigilancia-detector-movimiento-Motion.png"
+cover:
+  image: "images/Sistema-de-videovigilancia-detector-movimiento-Motion.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos como usar una Raspberry Pi o cualquier equipo con Linux para poder montar un sistema de videovigilancia. Para ello utilizaremos el software Motion y una simple webcam USB.<!--more-->

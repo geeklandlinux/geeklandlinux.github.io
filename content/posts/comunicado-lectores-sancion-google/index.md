@@ -5,7 +5,9 @@ categories:
   - "varios"
 tags: 
   - "comunicados"
-coverImage: "Comunicado-para-los-lectores-del-blog.png"
+cover:
+  image: "images/Comunicado-para-los-lectores-del-blog.png"
+  relative: true
 ---
 
 En mi post número 100 lamentablemente tengo que comunicaros malas noticias. Como habéis visto he pasado varias semanas sin publicar absolutamente nada. El motivo de este pequeño paro ha sido una sanción que me ha impuesto Google.<!--more-->

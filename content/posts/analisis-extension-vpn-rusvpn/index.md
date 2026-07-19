@@ -6,7 +6,9 @@ categories:
 tags: 
   - "privacidad"
   - "vpn"
-coverImage: "analisis-extension-vpn-de-rusvpn.png"
+cover:
+  image: "images/analisis-extension-vpn-de-rusvpn.png"
+  relative: true
 ---
 
 A continuación analizaremos y detallaremos como pueden instalar y usar el complemento o extensión VPN de [RusVPN](https://rusvpn.com/es/ "Web de RusVPN") en su navegador. Esta extensión VPN nos permitirá usar un [servicio VPN]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}}) en nuestro navegador de forma extremadamente sencilla.<!--more-->

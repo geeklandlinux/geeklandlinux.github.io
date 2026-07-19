@@ -7,7 +7,9 @@ tags:
   - "hardware"
   - "mac-address"
   - "privacidad"
-coverImage: "Mac-Address-¿Qué-es-Qué-usos-tiene-y-motivos-para-cambiarla.jpg"
+cover:
+  image: "images/Mac-Address-¿Qué-es-Qué-usos-tiene-y-motivos-para-cambiarla.jpg"
+  relative: true
 ---
 
 ## ¿QUÉ ES LA MAC ADDRESS O LA DIRECCIÓN MAC?

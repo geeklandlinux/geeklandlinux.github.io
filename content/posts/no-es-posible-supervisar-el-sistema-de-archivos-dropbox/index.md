@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "dropbox"
   - "ubuntu"
-coverImage: "No-es-posible-supervisar-el-sistema-de-archivos.png"
+cover:
+  image: "images/No-es-posible-supervisar-el-sistema-de-archivos.png"
+  relative: true
 ---
 
 No acostumbro a publicar contenido acerca de resolución de problemas que podemos tener con nuestros equipos pero está vez lo veo apropiado ya que he tenido un problema con Dropbox y ninguna de las soluciones que he encontrado en varios de los blogs que he consultado me ha funcionado. Por lo tanto en este post detallaré lo que hice para solucionar el problema “No es posible supervisar el sistema de archivos” que tuve con Dropbox.<!--more-->

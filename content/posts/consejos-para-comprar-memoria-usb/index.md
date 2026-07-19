@@ -6,7 +6,9 @@ categories:
 tags: 
   - "memoria"
   - "usb"
-coverImage: "consejos-comprar-memoria-USB.png"
+cover:
+  image: "images/consejos-comprar-memoria-USB.png"
+  relative: true
 ---
 
 Hoy en día a la hora de comprar una memoria USB **muchísima gente se deja seducir por el precio y por las grandes capacidades de almacenamiento** que se acostumbran a ofertar en las tiendas, Internet o centros comerciales.

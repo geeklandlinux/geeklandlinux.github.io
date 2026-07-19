@@ -9,7 +9,9 @@ tags:
   - "nginx"
   - "ofimatica"
   - "servicios-en-la-nube"
-coverImage: "instalar-collabora-online-suite-ofimatica-nextcloud.png"
+cover:
+  image: "images/instalar-collabora-online-suite-ofimatica-nextcloud.png"
+  relative: true
 ---
 
 En el pasado vimos como [instalar Nextcloud]({{< relref "/posts/instalar-nextcloud-en-ubuntu" >}}) en un servidor Ubuntu con Nginx, MariaDB y PHP. A continuación veremos el procedimiento a seguir para instalar Collabora Online en Nextcloud. De esta forma dispondremos de una suite ofimática integrada en Nextcloud y una solución parecida a Google Drive.<!--more-->

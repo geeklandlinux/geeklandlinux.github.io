@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "privacidad"
   - "tor"
-coverImage: "mitos-sobre-la-deep-web.png"
+cover:
+  image: "images/mitos-sobre-la-deep-web.png"
+  relative: true
 ---
 
 En Internet existen varios artículos que tratan la internet profunda o la Deep Web de forma sensacionalista y dan una información poco precisa y en muchas ocasiones falsa. Por este motivo en el siguiente artículo comentaremos algunos de los mitos de la Deep Web que acostumbro a leer.<!--more-->

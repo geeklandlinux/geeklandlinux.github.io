@@ -9,7 +9,9 @@ tags:
   - "iphone"
   - "privacidad"
   - "ssh"
-coverImage: "Conectarse-al-iPhone-o-al-iPad-con-OpenSSH.png"
+cover:
+  image: "images/Conectarse-al-iPhone-o-al-iPad-con-OpenSSH.png"
+  relative: true
 ---
 
 En este post instalaremos OpenSSH en nuestro iPad o iPhone y seguidamente veremos los pasos a seguir para conectarse a nuestro iPad o iPhone usando SSH.<!--more-->

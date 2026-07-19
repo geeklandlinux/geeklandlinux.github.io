@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "drivers-y-sonido"
-coverImage: "Nvidia.jpg"
+cover:
+  image: "images/Nvidia.jpg"
+  relative: true
 ---
 
 En este post veremos como instalar los drivers Nvidia privativos en Debian. Cuando instalamos Debian si nuestra targeta es NVIDIA los drivers que se instalan por defecto son los Nouveau. Los drivers Nouveau funcionan perfectamente pero en el caso que desees o necesites exprimir tu tarjeta gráfica al máximo la mejor opción sigue siendo usar los drivers privativos de NVIDIA.

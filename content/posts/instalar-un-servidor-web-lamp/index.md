@@ -10,7 +10,9 @@ tags:
   - "php"
   - "phpmyadmin"
   - "servidor"
-coverImage: "Instalar-servidor-web-LAMP.jpg"
+cover:
+  image: "images/Instalar-servidor-web-LAMP.jpg"
+  relative: true
 ---
 
 En el siguiente artículo veremos como instalar un servidor web LAMP en linux y más concretamente en Debian 8 (Jessie). Es de esperar que el procedimiento seguido para instalar el servidor web LAMP en Debian 8, sea también válido para prácticamente la totalidad de distribuciones derivadas de Debian.<!--more-->

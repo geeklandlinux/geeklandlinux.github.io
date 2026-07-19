@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "terminal"
-coverImage: "cambiar-idioma-de-la-terminal-en-Ubuntu-y-Debian.png"
+cover:
+  image: "images/cambiar-idioma-de-la-terminal-en-Ubuntu-y-Debian.png"
+  relative: true
 ---
 
 A continuación veremos como podemos cambiar el idioma de la terminal en Debian o en Ubuntu porque es relativamente normal que en el momento de contratar un servidor VPS la terminal no esté en Español. Por ejemplo en la siguiente captura de pantalla pueden ver que todo el texto que aparece en la terminal está en Inglés.<!--more-->

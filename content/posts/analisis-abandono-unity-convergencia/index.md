@@ -8,7 +8,9 @@ tags:
   - "opinion"
   - "ubuntu"
   - "unity"
-coverImage: "analisis-abandono-de-unity-la-convergencia-y-ubuntu-phone.png"
+cover:
+  image: "images/analisis-abandono-de-unity-la-convergencia-y-ubuntu-phone.png"
+  relative: true
 ---
 
 Cuando me enteré que Canonical abandona el desarrollo del escritorio Unity, la convergencia y Ubuntu Phone quede sorprendido, pero analizándolo fríamente pienso que han tomado la decisión correcta por los siguientes motivos.<!--more-->

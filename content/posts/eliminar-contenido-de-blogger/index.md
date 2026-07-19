@@ -8,7 +8,9 @@ tags:
   - "blogspot"
   - "dmca"
   - "internet"
-coverImage: "Retirar-contenido-copiado-de-Blogger.png"
+cover:
+  image: "images/Retirar-contenido-copiado-de-Blogger.png"
+  relative: true
 ---
 
 Durante las próximos meses voy a publicar una serie de artículos de como hacer que se retire contenido que vulnera los derechos de autor en la Web.

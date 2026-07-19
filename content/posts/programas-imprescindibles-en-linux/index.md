@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "software"
-coverImage: "instalacion-de-software.jpg"
+cover:
+  image: "images/instalacion-de-software.jpg"
+  relative: true
 ---
 
 A continuación les presento las aplicaciones, que según mi modesto punto de vista, deberían estar instaladas en cualquier sistema GNU Linux. Seguramente me dejaré muchas aplicaciones en el tintero pero con la relación de software que podéis encontrar a continuación pienso que se cubren las necesidades de un número importante de usuarios. Los programas los presento agrupados por categorías.<!--more-->

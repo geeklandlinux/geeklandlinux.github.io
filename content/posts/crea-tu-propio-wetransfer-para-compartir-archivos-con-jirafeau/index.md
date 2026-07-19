@@ -8,7 +8,9 @@ tags:
   - "servicios-en-la-nube"
   - "servidor"
   - "traefik"
-coverImage: "crea-tu-propio-wetransfer-y-comparte-archivos-con-jirafeau.png"
+cover:
+  image: "images/crea-tu-propio-wetransfer-y-comparte-archivos-con-jirafeau.png"
+  relative: true
 ---
 
 A continuación veremos como de forma sencilla podemos montar nuestro propio Wetransfer con Jirafeau y compartir archivos con nuestros contactos. Jirafeau es un software muy ligero que podremos instalar en cualquier servidor Linux y nos permitirá compartir ficheros e información con nuestros contactos. Para el funcionamiento de Jirafeau tan solo necesitaremos PHP y un servidor web ultraligero como Lighttpd. Por lo tanto será un servicio extremadamente liviano, rápido y además fácil de usar.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "usb"
-coverImage: "Montar-memoria-USB-via-terminal.jpg"
+cover:
+  image: "images/Montar-memoria-USB-via-terminal.jpg"
+  relative: true
 ---
 
 No es algo habitual pero a veces cuando se trabaja con servidores, en caso de avería, o en cualquier otra circunstancia, aparece la necesidad de usar una memoria USB sin disponer de ningún entorno gráfico.

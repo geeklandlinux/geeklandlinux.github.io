@@ -7,7 +7,9 @@ tags:
   - "consejos"
   - "memoria"
   - "ram"
-coverImage: "consumo-memoria-ram-de-un-programa.png"
+cover:
+  image: "images/consumo-memoria-ram-de-un-programa.png"
+  relative: true
 ---
 
 A veces resulta difícil saber de forma exacta la memoria RAM que consume un programa. Esto es debido a que los monitores del sistema nos acostumbran a proporcionar datos por procesos y hay que tener en cuenta que un mismo programa puede lanzar varios procesos que consumen memoria y recursos. Una claro ejemplo de lo que estoy comentando es la siguiente salida del comando top:<!--more-->

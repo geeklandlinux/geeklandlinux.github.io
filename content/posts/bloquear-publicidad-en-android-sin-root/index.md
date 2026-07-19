@@ -9,7 +9,9 @@ tags:
   - "internet"
   - "privacidad"
   - "publicidad"
-coverImage: "Bloquear-publicidad-en-Android-sin-ser-Root.png"
+cover:
+  image: "images/Bloquear-publicidad-en-Android-sin-ser-Root.png"
+  relative: true
 ---
 
 **Realmente hoy en día en Android pienso que existen pocos motivos para rootear nuestro teléfono**. Los único motivos de peso son probar ROM modificadas o instalar alguna aplicación que requiera de acceso Root. **Otro de los motivos que se me podría ocurrir es la bloquear los molestos anuncios que aparecen en algunas apps y cuando estas navegando, pero hoy en día para librarte de los anuncios ya no necesitamos ser root gracias a** [Adblock Plus](https://adblockplus.org/es/chrome "Web de Adblock Plus") para Android.<!--more-->

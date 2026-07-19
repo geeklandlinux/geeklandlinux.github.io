@@ -7,7 +7,9 @@ categories:
 tags: 
   - "logs"
   - "syslog"
-coverImage: "Habilitar-Syslog-en-la-Raspberry-Pi.webp"
+cover:
+  image: "images/Habilitar-Syslog-en-la-Raspberry-Pi.webp"
+  relative: true
 ---
 
 Después de realizar una instalación mínima de Raspbian OS en mi Raspberry Pi, observé que el [sistema de logs]({{< relref "/posts/logs-en-linux" >}}) `syslog` estaba desactivado. Desde la versión Raspbian Buster, solo viene activado `journalctl`, ya que se considera un sistema más moderno y eficiente que ayuda a evitar el consumo de recursos. Si estás buscando habilitar syslog en la Raspberry Pi, este artículo te mostrará cómo hacerlo paso a paso.

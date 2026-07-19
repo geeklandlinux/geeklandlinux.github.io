@@ -6,7 +6,9 @@ categories:
 tags: 
   - "disco-duro"
   - "hardware"
-coverImage: "Medir-Velocidad-lectura-y-escritura-disco-duro.jpg"
+cover:
+  image: "images/Medir-Velocidad-lectura-y-escritura-disco-duro.jpg"
+  relative: true
 ---
 
 La semana pasada escribí un post de [como evaluar el estado de salud de un disco duro o dispositivo de almacenamiento]({{< relref "/posts/conocer-el-estado-de-nuestro-disco-duro" >}}). Uno de los puntos era analizar si la velocidad de lectura y escritura son las que se detallan en las especificaciones del disco o si son las mismas que teníamos que cuando el disco duro era nuevo.

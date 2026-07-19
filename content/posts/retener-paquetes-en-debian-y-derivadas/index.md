@@ -7,7 +7,9 @@ categories:
 tags: 
   - "configuracion"
   - "retener-paquetes"
-coverImage: "Retener-paquetes-en-Debian-y-derivadas.png"
+cover:
+  image: "images/Retener-paquetes-en-Debian-y-derivadas.png"
+  relative: true
 ---
 
 En determinadas circunstancias resulta especialmente útil retener paquetes en Linux para bloquear la actualización de ciertos programas. En mi caso particular, después de actualizar el programa [caffeine]({{< relref "/posts/desactivar-salvapantallas-caffeine" >}}) observé que dejo de funcionar. Para solucionar el problema volví a instalar la versión anterior de caffeine, pero ahora cada vez que intento actualizar el sistema, tal y como se puede ver en la captura de pantalla, me fuerzan a actualizar caffeine.<!--more-->

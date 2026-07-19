@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "internet"
   - "logs"
-coverImage: "Detectar-cortes-de-internet-con-los-logs-del-Router-e1470485858168.jpg"
+cover:
+  image: "images/Detectar-cortes-de-internet-con-los-logs-del-Router-e1470485858168.jpg"
+  relative: true
 ---
 
 Cuando nuestro Router y el resto de elementos que conforman nuestra instalación de Internet van envejeciendo, se acostumbran a producir cortes y microcortes en nuestra conexión. Con el fin de detectar este problema, en el siguiente artículo explicaré un método elegante y práctico para poder detectar cortes y microcortes en nuestra conexión de internet.<!--more-->

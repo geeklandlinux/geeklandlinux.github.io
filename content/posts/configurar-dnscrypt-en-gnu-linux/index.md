@@ -8,7 +8,9 @@ tags:
   - "dns"
   - "dnscrypt"
   - "privacidad"
-coverImage: "Configurar-DNSCRypt-en-Linux-para-preservar-nuestra-privacidad-e1470153591851.png"
+cover:
+  image: "images/Configurar-DNSCRypt-en-Linux-para-preservar-nuestra-privacidad-e1470153591851.png"
+  relative: true
 ---
 
 [](images/Configurar-DNSCrypt-en-Linux.png)En las pasadas semanas vimos la [importancia que tiene cifrar nuestras peticiones DNS]({{< relref "/posts/motivos-cifrar-las-peticiones-dns" >}}) y además vimos el procedimiento para [instalar DNSCrypt]({{< relref "/posts/instalar-dnscrypt-linux-ubuntu-windows" >}}) en Linux y en Windows. Una vez tenemos instalado DNSCrypt en nuestro ordenador, ahora veremos los pasos a seguir para configurar DNSCRypt de forma adecuada y segura.<!--more-->

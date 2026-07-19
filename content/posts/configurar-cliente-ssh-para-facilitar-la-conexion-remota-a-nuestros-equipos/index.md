@@ -7,7 +7,9 @@ categories:
 tags: 
   - "configuracion"
   - "ssh"
-coverImage: "configurar-el-cliente-ssh-facilitar-conexion.png"
+cover:
+  image: "images/configurar-el-cliente-ssh-facilitar-conexion.png"
+  relative: true
 ---
 
 Quien tenga varios ordenadores y servidores y se conecte a ellos vía SSH sabrá que resulta difícil recordar los parámetros de conexión. Por este motivo a continuación detallaré el procedimiento para que todos los usuarios puedan configurar el cliente SSH de su distribución Linux y de esta forma facilitar la conexión remota a sus equipos y servidores.<!--more-->

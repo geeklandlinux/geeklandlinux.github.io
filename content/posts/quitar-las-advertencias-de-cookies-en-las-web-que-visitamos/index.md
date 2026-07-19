@@ -8,7 +8,9 @@ tags:
   - "cookies"
   - "firefox"
   - "privacidad"
-coverImage: "Quitar-las-advertencias-de-cookies-en-las-web-que-visitamos.png"
+cover:
+  image: "images/Quitar-las-advertencias-de-cookies-en-las-web-que-visitamos.png"
+  relative: true
 ---
 
 En todas y cada una de las nuevas web que visitamos recibimos notificaciones en pantalla informando que usan cookies. Además en algunas web nos preguntan explícitamente si las aceptamos o no. Por este motivo en el siguiente artículo veremos como podemos quitar las advertencias de cookies en las web que visitamos.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "chrome"
   - "firefox"
   - "opera"
-coverImage: "Modo-Lectura-en-Chrome-Firefox-y-Opera.jpg"
+cover:
+  image: "images/Modo-Lectura-en-Chrome-Firefox-y-Opera.jpg"
+  relative: true
 ---
 
 En mi caso trabajo todo el día delante de una pantalla de ordenador y cuando llego a casa a veces me pongo a leer algún que otro blog. Después de haber pasado horas y horas delante de una pantalla **a veces se me hace bastante pesado leer según que blogs porqué visualmente están cargados, la combinación de colores del tema cansa a la vista, la letra es pequeña, etc**.<!--more-->

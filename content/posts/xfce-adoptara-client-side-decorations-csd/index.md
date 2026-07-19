@@ -7,7 +7,9 @@ tags:
   - "entornos-de-escritorio"
   - "opinion"
   - "xfce"
-coverImage: "xfce-adoptara-las-client-side-decorations-csd.png"
+cover:
+  image: "images/xfce-adoptara-las-client-side-decorations-csd.png"
+  relative: true
 ---
 
 Gnome destrozo la integración de las aplicaciones en el escritorio mediante la introducción de las Client Side Decorations en Gnome 3. Desafortunadamente es posible que XFCE siga los pasos de Gnome habilitando esta característica a partir de la versión 4.16. Su hoja de ruta y lo que pretenden realizar está detallado en el siguiente enlace:<!--more-->

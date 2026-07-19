@@ -8,7 +8,9 @@ tags:
   - "catfish"
   - "thunar"
   - "xfce"
-coverImage: "Buscar-archivos-y-carpetas-con-el-gestor-de-archivos-Thunar.jpg"
+cover:
+  image: "images/Buscar-archivos-y-carpetas-con-el-gestor-de-archivos-Thunar.jpg"
+  relative: true
 ---
 
 En contraposición a otros gestores de archivos, como por ejemplo Nautilus o Dolphin, Thunar aparentemente no trae incorporado un buscador de archivos de serie. No obstante a continuación veremos unas simples instrucciones que nos permitirán buscar archivos en Thunar de forma fácil y efectiva.<!--more-->

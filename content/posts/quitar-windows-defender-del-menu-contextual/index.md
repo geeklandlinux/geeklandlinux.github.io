@@ -7,7 +7,9 @@ tags:
   - "antivirus"
   - "configuracion"
   - "windows-defender"
-coverImage: "Quitar-Windows-defender-del-Menu-contextual-de-Windows.png"
+cover:
+  image: "images/Quitar-Windows-defender-del-Menu-contextual-de-Windows.png"
+  relative: true
 ---
 
 En el pasado vimos los pasos a seguir para [desactivar Windows Defender]({{< relref "/posts/desactivar-windows-defender-permanente" >}}) de nuestro sistema operativo. Después de desactivarlo nos seguirán apareciendo las opciones de Windows Defender en el menú contextual de Windows. Por este motivo en el siguiente artículo veremos los pasos a seguir para quitar Windows Defender del menú contextual de Windows. De esta forma evitaremos ver la entrada **Examinar con Windows Defender…** cada vez que consultemos las propiedades de un archivo o de una carpeta.<!--more--> [![Windows Defender en el menú contextual](images/Menu-contextual-con-Windows-Defender.png "Windows Defender en el menú contextual")](images/Menu-contextual-con-Windows-Defender.png)

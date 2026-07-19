@@ -6,7 +6,9 @@ categories:
 tags: 
   - "ofimatica"
   - "software"
-coverImage: "Instalar-typora-en-Linux.jpg"
+cover:
+  image: "images/Instalar-typora-en-Linux.jpg"
+  relative: true
 ---
 
 En mi caso uso el editor de textos Typora para redactar la totalidad de contenido del blog. Es el método que me resulta más rápido, fácil y práctico. Por este motivo a continuación veremos como podemos instalar Typora y mantenerlo actualizado en cualquier distribución GNU Linux.<!--more-->

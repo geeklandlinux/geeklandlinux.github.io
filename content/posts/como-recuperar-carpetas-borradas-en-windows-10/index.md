@@ -8,7 +8,9 @@ tags:
   - "recuperar-archivos"
   - "seguridad"
   - "tips"
-coverImage: "como-rercuperar-carpetas-borradas-en-windows-.jpeg"
+cover:
+  image: "images/como-rercuperar-carpetas-borradas-en-windows-.jpeg"
+  relative: true
 ---
 
 Por segunda vez en mi vida estaba buscando una carpeta en la que tenía unos documentos de trabajo y sorprendentemente no estaba donde tenia que estar. Antes de entrar en pánico he usado el buscador de Windows y a posteriori he mirado en la papelera de reciclaje, pero desafortunadamente la información no estaba. Frente esta situación he consultado el departamento de informática de mi empresa y como en este caso no había copia de seguridad han decidido usar un software profesional para intentar recuperar carpetas borradas. En este caso el software utilizado ha sido [4DDIG](https://4ddig.tenorshare.com/es/windows-data-recovery.html) y para mi suerte el resultado ha sido satisfactorio. El procedimiento que seguimos fue el siguiente.<!--more-->

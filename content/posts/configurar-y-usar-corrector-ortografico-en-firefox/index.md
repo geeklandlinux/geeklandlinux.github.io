@@ -6,7 +6,9 @@ categories:
 tags: 
   - "firefox"
   - "internet"
-coverImage: "configurar-y-usar-el-corrector-orotgrafico-en-firefox.jpg"
+cover:
+  image: "images/configurar-y-usar-el-corrector-orotgrafico-en-firefox.jpg"
+  relative: true
 ---
 
  

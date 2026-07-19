@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "fuentes"
-coverImage: "mejorar-el-renderizado-de-fuentes-en-linux.png"
+cover:
+  image: "images/mejorar-el-renderizado-de-fuentes-en-linux.png"
+  relative: true
 ---
 
 En mi caso me da la sensación que distribuciones como Ubuntu o Linux Mint tienen un renderizado de fuentes perfecto. En cambio en otras distribuciones las cosas dejan bastante que desear y requieren de nuestra intervención para conseguir un resultado satisfactorio.

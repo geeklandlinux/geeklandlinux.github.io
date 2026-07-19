@@ -5,7 +5,9 @@ categories:
   - "varios"
 tags: 
   - "servicios-en-la-nube"
-coverImage: "Que-es-la-computación-en-la-nube.jpg"
+cover:
+  image: "images/Que-es-la-computación-en-la-nube.jpg"
+  relative: true
 ---
 
 Hace ya varios años que se está hablando constantemente de la nube, de la computación en la nube, de los servicios en la nube, etc. A pesar de esto a día de hoy hay muchas personas que siguen sin entender estos conceptos. Por este motivo en el siguiente artículo intentaré explicar estos conceptos de forma que todo el mundo los pueda entender.<!--more-->

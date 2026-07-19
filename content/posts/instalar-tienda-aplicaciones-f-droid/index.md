@@ -6,7 +6,9 @@ categories:
 tags: 
   - "aplicaciones"
   - "f-droid"
-coverImage: "que-es-f-droid.jpg"
+cover:
+  image: "images/que-es-f-droid.jpg"
+  relative: true
 ---
 
 Hace unos días escribí un post en el que recomendé que solo se instalarán apps de 3 tiendas. Una de las tiendas que recomendé es F-droid.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "dns"
-coverImage: "mejor-servidor-dns.jpg"
+cover:
+  image: "images/mejor-servidor-dns.jpg"
+  relative: true
 ---
 
 En grandes cantidades de post o en conversaciones entre geeks se suelen recomendar algún que otro servidor DNS para incrementar la velocidad de navegación en Internet. Pero hay que tener en cuenta la elección del mejor DNS depende de múltiples factores. Puede ser que para nosotros el mejor DNS sea el de Google mientras que por determinadas circunstancias en otros países otros servidores DNS, como por ejemplo los que te puede ofrecer tu ISP, funcionen mejor que los de Google.<!--more-->

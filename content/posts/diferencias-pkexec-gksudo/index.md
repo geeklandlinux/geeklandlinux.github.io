@@ -7,7 +7,9 @@ tags:
   - "gksudo"
   - "pkexec"
   - "sudo"
-coverImage: "diferencias-pkexec-gksudo.png"
+cover:
+  image: "images/diferencias-pkexec-gksudo.png"
+  relative: true
 ---
 
 Hoy en día hay bastantes usuarios que intentan iniciar una aplicación gráfica como usuario root y se encuentran con la sorpresa que gksudo no está presente en su sistema operativo. Si se encuentran con está situación y usan el servidor gráfico X.org les recomiendo usar su reemplazo que es pkexec.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "chrome"
   - "chromium"
   - "internet"
-coverImage: "Usar-el-corrector-ortográfico-en-Chrome.jpg"
+cover:
+  image: "images/Usar-el-corrector-ortográfico-en-Chrome.jpg"
+  relative: true
 ---
 
 Recientemente ha cambiado la forma de usar el corrector ortográfico en Chrome y en Chromium. Por este motivo he decidido a redactar este post en el que comentaré como usar el corrector ortográfico en estos dos navegadores.<!--more-->

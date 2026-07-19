@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "xfce"
-coverImage: "window-tiling-xfce-4.8.jpg"
+cover:
+  image: "images/window-tiling-xfce-4.8.jpg"
+  relative: true
 ---
 
 Particularmente uso el escritorio [XFCE](http://www.xfce.org/ "Xfce Website") tanto en Debian como en Xubuntu, que son los 2 sistemas operativos que utilizo habitualmente. Para mi es el escritorio ideal ya que bajo mi punto de vista es configurable, sencillo, intuitivo, funcional y ligero. Aunque mejor no discutir sobre estos puntos ya que es cuestión de gustos personales.<!--more-->

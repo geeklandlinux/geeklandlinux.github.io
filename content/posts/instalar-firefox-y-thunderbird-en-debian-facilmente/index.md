@@ -9,7 +9,9 @@ tags:
   - "linux"
   - "software"
   - "thunderbird"
-coverImage: "firefox-and-thunderbird.jpg"
+cover:
+  image: "images/firefox-and-thunderbird.jpg"
+  relative: true
 ---
 
 Hoy vamos a ver como instalar Firefox y Thunderbird en Debian fácilmente. Soy relativamente nuevo en Linux y hasta día de hoy siempre había usado Ubuntu pero gracias a Unity he descubierto que existen otras distros. Algo bueno tenia que tener Unity, no? Recientemente he decidido pasarme definitivamente a Debian en su rama testing con el escritorio XFCE 4.8.<!--more-->

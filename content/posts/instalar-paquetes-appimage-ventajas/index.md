@@ -7,7 +7,9 @@ tags:
   - "appimage"
   - "firejail"
   - "sandbox"
-coverImage: "instalar-paquetes-appimage-ventajas-inconvenientes.png"
+cover:
+  image: "images/instalar-paquetes-appimage-ventajas-inconvenientes.png"
+  relative: true
 ---
 
 En el transcurso del artículo detallaremos la totalidad de aspectos que tenemos que conocer sobres los paquetes AppImage.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "nextcloud"
   - "owncloud"
-coverImage: "instalar-configurar-cliente-de-nextcloud-linux.png"
+cover:
+  image: "images/instalar-configurar-cliente-de-nextcloud-linux.png"
+  relative: true
 ---
 
 En su día detallamos el procedimiento para [instalar]({{< relref "/posts/instalar-nextcloud-mariadb-lighttpd" >}}) y [configurar]({{< relref "/posts/configurar-optimizar-rendimiento-nextcloud" >}}) una nube Nextcloud. En esta ocasión les mostraremos el procedimiento para instalar y configurar un cliente de Nextcloud en GNU-Linux.<!--more-->

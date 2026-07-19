@@ -7,7 +7,9 @@ tags:
   - "chocolatey"
   - "gestor-de-paquetes"
   - "software"
-coverImage: "Gestor-de-paquetes-para-Windows-para-instalar-software.png"
+cover:
+  image: "images/Gestor-de-paquetes-para-Windows-para-instalar-software.png"
+  relative: true
 ---
 
 En el mundo de los sistemas operativos, la gestión eficiente de software es crucial para mantener nuestro entorno de trabajo optimizado y seguro. Para los usuarios de Windows, Chocolatey se ha establecido como el gestor de paquetes por excelencia. Si alguna vez has soñado con una manera más sencilla y automatizada de instalar, actualizar y gestionar tus aplicaciones, este es tú artículo. <!--more-->

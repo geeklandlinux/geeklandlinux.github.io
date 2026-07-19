@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "publicidad"
   - "ublock"
-coverImage: "Instalar-uBlock-origin-en-Chrome-y-en-Firefox.png"
+cover:
+  image: "images/Instalar-uBlock-origin-en-Chrome-y-en-Firefox.png"
+  relative: true
 ---
 
 Con el fin de que todo el mundo pueda bloquear la publicidad en internet sin problemas, en este post veremos los pasos a seguir para instalar uBlock Origin en las versiones de escritorio de los navegadores Google Chrome y Firefox.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "redirector"
   - "repositorios"
-coverImage: "Usar-los-repositorios-redirector-en-Debian.png"
+cover:
+  image: "images/Usar-los-repositorios-redirector-en-Debian.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos como seleccionar el mejor repositorio de forma automática mediante los repositorios redirector de Debian. En el pasado ya escribí un post en el que detallaba como [encontrar los repositorios más rápidos]({{< relref "/posts/elegir-el-mejor-repositorio-en-debian" >}}) en Debian. El método que mostrábamos era y es perfectamente válido pero presenta los siguientes inconvenientes:<!--more-->

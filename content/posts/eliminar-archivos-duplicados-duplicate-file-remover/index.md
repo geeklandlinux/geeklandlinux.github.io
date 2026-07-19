@@ -6,7 +6,9 @@ categories:
 tags: 
   - "software"
   - "tips"
-coverImage: "eliminar-archivos-duplicados-duplicate-file-remover.png"
+cover:
+  image: "images/eliminar-archivos-duplicados-duplicate-file-remover.png"
+  relative: true
 ---
 
 Si somos personas poco organizadas, tarde o temprano acabaremos generando archivos duplicados en nuestro ordenador. Para solucionar este problema, a continuación detallaremos como buscar i eliminar archivos duplicados en Windows con el software [Duplicate file remover.](https://www.remosoftware.com/remo-duplicate-file-remover)<!--more-->

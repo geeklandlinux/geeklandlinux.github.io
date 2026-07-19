@@ -8,7 +8,9 @@ tags:
   - "servicios-en-la-nube"
   - "servidor"
   - "webdav"
-coverImage: "instalar-y-configurar-servidor-webdav.png"
+cover:
+  image: "images/instalar-y-configurar-servidor-webdav.png"
+  relative: true
 ---
 
 A continuación veremos como instalar y configurar un servidor WebDav sobre un servidor Apache en el sistema operativo Ubuntu. Pero antes de iniciar el proceso veremos que es un servidor WebDav y para que sirve.<!--more-->

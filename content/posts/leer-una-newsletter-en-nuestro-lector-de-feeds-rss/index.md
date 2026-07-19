@@ -9,7 +9,9 @@ tags:
   - "lector-de-feeds"
   - "newsletter"
   - "rss"
-coverImage: "leer-una-newsletter-mediante-nuestro-lector-de-feed-rrss.jpeg"
+cover:
+  image: "images/leer-una-newsletter-mediante-nuestro-lector-de-feed-rrss.jpeg"
+  relative: true
 ---
 
 En mi caso no me gusta leer newsletter a través del email. Mi opción preferida para consumir la totalidad de contenido es a través de un lector de feeds RSS que en mi caso es [Tiny Tiny RSS]({{< relref "/posts/instalar-tiny-tiny-rss-con-su-docker-oficial-y-el-proxy-inverso-traefik" >}}). En mi lector de feeds centralizo la totalidad de contenido que me interesa leer incluyendo también las newsletter y me resulta sumamente práctico. Desafortunadamente hay muchas newsletter que no ofrecen un feed RSS a los lectores y por lo tanto la única forma que tenemos para leer su contenido es a través del email. Pero afortunadamente gracias al servicio Kill the newsletter podremos convertir las newsletter que recibimos por email a un feed RSS al que podremos suscribirnos.<!--more-->

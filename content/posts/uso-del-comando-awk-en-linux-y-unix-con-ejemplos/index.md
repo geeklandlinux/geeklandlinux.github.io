@@ -6,7 +6,9 @@ categories:
 tags: 
   - "awk"
   - "bash"
-coverImage: "Uso-del-comando-Awk.png"
+cover:
+  image: "images/Uso-del-comando-Awk.png"
+  relative: true
 ---
 
 Hace unas semanas vimos con bastante profundidad y con ejemplos [el uso que podíamos dar a la utilidad Sed]({{< relref "/posts/uso-del-comando-sed-en-linux-y-unix-con-ejemplos" >}}). Ahora ha llegado el momento de hacer lo mismo pero esta vez con el comando Awk. Como ya dije en su día, si queréis empezar a programar scripts es esencial tener un conocimiento básico de herramientas como sed, awk, grep, cut, etc.<!--more-->

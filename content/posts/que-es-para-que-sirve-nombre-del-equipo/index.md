@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "hostname"
-coverImage: "Que-es-para-que-sirve-y-como-cambiar-el-nombre-del-equipo.jpg"
+cover:
+  image: "images/Que-es-para-que-sirve-y-como-cambiar-el-nombre-del-equipo.jpg"
+  relative: true
 ---
 
 Recientemente acabo de instalar Fedora. En la instalación no me percate que en ninguno de los pasos me estuviera pidiendo el nombre del equipo y cuando finalice la instalación vi que el nombre del equipo de Fedora era localhost. A raíz de esto me surgió la idea de escribir un **post explicando lo que es el nombre del equipo o hostname, para que sirve y como podemos cambiarlo si el que tenemos no nos gusta o no es el adecuado para nosotros**. El método usado para cambiar el hostname o nombre de equipo es válido tanto para distribuciones basadas en en Debian como en Fedora.<!--more-->

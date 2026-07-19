@@ -8,7 +8,9 @@ tags:
   - "maquina-virtual"
   - "ubuntu"
   - "utm"
-coverImage: "Instalar-Ubuntu-22_04-en-un-Mac-con-procesador-Apple-Silicon.jpg"
+cover:
+  image: "images/Instalar-Ubuntu-22_04-en-un-Mac-con-procesador-Apple-Silicon.jpg"
+  relative: true
 ---
 
 Ya sea por curiosidad o porque por ejemplo necesitan crear un entorno de desarrollo, a continuación les mostraré el procedimiento para para instalar una [máquina virtual]({{< relref "/posts/que-es-una-maquina-virtual-usos-y-ventajas-que-nos-proporiciona" >}}) con el sistema operativo Ubuntu 22.04 en cualquier ordenador Mac que use un procesador Apple Silicon. Hoy en día la mejor forma de instalar y [usar Ubuntu en un ordenador Mac](https://iboysoft.com/howto/how-to-use-linux-on-mac.html?utm_source=geekland&utm_medium=guest-post&utm_campaign=linux-on-mac) que use un procesador Apple Silicon es mediante la virtualización. Si siguen los pasos que se indican en el siguiente artículo verán que el rendimiento obtenido es sorprendentemente bueno y por ejemplo dispondrán de aceleración gráfica por Hardware.<!--more-->

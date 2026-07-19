@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "debian"
-coverImage: "limpieza-en-Linux.jpg"
+cover:
+  image: "images/limpieza-en-Linux.jpg"
+  relative: true
 ---
 
 Con el paso del tiempo seguramente tendremos la necesidad de limpiar nuestro sistema operativo. Veremos que el disco duro de nuestro ordenador se va llenando de basura y que si no hacemos nada este problema siempre irá en aumento.  Cabe remarcar que aunque tengamos instalada "basura" en nuestro disco duro, el rendimiento de nuestro sistema será mas que aceptable y en ningún caso el comportamiento que tendremos se puede asimilar a lo que nos pasaría con Windows. Lo único que notaremos en Linux es que nos quedamos sin espacio en el disco duro. ¿Por qué se nos llena nuestro disco duro de basura?<!--more-->

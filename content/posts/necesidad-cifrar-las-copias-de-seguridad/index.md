@@ -7,7 +7,9 @@ tags:
   - "backup"
   - "cifrado"
   - "privacidad"
-coverImage: "cifrar-o-no-cifrar-las-copias-de-seguridad.jpg"
+cover:
+  image: "images/cifrar-o-no-cifrar-las-copias-de-seguridad.jpg"
+  relative: true
 ---
 
 El tema que abordaremos a continuación es si tenemos o no tenemos que cifrar las copias de seguridad. Y quiero abordar el tema porque son muchas las personas que sin pensarlo ni dudarlo “criminalizan” a la gente que no cifra las copias de seguridad.<!--more-->

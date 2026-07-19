@@ -7,7 +7,9 @@ tags:
   - "openvpn"
   - "privacidad"
   - "vpn"
-coverImage: "Conectarse-servidor-OpenVPN-en-Windows.png"
+cover:
+  image: "images/Conectarse-servidor-OpenVPN-en-Windows.png"
+  relative: true
 ---
 
 Hace ya semanas vimos como montar nuestro propio servidor OpenVPN en distribuciones derivadas de Debian y posteriormente vimos como podíamos conectarnos a nuestro servidor OpenVPN a través de iOS. Por lo tanto **ahora toca el turno de ver como nos podemos conectar a nuestro servidor OpenVPN en Windows**. Los pasos para seguir para poder utilizar nuestro Servidor OpenVPN en Windows son los siguientes:<!--more-->

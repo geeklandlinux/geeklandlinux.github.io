@@ -7,7 +7,9 @@ tags:
   - "apt"
   - "codigo-fuente"
   - "debian"
-coverImage: "obtener-el-codigo-fuente-programas-linux.jpg"
+cover:
+  image: "images/obtener-el-codigo-fuente-programas-linux.jpg"
+  relative: true
 ---
 
 En Linux se menciona frecuentemente que el código fuente de los programas está disponible para que todo el mundo pueda estudiarlo, auditarlo y compilar sus propios programas. Pero la realidad es que la gran mayoría de usuarios, entre los que me incluyo, se limita a trabajar con los paquetes binarios. Por este motivo a continuación explicaré de forma breve un par de métodos para que los usuarios de Debian y de distribuciones basadas en Debian puedan obtener el código fuente de la mayoría de programas presentes en los repositorios.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "descargas"
   - "jdownloader"
   - "myjdownloader"
-coverImage: "gestor-de-descargas-remoto-myjdownloader.jpg"
+cover:
+  image: "images/gestor-de-descargas-remoto-myjdownloader.jpg"
+  relative: true
 ---
 
 A continuación detallaremos como podemos montar nuestro propio gestor de descargas remoto con JDownloader y MyJDownloader en una Raspberry o en cualquier equipo en el que podamos instalar Docker.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "opera"
   - "privacidad"
   - "vpn"
-coverImage: "VPN-Gratis-para-Android-e-iOS.png"
+cover:
+  image: "images/VPN-Gratis-para-Android-e-iOS.png"
+  relative: true
 ---
 
 Hace unas semanas publique un post detallando como usar el servicio VPN que trae incorporado de serie el navegador de escritorio de Opera. En esta ocasión veremos como podemos instalar y usar el servicio VPN para Android e iOS que nos ofrece.<!--more-->

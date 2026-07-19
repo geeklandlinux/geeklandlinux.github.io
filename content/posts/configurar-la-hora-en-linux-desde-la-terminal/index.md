@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "hora"
   - "ntp"
-coverImage: "configurar-la-hora-en-linux-desde-la-terminal.png"
+cover:
+  image: "images/configurar-la-hora-en-linux-desde-la-terminal.png"
+  relative: true
 ---
 
 Es posible que en el primer momento que creamos una instancia en un servidor VPS no tenga la hora configurada de forma correcta. Este puede ser un problema en determinadas situaciones como por ejemplo cuando queremos programar la ejecución de una tarea a una determinada hora. Para solucionar este problema y configurar la hora en Linux de forma correcta procederemos del siguiente modo.<!--more-->

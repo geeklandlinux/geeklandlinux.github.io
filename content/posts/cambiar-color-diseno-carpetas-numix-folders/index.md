@@ -9,7 +9,9 @@ tags:
   - "iconos"
   - "numix"
   - "ubuntu"
-coverImage: "Cambiar-el-color-y-el-diseño-de-las-carpetas-con-Numix-folders.jpg"
+cover:
+  image: "images/Cambiar-el-color-y-el-diseño-de-las-carpetas-con-Numix-folders.jpg"
+  relative: true
 ---
 
 Existen usuarios del tema de iconos de Numix que estoy seguro que les gustaría cambiar el color y la apariencia de sus carpetas. Si este es vuestro caso podéis instalar el tema de carpetas Numix folders siguiendo las instrucciones del siguiente post.<!--more-->

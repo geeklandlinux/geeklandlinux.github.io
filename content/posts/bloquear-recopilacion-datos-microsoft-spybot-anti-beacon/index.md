@@ -11,7 +11,9 @@ tags:
   - "windows-10"
   - "windows-7"
   - "windows-8"
-coverImage: "bloquear-la-recopilación-de-datos-de-microsoft.png"
+cover:
+  image: "images/bloquear-la-recopilación-de-datos-de-microsoft.png"
+  relative: true
 ---
 
 Hace unas semanas vimos las instrucciones para [configurar las opciones de privacidad en Windows]({{< relref "/posts/opciones-de-privacidad-windows-10" >}}). A pesar de configurar las opciones de privacidad, Windows sigue recopilando datos de sus usuarios de forma inevitable porque no ofrece las herramientas necesarias para configurar de forma adecuada nuestra privacidad. Para solucionar este problema en este artículo les presentaré el programa Spybot Anti-Beacon.<!--more-->

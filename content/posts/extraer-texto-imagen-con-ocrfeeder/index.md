@@ -7,7 +7,9 @@ tags:
   - "ocr"
   - "ocrfeeder"
   - "tesseract"
-coverImage: "Extraer-texto-de-imagen-con-ocrfeeder.png"
+cover:
+  image: "images/Extraer-texto-de-imagen-con-ocrfeeder.png"
+  relative: true
 ---
 
 En pasados vimos que es el OCR o reconocimiento óptico de caracteres. Además analizamos los usos que le podemos dar, las ventajas que nos proporciona y las limitaciones que tiene hoy en día. Sin entrar en mucho detalle también vimos que existen varios software de reconocimiento OCR libres. Para quien considere releer el post que menciono les dejo el siguiente [link]({{< relref "/posts/fundamentos-usos-limitaciones-ocr" >}}). En este post nos centraremos en explicar el funcionamiento de OCRfeeder que es uno de los software que en su día nombramos.<!--more-->

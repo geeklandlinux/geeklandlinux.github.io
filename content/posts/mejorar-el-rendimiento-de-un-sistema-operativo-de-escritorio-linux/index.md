@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "memoria"
   - "tips"
-coverImage: "mejorar-el-rendimeinto-linux.jpg"
+cover:
+  image: "images/mejorar-el-rendimeinto-linux.jpg"
+  relative: true
 ---
 
 A continuación detallaré una serie de modificaciones en la configuración que les ayudarán a mejorar el rendimiento de su sistema operativo Linux. Las modificaciones que aplicaremos modificarán la gestión de la memoria de nuestro equipo y el funcionamiento del disco duro.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "google"
   - "ofimatica"
   - "traduccion"
-coverImage: "como-traducir-textos-en-una-hoja-de-calculo.webp"
+cover:
+  image: "images/como-traducir-textos-en-una-hoja-de-calculo.webp"
+  relative: true
 ---
 
 En este artículo, exploraremos cómo usar la hoja de cálculo Google Sheets para traducir textos de un idioma a otro de manera automática y eficiente. Esta herramienta puede ser especialmente útil y eficiente para proyectos multilingües, informes, y en el momento de traducir grandes volúmenes de texto automáticamente. Aquí te mostramos cómo hacerlo paso a paso.<!--more-->

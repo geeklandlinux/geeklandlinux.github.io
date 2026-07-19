@@ -8,7 +8,9 @@ tags:
   - "redes-sociales"
   - "software"
   - "toot"
-coverImage: "toot-cliente-de-mastodon-para-la-terminal.png"
+cover:
+  image: "images/toot-cliente-de-mastodon-para-la-terminal.png"
+  relative: true
 ---
 
 Toot es un cliente de Mastodon que permite interactuar con instancias de Mastodon desde la línea de comandos y la terminal. Algunas de las características que ofrece Toot son:<!--more-->

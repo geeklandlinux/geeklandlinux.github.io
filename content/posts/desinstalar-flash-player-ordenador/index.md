@@ -9,7 +9,9 @@ tags:
   - "flash"
   - "software"
   - "ubuntu"
-coverImage: "Desinstalar-flash-de-nuestro-ordenador.png"
+cover:
+  image: "images/Desinstalar-flash-de-nuestro-ordenador.png"
+  relative: true
 ---
 
 La semana pasada vimos varias [razones por las cuales hoy en día no es recomendable usar Adobe Flash]({{< relref "/posts/motivos-bloquear-flash-player-navegador" >}}) Player en nuestro ordenador. Una vez vistas las principales razones en este artículo veremos como podemos desinstalar flash de nuestro ordenador. De esta forma podremos evitar la totalidad de inconvenientes que en su día citamos.<!--more-->

@@ -5,7 +5,9 @@ categories:
   - "seguridad-informatica"
 tags: 
   - "control-parental"
-coverImage: "Control-parental.jpg"
+cover:
+  image: "images/Control-parental.jpg"
+  relative: true
 ---
 
 Hoy en día gracias a los [estudios](http://www.diariodenavarra.es/noticias/mas_actualidad/sociedad/2013/10/26/el_uso_del_movil_generaliza_partir_los_anos_134661_1035.html "Habitos de uso de internet de los menores") realizados se puede afirmar que **la gran mayoría de niños que tienen 10 años acceden a diario a internet para poder jugar a juegos, ver vídeos online, acceder a las redes sociales, etc.**

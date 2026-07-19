@@ -8,7 +8,9 @@ tags:
   - "disco-duro"
   - "find"
   - "linux"
-coverImage: "Buscar-archivos-que-llenan-nuestro-disco-duro.png"
+cover:
+  image: "images/Buscar-archivos-que-llenan-nuestro-disco-duro.png"
+  relative: true
 ---
 
 Hoy estaba redimensionando una imagen con Gimp y he parado el proceso porqué me he dado que la partición Home se estaba quedando sin espacio debido al proceso de redimensionamento de la foto con Gimp.<!--more-->

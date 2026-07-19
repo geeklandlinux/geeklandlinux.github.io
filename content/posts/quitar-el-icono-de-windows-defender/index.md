@@ -7,7 +7,9 @@ tags:
   - "antivirus"
   - "configuracion"
   - "windows-defender"
-coverImage: "Quitar-el-icono-de-Windows-Defender.png"
+cover:
+  image: "images/Quitar-el-icono-de-Windows-Defender.png"
+  relative: true
 ---
 
 Quienes dispongan de Windows 10 observarán que en la barra de tareas les aparece el icono de Windows Defender. En el caso que les moleste, en este post veremos los pasos a seguir para quitar el icono de Windows Defender de la barra de tareas de Windows.<!--more-->

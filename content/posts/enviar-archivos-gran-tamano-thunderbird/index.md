@@ -6,7 +6,9 @@ categories:
 tags: 
   - "email"
   - "thunderbird"
-coverImage: "Enviar-archivos-de-gran-tamaño-en-Thunderbird.jpg"
+cover:
+  image: "images/Enviar-archivos-de-gran-tamaño-en-Thunderbird.jpg"
+  relative: true
 ---
 
 En entornos laborales y familiares es típica la situación en la que queremos enviar un mail con uno o varios archivos adjuntos que ocupan tamaño grande. Muchas veces esto representa un problema ya que la mayoría de servidores de correo electrónico no permiten adjuntar archivos superiores a un determinado tamaño.<!--more-->

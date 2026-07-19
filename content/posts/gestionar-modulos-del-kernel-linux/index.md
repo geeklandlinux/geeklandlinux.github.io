@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "kernel"
   - "modulos-del-kernel"
-coverImage: "Cómo-gestionar-módulos-del-kernel-Linux.png"
+cover:
+  image: "images/Cómo-gestionar-módulos-del-kernel-Linux.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos la totalidad de puntos necesarios para gestionar de forma adecuada los módulos del kernel de Linux. A continuación empezamos con la explicación.<!--more-->

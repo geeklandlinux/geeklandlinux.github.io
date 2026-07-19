@@ -8,7 +8,9 @@ tags:
   - "nohup"
   - "procesos"
   - "tips"
-coverImage: "nohub-terminar-proceso-despues-cerrar-sesion.jpg"
+cover:
+  image: "images/nohub-terminar-proceso-despues-cerrar-sesion.jpg"
+  relative: true
 ---
 
 Existen ocasiones en que nos conectamos vía SSH y/o lanzamos tareas que pueden durar mucho tiempo. Durante todo el tiempo que dura la operación a realizar, la sesión SSH, la terminal o la sesión de usuario tienen que mantenerse activas. Si la conexión SSH se cae o cerramos la sesión de nuestro usuario, se interrumpirá la operación que estamos realizando. Para evitar este problema tenemos varias soluciones, pero sin duda una solución extremadamente fácil es utilizar el comando nohup (No hung up). Se que existen otras opciones como tmux o screen, pero en mi caso siempre acostumbro a usar nohup.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "proxy-inverso"
   - "traefik"
-coverImage: "instalar-y-configurar-traefik-2.png"
+cover:
+  image: "images/instalar-y-configurar-traefik-2.png"
+  relative: true
 ---
 
 Meses atrás vimos como [instalar configurar y usar la versión 1.7 del proxy inverso Traefik]({{< relref "/posts/instalar-y-configurar-el-proxy-inverso-traefik-en-docker" >}}). A continuación veremos como configurar, instalar y entender la versión 2 de Traefik. Pero antes de empezar es importante conocer bien las diferencias existentes entre Traefik v1 y Traefik v2 y entender como funciona la versión 2 de Traefik.<!--more-->

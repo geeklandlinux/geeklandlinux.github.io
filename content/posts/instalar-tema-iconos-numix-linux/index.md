@@ -9,7 +9,9 @@ tags:
   - "iconos"
   - "numix"
   - "ubuntu"
-coverImage: "Instalar-los-iconos-Numix-en-Linux.png"
+cover:
+  image: "images/Instalar-los-iconos-Numix-en-Linux.png"
+  relative: true
 ---
 
 Hace unas semanas vimos los pasos a seguir para poder instalar el tema Numix GTK en cualquier distribución Linux. En este post veremos los pasos a seguir para poder instalar el tema de iconos Numix en prácticamente cualquier distribución Linux. Los pasos a seguir para la instalación de los iconos Numix y Numix Circle son los siguientes.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "internet"
   - "token"
-coverImage: "Un-token-de-seguridad-para-proteger-tus-cuentas-en-Internet.jpg"
+cover:
+  image: "images/Un-token-de-seguridad-para-proteger-tus-cuentas-en-Internet.jpg"
+  relative: true
 ---
 
 La seguridad a la hora de realizar tareas que requieren una protección esencial de datos, tales como contraseñas, transacciones bancarias, o cualquier tipo de operación que conlleva un componente económico o pone en riesgo nuestra identidad, sigue siendo uno de los temas que más preocupa en la actualidad, tanto a los usuarios como a los servicios que las ofrecen.<!--more-->

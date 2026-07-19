@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "cron"
   - "crontab"
-coverImage: "planificar-tareas-con-cron-y-anacron.jpg"
+cover:
+  image: "images/planificar-tareas-con-cron-y-anacron.jpg"
+  relative: true
 ---
 
 A continuación detallaremos que son y como funcionan Cron y Anacron. Además también veremos la totalidad de formas disponibles para planificar tareas con Cron y Anacron.<!--more-->

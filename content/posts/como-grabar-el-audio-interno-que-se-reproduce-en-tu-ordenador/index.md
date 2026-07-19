@@ -6,7 +6,9 @@ categories:
   - "windows"
 tags: 
   - "audio"
-coverImage: "grabar-audio-reproduce-altavoces-ordenador.jpg"
+cover:
+  image: "images/grabar-audio-reproduce-altavoces-ordenador.jpg"
+  relative: true
 ---
 
 A continuación veremos un método para capturar o grabar el audio que reproducen los altavoces de nuestro ordenador en Linux y en Windows. Lo haremos usando el software Audacity porque tiene la ventaja de ser multiplataforma. Por lo tanto este método se puede usar en todos los sistemas operativos.<!--more-->

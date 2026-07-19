@@ -9,7 +9,9 @@ tags:
   - "debian"
   - "thunar"
   - "xfce"
-coverImage: "ThunarLogo.png"
+cover:
+  image: "images/ThunarLogo.png"
+  relative: true
 ---
 
 En este post el objetivo será ver como realizar acciones personalizadas en thunar. Primeramente veremos los pasos detallados para definir una acción y a posteriori citaremos la serie de comandos a introducir para ir crear distintas acciones personalizas.<!--more-->

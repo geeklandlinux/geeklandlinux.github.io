@@ -8,7 +8,9 @@ tags:
   - "thunar"
   - "thunar-shares-plugin"
   - "xfce"
-coverImage: "compartir-carpetas-con-thunar-share-plugin-y-samba.png"
+cover:
+  image: "images/compartir-carpetas-con-thunar-share-plugin-y-samba.png"
+  relative: true
 ---
 
 En el siguiente post veremos como podemos compartir cualquier carpeta de nuestro sistema operativo mediante el gestor de archivos Thunar. Para conseguir nuestro propósito usaremos las herramientas samba, el plugin thunar-shares-plugin y seguiremos las siguientes instrucciones.<!--more-->

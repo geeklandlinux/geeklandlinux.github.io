@@ -9,7 +9,9 @@ tags:
   - "renombrar-archivos"
   - "thunar"
   - "xfce"
-coverImage: "renombrar-y-clasificar-fotos-Linux.png"
+cover:
+  image: "images/renombrar-y-clasificar-fotos-Linux.png"
+  relative: true
 ---
 
 Acabo de llegar de viaje y necesito renombrar y clasificar mis fotos de forma rápida y adecuada en mi disco duro. Si disponemos del gestor de archivos Thunar y las fotos disponen de metadatos podemos conseguir nuestro propósito de forma fácil.<!--more-->

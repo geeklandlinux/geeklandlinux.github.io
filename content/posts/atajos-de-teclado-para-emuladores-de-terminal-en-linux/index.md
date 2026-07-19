@@ -7,7 +7,9 @@ tags:
   - "atajos-de-teclado"
   - "terminal"
   - "tips"
-coverImage: "atajos-de-teclado-para-emuladores-de-terminal-en-linux.webp"
+cover:
+  image: "images/atajos-de-teclado-para-emuladores-de-terminal-en-linux.webp"
+  relative: true
 ---
 
 Conocer los atajos de teclado de la terminal les proporcionará velocidad y también les permitirá tener acceso a una serie de funciones adicionales. Los atajos de teclado típicos que acostumbran a tener la gran mayoría de emuladores de terminal son los que verán a continuación.<!--more-->

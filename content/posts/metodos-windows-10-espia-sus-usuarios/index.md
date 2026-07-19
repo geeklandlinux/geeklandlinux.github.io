@@ -7,7 +7,9 @@ tags:
   - "microsoft"
   - "privacidad"
   - "windows-10"
-coverImage: "Explicación-de-como-Windows-10-espía-y-viola-nuestra-privacidad.jpg"
+cover:
+  image: "images/Explicación-de-como-Windows-10-espía-y-viola-nuestra-privacidad.jpg"
+  relative: true
 ---
 
 A estas alturas todo el mundo es consciente que Windows 10 espía y vulnera la privacidad de sus usuarios recolectando datos indiscriminadamente y monitoreando lo que estamos haciendo en todo momento.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "memoria"
-coverImage: "liberar-Cache.jpg"
+cover:
+  image: "images/liberar-Cache.jpg"
+  relative: true
 ---
 
 Liberar memoria cache de nuestra RAM es el primer post de una serie para optimizar el uso de la RAM en nuestros ordenadores y de esta forma poder sacar siempre el máximo rendimiento a nuestro ordenador. Los post que se crearán durante las próximas semanas  son:<!--more-->

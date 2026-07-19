@@ -6,7 +6,9 @@ categories:
 tags: 
   - "atajos-de-teclado"
   - "xfce"
-coverImage: "Crear-atajos-de-teclado-en-xfce.jpg"
+cover:
+  image: "images/Crear-atajos-de-teclado-en-xfce.jpg"
+  relative: true
 ---
 
 Todos los sistemas operativos que trabajan con el entorno de escritorio XFCE acostumbran a disponer de varios atajos de teclado preconfigurados para poder hacer nuestras tareas de forma más fácil y más rápida.

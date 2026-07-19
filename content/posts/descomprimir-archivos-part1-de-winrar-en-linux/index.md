@@ -6,7 +6,9 @@ categories:
 tags: 
   - "descomprimir"
   - "winrar"
-coverImage: "descomprimir-archivos-.part1-winrar.png"
+cover:
+  image: "images/descomprimir-archivos-.part1-winrar.png"
+  relative: true
 ---
 
 Es posible que algunos usuarios de GNU Linux tengan problemas al unir archivos o descomprimir archivos .part1, .part2, etc.

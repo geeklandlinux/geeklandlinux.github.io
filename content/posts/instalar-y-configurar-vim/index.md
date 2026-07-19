@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "plugins"
   - "vim"
-coverImage: "instalar-y-configurar-vim-para-empezar-a-ser-productivo.jpg"
+cover:
+  image: "images/instalar-y-configurar-vim-para-empezar-a-ser-productivo.jpg"
+  relative: true
 ---
 
 Si bien es cierto que el uso del editor de texto VIM no es intuitivo, también es verdad que dedicándole unas pocas horas podemos aprender su funcionamiento básico y darnos cuenta de su increíble utilidad y productividad. Por este motivo a continuación les mostraré como instalar y configurar VIM de forma básica para que podáis empezar a usarlo de forma más cómoda.<!--more-->

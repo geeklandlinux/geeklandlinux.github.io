@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "privacidad"
   - "publicidad"
-coverImage: "eliminar-la-publicidad-en-un-iPhone-o-un-iPad.png"
+cover:
+  image: "images/eliminar-la-publicidad-en-un-iPhone-o-un-iPad.png"
+  relative: true
 ---
 
 A continuación veremos como podemos eliminar la publicidad en un dispositivo de Apple mediante el uso del archivo hosts. El requisito para aplicar el tutorial que veréis a continuación es el siguiente:

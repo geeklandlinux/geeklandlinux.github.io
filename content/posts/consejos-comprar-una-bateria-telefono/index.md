@@ -8,7 +8,9 @@ tags:
   - "bateria"
   - "consejos"
   - "tips"
-coverImage: "consejos-comprar-una-bateria-telefono.jpg"
+cover:
+  image: "images/consejos-comprar-una-bateria-telefono.jpg"
+  relative: true
 ---
 
 De entrada iremos al grano y les daré una serie de consejos en el momento de comprar una batería de repuesto para vuestro teléfono o dispositivo móvil.<!--more-->

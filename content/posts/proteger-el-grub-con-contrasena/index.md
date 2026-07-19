@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "grub"
-coverImage: "Proteger-el-Grub-con-contraseña.png"
+cover:
+  image: "images/Proteger-el-Grub-con-contraseña.png"
+  relative: true
 ---
 
 En este post veremos de forma clara y sencilla como podemos proteger el Grub de nuestro ordenador con una contraseña cifrada, y en que casos y porqué motivos se recomienda la protección del gestor de arranque Grub.

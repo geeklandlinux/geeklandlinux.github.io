@@ -6,7 +6,9 @@ categories:
 tags: 
   - "navegadores"
   - "privacidad"
-coverImage: "datos-navegador-da-terceros.jpg"
+cover:
+  image: "images/datos-navegador-da-terceros.jpg"
+  relative: true
 ---
 
 La privacidad en la red es una batalla prácticamente pérdida, pero existen formas de minimizar la información proporcionamos a terceros. También es útil y saludable ser consciente de la información que estamos proporcionando en todo momento. Por este motivo en el siguiente artículo veremos la información que nuestro navegador está entregando a terceros cuando estamos navegando.<!--more-->

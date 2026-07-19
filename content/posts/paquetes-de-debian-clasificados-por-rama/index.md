@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "linux"
-coverImage: "paquetes-debian.png"
+cover:
+  image: "images/paquetes-debian.png"
+  relative: true
 ---
 
 Seguidamente les presentare como conocer los paquetes de Debian clasificados por rama.

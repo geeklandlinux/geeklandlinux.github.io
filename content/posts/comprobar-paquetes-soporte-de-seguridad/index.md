@@ -9,7 +9,9 @@ tags:
   - "linux-mint"
   - "seguridad"
   - "ubuntu"
-coverImage: "Comprobar-paquete-soporte-seguridad-debian.jpg"
+cover:
+  image: "images/Comprobar-paquete-soporte-seguridad-debian.jpg"
+  relative: true
 ---
 
 A medida que las versiones de Debian, Ubuntu y Linux Mint se van haciendo viejas existen paquetes que dejan de tener soporte de seguridad. Algunas de las razones por las que esto pasa son las siguientes:

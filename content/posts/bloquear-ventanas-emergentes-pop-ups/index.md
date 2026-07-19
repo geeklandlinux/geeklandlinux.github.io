@@ -10,7 +10,9 @@ tags:
   - "privacidad"
   - "publicidad"
   - "ublock"
-coverImage: "bloquear-ventanas-emergentes-chrome-firefox.png"
+cover:
+  image: "images/bloquear-ventanas-emergentes-chrome-firefox.png"
+  relative: true
 ---
 
 Si hay algo tan molesto como la publicidad son los pop-ups o ventanas emergentes. ¿A alguien le son familiares las siguientes situaciones?

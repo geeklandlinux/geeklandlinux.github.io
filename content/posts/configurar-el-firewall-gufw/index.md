@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "firewall"
   - "internet"
-coverImage: "Configurar-un-firewall.jpg"
+cover:
+  image: "images/Configurar-un-firewall.jpg"
+  relative: true
 ---
 
 Como continuación del post de la semana pasada esta semana vamos a ver como podemos configurar el firewall gufw en linux de forma fácil y rápida. De esta forma en principio se cierra una serie de 2 post que son los siguientes:

@@ -10,7 +10,9 @@ tags:
   - "gnupg"
   - "privacidad"
   - "thunderbird"
-coverImage: "cifrar-mails-con-enigmal.jpg"
+cover:
+  image: "images/cifrar-mails-con-enigmal.jpg"
+  relative: true
 ---
 
 En el siguiente post veremos como cifrar mails con enigmail de forma fácil y prácticamente automática. Antes de proceder a aplicar el tutorial es altamente recomendable que consultéis y deis una lectura al siguiente post:

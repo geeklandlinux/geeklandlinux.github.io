@@ -7,7 +7,9 @@ tags:
   - "audio"
   - "dr14-t-meter"
   - "rango-dinamico"
-coverImage: "Medir-el-rango-Dinámico-de-un-audio-en-Linux.png"
+cover:
+  image: "images/Medir-el-rango-Dinámico-de-un-audio-en-Linux.png"
+  relative: true
 ---
 
 Hace una semana vimos [que es el rango dinámico de un audio]({{< relref "/posts/que-es-el-rango-dinamico-audio-ventajas" >}}) y las ventajas e inconvenientes que nos proporcionan los audios con un rango dinámico elevado. A raíz de este artículo veremos como medir el rango dinámico de cualquier archivo de sonido y a posteriori analizaremos si los valores obtenidos para ver si son aceptables.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "disco-duro"
   - "trim"
-coverImage: "configurar-y-activar-trim-en-windows.png"
+cover:
+  image: "images/configurar-y-activar-trim-en-windows.png"
+  relative: true
 ---
 
 En pasados artículos vimos la [utilidad de TRIM]({{< relref "/posts/trim-debemos-activarlo-ssd" >}}) y como [activarlo correctamente en Linux]({{< relref "/posts/activar-trim-correctemente-linux" >}}). A continuación veremos como configurar correctamente el optimizador de unidades y como activar TRIM en Windows.<!--more-->

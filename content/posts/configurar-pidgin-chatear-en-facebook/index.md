@@ -6,7 +6,9 @@ categories:
 tags: 
   - "facebook"
   - "pidgin"
-coverImage: "chatear-contactos-facebook-pidgin.jpg"
+cover:
+  image: "images/chatear-contactos-facebook-pidgin.jpg"
+  relative: true
 ---
 
 Recientemente escribí un artículo en el que comentaba una serie de [motivos éticos y técnicos para no usar Facebook]({{< relref "/posts/razones-para-no-usar-facebook" >}}). No obstante habrá gente que por necesidad usará Facebook para chatear con sus amigos. Si quieren chatear en Facebook con sus contactos sin necesidad de entrar en la horrorosa página web de Facebook pueden seguir los siguientes pasos que veremos a continuación.<!--more-->

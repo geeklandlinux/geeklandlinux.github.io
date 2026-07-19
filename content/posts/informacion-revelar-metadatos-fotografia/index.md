@@ -8,7 +8,9 @@ tags:
   - "fotografia"
   - "metadatos"
   - "redes-sociales"
-coverImage: "informacion-proporciona-metadados-fotografia.jpg"
+cover:
+  image: "images/informacion-proporciona-metadados-fotografia.jpg"
+  relative: true
 ---
 
 Año tras año crece de forma exponencial el número de fotos que tiran las personas. A modo de ejemplo en el año [2017 se tiraron más de 1,2 billones de fotos](https://es.statista.com/grafico/11001/este-ano-se-capturaran-12-billones-de-fotos-en-todo-el-mundo/ "Relación de las fotos realizadas el año 2017"). Esto es así porque hoy en día hay millones de adolescentes y adultos con teléfonos en sus bolsillos que inconscientemente envían y suben fotografías a la red sin ningún tipo de temor. Lo que no saben la mayoría de personas es que las fotos pueden revelar información personal de sus vidas. Mediante estándares como por ejemplo el **Exif (Exchangeable image file format)**, la totalidad de fotografías tomadas con un dispositivo digital llevan información incrustada conocida como metadatos. Cualquier archivo de imagen con el formato .jpg, .tiff, .raw, .png, etc es susceptible de contener metadatos. Por lo tanto vayan con cuidado con los metadatos de una fotografía.<!--more-->

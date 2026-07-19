@@ -6,7 +6,9 @@ categories:
 tags: 
   - "tailscale"
   - "vpn"
-coverImage: "Instalacion-configuracion-y-uso-del-VPN-Tailscale.png"
+cover:
+  image: "images/Instalacion-configuracion-y-uso-del-VPN-Tailscale.png"
+  relative: true
 ---
 
 En su día Ángel de uGeek hablo de Tailscale. Lo definió como un servicio VPN que funciona perfecto y es capaz de proporcionar servicio aunque esté detrás de un CG-NAT. Después de escucharle y probarlo le daré una oportunidad por los siguientes motivos:<!--more-->

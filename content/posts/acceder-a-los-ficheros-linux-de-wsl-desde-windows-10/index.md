@@ -6,7 +6,9 @@ categories:
   - "windows"
 tags: 
   - "wsl"
-coverImage: "acceder-a-los-ficheros-de-WSL-desde-Windows.png"
+cover:
+  image: "images/acceder-a-los-ficheros-de-WSL-desde-Windows.png"
+  relative: true
 ---
 
 Anteriormente vimos como [instalar WSL y WSL 2 en Windows]({{< relref "/posts/instalar-el-subsistema-de-windows-para-linux-wsl-en-windows-10" >}}). A continuación veremos como podemos acceder a ficheros y directorios que tenemos dentro de WSL desde Windows. Para conseguir lo que acabo de citar les recomiendo seguir los siguientes métodos.<!--more-->

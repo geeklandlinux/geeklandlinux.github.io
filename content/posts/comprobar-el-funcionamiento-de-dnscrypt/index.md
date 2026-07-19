@@ -9,7 +9,9 @@ tags:
   - "dnscrypt"
   - "privacidad"
   - "wireshark"
-coverImage: "Comprobar-el-funcionamiento-de-DNSCrypt.jpg"
+cover:
+  image: "images/Comprobar-el-funcionamiento-de-DNSCrypt.jpg"
+  relative: true
 ---
 
 En las pasadas semanas hemos visto como [instalar y configurar DNSCrypt en Linux y en Windows]({{< relref "/posts/instalar-dnscrypt-linux-ubuntu-windows" >}}). Si una vez instalado y configurado queremos comprobar que funcionamiento de forma adecuada tenemos que seguir los siguientes pasos:<!--more-->

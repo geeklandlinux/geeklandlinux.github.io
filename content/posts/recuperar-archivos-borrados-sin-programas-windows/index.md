@@ -8,7 +8,9 @@ tags:
   - "puntos-de-restauracion"
   - "recuperar-archivos"
   - "tips"
-coverImage: "Recuperar-archivos-borrados-sin-programas-y-al-instante-en-Windows.jpg"
+cover:
+  image: "images/Recuperar-archivos-borrados-sin-programas-y-al-instante-en-Windows.jpg"
+  relative: true
 ---
 
 Hoy estaba buscando dos archivos en una carpeta determinada y sorprendentemente no estaban. Mi conclusión es que sin querer los borré por accidente hace unos días. Las primeras cosas que me han pasado por la cabeza para intentar recuperar archivos borrados han sido las siguientes:<!--more-->

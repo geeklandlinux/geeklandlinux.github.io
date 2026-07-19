@@ -9,7 +9,9 @@ tags:
   - "fotografia"
   - "metadatos"
   - "pyexiftoolgui"
-coverImage: "editar-los-metadatos-fotografia-pyexiftoolgui.png"
+cover:
+  image: "images/editar-los-metadatos-fotografia-pyexiftoolgui.png"
+  relative: true
 ---
 
 Existen casos en los que precisamos editar los metadatos de una fotografía. Algunos ejemplos de ello son los siguientes:

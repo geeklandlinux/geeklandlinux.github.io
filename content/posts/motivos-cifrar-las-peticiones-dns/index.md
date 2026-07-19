@@ -8,7 +8,9 @@ tags:
   - "dns"
   - "dnscrypt"
   - "privacidad"
-coverImage: "Motivos-para-cifrar-nuestras-peticiones-DNS.jpg"
+cover:
+  image: "images/Motivos-para-cifrar-nuestras-peticiones-DNS.jpg"
+  relative: true
 ---
 
 Con el fin de preservar nuestra privacidad en este post detallaré los principales motivos para cifrar las peticiones DNS. Este post forma parte de una serie de 3 post en los que explicaré detalladamente los siguientes aspectos:<!--more-->

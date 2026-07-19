@@ -6,7 +6,9 @@ categories:
   - "ios"
 tags: 
   - "consejos"
-coverImage: "Usos-que-doy-a-mi-tablet.jpg"
+cover:
+  image: "images/Usos-que-doy-a-mi-tablet.jpg"
+  relative: true
 ---
 
 En este post **mi intención es citar los usos que actualmente estoy dando a mi tablet**. Me he decidido a escribir este post porqué antes de comprar mi tablet era un poco escéptico con el partido que le podría sacar. Por lo tanto **imagino que a la gente que está dudando de si comprar una tablet o no le interesará conocer mi experiencia para decidir si finalmente acaban comprando una tablet**.<!--more-->

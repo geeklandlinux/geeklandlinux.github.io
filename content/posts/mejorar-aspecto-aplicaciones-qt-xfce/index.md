@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "xfce"
-coverImage: "Mejorar-el-aspecto-de-las-aplicaciones-Qt-en-Xfce.png"
+cover:
+  image: "images/Mejorar-el-aspecto-de-las-aplicaciones-Qt-en-Xfce.png"
+  relative: true
 ---
 
 A raíz de un comentario realizado por un lector del blog, me di cuenta que al instalar Debian Jessie Xfce, y muchas otras distros con el entorno Xfce, es probable que la visualización de aplicaciones programadas con [librerías Qt](https://es.wikipedia.org/wiki/Qt_%28biblioteca%29) sea simplemente horrorosa. A raíz de esto escribiré este breve post para comentar como mejorar el aspecto de las aplicaciones qt en xfce.<!--more-->

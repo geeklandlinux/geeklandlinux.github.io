@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "servidor"
   - "terminal"
-coverImage: "medir-la-velocidad-de-Internet-desde-la-terminal-con-speedtest.jpeg"
+cover:
+  image: "images/medir-la-velocidad-de-Internet-desde-la-terminal-con-speedtest.jpeg"
+  relative: true
 ---
 
 En mi caso acabo de adquirir una Raspberry Pi 4. Al adquirir y terminar de configurar un dispositivo es interesante ver que su velocidad de subida y bajada es adecuada. Y más en mi caso que estoy usando un cable Ethernet que no tengo ni idea de que clase es. <!--more-->Por esto motivo voy a medir la velocidad de Internet desde la terminal usando el programa [speedtest](https://github.com/sivel/speedtest-cli).

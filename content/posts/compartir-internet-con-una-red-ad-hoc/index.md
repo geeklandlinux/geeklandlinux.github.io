@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "debian"
   - "internet"
-coverImage: "Compartir-internet-con-una-red-ad-hoc.gif"
+cover:
+  image: "images/Compartir-internet-con-una-red-ad-hoc.gif"
+  relative: true
 ---
 
 Durante el transcurso del último año he tenido una serie de problemas con Internet y la forma de solucionar el problema provisionalmente ha sido crear una red Ad hoc. Seguidamente compartiré con vosotros las situaciones en las que me ha sido útil crear una red Ad hoc y también les explicaré de forma detallada como podemos crear una red Ad hoc de forma sencilla.<!--more-->

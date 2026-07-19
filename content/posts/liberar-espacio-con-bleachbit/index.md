@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "debian"
-coverImage: "BleachBit.jpg"
+cover:
+  image: "images/BleachBit.jpg"
+  relative: true
 ---
 
 Bleachbit es un software de código abierto multiplaforma disponible tanto para Linux como para Windows principamente para liberar espacio de nuestro disco duro. Para que la gente se pueda hacer una idea diremos que las prestaciones que ofrece bleachbit son similares a las que nos ofrece ccleaner en Windows. Las utilidades principales del programa bleachbit según mi forma de ver son 2.<!--more-->

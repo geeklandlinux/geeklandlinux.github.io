@@ -7,7 +7,9 @@ tags:
   - "buscar-en-google"
   - "google"
   - "internet"
-coverImage: "Técnicas-y-consejos-para-buscar-información-en-Google.png"
+cover:
+  image: "images/Técnicas-y-consejos-para-buscar-información-en-Google.png"
+  relative: true
 ---
 
 Hoy en día **prácticamente la totalidad del conocimiento** e información **está disponible en Internet**. **Por lo tanto es sumamente importante que sepamos usar uno o varios buscadores para encontrar la información** que estamos buscando de forma rápida, efectiva y eficiente. Por este motivo en el siguiente post detallaré una serie de consejos, técnicas y acciones que nos permitirán buscar de forma mucho más rápida y eficiente en el buscador de Google.<!--more-->

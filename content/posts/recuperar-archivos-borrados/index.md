@@ -7,7 +7,9 @@ categories:
 tags: 
   - "foremost"
   - "recuperar-archivos"
-coverImage: "Recuperar-archivos-borrados-en-Linux.jpeg"
+cover:
+  image: "images/Recuperar-archivos-borrados-en-Linux.jpeg"
+  relative: true
 ---
 
 No acostumbra a pasar casi nunca pero en alguna ocasión todos hemos acabando borrando un archivo o una foto de nuestro ordenador, de nuestro teléfono o de nuestra cámara de fotos que no queríamos borrar.<!--more-->

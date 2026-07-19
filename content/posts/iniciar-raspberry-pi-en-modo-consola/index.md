@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "raspbian"
-coverImage: "iniciar-taspberry-pi-en-modo-consola-o-en-modo-terminal.png"
+cover:
+  image: "images/iniciar-taspberry-pi-en-modo-consola-o-en-modo-terminal.png"
+  relative: true
 ---
 
 Es posible que tengáis configurada vuestra Raspberry Pi para que arranque en modo escritorio y queráis cambiarlo a modo consola o viceversa. Si este es vuestro caso tan solo hay que seguir estos simple consejos.<!--more-->

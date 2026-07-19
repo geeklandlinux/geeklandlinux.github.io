@@ -8,7 +8,9 @@ tags:
   - "dns"
   - "internet"
   - "no-ip"
-coverImage: "Configurar-NO-IP-en-un-router-Comtrend.png"
+cover:
+  image: "images/Configurar-NO-IP-en-un-router-Comtrend.png"
+  relative: true
 ---
 
 Antiguamente escribí un post en el que comentaba el [funcionamiento de los servicios de DNS dinámico y como crearse y configurar una cuenta NO-IP]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}}). Uno de los pasos de la configuración era instalar y configurar un software cliente en nuestro ordenador con el fin de ir refrescando la nuestra IP. En este artículo veremos como evitar este paso del siguiente modo. Vamos a configurar No-IP en nuestro Router para que de forma automática vaya actualizando nuestra IP pública al servicio DNS dinámico de NO-IP.<!--more-->

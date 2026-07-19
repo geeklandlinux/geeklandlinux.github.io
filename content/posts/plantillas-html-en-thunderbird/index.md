@@ -8,7 +8,9 @@ tags:
   - "mailing"
   - "stationery"
   - "thunderbird"
-coverImage: "Plantillas-en-thunderbird.jpg"
+cover:
+  image: "images/Plantillas-en-thunderbird.jpg"
+  relative: true
 ---
 
 La gran mayoría de emails que acostumbramos a enviar transmiten una imagen muy simple, ya que el contenido es un simple fondo blanco con texto de color negro. Si este aspecto nos molesta lo podemos solucionar usando plantillas html en thunderbird o en cualquier otro gestor de correo electrónico.<!--more-->

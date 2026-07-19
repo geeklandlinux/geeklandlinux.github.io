@@ -9,7 +9,9 @@ tags:
   - "impress"
   - "libreoffice"
   - "writer"
-coverImage: "Cambiar-tema-iconos-libreoffice.jpg"
+cover:
+  image: "images/Cambiar-tema-iconos-libreoffice.jpg"
+  relative: true
 ---
 
 No soy un gran fan de la personalización del entorno de escritorio y la estética de una distribución no es algo que me preocupe en exceso. Bajo mi punto de vista hay aspectos más importantes como por ejemplo que el sistema operativo sea fluido, la estabilidad, que el entorno de escritorio sea usable, etc.

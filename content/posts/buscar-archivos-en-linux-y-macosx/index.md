@@ -7,7 +7,9 @@ categories:
 tags: 
   - "buscar-archivos"
   - "find"
-coverImage: "buscar-archivos-en-Linux.jpg"
+cover:
+  image: "images/buscar-archivos-en-Linux.jpg"
+  relative: true
 ---
 
 Hace pocos días vimos como usar el comando find para buscar archivos que estaban llenando nuestro disco duro. Como bien dije en el pasado post el comando find es extremadamente potente y ofrece muchísimas más posibilidades de búsqueda que no otros software para buscar archivos como por ejemplo Catfish, recoll o el comando locate.<!--more-->

@@ -10,7 +10,9 @@ tags:
   - "kdesudo"
   - "sudo"
   - "ubuntu"
-coverImage: "Abrir-aplicaciones-con-interfaz-gráfica-como-usuario-root.png"
+cover:
+  image: "images/Abrir-aplicaciones-con-interfaz-gráfica-como-usuario-root.png"
+  relative: true
 ---
 
 La semana pasada vimos como configurar el comando sudo en GNU/Linux. A raíz de esto veremos cual es la forma adecuada para abrir aplicaciones gráficas con privilegios de usuario root.<!--more-->

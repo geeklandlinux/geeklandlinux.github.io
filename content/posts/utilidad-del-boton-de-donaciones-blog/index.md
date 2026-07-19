@@ -6,7 +6,9 @@ categories:
 tags: 
   - "boton-de-donaciones"
   - "comunicados"
-coverImage: "Utilidad-del-boton-de-donaciones-en-los-blogs.jpg"
+cover:
+  image: "images/Utilidad-del-boton-de-donaciones-en-los-blogs.jpg"
+  relative: true
 ---
 
 Hace un par de semanas tuve la agradable experiencia de recibir una donación en el blog. En mi caso esta colaboración se trata de un pequeño milagro porque puedo afirmar con toda rotundidad que el botón de donaciones de la mayoría de blogs son un simple adorno.<!--more-->

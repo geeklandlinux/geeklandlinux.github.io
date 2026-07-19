@@ -7,7 +7,9 @@ categories:
 tags: 
   - "apple-tv"
   - "opinion"
-coverImage: "vale-la-pena-pagar-suscripcion-appple-tv.png"
+cover:
+  image: "images/vale-la-pena-pagar-suscripcion-appple-tv.png"
+  relative: true
 ---
 
 En la actualidad Apple TV+ tiene un coste mensual de 4,99 Euros al mes en España. ¿Qué ofrecen por este precio?<!--more-->

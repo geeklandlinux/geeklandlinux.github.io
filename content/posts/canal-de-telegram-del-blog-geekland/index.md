@@ -6,7 +6,9 @@ categories:
 tags: 
   - "comunicados"
   - "telegram"
-coverImage: "Nacimiento-del-canal-de-Telegram-del-blog-geekland.jpg"
+cover:
+  image: "images/Nacimiento-del-canal-de-Telegram-del-blog-geekland.jpg"
+  relative: true
 ---
 
 Quizás sea tarde, pero mejor tarde que nunca. Simplemente les quiero anunciar que ya hace unas semanas el blog Geekland tiene un canal de Telegram en el que encontrarán el siguiente contenido.<!--more-->

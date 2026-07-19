@@ -5,7 +5,9 @@ categories:
   - "windows"
 tags: 
   - "inicio-rapido"
-coverImage: "Desactivar-el-inicio-rápido-de-Windows.jpg"
+cover:
+  image: "images/Desactivar-el-inicio-rápido-de-Windows.jpg"
+  relative: true
 ---
 
 Seguidamente veremos como desactivar una característica que viene activada de serie tanto en Windows 8 como en Windows 10. Se trata del inicio rápido de Windows.<!--more-->

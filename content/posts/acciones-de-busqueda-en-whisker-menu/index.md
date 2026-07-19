@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "whisker-menu"
   - "xfce"
-coverImage: "Acciones-de-Búsqueda-con-Whisker-menu.png"
+cover:
+  image: "images/Acciones-de-Búsqueda-con-Whisker-menu.png"
+  relative: true
 ---
 
 Para finalizar la serie de posts que hablan sobre Whisker menu hablaremos una de las funcionalidades más sorprendentes, interesantes y desconocidas que ofrece Whisker Menu. Estoy hablando de las acciones búsqueda, o search actions en Inglés.<!--more-->

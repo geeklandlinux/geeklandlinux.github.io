@@ -9,7 +9,9 @@ tags:
   - "script"
   - "thunar"
   - "xfce"
-coverImage: "Redimensionar-y-comprimir-imágenes-por-lotes-en-XFCE.jpg"
+cover:
+  image: "images/Redimensionar-y-comprimir-imágenes-por-lotes-en-XFCE.jpg"
+  relative: true
 ---
 
 En mi caso hay ciertas ocasiones en que necesito redimensionar y comprimir una gran cantidad de imágenes. Algunas de estas ocasiones son las siguientes:

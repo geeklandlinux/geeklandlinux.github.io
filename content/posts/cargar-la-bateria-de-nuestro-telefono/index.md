@@ -8,7 +8,9 @@ tags:
   - "autonomia"
   - "bateria"
   - "cargar-bateria"
-coverImage: "Cargar-y-conservar-la-batería-de-nuestro-teléfono-o-tablet.png"
+cover:
+  image: "images/Cargar-y-conservar-la-batería-de-nuestro-teléfono-o-tablet.png"
+  relative: true
 ---
 
 Hoy en día **existe una gran desinformación y creencias falsas en lo que se refiere conservar y cargar la batería de nuestro dispositivo móvil**. Este hecho me ha empujado a escribir este post en el que se citan una serie de consejos y precauciones que debemos tener en cuenta para cargar y mantener de forma adecuada las baterías de nuestros dispositivos móviles. En la primera parte del post veremos el tipo y características de las baterías que usan nuestros dispositivos móviles actuales mientras en la segunda parte veremos una serie de consejos a llevar a termino para cargar la batería de nuestros dispositivos móviles.<!--more-->

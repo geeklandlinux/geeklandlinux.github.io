@@ -8,7 +8,9 @@ tags:
   - "renombrar-archivos"
   - "thunar"
   - "xfce"
-coverImage: "Renombrar-archivos-y-carpetas-masivamente.png"
+cover:
+  image: "images/Renombrar-archivos-y-carpetas-masivamente.png"
+  relative: true
 ---
 
 La verdad es que en Linux existen multitud de opciones para renombrar archivos de forma masiva. Algunas de las muchas opciones que existen son las siguientes:<!--more-->

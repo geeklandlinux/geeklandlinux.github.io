@@ -6,7 +6,9 @@ categories:
 tags: 
   - "pantalla-completa"
   - "xfce"
-coverImage: "Programas-a-pantalla-completa-con-XFCE.png"
+cover:
+  image: "images/Programas-a-pantalla-completa-con-XFCE.png"
+  relative: true
 ---
 
 En este post veremos un tip sencillo y fácil que nos permitirá ver en pantalla completa (Fullscreen en inglés) cualquier programa que tengamos abierto en XFCE. Estos pequeños detalles de los que dispone XFCE son los que hacen que sea mi entorno de escritorio preferido.<!--more-->

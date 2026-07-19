@@ -9,7 +9,9 @@ tags:
   - "i3"
   - "i3blocks"
   - "i3status"
-coverImage: "titulo-de-las-ventanas-en-el-panel-de-i3.png"
+cover:
+  image: "images/titulo-de-las-ventanas-en-el-panel-de-i3.png"
+  relative: true
 ---
 
 La gran mayoría de [configuraciones del escritorio i3]({{< relref "/posts/instalar-configurar-y-usar-el-gestor-de-ventanas-i3-en-linux" >}}) prescinden de las barras de título de las ventanas y por esto motivo no se pueden ver los títulos de las ventanas. Una solución para los usuarios que quieren ver los títulos de las ventanas es añadir el título en el panel del escritorio del modo que citaremos a continuación.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "terminal"
   - "thunar"
   - "vlc"
-coverImage: "enviar-videos-al-Chromecast-con-VLC-y-la-terminal-linux.jpg"
+cover:
+  image: "images/enviar-videos-al-Chromecast-con-VLC-y-la-terminal-linux.jpg"
+  relative: true
 ---
 
 Navegando por la red encontrarán diversos programas para enviar vídeos al Chromecast desde la terminal de Linux. Algunas de las opciones disponibles son:<!--more-->

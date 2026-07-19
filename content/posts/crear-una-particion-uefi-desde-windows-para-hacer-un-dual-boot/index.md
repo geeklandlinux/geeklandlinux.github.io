@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "dual-boot"
   - "uefi"
-coverImage: "Crear-particion-uefi-en-Windows.jpg"
+cover:
+  image: "images/Crear-particion-uefi-en-Windows.jpg"
+  relative: true
 ---
 
 A continuación veremos como crear una partición UEFI desde Windows. En mi caso acabo de recibir un equipo con Windows preinstalado y pretendo realizar un Dual-Boot con Linux. Al observar el esquema de particionado del disco duro observo que la partición UEFI solamente tiene 100MB. Por lo tanto es posible que tarde o temprano la partición acabe llenándose y generando problemas.<!--more-->

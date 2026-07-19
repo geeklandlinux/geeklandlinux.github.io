@@ -7,7 +7,9 @@ tags:
   - "comandos"
   - "manpages"
   - "terminal"
-coverImage: "poner-las-paginas-man-en-español.png"
+cover:
+  image: "images/poner-las-paginas-man-en-español.png"
+  relative: true
 ---
 
 En anteriores artículos vimos varias formas para [buscar ayuda en Linux]({{< relref "/posts/obtener-ayuda-en-gnu-linux" >}}). Una de estas formas era mediante las páginas man. Las páginas man acostumbran a estar en Inglés y esto puede ser un problema para algunos usuarios. Por este motivo en el siguiente artículo veremos como disponer de las páginas man en Español.<!--more-->

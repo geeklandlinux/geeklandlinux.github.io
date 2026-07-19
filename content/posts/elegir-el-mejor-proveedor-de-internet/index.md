@@ -5,7 +5,9 @@ categories:
   - "varios"
 tags: 
   - "internet"
-coverImage: "Elegir-el-mejor-proveedor-de-internet.jpg"
+cover:
+  image: "images/Elegir-el-mejor-proveedor-de-internet.jpg"
+  relative: true
 ---
 
 Recientemente tuve que cambiar mi proveedor de servicios de Internet. Durante un tiempo demasiado prolongado tuve problemas serios con la compañía Eurona Telekom y desafortunadamente para ellos tuve que tomar la decisión de prescindir de sus servicios.<!--more-->

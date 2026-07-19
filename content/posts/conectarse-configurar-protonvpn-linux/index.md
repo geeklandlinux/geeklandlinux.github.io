@@ -9,7 +9,9 @@ tags:
   - "privacidad"
   - "protonvpn"
   - "vpn"
-coverImage: "como-conectarse-configurar-usar-ProtonVPN-Linux.png"
+cover:
+  image: "images/como-conectarse-configurar-usar-ProtonVPN-Linux.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos una forma fácil y sencilla de conectarnos al servicio VPN de ProtonVPN.

@@ -7,7 +7,9 @@ categories:
   - "windows"
 tags: 
   - "terminal"
-coverImage: "ventajas-de-la-terminal-respecto-la-interfaz-grafica.jpeg"
+cover:
+  image: "images/ventajas-de-la-terminal-respecto-la-interfaz-grafica.jpeg"
+  relative: true
 ---
 
 Todo usuario que se inicia en el uso de la [terminal (CLI)](https://terminaldelinux.com/terminal/introduccion/que-es-terminal/) acostumbra a pensar que usar la terminal es lento y engorroso. Además la gran mayoría piensa que es mejor utilizar una [interfaz gráfica (GUI)](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario). Pero si estos usuarios hacen el esfuerzo de usar la terminal, tarde o temprano, se darán cuenta que la terminal también ofrece ventajas frente a las interfaces gráficas. Por lo tanto a lo largo de este artículo veremos las características ofrecidas por cada una de las opciones.<!--more-->

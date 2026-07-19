@@ -7,7 +7,9 @@ tags:
   - "brave"
   - "internet"
   - "navegadores"
-coverImage: "brave-un-navegador-rapido-y-seguro-que-respeta-la-privacidad.png"
+cover:
+  image: "images/brave-un-navegador-rapido-y-seguro-que-respeta-la-privacidad.png"
+  relative: true
 ---
 
 Hace ya meses que estoy usando un magnifico navegador que se llama Brave. En Android e iOS sin duda es el mejor navegador que podemos usar, mientras que en Linux, Windows o MacOS aun le falta para estar a la altura de chrome.<!--more-->

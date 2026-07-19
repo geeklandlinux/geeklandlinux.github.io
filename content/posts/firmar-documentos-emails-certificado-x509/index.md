@@ -10,7 +10,9 @@ tags:
   - "ofimatica"
   - "seguridad"
   - "thunderbird"
-coverImage: "firmar-digitalmente-email-documento-x509.png"
+cover:
+  image: "images/firmar-digitalmente-email-documento-x509.png"
+  relative: true
 ---
 
 En el pasado hable de como firmar y cifrar documentos en [Libreoffice con OpenPGP]({{< relref "/posts/firmar-digitalmente-documento-libreoffice" >}}). Como continuación de estos artículos veremos como podemos firmar todo tipo de documentos e emails usando certificados X509 obtenidos a través de una autoridad certificadora de confianza como es Comodo.<!--more-->

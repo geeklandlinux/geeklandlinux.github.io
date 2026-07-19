@@ -9,7 +9,9 @@ tags:
   - "opera"
   - "software"
   - "ubuntu"
-coverImage: "Instalar-Opera-en-Debian-Ubuntu-y-en-cualquier-distro-Linux.png"
+cover:
+  image: "images/Instalar-Opera-en-Debian-Ubuntu-y-en-cualquier-distro-Linux.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos los pasos a seguir para poder instalar opera en cualquier distribución GNU Linux.<!--more-->

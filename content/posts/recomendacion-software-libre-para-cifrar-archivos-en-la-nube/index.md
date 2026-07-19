@@ -11,7 +11,9 @@ tags:
   - "gocryptfs"
   - "servicios-en-la-nube"
   - "veracrypt"
-coverImage: "opciones-cifrar-archivos-en-la-nube.png"
+cover:
+  image: "images/opciones-cifrar-archivos-en-la-nube.png"
+  relative: true
 ---
 
 Da igual que guardemos nuestro contenido en una [nube]({{< relref "/posts/que-son-los-servicios-en-la-nube" >}}) pública o privada. En cualquiera de los 2 casos tendremos que cifrar la información en el caso que sea sensible. Para cifrar archivos en la nube tenemos opciones como por ejemplo EncFS, CryFS, eCryptfs, gocryptfs y Veracrypt. A continuación veremos cual de ellos es la mejor opción para cifrar archivos en la nube.<!--more-->

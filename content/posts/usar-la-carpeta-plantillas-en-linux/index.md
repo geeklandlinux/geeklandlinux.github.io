@@ -11,7 +11,9 @@ tags:
   - "productividad"
   - "thunar"
   - "xfce"
-coverImage: "Usar-la-carpeta-plantillas-en-linux.png"
+cover:
+  image: "images/Usar-la-carpeta-plantillas-en-linux.png"
+  relative: true
 ---
 
 Seguro que gran parte de los usuarios se habrá fijado que en su partición home existe una carpeta que se llama Plantillas (Templates en Inglés). El uso de la carpeta plantillas sin duda es más que interesante. Por este motivo he decido escribir un breve post detallando el uso que podemos dar a la carpeta plantillas.<!--more-->

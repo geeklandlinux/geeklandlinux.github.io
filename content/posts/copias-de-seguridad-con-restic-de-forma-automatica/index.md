@@ -8,7 +8,9 @@ tags:
   - "restic"
   - "seguridad"
   - "software-libre"
-coverImage: "montar-un-sistema-de-copias-de-seguridad-con-restic.jpg"
+cover:
+  image: "images/montar-un-sistema-de-copias-de-seguridad-con-restic.jpg"
+  relative: true
 ---
 
 El objetivo del siguiente artículo es mostrar el sistema que uso para realizar mis copias de seguridad. Verán que una vez implementados todos los pasos podrán realizar las copias de seguridad cifradas o en la nube con el software Restic de forma completamente automática y solo tendrán que preocuparse de comprobar que las copias de seguridad puedan restaurarse correctamente.<!--more-->

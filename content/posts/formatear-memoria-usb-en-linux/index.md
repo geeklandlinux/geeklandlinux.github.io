@@ -8,7 +8,9 @@ tags:
   - "gparted"
   - "memoria"
   - "usb"
-coverImage: "Formatear-memoria-usb.png"
+cover:
+  image: "images/Formatear-memoria-usb.png"
+  relative: true
 ---
 
 En próximas semanas tengo planeado publicar una serie de tutoriales en los que será necesario formatear una memoria USB. Por esto motivo me he decido a publicar este post en que se detalla con todo detalle como formatear una memoria USB en GNU Linux.<!--more-->

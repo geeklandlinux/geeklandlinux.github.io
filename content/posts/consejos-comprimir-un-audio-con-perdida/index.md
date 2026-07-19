@@ -7,7 +7,9 @@ tags:
   - "audio"
   - "mp3"
   - "ogg"
-coverImage: "consejos-comprimir-audio-de-forma-adecuada.jpg"
+cover:
+  image: "images/consejos-comprimir-audio-de-forma-adecuada.jpg"
+  relative: true
 ---
 
 En las pasadas semanas analizamos las [calidades que nos ofrecen los archivos mp3 y ogg]({{< relref "/posts/comparacion-mp3-vs-ogg" >}}). A continuación veremos una serie de consejos a seguir para conseguir buenos resultados al comprimir un audio.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "historial-de-comandos"
   - "history"
   - "terminal"
-coverImage: "usar-y-configurar-el-historial-de-comandos-history.png"
+cover:
+  image: "images/usar-y-configurar-el-historial-de-comandos-history.png"
+  relative: true
 ---
 
 GNU-Linux es un sistema que registra prácticamente la totalidad de eventos y acciones que suceden. Como no podía ser de otra forma también almacena la totalidad de comandos que cada uno de los usuarios ejecuta en la terminal mediante un historial de comandos.<!--more-->

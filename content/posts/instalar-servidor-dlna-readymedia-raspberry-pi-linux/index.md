@@ -8,7 +8,9 @@ tags:
   - "dlna"
   - "readymedia"
   - "servidor"
-coverImage: "instalar-servidor-dlna-raspberry-pi.jpg"
+cover:
+  image: "images/instalar-servidor-dlna-raspberry-pi.jpg"
+  relative: true
 ---
 
 A continuación veremos la mejor opción para disponer de un servidor DLNA en una Raspberry Pi. Pero antes de iniciar la explicación es importante que sepan que es y que utilidades podemos dar a un servidor DLNA.<!--more-->

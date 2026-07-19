@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "debian"
   - "repositorios"
-coverImage: "Utilizar-Backports-en-Debian-Estable.jpg"
+cover:
+  image: "images/Utilizar-Backports-en-Debian-Estable.jpg"
+  relative: true
 ---
 
 En el caso de ser usuarios de la rama estable de Debian observaréis que a medida que va pasando el tiempo las versiones software de los programas y paquetes que usamos van quedando obsoletas en comparación con otras distros. Para hallar una solución a este hecho podemos usar el repositorio Backports de Debian.<!--more-->

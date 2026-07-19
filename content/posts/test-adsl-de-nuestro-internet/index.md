@@ -6,7 +6,9 @@ categories:
 tags: 
   - "internet"
   - "test-adsl"
-coverImage: "Evaluar-el-Rendimiento-de-mi-internet-ADSL.png"
+cover:
+  image: "images/Evaluar-el-Rendimiento-de-mi-internet-ADSL.png"
+  relative: true
 ---
 
 **Muchas personas** estoy seguro que en determinadas ocasiones **se hacen la pregunta de si su operador de Internet les está ofreciendo un servicio decente y un servicio ajustado al que están ofertando**. **Por este motivo me he decidido a escribir este post en el que detallaremos una metodología para poder realizar un test adsl de nuestra conexión a Internet.**<!--more-->

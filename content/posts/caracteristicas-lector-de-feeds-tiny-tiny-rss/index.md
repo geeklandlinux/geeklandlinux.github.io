@@ -9,7 +9,9 @@ tags:
   - "lector-de-feeds"
   - "rss"
   - "tiny-tiny-rss"
-coverImage: "funcionalidades-y-caracteristicas-de-tiny-tiny-rss.jpg"
+cover:
+  image: "images/funcionalidades-y-caracteristicas-de-tiny-tiny-rss.jpg"
+  relative: true
 ---
 
 En el siguiente artículo explicaremos la función que realiza el lector de feeds Tiny Tiny RSS. Además detallaremos las [funcionalidades y características](https://tt-rss.org/) que lo hacen diferente del resto de servicios que ofrecen funciones similares.<!--more-->

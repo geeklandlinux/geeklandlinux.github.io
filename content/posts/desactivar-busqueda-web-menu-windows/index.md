@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "menu-de-inicio"
-coverImage: "deshabilitar-busqueda-web-menu-inicio-windows.png"
+cover:
+  image: "images/deshabilitar-busqueda-web-menu-inicio-windows.png"
+  relative: true
 ---
 
 A partir de la versión 1809 Windows 10 incluye la posibilidad de realizar búsquedas web a través de su menú de inicio. En mi caso esta función es un estorbo, por este motivo en el siguiente artículo veremos los pasos a seguir para desactivar la búsqueda web del menú de inicio de Windows.<!--more-->

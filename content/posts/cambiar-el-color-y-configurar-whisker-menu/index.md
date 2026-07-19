@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "whisker-menu"
   - "xfce"
-coverImage: "1-Cambiar-el-color-y-personalizar-Whisker-menu.png"
+cover:
+  image: "images/1-Cambiar-el-color-y-personalizar-Whisker-menu.png"
+  relative: true
 ---
 
 En el penúltimo post que publique vimos las [utilidades de whisker menu, y las diferentes opciones que tenemos disponibles para su instalación]({{< relref "/posts/instalar-whisker-menu" >}}). Por lo tanto, siguiendo en la misma linea, en este post y en futuros post, **detallaremos como configurar Whisker menu** para que los usuarios puedan sacar el máximo rendimiento de este menú alternativo. Cuando los lectores hayan terminado de leer la totalidad de post que escribiré estoy seguro que se darán cuenta de las enormes posibilidades que ofrece este menú.<!--more-->

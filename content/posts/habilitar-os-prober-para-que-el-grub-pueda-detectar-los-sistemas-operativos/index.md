@@ -7,7 +7,9 @@ tags:
   - "grub"
   - "sistemas-operativos"
   - "solucion-de-problemas"
-coverImage: "Habilitar-os-prober-para-que-el-grub-pueda-detectar-los-sistemas-operativos.jpg"
+cover:
+  image: "images/Habilitar-os-prober-para-que-el-grub-pueda-detectar-los-sistemas-operativos.jpg"
+  relative: true
 ---
 
 Debido a la configuración predeterminada del grub muchas distribuciones, como por ejemplo Debian, no es capaz de detectar el resto de sistemas operativos instalados en el equipo. Por este motivo en el siguiente artículo veremos como solucionar el problema que el grub no pueda detectar el resto de sistemas operativos instalados en nuestro equipo.<!--more-->

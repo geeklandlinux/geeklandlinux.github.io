@@ -7,7 +7,9 @@ tags:
   - "privacidad"
   - "tor"
   - "vpn"
-coverImage: "diferencias-y-semejanzas-entre-una-red-vpn-y-tor.jpg"
+cover:
+  image: "images/diferencias-y-semejanzas-entre-una-red-vpn-y-tor.jpg"
+  relative: true
 ---
 
 Cada día que pasa los internautas hacen un uso más intensivo de tecnologías como por ejemplo VPN y Tor. Además también están más concienciados sobre temas de censura, privacidad y anonimato en la red.

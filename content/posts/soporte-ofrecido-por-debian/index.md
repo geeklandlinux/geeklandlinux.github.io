@@ -8,7 +8,9 @@ tags:
   - "lts"
   - "oldstable"
   - "repositorios"
-coverImage: "soporte-que-ofrece-debian.jpg"
+cover:
+  image: "images/soporte-que-ofrece-debian.jpg"
+  relative: true
 ---
 
 En el momento que sale una nueva versión estable de Debian, todo el mundo escribe los típicos tutoriales de como actualizar Debian a la última versión. No obstante en el momento que sale una nueva versión de Debian no es necesario realizar absolutamente nada porque la Debian que a priori es vieja aun tiene soporte para muchos años.

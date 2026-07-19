@@ -9,7 +9,9 @@ tags:
   - "firma-digital"
   - "gnupg"
   - "privacidad"
-coverImage: "Razones-para-cifrar-y-firmar-nuestros-mails.png"
+cover:
+  image: "images/Razones-para-cifrar-y-firmar-nuestros-mails.png"
+  relative: true
 ---
 
 Vista la situación actual en que la privacidad de Internet está más que en entredicho y en que entes poderosos hacen lo imposible para controlar la red es bueno que la gente empiece a tomar precauciones. Por este motivo he escrito una serie de post para que todo el mundo pueda aprender cifrar y firmar nuestro correo electrónico. Los post son los siguientes:<!--more-->

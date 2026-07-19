@@ -7,7 +7,9 @@ tags:
   - "grub"
   - "terminal"
   - "tips"
-coverImage: "arrancar-en-modo-consola.png"
+cover:
+  image: "images/arrancar-en-modo-consola.png"
+  relative: true
 ---
 
 Existen ocasiones que nos puede interesar arrancar en modo consola nuestro ordenador. Ejemplos de algunas situaciones pueden ser los siguientes:

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "opinion"
   - "software-libre"
-coverImage: "problemas-desafios-software-libre.jpg"
+cover:
+  image: "images/problemas-desafios-software-libre.jpg"
+  relative: true
 ---
 
 En una ocasión detallé de forma sincera las [ventajas del software libre respecto el software privativo]({{< relref "/posts/ventajas-software-libre-sobre-privativo" >}}). Sigo pensando exactamente lo mismo, pero también hay que reconocer que el mundo del software libre tiene problemas. Resumiendo los problemas del software libre son los siguientes:<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "linux"
-coverImage: "Montar-particion-ntfs.jpg"
+cover:
+  image: "images/Montar-particion-ntfs.jpg"
+  relative: true
 ---
 
 **PASO 1. Conocer la denominación de la partición que queremos montar**

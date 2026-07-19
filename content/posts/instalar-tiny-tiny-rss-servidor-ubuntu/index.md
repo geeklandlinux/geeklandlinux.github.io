@@ -8,7 +8,9 @@ tags:
   - "servicios-en-la-nube"
   - "tiny-tiny-rss"
   - "ubuntu"
-coverImage: "instalar-tiny-tiny-rss-ubuntu.jpg"
+cover:
+  image: "images/instalar-tiny-tiny-rss-ubuntu.jpg"
+  relative: true
 ---
 
 Recientemente publique un artículo en el que se detallaba las [características y funcionalidades del lector de feeds Tiny Tiny RSS]({{< relref "/posts/caracteristicas-lector-de-feeds-tiny-tiny-rss" >}}). A continuación veremos los pasos que todo el mundo puede seguir para instalar Tiny Tiny RSS en un servidor con el sistema operativo Ubuntu 18.04. Los pasos a seguir se detallan a continuación.<!--more-->

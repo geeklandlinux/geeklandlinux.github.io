@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "programar"
-coverImage: "Programar-el-encendido-automático-del-ordenador.png"
+cover:
+  image: "images/Programar-el-encendido-automático-del-ordenador.png"
+  relative: true
 ---
 
 Hace unas semanas vimos varias formas para [programar el apagado del ordenador]({{< relref "/posts/programar-el-apagado-del-ordenador" >}}). En esta ocasión veremos como podemos programar el encendido del ordenador a una hora determinada.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "fotografia"
   - "multimedia"
   - "webp"
-coverImage: "ver-imagenes-en-formato-webp.jpg"
+cover:
+  image: "images/ver-imagenes-en-formato-webp.jpg"
+  relative: true
 ---
 
 Me gusta visualizar las fotografías e imágenes con visores de fotos ligeros como por ejemplo Viewnior, Ristretto, Eog, etc. Desafortunadamente los software que acabo de citar no tienen soporte para visualizar imágenes en formato webp de forma predeterminada. Para solucionar este problema y por lo tanto poder visualizar imágenes en el formato webp instalaremos la librería webp-pixbuf-loader del siguiente modo.<!--more-->

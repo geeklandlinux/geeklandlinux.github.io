@@ -13,7 +13,9 @@ tags:
   - "servicios-en-la-nube"
   - "software-libre"
   - "tareas"
-coverImage: "gestionar-contactos-calendarios-y-tareas-con-radicale.jpeg"
+cover:
+  image: "images/gestionar-contactos-calendarios-y-tareas-con-radicale.jpeg"
+  relative: true
 ---
 
 En el caso que quieran disponer de un sistema autoalojado para gestionar sus contactos, calendarios y tareas les recomiendo Radicale. Los motivos son los siguientes.<!--more-->

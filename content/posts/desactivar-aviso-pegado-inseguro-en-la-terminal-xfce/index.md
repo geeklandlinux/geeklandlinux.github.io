@@ -7,7 +7,9 @@ tags:
   - "seguridad"
   - "terminal"
   - "xfce"
-coverImage: "desactivar-el-aviso-de-pegado-inseguro-terminal-xfce.png"
+cover:
+  image: "images/desactivar-el-aviso-de-pegado-inseguro-terminal-xfce.png"
+  relative: true
 ---
 
 Muchos usuarios noveles de GNU-Linux copian y pegan comandos en la terminal sin saber o analizar lo que hacen. Esto es un peligro ya que alguien con malas intenciones puede dejar un comando que al ejecutarlo destruya el sistema operativo. Por este motivo, la terminal de XFCE incluye un aviso de pegado inseguro a partir de la [versión 0.8.8](https://github.com/xfce-mirror/xfce4-terminal/blob/master/NEWS). Por lo tanto, cada vez que peguemos un comando que se considere peligroso recibiremos una advertencia del siguiente tipo:<!--more-->

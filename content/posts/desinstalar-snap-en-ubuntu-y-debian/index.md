@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "snap"
   - "ubuntu"
-coverImage: "desinstalar-snap-por-completo-Ubuntu-y-Debian.png"
+cover:
+  image: "images/desinstalar-snap-por-completo-Ubuntu-y-Debian.png"
+  relative: true
 ---
 
 En mi caso tengo un Ubuntu Server 20.04 en un VPS con bajos recursos. El VPS tiene 1GB de RAM y resulta que Snap está consumiendo una parte importante de esta RAM. La verdad me parece una mala elección que un sistema operativo con opciones mínimas y destinado a trabajar como servidor venga con Snap activado por defecto. Afortunadamente podemos desinstalar snap siguiendo las instrucciones que verán a continuación.<!--more-->

@@ -9,7 +9,9 @@ tags:
   - "dns"
   - "internet"
   - "ip-fija"
-coverImage: "configurar-ip-estatica.jpg"
+cover:
+  image: "images/configurar-ip-estatica.jpg"
+  relative: true
 ---
 
 Cuando queremos que nuestro ordenador actúe como un servidor, ya sea para conectarnos desde el exterior o desde nuestra propia red, será extremadamente útil disponer de una IP fija o estática.<!--more-->

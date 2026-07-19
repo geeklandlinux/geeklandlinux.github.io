@@ -6,7 +6,9 @@ categories:
 tags: 
   - "debian"
   - "distribuciones"
-coverImage: "Motivos-por-los-recomiendo-usar-Debian-en-Linux.png"
+cover:
+  image: "images/Motivos-por-los-recomiendo-usar-Debian-en-Linux.png"
+  relative: true
 ---
 
 Llevo más de 5 años usando Debian y la verdad es que estoy más que satisfecho. De momento no me planteo cambiar de distribución básicamente por los siguientes motivos:<!--more-->

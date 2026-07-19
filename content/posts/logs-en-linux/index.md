@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "logs"
   - "ubuntu"
-coverImage: "que-son-como-funcionan-utilidad-logs-linux.png"
+cover:
+  image: "images/que-son-como-funcionan-utilidad-logs-linux.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos nociones generales sobre los logs en Linux. En las explicaciones del artículo únicamente considero el sistema de logs proporcionado por rsyslog. Journald/Systemd será abordado en futuros artículos.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "grub"
-coverImage: "Grub-recuerde-el-último-arranque.png"
+cover:
+  image: "images/Grub-recuerde-el-último-arranque.png"
+  relative: true
 ---
 
 Varios de vosotros seguramente están usando distintas distribuciones linux o sistemas operativos en un mismo ordenador. Por lo tanto es más que posible que cada vez que arranquen el ordenador tengan que estar pendientes de seleccionar la distro o sistema operativo que quieren usar.<!--more-->

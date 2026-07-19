@@ -6,7 +6,9 @@ categories:
 tags: 
   - "comprimir"
   - "descomprimir"
-coverImage: "comprimir-descomprimir-archivos-gestor-archivos.png"
+cover:
+  image: "images/comprimir-descomprimir-archivos-gestor-archivos.png"
+  relative: true
 ---
 
 Comprimir y descomprimir archivos en Linux es tan fácil como en Windows. Para hacer comprimir y descomprimir archivos de forma práctica y sencilla tan solo tienen que seguir la siguientes instrucciones.<!--more-->

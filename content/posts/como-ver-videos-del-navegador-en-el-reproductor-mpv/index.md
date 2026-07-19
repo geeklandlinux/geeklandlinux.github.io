@@ -8,7 +8,9 @@ tags:
   - "multimedia"
   - "navegadores"
   - "tips"
-coverImage: "reproducir-videos-del-navegador-en-mpv.png"
+cover:
+  image: "images/reproducir-videos-del-navegador-en-mpv.png"
+  relative: true
 ---
 
 El reproductor de vídeo MPV es conocido por su eficiencia y simplicidad. Si eres un entusiasta de los vídeos en línea y deseas disfrutar de tus contenidos favoritos de YouTube, Twitch u otras plataformas directamente en MPV, estás de suerte. En este artículo, te mostraremos cómo ver los vídeos del navegador web en MPV mediante xclip, Yt-dlp y un simple atajo de teclado. Además lo haremos de forma transparente y sin necesidad de instalar ninguna extensión en el navegador web.<!--more-->

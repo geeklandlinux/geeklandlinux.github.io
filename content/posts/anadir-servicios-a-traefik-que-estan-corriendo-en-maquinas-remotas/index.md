@@ -6,7 +6,9 @@ categories:
 tags: 
   - "proxy-inverso"
   - "traefik"
-coverImage: "Añadir-servicios-a-traefik-que-corren-en-maquinas-remotas.png"
+cover:
+  image: "images/Añadir-servicios-a-traefik-que-corren-en-maquinas-remotas.png"
+  relative: true
 ---
 
 En el último artículo vimos como [instalar y configurar el proxy inverso Traefik]({{< relref "/posts/instalar-y-configurar-el-proxy-inverso-traefik-en-docker" >}}) en Docker. Con lo visto hasta el momento, desde fuera de nuestra red local podemos acceder a servicios que están corriendo dentro de la misma red en que instalamos el contenedor de Traefik. Si además queremos acceder a servicios que están corriendo en equipos remotos y/o fuera de contenedores deberemos editar manualmente el fichero de configuración de Traefik. Para añadir servicios a Traefik que están corriendo en máquinas remotas deberemos seguir el siguiente procedimiento.<!--more-->

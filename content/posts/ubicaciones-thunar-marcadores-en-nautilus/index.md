@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "nautilus"
   - "thunar"
-coverImage: "1-Añadir-marcadores-y-ubicaciones-en-Thunar-y-Nautilus.png"
+cover:
+  image: "images/1-Añadir-marcadores-y-ubicaciones-en-Thunar-y-Nautilus.png"
+  relative: true
 ---
 
 En principio no tenia intención de escribir un post similar a este. Pero resulta que hace unos meses estaba viendo la [keynote de Apple](https://www.youtube.com/watch?v=YLVX6Q3M3lE "Vídeo Keynote Apple Junio 2014") y en un momento de la presentación de OS X se anunció que a partir de Yosemite, iCloud se integrará en sus gestor de archivos Finder. Segundos después del anuncio y de una pequeña demostración, el público enloqueció y empezó a aplaudir como si esto fuera el no va más y el descubrimiento del siglo. Más tarde en un podcast generalista de tecnología citaban este hecho como realmente noticiable.<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "privacidad"
   - "servidor"
   - "vpn"
-coverImage: "instalar-configurar-servidor-vpn.png"
+cover:
+  image: "images/instalar-configurar-servidor-vpn.png"
+  relative: true
 ---
 
 En el pasado escribí un post de como instalar y configurar un [servidor VPN]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}}) paso a paso. Si lo consultan verán que el proceso es largo, tedioso y difícil. Por esto motivo en el siguiente artículo les mostraré otro procedimiento para poder instalar y configurar un servidor OpenVPN en menos de 3 minutos y con tan solo 3 comandos. <!--more-->La totalidad de la instalación y configuración se puede realizar mediante el siguiente [script](https://github.com/theonemule/simple-openvpn-server "Ubicación del creador del Script") que podéis encontrar en Github.

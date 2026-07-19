@@ -6,7 +6,9 @@ categories:
 tags: 
   - "adobe"
   - "flash"
-coverImage: "Motivos-para-bloquear-Flash-player-en-nuestro-navegador.png"
+cover:
+  image: "images/Motivos-para-bloquear-Flash-player-en-nuestro-navegador.png"
+  relative: true
 ---
 
 Hace años en que se comenta que Flash va a desaparecer, pero la verdad es que no acaba de desaparecer y no hace muchos días acaban de sacar una nueva versión Beta para Linux después de 4 años en que solo se limitaban a sacar actualizaciones de seguridad. Por este motivo en el siguiente post detallaré los motivos por los que todos los usuarios debería bloquear Flash en su navegador.<!--more-->

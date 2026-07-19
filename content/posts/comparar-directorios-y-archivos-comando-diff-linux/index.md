@@ -7,7 +7,9 @@ tags:
   - "comandos"
   - "diff"
   - "terminal"
-coverImage: "comparar-directorios-y-archivos-con-diff.jpg"
+cover:
+  image: "images/comparar-directorios-y-archivos-con-diff.jpg"
+  relative: true
 ---
 
 Recientemente he realizado una migración de mi nube personal y me he visto con la necesidad de comparar directorios y archivos para comprobar que la migración se ha realizado con éxito. Estaba usando Nextcloud y ahora mismo estoy probando Filerun. En el momento de traspasar la información de una nube a la otra todo fue a la perfección. Pero me encontré con la desagradable sorpresa que la copia de seguridad de la nube antigua tenia más ficheros que el contenido subido a la nube nueva.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "maquina-virtual"
   - "virtualbox"
-coverImage: "compartir-carpetas-y-archivos-en-virtualbox.jpg"
+cover:
+  image: "images/compartir-carpetas-y-archivos-en-virtualbox.jpg"
+  relative: true
 ---
 
 Al instalar una máquina virtual en VirtualBox es común que necesitemos compartir carpetas y archivos entre el sistema operativo anfitrión y el huésped. En el caso que se encuentren con esta situación lo podrán hacer del siguiente modo.<!--more-->

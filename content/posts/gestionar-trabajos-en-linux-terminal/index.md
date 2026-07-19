@@ -7,7 +7,9 @@ tags:
   - "procesos"
   - "terminal"
   - "trabajos"
-coverImage: "gestionar-trabajos-en-linux-terminal.png"
+cover:
+  image: "images/gestionar-trabajos-en-linux-terminal.png"
+  relative: true
 ---
 
 Gnu-Linux es un sistema operativo multitarea que permite ejecutar y gestionar trabajos de forma simple mediante la terminal. Para gestionar trabajos y procesos tan solo tienen que seguir las indicaciones que mostraré a continuación, pero antes de iniciar la explicación es importante entender que son los trabajos en Linux.<!--more-->

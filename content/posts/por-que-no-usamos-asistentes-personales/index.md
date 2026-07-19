@@ -8,7 +8,9 @@ categories:
 tags: 
   - "asistente-personal"
   - "privacidad"
-coverImage: "Porque-la-gente-no-usa-los-asistentes-personales.jpg"
+cover:
+  image: "images/Porque-la-gente-no-usa-los-asistentes-personales.jpg"
+  relative: true
 ---
 
 ¿Cuantos de vosotros tiene un conocido que saque partido a los asistentes personales?

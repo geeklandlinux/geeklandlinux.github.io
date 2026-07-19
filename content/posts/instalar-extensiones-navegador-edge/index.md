@@ -7,7 +7,9 @@ tags:
   - "edge"
   - "extensiones"
   - "navegadores"
-coverImage: "Instalar-extensiones-en-el-navegador-Microsoft-Edge.png"
+cover:
+  image: "images/Instalar-extensiones-en-el-navegador-Microsoft-Edge.png"
+  relative: true
 ---
 
 Desde la llegada de la actualización de Windows 10 aniversario, el navegador Microsoft Edge permite instalar extensiones del mismo modo que lo hacen Chrome, Firefox u Opera.

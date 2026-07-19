@@ -6,7 +6,9 @@ categories:
   - "ios"
 tags: 
   - "aplicaciones"
-coverImage: "Xnspy.png"
+cover:
+  image: "images/Xnspy.png"
+  relative: true
 ---
 
 En el siguiente artículo me gustaría hablar del servicio [XNSPY](https://xnspy.com/es/ "Web de Xnspy"). Se trata de un nuevo servicio para Android e iOS que principalmente sirve para monitorizar dispositivos móviles.<!--more-->

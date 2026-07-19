@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "disco-duro"
-coverImage: "consumo-alto-de-cpu-al-usar-raspberry-pi-con-ssd.png"
+cover:
+  image: "images/consumo-alto-de-cpu-al-usar-raspberry-pi-con-ssd.png"
+  relative: true
 ---
 
 En mi caso uso un disco duro SSD en la Raspberry Pi 4. Seguí los siguientes pasos para [reemplazar la tarjeta MicroSD por un dispositivo de almacenamiento SSD]({{< relref "/posts/como-arrancar-la-raspberry-pi-4-desde-un-disco-ssd" >}}). Al seguir los pasos todo funcionaba perfecto, pero si noté un consumo alto de CPU. Mientras los valores de uptime deberían ser aproximadamente cero en mi caso eran los siguientes:<!--more-->

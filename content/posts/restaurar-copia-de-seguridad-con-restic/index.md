@@ -8,7 +8,9 @@ tags:
   - "restic"
   - "seguridad"
   - "software-libre"
-coverImage: "Restaurar-copia-de-seguridad-con-Restic.png"
+cover:
+  image: "images/Restaurar-copia-de-seguridad-con-Restic.png"
+  relative: true
 ---
 
 En su día vimos como realizar [copias de seguridad cifradas en Restic]({{< relref "/posts/copias-de-seguridad-con-restic-de-forma-automatica" >}}). Hoy veremos un par de métodos para restaurar la copia de seguridad que realizamos en su día. A modo de ejemplo restauraré unos volúmenes de Docker que en su día fueron borrados de forma accidental.<!--more-->

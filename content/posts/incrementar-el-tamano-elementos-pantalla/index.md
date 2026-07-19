@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "consejos"
-coverImage: "Incrementar-el-tamaño-de-letra-y-los-objetos-en-pantalla.png"
+cover:
+  image: "images/Incrementar-el-tamaño-de-letra-y-los-objetos-en-pantalla.png"
+  relative: true
 ---
 
 En algunas ocasiones **puede resultar tremendamente útil** el hecho de **incrementar el tamaño de letra y de la totalidad de elementos** y objetos que visualizamos en pantalla en nuestro sistema operativo Windows. Algunas de estas situaciones son las siguientes:<!--more-->

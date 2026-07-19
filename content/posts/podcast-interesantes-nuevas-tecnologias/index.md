@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "linux"
   - "podcast-2"
-coverImage: "podcast.jpg"
+cover:
+  image: "images/podcast.jpg"
+  relative: true
 ---
 
 ###### Nota: La totalidad de podcast interesantes citados en el post están actualmente en emisión.

@@ -7,7 +7,9 @@ tags:
   - "thumbnails"
   - "thunar"
   - "xfce"
-coverImage: "reemplazar-carpetas-por-imagenes-miniatura-xfce-.png"
+cover:
+  image: "images/reemplazar-carpetas-por-imagenes-miniatura-xfce-.png"
+  relative: true
 ---
 
 Seguro que existe un elevado número de lectores a los que les resultará útil reemplazar el icono de una carpeta por imágenes miniatura o thumbnails personalizados en XFCE.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "aplicaciones"
   - "es-explorer"
   - "tips-android"
-coverImage: "Extraer-el-archivo-apk-de-una-App-instalada.png"
+cover:
+  image: "images/Extraer-el-archivo-apk-de-una-App-instalada.png"
+  relative: true
 ---
 
 Cuando compramos una aplicación a través de la Google Play Store se instala en nuestro dispositivo y no queda ni rastro del archivo binario .apk usado para realizar la instalación. No obstante en determinadas ocasiones puede ser útil disponer del archivo binario .apk y por este motivo a continuación detallaré una forma fácil y sencilla para extraer el archivo apk de cualquier aplicación instalada en nuestro dispositivo móvil.<!--more-->

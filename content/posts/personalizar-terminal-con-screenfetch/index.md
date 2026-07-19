@@ -6,7 +6,9 @@ categories:
 tags: 
   - "screenfetch"
   - "terminal"
-coverImage: "Personalizar-nuestra-terminal-con-Screenfetch.png"
+cover:
+  image: "images/Personalizar-nuestra-terminal-con-Screenfetch.png"
+  relative: true
 ---
 
 El otro día estaba viendo un vídeo de [Matthew Moore](https://www.youtube.com/user/MrGizmo757 "Link al canal de Matthew Moore") en Youtube sobre como personalizar la terminal de Linux para que muestre el logo de nuestra distribución y otras características de nuestro sistema operativo. Me pareció interesante y por este motivo me he decidido a escribir este post en el que detallaré como instalar y usar Screenfetch.<!--more-->

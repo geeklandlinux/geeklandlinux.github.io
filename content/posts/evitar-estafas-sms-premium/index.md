@@ -8,7 +8,9 @@ categories:
 tags: 
   - "internet"
   - "sms-premium"
-coverImage: "Evitar-Estafas-SMS-Premium.png"
+cover:
+  image: "images/Evitar-Estafas-SMS-Premium.png"
+  relative: true
 ---
 
 A raíz de una mala experiencia que he tenido recientemente he decidido a escribir este post para evitar que terceras personas sufran el mismo tipo de estafa que yo. La mala experiencia que acabo de citar es que sin quererlo ni beberlo fui suscrito a un servicio Premium.<!--more-->

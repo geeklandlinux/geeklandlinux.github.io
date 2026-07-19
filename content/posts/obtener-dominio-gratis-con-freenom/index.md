@@ -7,7 +7,9 @@ tags:
   - "dominios"
   - "internet"
   - "servicios-en-la-nube"
-coverImage: "obtener-un-dominio-gratis-freenom.png"
+cover:
+  image: "images/obtener-un-dominio-gratis-freenom.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos como obtener un dominio gratis de forma extremadamente sencilla. Pero antes de obtener el dominio tienen que ser conscientes de lo siguiente.<!--more-->

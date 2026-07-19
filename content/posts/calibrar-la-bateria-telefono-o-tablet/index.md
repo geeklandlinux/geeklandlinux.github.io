@@ -8,7 +8,9 @@ tags:
   - "cargar-bateria"
   - "ios"
   - "tips-android"
-coverImage: "calibrar-la-bateria-dispositivo-movil.jpg"
+cover:
+  image: "images/calibrar-la-bateria-dispositivo-movil.jpg"
+  relative: true
 ---
 
 Recientemente he comprado una nueva batería para mi smartphone. Después de reemplazarla he tenido serios problemas con la precisión del valor del nivel de carga indicado en el barra de estado de mi dispositivo. Para solucionar el problema he tenido que calibrar la batería del modo que se detalla en este artículo.<!--more-->

@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "software"
-coverImage: "dropbox1.jpg"
+cover:
+  image: "images/dropbox1.jpg"
+  relative: true
 ---
 
 Hoy veremos como instalar dropbox para poderlo usar sin ningún tipos de problema en sistemas dual boot. Hay muchos usuarios que tienen un Dual boot con windows y alguna de las muchas distros de Linux existentes. Para poder acceder al contenido de dropbox tanto en linux como en windows sin tener necesidad de duplicar el contenido tenemos que instalar dropbox de la siguiente forma:<!--more-->

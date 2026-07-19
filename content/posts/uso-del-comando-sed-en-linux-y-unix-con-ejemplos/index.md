@@ -6,7 +6,9 @@ categories:
 tags: 
   - "bash"
   - "sed"
-coverImage: "uso-del-comando-sed-en-Linux.png"
+cover:
+  image: "images/uso-del-comando-sed-en-Linux.png"
+  relative: true
 ---
 
 Sed es una herramienta de terminal cuyo uso principal es **buscar y reemplazar un texto**. En otras palabras más precisas permite buscar cadenas de texto, palabras o patrones de palabras y reemplazarlos por el texto que queramos. Aparte de lo que acabo de mencionar también permite insertar y eliminar texto de un documento. A continuación y en base a una serie de ejemplos aprenderemos como podemos usar esta potente herramienta.

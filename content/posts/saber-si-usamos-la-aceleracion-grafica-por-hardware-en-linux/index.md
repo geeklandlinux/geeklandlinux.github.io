@@ -8,7 +8,9 @@ tags:
   - "gpu"
   - "intel"
   - "intel-gpu-top"
-coverImage: "ver-si-estamos-usando-aceleracion-grafica-por-hardware.jpg"
+cover:
+  image: "images/ver-si-estamos-usando-aceleracion-grafica-por-hardware.jpg"
+  relative: true
 ---
 
 Si usan una tarjeta gráfica Intel y quieren saber si una aplicación que reproduce vídeo está usando la aceleración gráfica por hardware lo pueden hacer con el monitor de recursos intel-gpu-tools. La forma de hacerlo es la siguiente.<!--more-->

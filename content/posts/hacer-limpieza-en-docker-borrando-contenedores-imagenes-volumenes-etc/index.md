@@ -6,7 +6,9 @@ categories:
 tags: 
   - "docker"
   - "optimizacion"
-coverImage: "hacer-limpieza-en-docker-borrando-contenedores-imagenes.png"
+cover:
+  image: "images/hacer-limpieza-en-docker-borrando-contenedores-imagenes.png"
+  relative: true
 ---
 
 A medida que vamos instalando y desinstalando servicios en Docker se va llenando el disco duro con contenedores, imágenes, redes, cache y volúmenes de persistencia que no usamos. Para solucionar este problema y para hacer un poco de limpieza en Docker y en el sistema operativo podemos borrar los contenedores, imágenes, redes y volúmenes que no usamos del siguiente modo.<!--more-->

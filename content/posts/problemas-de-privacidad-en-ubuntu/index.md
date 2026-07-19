@@ -6,7 +6,9 @@ categories:
 tags: 
   - "privacidad"
   - "ubuntu"
-coverImage: "Problemas-de-privadidad-en-Ubuntu-e1398085571910.png"
+cover:
+  image: "images/Problemas-de-privadidad-en-Ubuntu-e1398085571910.png"
+  relative: true
 ---
 
 Durante estos últimos días, y con una periodicidad de 6 meses, la web se inunda de artículos en los que se citan las bondades, maravillas y novedades de la nueva versión de Ubuntu.

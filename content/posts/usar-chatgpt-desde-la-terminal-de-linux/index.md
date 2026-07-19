@@ -7,7 +7,9 @@ tags:
   - "chatgpt"
   - "ia"
   - "terminal"
-coverImage: "como-usar-chatgpt-en-al-terminal-linux.jpg"
+cover:
+  image: "images/como-usar-chatgpt-en-al-terminal-linux.jpg"
+  relative: true
 ---
 
 En este artículo te explicaremos cómo instalar y utilizar ChatGPT desde la terminal de Linux. Para esto, existen varias opciones disponibles en Github. En nuestra experiencia, hemos probado dos opciones diferentes, las cuales detallaremos a continuación.<!--more-->

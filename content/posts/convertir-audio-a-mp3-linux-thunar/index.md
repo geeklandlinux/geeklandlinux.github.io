@@ -9,7 +9,9 @@ tags:
   - "script"
   - "thunar"
   - "xfce"
-coverImage: "Convertir-audio-a-mp3-en-thunar.jpg"
+cover:
+  image: "images/Convertir-audio-a-mp3-en-thunar.jpg"
+  relative: true
 ---
 
 Quienes trabajan de forma habitual con audio agradecerán disponer de una herramienta rápida y ágil para convertir audio a mp3.

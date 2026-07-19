@@ -5,7 +5,9 @@ categories:
   - "windows"
 tags: 
   - "gestor-arranque"
-coverImage: "eliminar-entradas-gestor-arranque-windows.png"
+cover:
+  image: "images/eliminar-entradas-gestor-arranque-windows.png"
+  relative: true
 ---
 
 En el siguiente artículo verán como eliminar entradas no útiles del gestor de arranque de Windows. Actualmente tengo distintas versiones de Windows instaladas en mi ordenador. Por lo tanto, cuando aparece el gestor de arranque de Windows me encuentro con la siguiente situación:<!--more-->

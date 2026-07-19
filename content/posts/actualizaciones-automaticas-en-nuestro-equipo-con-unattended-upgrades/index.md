@@ -8,7 +8,9 @@ tags:
   - "apt"
   - "debian"
   - "ubuntu"
-coverImage: "actualizaciones-automaticas-en-nuestro-servidor.jpg"
+cover:
+  image: "images/actualizaciones-automaticas-en-nuestro-servidor.jpg"
+  relative: true
 ---
 
 Si tiene un servidor o equipo cuyo sistema operativo usa el gestor de paquetes apt pueden actualizarlo de forma automática. Para obtener actualizaciones automáticas en su equipo deberán seguir las instrucciones que verán a continuación.<!--more-->

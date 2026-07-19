@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "whisker-menu"
   - "xfce"
-coverImage: "Instalar-Whisker-Menu.png"
+cover:
+  image: "images/Instalar-Whisker-Menu.png"
+  relative: true
 ---
 
 Durante bastantes años he estado usando XFCE en Debian. Empecé por la versión 4.8 y actualmente estoy usando la versión 4.10. Hasta hace pocos meses siempre había usado el menú tradicional de XFCE, pero a día de hoy estoy utilizando un menú alternativo llamado Whisker Menu. Seguramente muchísimos de vosotros conocerá este menú alternativo ya que algunas distribuciones, como por ejemplo Xubuntu, o Linux Mint, están usando whisker menú por defecto en sus versiones de escritorio XFCE.<!--more-->

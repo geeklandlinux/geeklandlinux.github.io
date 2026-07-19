@@ -6,7 +6,9 @@ categories:
 tags: 
   - "extensiones"
   - "vlc"
-coverImage: "como-instalar-complementos-y-extensiones-de-VLC.png"
+cover:
+  image: "images/como-instalar-complementos-y-extensiones-de-VLC.png"
+  relative: true
 ---
 
 Sin duda alguna y con una diferencia abismal, VLC es el mejor reproductor de vídeo existente en cualquier sistema operativo. Los motivos por los cuales realizo esta afirmación con una seguridad absoluta son los siguientes:<!--more-->

@@ -8,7 +8,9 @@ tags:
   - "etiquetar"
   - "tracker"
   - "tracker-needle"
-coverImage: "buscar-archivos-carpetas-usando-etiquetas-y-por-su-contenido-.png"
+cover:
+  image: "images/buscar-archivos-carpetas-usando-etiquetas-y-por-su-contenido-.png"
+  relative: true
 ---
 
 Hace semanas vimos como [instalar y configurar tracker]({{< relref "/posts/configurar-tracker-para-buscar-archivos-por-contenido" >}}), como [buscar archivos]({{< relref "/posts/buscar-archivos-por-su-contenido-linux" >}}) por su contenido y como [etiquetar archivos y carpetas]({{< relref "/posts/etiquetar-archivos-carpetas-terminal" >}}). Para complementar estos artículos, a continuación veremos como podemos buscar archivos y carpetas usando las etiquetas que tienen asignadas los archivos y las carpetas.<!--more-->

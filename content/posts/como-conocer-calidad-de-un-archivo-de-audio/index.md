@@ -7,7 +7,9 @@ tags:
   - "audio"
   - "software-libre"
   - "spek"
-coverImage: "Como-conocer-calidad-archivo-de-audio.jpg"
+cover:
+  image: "images/Como-conocer-calidad-archivo-de-audio.jpg"
+  relative: true
 ---
 
 A petición de un lector del blog en el presente artículo veremos como conocer la calidad de un archivo de audio. Al mismo tiempo comprobaremos si la calidad obtenida con el script [convertir audio a mp3]({{< relref "/posts/convertir-audio-a-mp3-linux-thunar" >}}) es buena.

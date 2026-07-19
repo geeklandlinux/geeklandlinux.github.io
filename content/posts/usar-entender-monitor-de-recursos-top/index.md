@@ -7,7 +7,9 @@ tags:
   - "monitor-de-recursos"
   - "servidor"
   - "top"
-coverImage: "sacar-partido-monitor-de-recursos-top.png"
+cover:
+  image: "images/sacar-partido-monitor-de-recursos-top.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos como monitorear procesos y tareas en Linux mediante el uso del monitor de procesos o el monitor de recursos top. De esta forma podremos monitorizar y analizar el rendimiento de nuestro servidor u ordenador de forma fácil, rápida y eficaz.<!--more-->

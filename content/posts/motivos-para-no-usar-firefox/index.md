@@ -6,7 +6,9 @@ categories:
 tags: 
   - "firefox"
   - "mozilla"
-coverImage: "Motivos-para-no-usar-Firefox.jpg"
+cover:
+  image: "images/Motivos-para-no-usar-Firefox.jpg"
+  relative: true
 ---
 
 Me sorprende que aun quede gente dentro de la comunidad Linux que defienda Firefox y diga que en su caso tiene un rendimiento excelente. Además si les replicas diciendo que en tu caso es todo lo contrario o que simplemente están equivocados se enfadan. Por esto motivo he decido escribir este pequeño post para comentar mi experiencia.<!--more-->

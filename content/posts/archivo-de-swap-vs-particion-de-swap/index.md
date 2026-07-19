@@ -7,7 +7,9 @@ tags:
   - "archivo-de-swap"
   - "particion-de-swap"
   - "swap"
-coverImage: "Archivo-de-swap-versus-Partición-Swap.jpg"
+cover:
+  image: "images/Archivo-de-swap-versus-Partición-Swap.jpg"
+  relative: true
 ---
 
 Una de las novedades de Ubuntu 17.04 será que en vez de usar una partición de Swap usará un archivo de Swap. Esto se ha anunciado a bombo y platillo como si hubieran descubierto las Americas y la realidad es que no tiene nada novedoso.

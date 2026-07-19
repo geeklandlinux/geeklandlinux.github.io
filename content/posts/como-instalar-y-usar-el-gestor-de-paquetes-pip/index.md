@@ -8,7 +8,9 @@ tags:
   - "gestor-de-paquetes"
   - "pip"
   - "python"
-coverImage: "Como-instalar-y-usar-el-gestor-de-paquetes-PIP.jpg"
+cover:
+  image: "images/Como-instalar-y-usar-el-gestor-de-paquetes-PIP.jpg"
+  relative: true
 ---
 
 Pip es un gestor de paquetes muy popular en el universo Python, que nos permite realizar la gestión de paquetes y librerías de Python de forma muy sencilla en nuestro sistema Linux. Con Pip, podemos instalar, actualizar, eliminar y buscar paquetes de Python, y nos proporciona una forma conveniente de gestionar dependencias y versiones entre diversas librerías de Python que tengamos en nuestro sistema. En este artículo, exploraremos en detalle cómo usar pip en Linux y Windows para instalar y gestionar paquetes de Python en su sistema.<!--more-->

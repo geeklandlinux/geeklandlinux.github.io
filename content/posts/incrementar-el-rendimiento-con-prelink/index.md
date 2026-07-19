@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "debian"
-coverImage: "Incrementar-el-rendimiento-con-Prelink.jpg"
+cover:
+  image: "images/Incrementar-el-rendimiento-con-Prelink.jpg"
+  relative: true
 ---
 
 Incrementar el rendimiento con prelink es el penúltimo post de la serie que detalla como incrementar el rendimiento de nuestro ordenador. Aunque tengo en mente alguna que otra idea de momento haré un paréntesis. Posiblemente en un futuro incluya algún que otro post en la siguiente lista:<!--more-->

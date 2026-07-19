@@ -9,7 +9,9 @@ tags:
   - "infcloud"
   - "radicale"
   - "servicios-en-la-nube"
-coverImage: "Instalar-Infcloud-para-gestionar-nuestra-agenda.png"
+cover:
+  image: "images/Instalar-Infcloud-para-gestionar-nuestra-agenda.png"
+  relative: true
 ---
 
 Si estamos usando Radicale y queremos gestionar nuestros calendarios, contactos y tareas vía el navegador web deberemos instalar InfCloud. Si estamos corriendo Radicale en Docker tendremos que seguir el siguiente proceso para instalar InfCloud.<!--more-->

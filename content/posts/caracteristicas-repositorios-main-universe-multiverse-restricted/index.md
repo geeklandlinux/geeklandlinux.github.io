@@ -6,7 +6,9 @@ categories:
 tags: 
   - "repositorios"
   - "ubuntu"
-coverImage: "repositorios-en-ubuntu.jpg"
+cover:
+  image: "images/repositorios-en-ubuntu.jpg"
+  relative: true
 ---
 
 A continuación veremos una breve explicación de las características y el tipo de paquetes y software que encontraremos en cada uno de los repositorios principales de Ubuntu y distribuciones derivadas de Ubuntu. Además daré mi opinión sobre los repositorios que bajo mi experiencia podemos activar.<!--more-->

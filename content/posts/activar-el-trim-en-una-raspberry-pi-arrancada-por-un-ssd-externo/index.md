@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "disco-duro"
   - "trim"
-coverImage: "activar-el-trim-en-una-raspberry-pi-arrancada-por-un-ssd-externo.png"
+cover:
+  image: "images/activar-el-trim-en-una-raspberry-pi-arrancada-por-un-ssd-externo.png"
+  relative: true
 ---
 
 Recientemente vimos como [arrancar nuestra Raspberry Pi a través de un dispositivo de almacenamiento SSD externo]({{< relref "/posts/como-arrancar-la-raspberry-pi-4-desde-un-disco-ssd" >}}). Para que el rendimiento del disco duro sea correcto y prolongar su vida útil es recomendable activar el TRIM. Para activar el TRIM en una Raspberry Pi arrancada por un SSD externo procederemos del siguiente modo.<!--more-->

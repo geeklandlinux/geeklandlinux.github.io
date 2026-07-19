@@ -8,7 +8,9 @@ tags:
   - "deep-web"
   - "tails"
   - "tor"
-coverImage: "0-Instalar-Tails.jpg"
+cover:
+  image: "images/0-Instalar-Tails.jpg"
+  relative: true
 ---
 
 Hoy vamos a conocer una distribución GNU Linux llamada Tails. En otros post de este blog hemos visto como usar la Red Tor para navegar anónimamente y acceder a la deep web. Concretamente me refiero al siguiente post:

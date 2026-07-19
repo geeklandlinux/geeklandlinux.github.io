@@ -7,7 +7,9 @@ categories:
 tags: 
   - "publicidad"
   - "skype"
-coverImage: "Quitar-la-publicidad-en-Skype.jpg"
+cover:
+  image: "images/Quitar-la-publicidad-en-Skype.jpg"
+  relative: true
 ---
 
 Skype es una herramienta que uso habitualmente en mi trabajo. Además todo el mundo coincidirá en que es una herramienta que utiliza un gran numero de personas en su trabajo. Por lo tanto bajo mi punto de visto tiene que ser una herramienta seria, fácil de usar, que funcione y que tenga un entorno gráfico que no distraiga al usuario. Pero tal es mi sorpresa que un buen día mientras estaba manteniendo una conversación importante con un proveedor tenía que estar constantemente viendo ads y publicidad como la que se muestra en la siguiente captura de pantalla:<!--more-->

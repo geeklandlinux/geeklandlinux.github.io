@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "firefox"
   - "software-libre"
-coverImage: "Instalar-y-actualizar-Firefox-a-la-última-versión-con-un-script.png"
+cover:
+  image: "images/Instalar-y-actualizar-Firefox-a-la-última-versión-con-un-script.png"
+  relative: true
 ---
 
 Me atrevería a decir que Debian es la distribución con los repositorios más completos. No obstante si usas Debian Testing o Debian estable no encontraréis la última versión de Firefox en los repositorios. La versión que encontraréis es la ESR. Para instalar y actualizar Firefox a la última versión existen muchas soluciones. Algunas de las que habría aplicado en el pasado sin dudarlo son las siguientes:<!--more-->

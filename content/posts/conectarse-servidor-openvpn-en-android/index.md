@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "openvpn"
   - "vpn"
-coverImage: "Conectarse-openvpn-en-Android.png"
+cover:
+  image: "images/Conectarse-openvpn-en-Android.png"
+  relative: true
 ---
 
 En pasados post vimos de forma muy detallada como [crear y configurar nuestro propio servidor OpenVPN]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}}) con cualquier distribución derivada de Debian. Una vez instalado y configurado nuestro servidor OpenVPN explique el procedimiento para conectarse a nuestro servidor Openvpn desde iOS y Windows. Ahora finalmente toca el turno de como conectarnos a un servidor OpenVPN en Android.<!--more-->

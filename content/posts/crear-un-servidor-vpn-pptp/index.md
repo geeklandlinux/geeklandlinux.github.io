@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "internet"
   - "vpn"
-coverImage: "servidor-VPN.png"
+cover:
+  image: "images/servidor-VPN.png"
+  relative: true
 ---
 
 En pasados post vimos como conectarnos a un servidor VPN y además también vimos las numerosas ventajas y usos que nos puede aportar un servidor VPN en determinadas circunstancias. **Para quien quiera consultar de nuevo las ventajas y virtudes de un servidor VPN puede consultar el siguiente post**:

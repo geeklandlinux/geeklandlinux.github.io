@@ -9,7 +9,9 @@ tags:
   - "libreoffice"
   - "microsoft"
   - "tips"
-coverImage: "incrustar-fuentes-microsoft-office-libreoffice.jpg"
+cover:
+  image: "images/incrustar-fuentes-microsoft-office-libreoffice.jpg"
+  relative: true
 ---
 
 Es común que al visualizar o editar un documento ofimático en un ordenador que no es nuestro se visualice mal. El motivo acostumbra a ser que el ordenador que usamos no tiene disponible las fuentes necesarias para que el documento se visualice de forma correcta. Por este motivo a continuación le enseñaré como incrustar fuentes en un documento ofimático de LibreOffice o Microsoft Office. De esta forma conseguiremos lo siguiente:<!--more-->

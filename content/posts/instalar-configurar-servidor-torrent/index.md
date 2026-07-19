@@ -10,7 +10,9 @@ tags:
   - "servidor"
   - "torrent"
   - "transmission"
-coverImage: "instalar-un-servidor-torrent-en-la-raspberry-pi-.png"
+cover:
+  image: "images/instalar-un-servidor-torrent-en-la-raspberry-pi-.png"
+  relative: true
 ---
 
 A continuación veremos los pasos a seguir para montar un servidor torrent de de forma fácil y sencilla en una raspberry pi. Pero antes veremos una pequeña introducción porque es interesante hacerlo en una raspberry Pi y no en un ordenador.<!--more-->

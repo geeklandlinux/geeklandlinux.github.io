@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "ofimatica"
   - "wps-office"
-coverImage: "Instalar-y-configurar-WPS-Office-en-Linux.png"
+cover:
+  image: "images/Instalar-y-configurar-WPS-Office-en-Linux.png"
+  relative: true
 ---
 
 En mi caso siempre he usado Libreoffice y continuaré usándolo. No obstante Libreoffice hace demasiado tiempo que me da problemas y el rendimiento en mi equipo no es el adecuado. Por este motivo he empezado a usar WPS Office. Los pasos a seguir para instalar y disfrutar de esta suite ofimática son los siguientes:<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "linux"
   - "software"
-coverImage: "googlemusicframe-256.png"
+cover:
+  image: "images/googlemusicframe-256.png"
+  relative: true
 ---
 
 Bajo mi punto de vista Nuvola Player es el **reproductor de música en streaming por excelencia**. Lo es porqué al instalar Nuvola Player obtendrán una serie de servicios que ningún otro reproductor nos ofrece.<!--more-->

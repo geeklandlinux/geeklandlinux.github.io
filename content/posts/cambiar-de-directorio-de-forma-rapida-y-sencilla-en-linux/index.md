@@ -8,7 +8,9 @@ tags:
   - "popd"
   - "pushd"
   - "terminal"
-coverImage: "Cambiar-de-directorio-de-forma-rapida-y-sencilla-en-Linux.jpeg"
+cover:
+  image: "images/Cambiar-de-directorio-de-forma-rapida-y-sencilla-en-Linux.jpeg"
+  relative: true
 ---
 
 Hay varías formas para cambiar de directorio de forma rápida y sencilla en Linux. Algunas bastante conocidas son:

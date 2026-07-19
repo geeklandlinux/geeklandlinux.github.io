@@ -9,7 +9,9 @@ tags:
   - "dpkg"
   - "historial"
   - "ubuntu"
-coverImage: "Ver-el-historial-de-actualizaciones-en-apt-get.jpg"
+cover:
+  image: "images/Ver-el-historial-de-actualizaciones-en-apt-get.jpg"
+  relative: true
 ---
 
 En el siguiente post veremos como consultar el historial de actualizaciones, instalaciones e desinstalaciones de paquetes en el caso que usemos el gestor de paquetes apt-get.<!--more-->

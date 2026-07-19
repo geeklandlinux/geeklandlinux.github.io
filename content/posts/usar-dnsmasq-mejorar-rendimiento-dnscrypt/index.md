@@ -8,7 +8,9 @@ tags:
   - "dnscrypt"
   - "dnsmasq"
   - "privacidad"
-coverImage: "Usar-DNSmasq-para-mejorar-el-rendimiento-de-DNSCrypt.png"
+cover:
+  image: "images/Usar-DNSmasq-para-mejorar-el-rendimiento-de-DNSCrypt.png"
+  relative: true
 ---
 
 En artículos anteriores vimos los pasos a seguir para instalar, configurar y usar DNSCrypt en Linux y en Windows. Para terminar de completar los artículos que escribí en su día a continuación explicaremos como usar DNSmasq para mejorar el rendimiento de DNSCrypt.<!--more-->

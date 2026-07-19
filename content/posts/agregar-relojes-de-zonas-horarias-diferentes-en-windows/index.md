@@ -5,7 +5,9 @@ categories:
   - "windows"
 tags: 
   - "hora"
-coverImage: "Agregar-relojes-para-zonas-horarias-diferentes-en-Windows.jpg"
+cover:
+  image: "images/Agregar-relojes-para-zonas-horarias-diferentes-en-Windows.jpg"
+  relative: true
 ---
 
 He decidido escribir un post en el que comentaré el procedimiento a seguir para agregar relojes de zonas horarias diferentes en Windows. El motivo por el cual escribo sobre este tema es porque en mi caso acostumbro a trabajar con proveedores y clientes ubicados en el extranjero y de vez en cuando surgen urgencias que hacen que tenga que contactar con ellos a horas no habituales. Por lo tanto a menudo me encuentro con situaciones similares a las siguientes:<!--more-->

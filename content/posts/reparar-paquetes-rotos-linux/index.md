@@ -9,7 +9,9 @@ tags:
   - "paquetes-rotos"
   - "repositorios"
   - "synaptic"
-coverImage: "reparar-paquetes-rotos-en-linux.jpg"
+cover:
+  image: "images/reparar-paquetes-rotos-en-linux.jpg"
+  relative: true
 ---
 
 En mi caso tengo un paquete roto en mi equipo. En el caso que se encuentren con una situación similar deberán seguir las siguientes instrucciones para reparar los paquetes rotos y dependencias incumplidas. Pero antes de iniciar la explicación detallaremos que es un paquete roto y que son las dependencias incumplidas.<!--more-->

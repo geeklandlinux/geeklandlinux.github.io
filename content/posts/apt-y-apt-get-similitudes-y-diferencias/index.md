@@ -6,7 +6,9 @@ categories:
 tags: 
   - "apt"
   - "apt-get"
-coverImage: "apt-y-apt-get-ventajas-similitudes-y-diferencias.png"
+cover:
+  image: "images/apt-y-apt-get-ventajas-similitudes-y-diferencias.png"
+  relative: true
 ---
 
 A estas alturas muchos de vosotros sabréis que en vuestras distros linux podéis realizar operaciones con vuestros paquetes utilizando los comandos apt y apt-get.

@@ -11,7 +11,9 @@ tags:
   - "microprocesador"
   - "placa-base"
   - "tarjeta-grafica"
-coverImage: "Comprar-odenador.jpg"
+cover:
+  image: "images/Comprar-odenador.jpg"
+  relative: true
 ---
 
 La mayoría de gente que quiere comprar un ordenador acostumbra comparar distintos tipos de parámetros entre las diferentes opciones que tiene disponible y siempre acaban eligiendo el que presenta sobre el papel unas prestaciones más elevadas. Es decir el que tiene mucha RAM, el que tiene mucha capacidad de almacenamiento, etc.<!--more-->

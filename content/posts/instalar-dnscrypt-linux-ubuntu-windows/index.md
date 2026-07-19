@@ -8,7 +8,9 @@ tags:
   - "dns"
   - "dnscrypt"
   - "privacidad"
-coverImage: "Instalar-DNSCrypt-en-Linux-ubuntu-y-Windows.png"
+cover:
+  image: "images/Instalar-DNSCrypt-en-Linux-ubuntu-y-Windows.png"
+  relative: true
 ---
 
 La semana anterior publiqué un post en el que detallaba los [motivos y razones que tenemos para cifrar nuestras peticiones DNS]({{< relref "/posts/motivos-cifrar-las-peticiones-dns" >}}). Una vez vista la necesidad de cifrar las peticiones DNS veremos como podemos instalar DNSCrypt en Linux, en Ubuntu y en Windows para de esta forma preservar nuestra privacidad y nuestra seguridad.<!--more-->

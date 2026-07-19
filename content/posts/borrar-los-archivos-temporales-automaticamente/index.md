@@ -6,7 +6,9 @@ categories:
 tags: 
   - "archivos-temporales"
   - "systemd"
-coverImage: "Borrar-los-archivos-temporales-automáticamente.png"
+cover:
+  image: "images/Borrar-los-archivos-temporales-automáticamente.png"
+  relative: true
 ---
 
 Hace unos días publique un artículo en el que hablaba de [los directorios temporales en Linux]({{< relref "/posts/explicacion-carpetas-contienen-archivos-temporales-linux" >}}). Como complemento a este artículo seguidamente detallaremos como borrar los archivos temporales de forma completamente automática y periódica.<!--more-->

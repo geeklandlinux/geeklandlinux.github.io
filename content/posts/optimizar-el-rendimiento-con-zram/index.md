@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "memoria"
-coverImage: "zram.jpg"
+cover:
+  image: "images/zram.jpg"
+  relative: true
 ---
 
 En el siguiente post comentamos como optimizar el rendimiento del sistema con Zram. Cabe destacar que esta publicación forma parte de una serie posts para optimizar el rendimiento de nuestra memoria RAM y de nuestro sistema.

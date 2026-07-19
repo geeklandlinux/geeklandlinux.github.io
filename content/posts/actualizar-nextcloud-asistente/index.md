@@ -7,7 +7,9 @@ categories:
 tags: 
   - "actualizar"
   - "nextcloud"
-coverImage: "actualizar-nextcloud-con-asistente-actualizacion.png"
+cover:
+  image: "images/actualizar-nextcloud-con-asistente-actualizacion.png"
+  relative: true
 ---
 
 Hace semanas vimos como [configurar]({{< relref "/posts/configurar-optimizar-rendimiento-nextcloud" >}}) e [instalar Nextcloud]({{< relref "/posts/instalar-nextcloud-mariadb-lighttpd" >}}). A día de veremos como podemos actualizar Nextcloud de forma extremadamente sencilla. Gracias a su asistente de actualización tan solo tendremos que apretar un botón y el proceso se realizará de forma automática.<!--more-->

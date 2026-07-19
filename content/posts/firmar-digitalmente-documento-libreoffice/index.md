@@ -10,7 +10,9 @@ tags:
   - "ofimatica"
   - "seguridad"
   - "software-libre"
-coverImage: "firmar-digitalmente-documento-libreoffice.jpg"
+cover:
+  image: "images/firmar-digitalmente-documento-libreoffice.jpg"
+  relative: true
 ---
 
 Desde la versión 5.4, LibreOffice permite firmar digitalmente documentos con OpenPGP. Por este motivo en el siguiente artículo veremos:

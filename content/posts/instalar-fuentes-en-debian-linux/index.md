@@ -8,7 +8,9 @@ tags:
   - "fuentes"
   - "linux-mint"
   - "ubuntu"
-coverImage: "Instalar-fuentes-tipográficas-en-GNU-Linux-1.png"
+cover:
+  image: "images/Instalar-fuentes-tipográficas-en-GNU-Linux-1.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos la totalidad de pasos a seguir para buscar e instalar fuentes tipográficas en Linux y particularmente en Debian.

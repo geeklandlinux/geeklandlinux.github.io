@@ -7,7 +7,9 @@ tags:
   - "opinion"
   - "windows-10"
   - "windows-10-s"
-coverImage: "windows-10-s-es-un-engaño-para-los-usuarios.jpg"
+cover:
+  image: "images/windows-10-s-es-un-engaño-para-los-usuarios.jpg"
+  relative: true
 ---
 
 En mayo de 2017 Microsoft anunció el nuevo sistema operativo Windows 10 S. Después de informarme sobre las características de este sistema operativo he quedado simplemente estupefacto. Los motivos son los siguientes.<!--more-->

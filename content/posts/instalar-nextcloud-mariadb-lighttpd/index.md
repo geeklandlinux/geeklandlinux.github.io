@@ -10,7 +10,9 @@ tags:
   - "nextcloud"
   - "servicios-en-la-nube"
   - "servidor"
-coverImage: "Instalar-Nextcloud-en-una-Raspberry-Pi-con-MariaDB-y-Lighttpd.png"
+cover:
+  image: "images/Instalar-Nextcloud-en-una-Raspberry-Pi-con-MariaDB-y-Lighttpd.png"
+  relative: true
 ---
 
 En el siguiente artículo verán los pasos a seguir para poder instalar Nextcloud en una Raspberry Pi. La base de datos que usaremos para nuestra nube Nextcloud será MariaDB, mientras que el servidor web será Lighttpd. He seleccionado estas opciones porque pienso que son las opciones que darán mejor rendimiento a nuestra Raspberry Pi.

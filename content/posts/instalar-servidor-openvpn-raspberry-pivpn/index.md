@@ -9,7 +9,9 @@ tags:
   - "privacidad"
   - "raspbian"
   - "vpn"
-coverImage: "instalar-servidor-openvpn-con-Pivpn.png"
+cover:
+  image: "images/instalar-servidor-openvpn-con-Pivpn.png"
+  relative: true
 ---
 
 Hay mucha gente que le puede parecer extremadamente difícil disponer de un servidor OpenVPN. No obstante hoy en día las facilidades existentes para montar un servidor son enormes gracias a que existen instaladores como por ejemplo PiVPN.<!--more-->

@@ -5,7 +5,9 @@ categories:
   - "docker"
 tags: 
   - "disco-duro"
-coverImage: "Hacer-Docker-funcione-en-un-disco-duro-externo.jpg"
+cover:
+  image: "images/Hacer-Docker-funcione-en-un-disco-duro-externo.jpg"
+  relative: true
 ---
 
 A continuación les mostraré un método sencillo para usar y ejecutar Docker en un disco duro externo. Los motivos por los que puede ser una buena idea evitar que los contenedores e imágenes de Docker se ejecuten y almacenen en la partición raíz de nuestro sistema operativo son los siguientes.<!--more-->

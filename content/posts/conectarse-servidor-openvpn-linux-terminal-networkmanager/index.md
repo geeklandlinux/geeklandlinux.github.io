@@ -10,7 +10,9 @@ tags:
   - "privacidad"
   - "terminal"
   - "vpn"
-coverImage: "conectarse-servidor-openvpn-linux-terminal-networkmanager.jpg"
+cover:
+  image: "images/conectarse-servidor-openvpn-linux-terminal-networkmanager.jpg"
+  relative: true
 ---
 
 En el pasado detallamos como [montar nuestro servidor VPN en tan solo 3 comandos]({{< relref "/posts/instalar-y-configurar-un-servidor-vpn" >}}). A continuación detallaremos como conectarse a un servidor OpenVPN en Linux usando la terminal y usando NetworkManager.<!--more-->

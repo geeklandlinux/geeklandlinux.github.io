@@ -8,7 +8,9 @@ tags:
   - "software"
   - "spotify"
   - "ubuntu"
-coverImage: "Instalar-Spotify-en-Ubuntu-y-derivadas.jpg"
+cover:
+  image: "images/Instalar-Spotify-en-Ubuntu-y-derivadas.jpg"
+  relative: true
 ---
 
 Hace ya muchos años que Spotify dispone de un cliente de escritorio para Linux y a estas alturas imagino que para la gran mayoría no supone una gran dificultad su instalación. No obstante a modo de guía para que la gente pueda instalar Spotify simplemente copiando y pegando, he decido escribir este post.<!--more-->

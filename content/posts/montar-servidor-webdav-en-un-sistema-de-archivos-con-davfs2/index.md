@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "webdav"
-coverImage: "Servidor-WebDAV-automontado-en-un-sistema-de-archivos-con-Davfs2.jpg"
+cover:
+  image: "images/Servidor-WebDAV-automontado-en-un-sistema-de-archivos-con-Davfs2.jpg"
+  relative: true
 ---
 
 En su día comentamos como [crear nuestro propio servidor WebDAV]({{< relref "/posts/instalar-y-configurar-un-servidor-webdav-apache" >}}). Ahora veremos como podemos montar el contenido almacenado en un servidor WebDAV en un ordenador que corre GNU/Linux. Una vez montado el contenido pretendo editar el contenido del servidor WebDAV como si estuviera realmente almacenado en mi ordenador. Hay varias formas de conseguir mi propósito, pero en mi caso lo he realizado del siguiente modo.<!--more-->

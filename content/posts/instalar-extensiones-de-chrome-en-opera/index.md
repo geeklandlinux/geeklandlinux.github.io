@@ -9,7 +9,9 @@ tags:
   - "navegadores"
   - "opera"
   - "software"
-coverImage: "instalar-extensiones-chrome-en-opera.png"
+cover:
+  image: "images/instalar-extensiones-chrome-en-opera.png"
+  relative: true
 ---
 
 El navegador Opera dispone de bastantes extensiones, pero es posible que existan casos en que busquemos una determinada extensión y no exista. Por este motivo a continuación veremos un método para poder instalar extensiones de Chrome en Opera de forma muy sencilla.<!--more-->

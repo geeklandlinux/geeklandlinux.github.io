@@ -7,7 +7,9 @@ tags:
   - "google"
   - "internet"
   - "privacidad"
-coverImage: "que-sabe-google-de-nosotros.jpg"
+cover:
+  image: "images/que-sabe-google-de-nosotros.jpg"
+  relative: true
 ---
 
 Imagino que a estas altura todo el mundo es consciente que **el hecho de usar un ordenador o un teléfono móvil puede conllevar y de hecho conlleva problemas graves de privacidad**. Empresas como Google, Apple, Facebook u otras sin duda no dejan pasar la oportunidad de recopilar información y datos de sus usuarios.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "linux"
   - "vpn"
-coverImage: "VPNLOGO.png"
+cover:
+  image: "images/VPNLOGO.png"
+  relative: true
 ---
 
 En el siguiente post comentaremos como conectarse a un servidor VPN externo gratuito, pero antes de ir al grano creo que es altamente recomendable explicar las ventajas que nos proporcionará VPN así como también su funcionamiento. Lo primero que deberíamos saber lógicamente es que es una red VPN.<!--more-->

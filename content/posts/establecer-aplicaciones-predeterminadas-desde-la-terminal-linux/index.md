@@ -7,7 +7,9 @@ tags:
   - "aplicaciones"
   - "configuracion"
   - "terminal"
-coverImage: "Establecer-aplicaciones-predeterminadas-desde-la-terminal-Linux.jpg"
+cover:
+  image: "images/Establecer-aplicaciones-predeterminadas-desde-la-terminal-Linux.jpg"
+  relative: true
 ---
 
 En mi caso he usado Firefox durante una larga temporada, no obstante por temas de rendimiento he decidido migrar a Brave Browser con el pequeño inconveniente que al usar el escritorio i3 no sabia como fijar Brave como navegador predeterminado. Al final he terminado haciendo uso de la terminal del siguiente modo que verán a continuación. Además también he aprovechado para configurar el resto de aplicaciones predeterminadas del sistema desde la terminal del modo que verán a continuación.<!--more-->

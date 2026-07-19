@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "sudo"
   - "ubuntu"
-coverImage: "Configurar-sudo-para-administrar-nuestro-sistema-en-Linux.png"
+cover:
+  image: "images/Configurar-sudo-para-administrar-nuestro-sistema-en-Linux.png"
+  relative: true
 ---
 
 Hay varias distribuciones, como por ejemplo Debian or Arch Linux, que no traen sudo configurado de serie. Por este motivo en el siguiente artículo detallaré de forma clara y concisa como configurar sudo y las ventajas que nos proporcionará.<!--more-->

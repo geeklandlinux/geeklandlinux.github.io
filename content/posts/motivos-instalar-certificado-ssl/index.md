@@ -8,7 +8,9 @@ tags:
   - "https"
   - "ssl"
   - "tls"
-coverImage: "motivos-para-usar-un-certificado-ssl.png"
+cover:
+  image: "images/motivos-para-usar-un-certificado-ssl.png"
+  relative: true
 ---
 
 Recientemente acabo de adquirir un certificado SSL para el blog. Inicialmente era reticente a usar un certificado SSL, pero reflexionando un poco he llegado a la conclusión que a día de hoy tienen su utilidad.<!--more-->

@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "virtualbox"
-coverImage: "Integrar-Virtualbox-Red-Local.jpg"
+cover:
+  image: "images/Integrar-Virtualbox-Red-Local.jpg"
+  relative: true
 ---
 
 Seguidamente les mostraremos como hacer que el sistema operativo que estamos virtualizando en nuestra máquina virtual ([Virtualbox](https://www.virtualbox.org/ "Web Virtualbox")) este integrado a nuestra red local. Una vez conseguido nuestra máquina virtual estará plenamente integrada en nuestra red local tal y como si un dispositivo real se tratará.<!--more-->

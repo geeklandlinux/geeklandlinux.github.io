@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "programas-predeterminados"
-coverImage: "elegir-pograma-predeterminado-extension-archivo.jpg"
+cover:
+  image: "images/elegir-pograma-predeterminado-extension-archivo.jpg"
+  relative: true
 ---
 
 Existen muchas formas para seleccionar el programa predeterminado para abrir una determinada extensión de archivo en Windows. Por este motivo a continuación mostraré las formas que considero más apropiadas para realizar esta operación en Windows 10.<!--more-->

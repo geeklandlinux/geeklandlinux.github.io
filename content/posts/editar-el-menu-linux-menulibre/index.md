@@ -12,7 +12,9 @@ tags:
   - "menulibre"
   - "unity"
   - "xfce"
-coverImage: "editar-el-menu-con-MenuLibre.png"
+cover:
+  image: "images/editar-el-menu-con-MenuLibre.png"
+  relative: true
 ---
 
 A continuación veremos como podemos editar el menú de nuestra distribución Linux de forma fácil y sencilla usando el programa MenuLibre.<!--more-->

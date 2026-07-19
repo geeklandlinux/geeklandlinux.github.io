@@ -8,7 +8,9 @@ tags:
   - "audiolibro"
   - "convertir-pdf"
   - "pdf-a-mp3"
-coverImage: "crear-nuestros-propios-audiolibros-a-partir-de-un-archivo-pdf.jpg"
+cover:
+  image: "images/crear-nuestros-propios-audiolibros-a-partir-de-un-archivo-pdf.jpg"
+  relative: true
 ---
 
 En el siguiente artículo veremos el proceso a seguir para crear nuestros propios audiolibros a partir de un archivo pdf.

@@ -5,7 +5,9 @@ categories:
   - "seguridad-informatica"
 tags: 
   - "sandbox"
-coverImage: "que-es-y-para-que-sirve-un-sandbox.png"
+cover:
+  image: "images/que-es-y-para-que-sirve-un-sandbox.png"
+  relative: true
 ---
 
 A continuación veremos una explicación simple para que todo el mundo pueda comprender lo que es un sandbox en el mundo de la informática.<!--more-->

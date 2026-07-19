@@ -7,7 +7,9 @@ tags:
   - "buscar-archivos"
   - "gnome"
   - "tracker"
-coverImage: "configurar-tracker-para-buscar-archivos-por-contenido.jpg"
+cover:
+  image: "images/configurar-tracker-para-buscar-archivos-por-contenido.jpg"
+  relative: true
 ---
 
 Hace semanas tuve una conversación con un lector que daba por sentado que en XFCE no se pueden realizar búsquedas a partir del contenido que tiene un archivo. A raíz de esta experiencia en este artículo explicaré como buscar archivos por su contenido en cualquier entorno de escritorio mediante el programa de Gnome Tracker.<!--more-->

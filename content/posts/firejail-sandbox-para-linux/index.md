@@ -8,7 +8,9 @@ tags:
   - "firejail"
   - "sandbox"
   - "seguridad"
-coverImage: "firejail-un-sandbox-para-linux.png"
+cover:
+  image: "images/firejail-un-sandbox-para-linux.png"
+  relative: true
 ---
 
 En el pasado explicamos de forma simplificada [que es un sandbox y los posibles]({{< relref "/posts/que-es-y-para-que-sirve-un-sandbox" >}}) usos que le podemos dar. A raíz de este post, a continuación veremos como usar un sandbox llamado Firejail en Linux.<!--more-->

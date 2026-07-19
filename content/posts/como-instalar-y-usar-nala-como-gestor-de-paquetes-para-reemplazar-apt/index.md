@@ -7,7 +7,9 @@ tags:
   - "apt"
   - "gestor-de-paquetes"
   - "nala"
-coverImage: "Como-instalar-y-usar-el-gestor-de-paquetes-Nala-en-Linux-para-reemplazar-apt.png"
+cover:
+  image: "images/Como-instalar-y-usar-el-gestor-de-paquetes-Nala-en-Linux-para-reemplazar-apt.png"
+  relative: true
 ---
 
 La gran mayoría de distribuciones que usan paquetes .deb usan apt como gestor de paquetes de alto nivel. Este gestor de paquetes funciona bien, no obstante también es cierto que presenta algunas limitaciones. Por este motivo en el siguiente artículo veremos como usar un gestor de paquetes alternativo que se llama Nala. Antes de iniciar la explicación de como instalar y usar Nala veremos los principales inconvenientes del gestor de paquetes apt.<!--more-->

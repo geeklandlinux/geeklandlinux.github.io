@@ -7,7 +7,9 @@ tags:
   - "audio"
   - "mp3"
   - "ogg"
-coverImage: "mp3-o-ogg.jpg"
+cover:
+  image: "images/mp3-o-ogg.jpg"
+  relative: true
 ---
 
 En semanas anteriores citamos y analizamos las [ventajas e inconvenientes del audio .ogg sobre el mp3]({{< relref "/posts/ventajas-formato-ogg-respecto-mp3" >}}). En esta ocasión veremos una comparación práctica para confirmar que los formatos de audio .ogg son técnicamente superiores a los mp3.<!--more-->

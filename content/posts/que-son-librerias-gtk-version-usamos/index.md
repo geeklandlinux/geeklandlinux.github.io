@@ -6,7 +6,9 @@ categories:
 tags: 
   - "gtk"
   - "tema-gtk"
-coverImage: "Qué-son-las-librerías-GTK-y-que-versión-usamos.png"
+cover:
+  image: "images/Qué-son-las-librerías-GTK-y-que-versión-usamos.png"
+  relative: true
 ---
 
 En algunas ocasiones cuando vamos a instalar un tema de escritorio en nuestra distribución Linux, nos preguntamos la versión de librerías GTK que tiene nuestro sistema operativo para ver si el tema que queremos instalar es compatible con nuestra distribución.<!--more-->

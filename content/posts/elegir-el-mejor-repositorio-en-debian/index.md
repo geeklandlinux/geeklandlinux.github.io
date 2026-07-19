@@ -8,7 +8,9 @@ tags:
   - "configuracion"
   - "debian"
   - "repositorios"
-coverImage: "Repositorio-de-debian-mas-rapido.png"
+cover:
+  image: "images/Repositorio-de-debian-mas-rapido.png"
+  relative: true
 ---
 
 Ahora mismo estoy en una máquina virtual con Debian Testing. Hace bastante tiempo que no la utilizo y la quiero actualizar. Por lo tanto imagino que me entrará un montón de paquetería nueva y el tiempo de la actualización será elevado.

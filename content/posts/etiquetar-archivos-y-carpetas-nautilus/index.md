@@ -9,7 +9,9 @@ tags:
   - "nautilus"
   - "tracker"
   - "tracker-needle"
-coverImage: "etiquetar-archivos-y-carpetas-nautilus.png"
+cover:
+  image: "images/etiquetar-archivos-y-carpetas-nautilus.png"
+  relative: true
 ---
 
 Hace pocos días vimos el procedimiento para etiquetar archivos con tracker [mediante la terminal]({{< relref "/posts/etiquetar-archivos-carpetas-terminal" >}}). La gente a la que no le guste usar la terminal tiene que saber que también tiene la opción de usar las interfaces gráficas para etiquetar sus archivos y carpetas.<!--more-->

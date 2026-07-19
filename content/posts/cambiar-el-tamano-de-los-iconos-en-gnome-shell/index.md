@@ -6,7 +6,9 @@ categories:
 tags: 
   - "gnome"
   - "iconos"
-coverImage: "Cambiar-el-tamaño-de-los-iconos-en-Gnome-Shell.png"
+cover:
+  image: "images/Cambiar-el-tamaño-de-los-iconos-en-Gnome-Shell.png"
+  relative: true
 ---
 
 Por una serie de motivos que no vienen al caso Gnome shell no es el entorno de escritorio que utilizo habitualmente y cuando empecé a usarlo después de varios meses sin hacerlo, me encontré con la sorpresa que el tamaño por defecto de los iconos era enorme. Si queréis ver una muestra de lo que digo tan solo tienen que ver la siguiente captura de pantalla:<!--more-->

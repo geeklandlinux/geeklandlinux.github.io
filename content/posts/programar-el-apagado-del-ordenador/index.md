@@ -7,7 +7,9 @@ categories:
 tags: 
   - "configuracion"
   - "programar"
-coverImage: "Programar-el-apagado-del-ordenador.png"
+cover:
+  image: "images/Programar-el-apagado-del-ordenador.png"
+  relative: true
 ---
 
 Antes de irme a dormir existen ocasiones en las que me pongo en la cama escuchando un podcast o la radio a través del ordenador. Al rato de estar escuchando la radio o el podcast acaba pasando una de estas dos cosas:

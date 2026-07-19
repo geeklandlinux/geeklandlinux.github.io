@@ -10,7 +10,9 @@ tags:
   - "tails"
   - "tor"
   - "vpn"
-coverImage: "Navegar-en-la-deep-web-de-forma-segura-y-anónima.png"
+cover:
+  image: "images/Navegar-en-la-deep-web-de-forma-segura-y-anónima.png"
+  relative: true
 ---
 
 En el pasado escribí varios artículos sobre la [deep web]({{< relref "/posts/acceder-a-la-deep-web" >}}). En los comentarios de los artículos detecté que muchas personas preguntaban acerca de como navegar en la deep web de forma segura, por este motivo en el siguiente artículo veremos una serie de recomendaciones que todo el mundo debería seguir para navegar en la deep web.<!--more-->

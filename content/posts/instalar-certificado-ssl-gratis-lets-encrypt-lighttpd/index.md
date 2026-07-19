@@ -9,7 +9,9 @@ tags:
   - "configuracion"
   - "lets-encrypt"
   - "raspbian"
-coverImage: "instalar-certificado-SSL-lets-encrypt.png"
+cover:
+  image: "images/instalar-certificado-SSL-lets-encrypt.png"
+  relative: true
 ---
 
 En el pasado vimos la [importancia de disponer de un certificado SLL]({{< relref "/posts/motivos-instalar-certificado-ssl" >}}) para la totalidad de páginas y servicios que corren sobre un servidor web. Por este motivo veremos las instrucciones a seguir para instalar un certificado SSL gratis de Let's Encrypt en un servidor lighttpd que corre en una Raspberry Pi. Los pasos a seguir para instalar un certificado SSL de Let's Encrypt son los siguientes:<!--more-->

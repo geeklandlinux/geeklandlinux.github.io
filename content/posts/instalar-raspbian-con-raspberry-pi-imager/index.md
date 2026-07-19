@@ -7,7 +7,9 @@ tags:
   - "libreelec"
   - "raspberry-pi-imager"
   - "raspbian"
-coverImage: "instalar-raspbian-con-raspberry-pi-imager.png"
+cover:
+  image: "images/instalar-raspbian-con-raspberry-pi-imager.png"
+  relative: true
 ---
 
 Existen numerosos métodos para instalar Raspbian o cualquier otro sistema operativo en la Raspberry Pi. No obstante el método más sencillo que conozco es usar Raspberry Pi Imager.<!--more-->

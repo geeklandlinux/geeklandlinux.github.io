@@ -6,7 +6,9 @@ categories:
 tags: 
   - "memoria"
   - "swap"
-coverImage: "memoria-swap-insuficiente.png"
+cover:
+  image: "images/memoria-swap-insuficiente.png"
+  relative: true
 ---
 
 A continuación veremos los pasos a seguir para incrementar la memoria swap de una Raspberry Pi. En mi caso tengo una Raspberry Pi 3 modelo B que tan solo dispone de 1 GB de RAM. Además la configuración predeterminada de Raspbian establece una memoria de intercambio o SWAP de 100 MB. Por lo tanto a la mínima que instalamos 3 o 4 servicios como por ejemplo Nextcloud, Tiny Tiny RSS o traefik la memoria RAM se llena y el espacio de intercambio o SWAP es claramente insuficiente para un dispositivo que solo tiene 1GB de RAM.<!--more-->

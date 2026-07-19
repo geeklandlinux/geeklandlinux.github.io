@@ -8,7 +8,9 @@ tags:
   - "cortana"
   - "privacidad"
   - "windows-10"
-coverImage: "desactivar-cortana-en-windows-10.png"
+cover:
+  image: "images/desactivar-cortana-en-windows-10.png"
+  relative: true
 ---
 
 Hoy en día [existen pocas personas que usen de los asistentes personales]({{< relref "/posts/por-que-no-usamos-asistentes-personales" >}}). Por esto motivo a continuación veremos los pasos a seguir desactivar Cortana en Windows 10.<!--more-->

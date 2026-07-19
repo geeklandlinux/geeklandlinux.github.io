@@ -6,7 +6,9 @@ categories:
 tags: 
   - "clave-de-activacion"
   - "office"
-coverImage: "Averiguar-la-clave-ce-activación-de-Windows-y-de-Office.jpg"
+cover:
+  image: "images/Averiguar-la-clave-ce-activación-de-Windows-y-de-Office.jpg"
+  relative: true
 ---
 
 Es posible que muchos de vosotros tengáis instalado Microsoft Windows, Microsoft Office y otros productos de Microsoft en vuestro ordenador y desconozcáis por completo su clave de activación. Por este motivo escribo el siguiente post en el que se detalla cómo podemos averiguar la clave de activación de diversos productos de Microsoft como por ejemplo Windows, Office, Explorer, etc.<!--more-->

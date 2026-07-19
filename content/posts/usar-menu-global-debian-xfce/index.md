@@ -7,7 +7,9 @@ tags:
   - "debian"
   - "menu-global"
   - "xfce"
-coverImage: "usar-menu-global-debian-xfce.png"
+cover:
+  image: "images/usar-menu-global-debian-xfce.png"
+  relative: true
 ---
 
 Quien quiera probar la experiencia de usar el menú global en un entorno XFCE tan solo tiene que seguir las instrucciones que se muestran en el siguiente artículo. Pero antes de ir al grano pasaremos a ver las ventajas y desventajas que supone el hecho de usar el menú global en un entorno de escritorio.<!--more-->

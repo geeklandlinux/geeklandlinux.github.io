@@ -8,7 +8,9 @@ tags:
   - "dns"
   - "dnscrypt"
   - "privacidad"
-coverImage: "Configurar-DNSCrypt-en-Windows-parar-cifrar-las-peticiones-DNS.jpg"
+cover:
+  image: "images/Configurar-DNSCrypt-en-Windows-parar-cifrar-las-peticiones-DNS.jpg"
+  relative: true
 ---
 
 Semanas atrás escribimos un artículo en el que se detallaba el procedimiento a seguir para [instalar DNSCrypt en Windows]({{< relref "/posts/instalar-dnscrypt-linux-ubuntu-windows" >}}). Ahora en el presente artículo veremos los pasos a seguir para configurar DNSCrypt en Windows<!--more-->

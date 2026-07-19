@@ -7,7 +7,9 @@ tags:
   - "chrome"
   - "chromium"
   - "webapps"
-coverImage: "Crear-una-aplicación-de-escritorio-a-partir-de-una-página-web.jpg"
+cover:
+  image: "images/Crear-una-aplicación-de-escritorio-a-partir-de-una-página-web.jpg"
+  relative: true
 ---
 
 En Linux, y en otros sistemas operativos, es común que nos encontremos con la situación de que no está disponible un cliente de escritorio para un servicio o aplicación web que utilizamos habitualmente. Con el fin de solucionar esta situación detallaré una procedimiento para convertir fácilmente una página web en una aplicación de escritorio o WebApp.<!--more-->

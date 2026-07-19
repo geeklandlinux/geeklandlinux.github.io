@@ -9,7 +9,9 @@ tags:
   - "gpu"
   - "intel"
   - "navegadores"
-coverImage: "Activar-la-aceleracion-grafica-por-hardware-en-Firefox-y-una-GPU-intel.jpg"
+cover:
+  image: "images/Activar-la-aceleracion-grafica-por-hardware-en-Firefox-y-una-GPU-intel.jpg"
+  relative: true
 ---
 
 En el caso que estén usando Linux y tengan disponible un tarjeta gráfica Intel les recomiendo que sigan las siguientes instrucciones para habilitar la aceleración gráfica por hardware en Firefox. De este modo podrán mejorar significativamente el rendimiento, reducir la carga de la CPU y el consumo de energía, mejorar la calidad de la reproducción de vídeo y admitir tecnologías avanzadas como WebGL.<!--more-->

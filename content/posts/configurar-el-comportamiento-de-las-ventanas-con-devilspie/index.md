@@ -5,7 +5,9 @@ categories:
   - "linux-2"
 tags: 
   - "devilspie"
-coverImage: "Configurar-el-comportamiento-de-las-ventanas.png"
+cover:
+  image: "images/Configurar-el-comportamiento-de-las-ventanas.png"
+  relative: true
 ---
 
 En este post veremos como usar devilspie para configurar el comportamiento de nuestras ventanas y de este modo conseguir ciertos propósitos como por ejemplo los siguientes:<!--more-->

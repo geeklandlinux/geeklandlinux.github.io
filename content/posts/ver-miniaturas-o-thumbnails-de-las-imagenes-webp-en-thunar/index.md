@@ -8,7 +8,9 @@ tags:
   - "thunar"
   - "webp"
   - "xfce"
-coverImage: "ver-la-miniatura-de-las-imagenes-webp-en-thunar.png"
+cover:
+  image: "images/ver-la-miniatura-de-las-imagenes-webp-en-thunar.png"
+  relative: true
 ---
 
 Últimamente en mi web solo uso imágenes con el formato webp. El motivo es que a igualdad de calidad [ocupan mucho menos tamaño](https://photutorial.com/image-format-comparison-statistics/) que las imágenes con formato jpg y png. No obstante el formato webp no es el más estándar y esto me genera una serie de inconvenientes como por ejemplo que mi gestor de ficheros Thunar no es capaz de mostrar las imágenes en miniatura.  En el caso que os pase lo mismo y por lo tanto tengáis problemas para que el gestor de ficheros Thunar muestre las miniaturas o Thumbnails de las imágenes con formato webp sigan las instrucciones que detallaré a continuación.<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "bash"
   - "ffmpeg"
-coverImage: "Recortar-un-video-en-partes-con-ffmpeg.jpg"
+cover:
+  image: "images/Recortar-un-video-en-partes-con-ffmpeg.jpg"
+  relative: true
 ---
 
 A continuación veremos como podemos recortar un vídeo en varias partes sin necesidad de realizar ningún tipo de transcodificación y preservando todas las pistas y calidad del vídeo original. Para ello tan solo usaremos una terminal y el software ffmpeg. Haciéndolo de esta forma obtendremos las siguientes ventajas:<!--more-->

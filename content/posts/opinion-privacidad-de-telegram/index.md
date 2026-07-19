@@ -7,7 +7,9 @@ tags:
   - "opinion"
   - "privacidad"
   - "telegram"
-coverImage: "mi-opinion-privacidad-de-telegram.jpg"
+cover:
+  image: "images/mi-opinion-privacidad-de-telegram.jpg"
+  relative: true
 ---
 
 Es bastante común leer blogs de tecnología que hablan maravillas de Telegram y despotrican de WhatsApp. Comparto algunos de los argumentos que esgrimen pero no todos. Uno de los puntos en que no estoy de acuerdo es que Telegram respete la privacidad de sus usuarios.<!--more-->

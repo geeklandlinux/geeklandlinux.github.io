@@ -9,7 +9,9 @@ tags:
   - "servicios-en-la-nube"
   - "tiny-tiny-rss"
   - "traefik"
-coverImage: "Tiny-Tiny-RSS-con-su-Docker-oficial-y-el-proxy-inverso-Traefik.png"
+cover:
+  image: "images/Tiny-Tiny-RSS-con-su-Docker-oficial-y-el-proxy-inverso-Traefik.png"
+  relative: true
 ---
 
 En el pasado vimos como instalar Tiny Tiny RSS de forma manual en un servidor con Ubuntu. Quien prefiera utilizar Docker sabrá que en Docker hub no hay ningún contenedor fácil de instalar ni con una instrucciones de instalación fáciles de seguir. Por esté motivo y animado por Ángel de uGeek les detallaré paso a paso como instalar el Docker oficial de Tiny Tiny RSS.<!--more-->

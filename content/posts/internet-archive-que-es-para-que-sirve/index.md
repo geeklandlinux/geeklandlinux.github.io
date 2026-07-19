@@ -6,7 +6,9 @@ categories:
 tags: 
   - "internet"
   - "internet-arhive"
-coverImage: "Internet-Archive.-Qué-es-y-para-que-sirve.png"
+cover:
+  image: "images/Internet-Archive.-Qué-es-y-para-que-sirve.png"
+  relative: true
 ---
 
 El motivo de escribir sobre el proyecto internet archive es que se trata de un proyecto interesante y ambicioso que es bastante desconocido por el publico en general.

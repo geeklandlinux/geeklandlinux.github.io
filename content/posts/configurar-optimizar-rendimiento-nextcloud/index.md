@@ -10,7 +10,9 @@ tags:
   - "nextcloud"
   - "servicios-en-la-nube"
   - "servidor"
-coverImage: "configurar-optimizar-rendimiento-nextcloud.png"
+cover:
+  image: "images/configurar-optimizar-rendimiento-nextcloud.png"
+  relative: true
 ---
 
 En el pasado reciente vimos como [instalar]({{< relref "/posts/instalar-nextcloud-mariadb-lighttpd" >}}) Nextcloud en una Raspberry Pi con Lighttpd y MariaDB. Una vez finalizada la instalación aún nos queda pendiente la configuración y optimización del rendimiento de Nextcloud. Para ello podemos seguir las siguientes instrucciones.<!--more-->

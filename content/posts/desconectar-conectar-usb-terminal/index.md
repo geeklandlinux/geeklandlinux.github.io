@@ -7,7 +7,9 @@ tags:
   - "tips"
   - "usb"
   - "wifi"
-coverImage: "conectar-desconectar-usb-terminal.jpg"
+cover:
+  image: "images/conectar-desconectar-usb-terminal.jpg"
+  relative: true
 ---
 
 Hace unos meses que de forma aleatoria pierdo la conexión WiFi de mi ordenador. La únicas formas de volver a recuperar la conexión son reiniciar el ordenador o desconectar y volver conectar mi tarjeta de red inalámbrica USB. Para evitar tener que desconectar y conectar físicamente mi dispositivo USB, a continuación veremos como podemos conectar y desconectar un dispositivo USB mediante la terminal.<!--more-->

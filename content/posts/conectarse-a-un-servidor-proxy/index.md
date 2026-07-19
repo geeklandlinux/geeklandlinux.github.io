@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "firefox"
-coverImage: "conectarse-a-un-servidor-proxy.png"
+cover:
+  image: "images/conectarse-a-un-servidor-proxy.png"
+  relative: true
 ---
 
 En este post detallaremos como conectarse a un servidor web proxy con el fin de poder navegar anónimamente. Este post guarda relación con el post de como conectarse a un VPN que postee en el pasado y podéis consultar en el siguiente enlace:

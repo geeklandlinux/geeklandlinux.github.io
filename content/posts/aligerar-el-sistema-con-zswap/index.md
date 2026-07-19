@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "memoria"
   - "zswap"
-coverImage: "Aligerar-el-sistema-con-zswap.png"
+cover:
+  image: "images/Aligerar-el-sistema-con-zswap.png"
+  relative: true
 ---
 
 Me he decidido a escribir un post sobre Zswap por varios motivos. El primero de ellos es complementar una serie de post que escribí en el pasado que hablaban de como optimizar el rendimiento de nuestra memoria RAM. Estos post son los siguientes:<!--more-->

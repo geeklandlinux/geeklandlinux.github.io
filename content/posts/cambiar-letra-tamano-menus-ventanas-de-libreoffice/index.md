@@ -9,7 +9,9 @@ tags:
   - "fuentes"
   - "libreoffice"
   - "tips"
-coverImage: "cambiar-la-letra-y-tamaño-menus-Libreoffice.png"
+cover:
+  image: "images/cambiar-la-letra-y-tamaño-menus-Libreoffice.png"
+  relative: true
 ---
 
 Los menús y las ventanas de Libreoffice usan la letra que tenemos configurada en nuestro sistema operativo. En el caso que la letra predefinida de nuestro sistema operativo no luzca bien o sea demasiada pequeña podemos cambiar la letra y su tamaño sin ningún tipo de problema.<!--more-->

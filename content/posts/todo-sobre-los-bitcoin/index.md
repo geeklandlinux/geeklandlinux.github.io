@@ -8,7 +8,9 @@ tags:
   - "internet"
   - "privacidad"
   - "tor"
-coverImage: "Todo-sobre-el-bitcoin.jpg"
+cover:
+  image: "images/Todo-sobre-el-bitcoin.jpg"
+  relative: true
 ---
 
 Seguidamente les comento una serie de aspectos básicos sobre el bitcoin. Una vez comentados los aspectos básicos espero que todo el mundo sea capaz de entender que es bitcoin, los riesgos y beneficios que conlleva, y que sean capaces de conseguir bitcoin y usarlos con total seguridad. Así que empecemos con la explicación.<!--more-->

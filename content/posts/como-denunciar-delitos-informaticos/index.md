@@ -7,7 +7,9 @@ tags:
   - "consejos"
   - "delitos"
   - "seguridad"
-coverImage: "denunciar-delitos-informaticos.png"
+cover:
+  image: "images/denunciar-delitos-informaticos.png"
+  relative: true
 ---
 
 En el momento que somos víctimas de una estafa, ciberacoso, robos de identidad, insultos o cualquier otra circunstancia que pueda ser considerada un delito a través de internet debemos proceder de la siguiente forma para poder denunciar delitos informáticos de forma efectiva.<!--more-->

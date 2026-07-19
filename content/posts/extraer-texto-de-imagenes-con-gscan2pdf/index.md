@@ -6,7 +6,9 @@ categories:
 tags: 
   - "gscan2pdf"
   - "ocr"
-coverImage: "Extraer-texto-gscan2pdf.png"
+cover:
+  image: "images/Extraer-texto-gscan2pdf.png"
+  relative: true
 ---
 
 Hace semanas escribí un par de artículos relacionados con el reconocimiento de texto OCR y de como poder extraer texto de una imagen:

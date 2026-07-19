@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "linux"
   - "repositorios"
-coverImage: "recuperacion.jpg"
+cover:
+  image: "images/recuperacion.jpg"
+  relative: true
 ---
 
 Me gustaría compartir con todos los repositorios que uso en debian testing. La primera vez que instale Debian la verdad es que me costo. Primero averiguar los que tenia que poner y a posteriori aunque los ponía correctamente me daban errores ya que recientemente se había cambiado el repositorio multimedia.<!--more-->

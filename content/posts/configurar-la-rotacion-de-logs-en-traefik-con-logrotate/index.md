@@ -8,7 +8,9 @@ tags:
   - "logrotate"
   - "logs"
   - "traefik"
-coverImage: "configurar-la-rotacion-de-logs-en-traefik.png"
+cover:
+  image: "images/configurar-la-rotacion-de-logs-en-traefik.png"
+  relative: true
 ---
 
 La semana pasada vimos como [activar y consultar los logs del proxy inverso Traefik usando Docker]({{< relref "/posts/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker" >}}). No obstante el log generado por Traefik irá creciendo hasta que con el paso del tiempo acabe teniendo un tamaño desproporcionado y llene todo el disco. Para evitar este problema lo único que tenemos que hacer es configurar la rotación de logs en Traefik mediante logrotate de la siguiente forma.<!--more-->

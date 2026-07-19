@@ -7,7 +7,9 @@ tags:
   - "fail2ban"
   - "seguridad"
   - "traefik"
-coverImage: "fail2ban-para-proteger-servicios-detras-de-Traefik.png"
+cover:
+  image: "images/fail2ban-para-proteger-servicios-detras-de-Traefik.png"
+  relative: true
 ---
 
 Para proteger los servicios que tenemos montados con Docker a través del proxy inverso Traefik podemos usar Fail2ban. De este modo podremos evitar los ataques de fuerza bruta bloqueando a todo usuario o bot que introduzca las credenciales de autenticación incorrectamente de forma reiterada. Para ello deberemos proceder del siguiente modo.<!--more-->

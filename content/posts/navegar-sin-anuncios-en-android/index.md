@@ -8,7 +8,9 @@ tags:
   - "firefox"
   - "publicidad"
   - "tips-android"
-coverImage: "Navegar-sin-anuncions-en-Android.png"
+cover:
+  image: "images/Navegar-sin-anuncions-en-Android.png"
+  relative: true
 ---
 
 Es común que muchas personas dispongan de un bloqueador de publicidad para poder navegar sin anuncios en sus ordenador, pero no es tan común que la gente aplique prácticas similares cuando usan su dispositivo móvil Android porqué las opciones son menores.

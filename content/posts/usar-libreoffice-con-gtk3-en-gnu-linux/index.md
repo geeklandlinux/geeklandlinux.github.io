@@ -7,7 +7,9 @@ tags:
   - "gtk"
   - "libreoffice"
   - "tips"
-coverImage: "Utilizar-Libreoffice-con-GTK3-en-GNU-Linux.jpg"
+cover:
+  image: "images/Utilizar-Libreoffice-con-GTK3-en-GNU-Linux.jpg"
+  relative: true
 ---
 
 El soporte de Libreoffice para GTK3 ha mejorado muchísimo en los últimos meses y a día de hoy puedo afirmar que Libreoffice con GTK3 luce muchísimo mejor que Libreoffice con GTK2.<!--more-->

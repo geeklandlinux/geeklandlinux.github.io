@@ -7,7 +7,9 @@ tags:
   - "configuracion"
   - "debian"
   - "virtualbox"
-coverImage: "Redimensionar-el-disco-duro-en-Virtualbox.png"
+cover:
+  image: "images/Redimensionar-el-disco-duro-en-Virtualbox.png"
+  relative: true
 ---
 
 A raíz de una necesidad que he tenido esta semana ha nacido el post de como redimensionar el disco duro en Virtualbox. Mientras estaba usando Backtrack en mi máquina virtual me di cuenta que tan solo me quedaban 894 MiB libres. Por lo tanto se puede afirmar rotundamente que en el momento de instalar Backtrack en Virtualbox asigne un espacio insuficiente en mi disco duro.<!--more-->

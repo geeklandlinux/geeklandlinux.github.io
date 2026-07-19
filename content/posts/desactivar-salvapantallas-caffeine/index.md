@@ -8,7 +8,9 @@ tags:
   - "debian"
   - "salvapantallas"
   - "ubuntu"
-coverImage: "Desactivar-el-Salvapantallas-con-Caffeine.png"
+cover:
+  image: "images/Desactivar-el-Salvapantallas-con-Caffeine.png"
+  relative: true
 ---
 
 Hace tiempo que quería escribir este post pero nunca encontraba el momento para ello. Desde que empecé a usar Linux una de las cosas que **no acabo de entender es como puede ser posible que en prácticamente ninguna distro el Salvanpantallas funcione de forma adecuada**. **A muchos seguramente le serán familiares las siguientes situaciones**:<!--more-->

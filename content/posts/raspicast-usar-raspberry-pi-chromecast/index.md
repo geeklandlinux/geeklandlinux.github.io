@@ -9,7 +9,9 @@ tags:
   - "omxplayer"
   - "raspicast"
   - "ssh"
-coverImage: "raspicast-transformar-raspberry-pi-chromecast.png"
+cover:
+  image: "images/raspicast-transformar-raspberry-pi-chromecast.png"
+  relative: true
 ---
 
 En el siguiente artículo veremos como usar Raspicast para **convertir nuestra Raspberry Pi en un Chromecast**. De esta forma **podremos visualizar la totalidad de contenido multimedia de nuestro teléfono o nuestra Raspberry Pi en un televisor**.<!--more-->

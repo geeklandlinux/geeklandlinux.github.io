@@ -6,7 +6,9 @@ categories:
   - "windows"
 tags: 
   - "testdisk"
-coverImage: "recuperar-particiones-borradas-con-testdisk.jpg"
+cover:
+  image: "images/recuperar-particiones-borradas-con-testdisk.jpg"
+  relative: true
 ---
 
 En ordenadores que tienen un dual-boot con Windows y Linux acostumbran a presentarse problemas cuando se actualiza Windows. Los principales son los siguientes:<!--more-->

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "entornos-de-escritorio"
   - "xfce"
-coverImage: "Mis-motivos-para-usar-XFCE.png"
+cover:
+  image: "images/Mis-motivos-para-usar-XFCE.png"
+  relative: true
 ---
 
 Hace unas semanas escribí un artículo en el que detallaba los [motivos por los que no me convence Gnome Shell]({{< relref "/posts/razones-porque-no-uso-gnome-shell" >}}). En esta ocasión detallaré los motivos por los cuales me gusta y uso XFCE siempre que tengo la oportunidad.<!--more-->

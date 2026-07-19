@@ -5,7 +5,9 @@ categories:
   - "varios"
 tags: 
   - "markdown"
-coverImage: "aprender-markdown.png"
+cover:
+  image: "images/aprender-markdown.png"
+  relative: true
 ---
 
 Markdown es un lenguaje de marcado como html, pero con la particularidad que es mucho más sencillo y práctico de usar. Además su curva de aprendizaje es extremadamente sencilla y proporciona ventajas en lo que a productividad se refiere. Por este motivo, a continuación veremos como aprender Markdown de forma rápida y sencilla. En cuestión de minutos todo el mundo debería ser capaz de aprender Markdown.

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "configuracion"
   - "needrestart"
-coverImage: "servicios-a-reiniciar-despues-actualizacion.png"
+cover:
+  image: "images/servicios-a-reiniciar-despues-actualizacion.png"
+  relative: true
 ---
 
 Tras una actualización de paquetes en nuestro sistema operativo puede ser necesario reiniciar algún servicio o proceso para que nuestro sistema operativo o servidor siga funcionando de forma adecuada. Por este motivo en el siguiente artículo aprenderemos a usar el programa needrestart.<!--more-->

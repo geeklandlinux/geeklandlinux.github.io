@@ -6,7 +6,9 @@ categories:
 tags: 
   - "distribuciones"
   - "opinion"
-coverImage: "son-necesarias-las-distribuciones-Linux.jpg"
+cover:
+  image: "images/son-necesarias-las-distribuciones-Linux.jpg"
+  relative: true
 ---
 
 Hay mucha gente a la que le gusta probar distribuciones y realmente se lo pasan bien. Pero mi reflexión es... ¿Aportan algo los distintos sabores que ofrecen cada una de las distribuciones Linux?

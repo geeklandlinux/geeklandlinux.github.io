@@ -8,7 +8,9 @@ tags:
   - "openvpn"
   - "privacidad"
   - "vpn"
-coverImage: "Elegir-el-servicio-VPN-adecuado-a-nuestras-necesidades.jpg"
+cover:
+  image: "images/Elegir-el-servicio-VPN-adecuado-a-nuestras-necesidades.jpg"
+  relative: true
 ---
 
 Cuando contratamos un servicio VPN es recomendable tener en cuenta ciertos parámetros para asegurar que nuestra elección es la correcta.

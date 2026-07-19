@@ -10,7 +10,9 @@ categories:
 tags: 
   - "mensajeria"
   - "telegram"
-coverImage: "usos-que-podemos-dar-a-telegram.jpg"
+cover:
+  image: "images/usos-que-podemos-dar-a-telegram.jpg"
+  relative: true
 ---
 
 En mi caso no uso Telegram para hablar con mis personas más cercanas. La razón es que la gran mayoría de ellas no usan Telegram. A pesar de esto si que acostumbro a usar Telegram para otros fines que detallaré a continuación.<!--more-->

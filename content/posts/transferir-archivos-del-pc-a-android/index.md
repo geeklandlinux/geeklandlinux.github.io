@@ -6,7 +6,9 @@ categories:
 tags: 
   - "es-explorer"
   - "tips-android"
-coverImage: "Pasar-archivos-del-ordenador-a-Android-sin-cables.jpg"
+cover:
+  image: "images/Pasar-archivos-del-ordenador-a-Android-sin-cables.jpg"
+  relative: true
 ---
 
 Un problema típico que ocurre a muchos usuarios de Android es que después de hacer multitud de fotografías o grabar algún vídeo con su teléfono o tablet, tienen problemas para transferir esta información del teléfono al ordenador.

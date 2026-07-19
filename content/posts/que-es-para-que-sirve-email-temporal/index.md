@@ -6,7 +6,9 @@ categories:
 tags: 
   - "email"
   - "spam"
-coverImage: "email-temporal.jpg"
+cover:
+  image: "images/email-temporal.jpg"
+  relative: true
 ---
 
 Hace ya muchos años que existen los servicios de email temporal. No obstante no todo el mundo conoce el uso y las precauciones que hay que tener al usar este tipo de servicios. Por esto motivo he redactado el siguiente post en el que se detalla que es un email temporal, las utilidades que le podemos dar y finalmente se detallan una serie de consejos para elegir un servicio de email temporal que sea adecuado y respetuoso con nuestra privacidad.<!--more-->

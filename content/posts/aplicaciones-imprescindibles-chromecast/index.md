@@ -5,7 +5,9 @@ categories:
   - "chromecast"
 tags: 
   - "aplicaciones"
-coverImage: "Aplicaciones-imprescindibles-Chromecast.png"
+cover:
+  image: "images/Aplicaciones-imprescindibles-Chromecast.png"
+  relative: true
 ---
 
 Me he decidido a escribir este post sobre Chromecast para detallar la totalidad de aplicaciones que utilizo con el dispositivo Chromecast. Espero que el artículo sea un éxito y sirva para que gente que tenga el Chromecast le pueda sacar el máximo partido, y también para que la gente que esté indecisa decida si va a comprárselo. Al mismo tiempo también espero que este artículo sirva para que los usuarios que lean este post puedan recomendarme las aplicaciones que usan ellos para sacar el máximo partido a este dispositivo.<!--more-->

@@ -10,7 +10,9 @@ tags:
   - "seguridad"
   - "windows-10"
   - "windows-defender"
-coverImage: "protegerse-del-ransomware-windows-defender.png"
+cover:
+  image: "images/protegerse-del-ransomware-windows-defender.png"
+  relative: true
 ---
 
 En pasados artículos vimos que es el Ransomware y las precauciones que debemos tomar para prevenirlo. A raíz de este artículo a continuación veremos como activar la protección contra ransomware que trae  incorporada el sistema operativo Windows 10.<!--more-->

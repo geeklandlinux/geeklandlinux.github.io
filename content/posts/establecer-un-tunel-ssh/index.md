@@ -10,7 +10,9 @@ tags:
   - "proxy"
   - "socks"
   - "ssh"
-coverImage: "0-Establecer-un-tunel-SSH.png"
+cover:
+  image: "images/0-Establecer-un-tunel-SSH.png"
+  relative: true
 ---
 
 Hace aproximadamente un mes redacte un post en el que comentaba que era un tunel SSH y los usos más habituales que nosotros como usuarios comunes podemos darle. Ahora que conocemos que es y para que sirve un tunel SSH pasaremos a ver como hacer un tunel SSH. Antes de ver como se realiza el tunel es interesante que deis un vistazo al siguiente post para tener los conceptos claros:

@@ -6,7 +6,9 @@ categories:
 tags: 
   - "open-in-vlc"
   - "vlc"
-coverImage: "reproducir-videos-del-navegador-web-en-VLC.jpg"
+cover:
+  image: "images/reproducir-videos-del-navegador-web-en-VLC.jpg"
+  relative: true
 ---
 
 En mi caso reproducir vídeos a través del navegador web me genera problemas de rendimiento. La única solución efectiva para solucionar los problemas de rendimiento ha sido usar VLC para reproducir prácticamente la totalidad de vídeos que encuentro en webs como Youtube, Vimeo, DailyMotion, Twitch, etc. Por esto motivo a continuación detallaré la forma que utilizo para reproducir los vídeos del navegador a VLC.<!--more-->

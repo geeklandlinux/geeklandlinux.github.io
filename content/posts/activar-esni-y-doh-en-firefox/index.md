@@ -9,7 +9,9 @@ tags:
   - "doh"
   - "esni"
   - "sni"
-coverImage: "Activar-ESNI-y-DoH-en-Firefox-para-proteger-nuestro-historial-de-navegacion.jpg"
+cover:
+  image: "images/Activar-ESNI-y-DoH-en-Firefox-para-proteger-nuestro-historial-de-navegacion.jpg"
+  relative: true
 ---
 
 Nuestro proveedor de Internet, empresas de seguridad y gobiernos tienen varias formas para conocer y registrar las páginas web a las que nos conectamos. Muchos de vosotros pensaréis que usando DNS over HTTPS (DoH) nadie podrá saber las web que visitamos, pero esto no es así. Aunque usemos DoH nuestro proveedor de Internet, empresas de seguridad y otros actores pueden ver las URL que visitamos porque tienen la posibilidad de consultar el Server Name Indication (SNI). Frente a esta problemática en el siguiente artículo vermeos como activar ESNI y DoH para dificultar que un tercero observe o trafíque con nuestro historial de navegación.<!--more-->

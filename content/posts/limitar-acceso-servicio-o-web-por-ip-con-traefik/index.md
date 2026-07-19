@@ -9,7 +9,9 @@ tags:
   - "servicios-en-la-nube"
   - "servidor"
   - "traefik"
-coverImage: "limitar-el-acceso-a-un-servicio-por-ip-con-traefik.png"
+cover:
+  image: "images/limitar-el-acceso-a-un-servicio-por-ip-con-traefik.png"
+  relative: true
 ---
 
 Es posible que tengáis una nube o algún que otro servicio autoalojado en casa o en un servicio VPS mediante Docker y Traefik. Por norma general estos servicios únicamente tienen que ser accesibles desde vuestro país, por lo tanto en términos de seguridad es interesante limitar el acceso del servicio a los habitantes de un determinado país del siguiente modo.<!--more-->
