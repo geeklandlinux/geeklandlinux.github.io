@@ -8,12 +8,19 @@ enableEmoji = true
 [params]
   description = "Blog sobre tecnología, Linux, privacidad y software libre"
   ShowReadingTime = true
+  ShowCodeCopyButtons = true
   env = "production"
-  schema = true
 
+# Icono del sitio / Favicon para navegadores
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon.ico"
+  favicon32x32 = "/favicon.ico"
+
+# Etiqueta de la barra de navegación superior (Logo)
 [params.label]
   text = "Geekland"
-  icon = "/favicon.ico" # Ruta a tu favicon en la carpeta static/
+  icon = "/favicon.ico"
 
 [menu]
   [[menu.main]]
