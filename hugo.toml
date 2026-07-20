@@ -7,28 +7,14 @@ enableEmoji = true
 
 [params]
   description = "Blog sobre tecnología, Linux, privacidad y software libre"
-  ShowReadingTime = true       # Muestra "Lectura de X min"
-  ShowCodeCopyButtons = true   # Botón para copiar código
+  ShowReadingTime = true
   env = "production"
   schema = true
 
-# Gestión global de imágenes destacadas (Covers)
-  cover.hidden = false
-  cover.hiddenInList = false
-  cover.linkFullImages = true
-
-# Icono del sitio / Favicon para navegadores
-[params.assets]
-  favicon = "/favicon.ico"
-  favicon16x16 = "/favicon.ico"
-  favicon32x32 = "/favicon.ico"
-
-# Etiqueta de la barra de navegación superior (Logo)
 [params.label]
   text = "Geekland"
   icon = "/favicon.ico" # Ruta a tu favicon en la carpeta static/
 
-# Menú Principal
 [menu]
   [[menu.main]]
     identifier = "posts"
