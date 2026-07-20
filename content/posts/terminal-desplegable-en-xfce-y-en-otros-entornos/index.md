@@ -7,7 +7,7 @@ tags:
   - "terminal"
   - "xfce"
 cover:
-  image: "images/Terminal-desplegable-en-XFCE.png"
+  image: "images/terminal-desplegable-en-xfce.webp"
   relative: true
 ---
 

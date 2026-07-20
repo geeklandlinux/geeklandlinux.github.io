@@ -10,7 +10,7 @@ tags:
   - "privacidad"
   - "raspbian"
 cover:
-  image: "images/combinar-pi-hole-y-openpn.png"
+  image: "images/combinar-pi-hole-y-openpn.webp"
   relative: true
 ---
 
@@ -29,13 +29,13 @@ A continuación veremos el modo de combinar Pi-Hole y OpenVPN para conseguir los
 
 En su día detallamos el procedimiento para instalar y configurar OpenVPN en nuestra Raspberry Pi. Por lo tanto les dejo el siguiente enlace para que instalen y configuren OpenVPN en su equipo.
 
-https://geekland.eu/instalar-servidor-openvpn-raspberry-pivpn/
+https://geeklandlinux.github.io/posts/instalar-servidor-openvpn-raspberry-pivpn/
 
 ## INSTALAR PI-HOLE PARA RESOLVER PETICIONES DNS Y BLOQUEAR LOS ANUNCIOS
 
 En el pasado también vimos el procedimiento para instalar y configurar Pi-Hole. Por lo tanto les dejo el siguiente enlace para que puedan instalar y configurar Pi-Hole:
 
-https://geekland.eu/instalar-configurar-pi-hole-raspberry-pi/
+https://geeklandlinux.github.io/posts/instalar-configurar-pi-hole-raspberry-pi/
 
 ## COMBINAR OPENVPN Y PI-HOLE PARA BLOQUEAR LA PUBLICIDAD FUERA DE NUESTRA RED LOCAL
 

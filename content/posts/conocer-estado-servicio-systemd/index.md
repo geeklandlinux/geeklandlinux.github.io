@@ -9,7 +9,7 @@ tags:
   - "systemctl"
   - "systemd"
 cover:
-  image: "images/listar-servicios-y-unidades-en-Systemd.png"
+  image: "images/listar-servicios-y-unidades-en-Systemd.webp"
   relative: true
 ---
 

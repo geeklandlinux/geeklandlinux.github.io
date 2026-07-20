@@ -11,7 +11,7 @@ tags:
   - "publicidad"
   - "spotify"
 cover:
-  image: "images/bloquear-publicidad-spotify-android-windows-linux.jpg"
+  image: "images/bloquear-publicidad-spotify-android-windows-linux.webp"
   relative: true
 ---
 

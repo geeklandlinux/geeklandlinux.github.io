@@ -8,7 +8,7 @@ tags:
   - "servidor"
   - "ssh"
 cover:
-  image: "images/Conectarse-a-un-servidor-SSH-sin-contraseña.png"
+  image: "images/conectarse-a-un-servidor-ssh-sin-contrasena.webp"
   relative: true
 ---
 

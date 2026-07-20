@@ -7,7 +7,7 @@ tags:
   - "configuracion"
   - "disco-duro"
 cover:
-  image: "images/consumo-alto-de-cpu-al-usar-raspberry-pi-con-ssd.png"
+  image: "images/consumo-alto-de-cpu-al-usar-raspberry-pi-con-ssd.webp"
   relative: true
 ---
 

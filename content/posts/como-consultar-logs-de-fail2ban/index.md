@@ -9,7 +9,7 @@ tags:
   - "seguridad"
   - "servidor"
 cover:
-  image: "images/como-consultar-los-logs-de-fail2ban.png"
+  image: "images/como-consultar-los-logs-de-fail2ban.webp"
   relative: true
 ---
 

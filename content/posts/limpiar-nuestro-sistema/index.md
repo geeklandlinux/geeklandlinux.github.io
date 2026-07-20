@@ -7,7 +7,7 @@ tags:
   - "configuracion"
   - "debian"
 cover:
-  image: "images/limpieza-en-Linux.jpg"
+  image: "images/limpieza-en-linux.webp"
   relative: true
 ---
 
@@ -61,7 +61,7 @@ Volvemos a la terminal y ejecutamos:
 
 Al borrar el paquete totem la terminal nos devolverá el siguiente resultado:
 
-[![Como hacer limpieza de nuestro sistema](images/debfoster-300x195.png "Limpiar nuestro sistema debfoster")](images/debfoster.png)
+[![Como hacer limpieza de nuestro sistema](images/debfoster.png "Limpiar nuestro sistema debfoster")](images/debfoster.png)
 
 Al borrar totem del listado el programa debfoster no está preguntando si realmente queremos eliminar totem y sus dependencias de nuestro sistema operativo. Solamente tenemos que contestar sí o no. Al contestar si se desinstalará el programa y si contestamos que no el paquete no se desinstalará y se incluirá de nuevo en el archivo ubicado en /var/lib/debfoster/keepers.
 
@@ -289,11 +289,11 @@ Cada vez que descargamos algún paquete para instalar o actualizar nuestros sist
 
 Si queréis como medida preventiva, desde synaptic, podemos hacer que no se almacenen los paquetes en la cache y también podemos hacer que se borre el historial de paquetes instalados y desinstalados. Para ello abrimos synaptic. Vamos al menú configuración y elegimos preferencias.
 
-[![Limpiar nuestro sistema cache synaptic](images/Limpieza-sistema-Synaptic-1-300x190.png "Limpiar nuestro sistema cache")](images/Limpieza-sistema-Synaptic-1.png)
+[![Limpiar nuestro sistema cache synaptic](images/Limpieza-sistema-Synaptic-1.png "Limpiar nuestro sistema cache")](images/Limpieza-sistema-Synaptic-1.png)
 
 Al darle click en preferencias se abrirá otra ventana y allí elegimos la opción archivos:
 
-[![Limpiar nuestro sistema Cache synaptic 2](images/Limpieza-sistema-Synaptic-2-300x240.png "Limpiar nuestro sistema Cache synaptic 2")](images/Limpieza-sistema-Synaptic-2.png)
+[![Limpiar nuestro sistema Cache synaptic 2](images/Limpieza-sistema-Synaptic-2.png "Limpiar nuestro sistema Cache synaptic 2")](images/Limpieza-sistema-Synaptic-2.png)
 
 En la opción archivos podemos jugar con las diferentes opciones que se nos ofrecen. Como podéis ver en la imagen con las opciones elegidas no se almacenará ningún paquete en la cache y solo dispondremos de un historial de 5 días en lo que se refiere a las operaciones que hacemos con los paquetes. (instalar, desinstalar, etc.)
 
@@ -332,6 +332,6 @@ Para instalar el programa simplemente tenemos que teclear:
 
 Para el funcionamiento de Bleachbit en detalle pueden visitar el siguiente post:
 
-[https://geekland.eu/liberar-espacio-con-bleachbit/]({{< relref "/posts/liberar-espacio-con-bleachbit" >}})
+[https://geeklandlinux.github.io/posts/liberar-espacio-con-bleachbit/]({{< relref "/posts/liberar-espacio-con-bleachbit" >}})
 
 Para finalizar el post dar las gracias a [esdebian.org](http://www.esdebian.org/ "esbebian.org Limpieza del sistema") y a [daboweb.com](http://www.daboweb.com/ "daboweb Limpieza del sistema") tanto por el contenido usado de sus wiki como de la resolución de las dudas que tenia mientas iba elaborando el post.

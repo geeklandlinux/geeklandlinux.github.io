@@ -10,7 +10,7 @@ tags:
   - "rss"
   - "tiny-tiny-rss"
 cover:
-  image: "images/Construir-un-feed-con-el-contenido-completo-de-un-articulo.png"
+  image: "images/Construir-un-feed-con-el-contenido-completo-de-un-articulo.webp"
   relative: true
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "dr14-t-meter"
   - "rango-dinamico"
 cover:
-  image: "images/Medir-el-rango-Dinámico-de-un-audio-en-Linux.png"
+  image: "images/medir-el-rango-dinamico-de-un-audio-en-linux.webp"
   relative: true
 ---
 
@@ -131,7 +131,7 @@ Una vez clarificado este punto podemos analizar los resultados obtenidos con la 
 
 En el ejemplo anterior obtuvimos los siguientes resultados:
 
-    
+
 |   **DR**   |   **Peak**   |   **RMS**   |   **Duration**   |   **Title**   |
 | --- | --- | --- | --- | --- |
 |   **DR11**   |   \-0,6 dB   |   \-18,78 dB   |   02:50:00   |   Hans Zimmer - Nothing out there.flac   |

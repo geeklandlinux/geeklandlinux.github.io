@@ -9,7 +9,7 @@ tags:
   - "dnscrypt"
   - "privacidad"
 cover:
-  image: "images/Motivos-para-cifrar-nuestras-peticiones-DNS.jpg"
+  image: "images/motivos-para-cifrar-nuestras-peticiones-dns.webp"
   relative: true
 ---
 
@@ -27,7 +27,7 @@ Como he detallado anteriormente, en el primero de los post comprenderemos los mo
 
 En artículos anteriores ya explicamos detalladamente la función que tienen los servidores DNS. Por lo tanto quien quiera consultar detalladamente las funciones de un servidor DNS puede consultar el siguiente [enlace]({{< relref "/posts/elegir-el-mejor-servidor-dns" >}}).
 
-Para quien no quiera profundizar en exceso, o ya sepa la función de un servidor DNS, solo decirle que **un servidor DNS es el encargado de traducir las direcciones URL de las páginas que visitamos a IP y viceversa**. Así por lo tanto cuando queremos visitar la página web [https://geekland.eu](https://geekland.eu "Web Geekland"), nuestro navegador contactará con el servidor DNS para averiguar la IP de la dirección URL [https://geekland.eu](https://geekland.eu "Web Geekland"). Una vez conocida la IP nos podremos conectar a la página web que queremos visitar.
+Para quien no quiera profundizar en exceso, o ya sepa la función de un servidor DNS, solo decirle que **un servidor DNS es el encargado de traducir las direcciones URL de las páginas que visitamos a IP y viceversa**. Así por lo tanto cuando queremos visitar la página web https://geeklandlinux.github.io/, nuestro navegador contactará con el servidor DNS para averiguar la IP de la dirección URL [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Web Geekland"). Una vez conocida la IP nos podremos conectar a la página web que queremos visitar.
 
 **Una petición DNS** no **es** más que **la solicitud que enviamos al servidor DNS para que traduzca la dirección URL de la página web que queremos visitar a una dirección IP**.
 

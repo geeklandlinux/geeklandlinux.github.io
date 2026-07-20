@@ -9,7 +9,7 @@ tags:
   - "privacidad"
   - "publicidad"
 cover:
-  image: "images/eliminar-la-publicidad-en-un-iPhone-o-un-iPad.png"
+  image: "images/eliminar-la-publicidad-en-un-iPhone-o-un-iPad.webp"
   relative: true
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "configuracion"
   - "menu-de-inicio"
 cover:
-  image: "images/deshabilitar-busqueda-web-menu-inicio-windows.png"
+  image: "images/deshabilitar-busqueda-web-menu-inicio-windows.webp"
   relative: true
 ---
 

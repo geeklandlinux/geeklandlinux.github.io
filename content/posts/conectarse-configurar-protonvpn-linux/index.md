@@ -10,7 +10,7 @@ tags:
   - "protonvpn"
   - "vpn"
 cover:
-  image: "images/como-conectarse-configurar-usar-ProtonVPN-Linux.png"
+  image: "images/como-conectarse-configurar-usar-ProtonVPN-Linux.webp"
   relative: true
 ---
 
@@ -164,7 +164,7 @@ En mi caso el rendimiento obtenido es más que aceptable. Después de usar duran
 
 La diferencia entra la velocidad de conexión con y sin el VPN se puede evaluar en la siguiente tabla:
 
-  
+
 |  |   **Conectado a ProtonVPN**   |   **NO conectado a ProtonVPN**   |
 | --- | --- | --- |
 |   _Velocidad de descargada (Mbps)_   |   7,97   |   8,22   |

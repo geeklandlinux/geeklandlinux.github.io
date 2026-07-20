@@ -7,7 +7,7 @@ tags:
   - "configuracion"
   - "debian"
 cover:
-  image: "images/Incrementar-el-rendimiento-con-Prelink.jpg"
+  image: "images/incrementar-el-rendimiento-con-prelink.webp"
   relative: true
 ---
 
@@ -111,7 +111,7 @@ También puede ser que se generen errores durante el proceso como me paso en Deb
 
 El típico error que se puede dar es el que podéis observar en la siguiente captura de pantalla:
 
-[<img src="images/Error-Prelink-300x197.png" alt="Error Típico de Prelink" title="Error Prelink" style="zoom:150%;" />](images/Error-Prelink.png)
+[<img src="images/Error-Prelink.png" alt="Error Típico de Prelink" title="Error Prelink"  />](images/Error-Prelink.png)
 
 Como podéis ver se trata de una librería que no puede prelinkar. Se trata de la librería **/usr/lib/apt/methods/rred**. Como no puede enlazar esta librería se para el proceso, y por lo tanto el proceso de preenlazar queda incompleto. Una solución que tenemos para hacer que se se termine el proceso es introducir las librerías que paran el proceso de enlace a la lista negra de prelink. Para introducir a la lista negra la totalidad de librerías que nos dan problemas tenemos que seguir los siguientes pasos:
 
@@ -139,7 +139,7 @@ Prelink se ejecuta hasta que nos da el error. Vemos que por ejemplo el error est
 
 A continuación dejo una captura de pantalla para que puedan observar como realice los pasos 2 y 3:
 
-[<img src="images/Solucion-error-prelink-300x197.png" alt="Solución de los errores de salida de Prelink" title="Solucion error prelink" style="zoom:150%;" />](images/Solucion-error-prelink.png)
+[<img src="images/Solucion-error-prelink.png" alt="Solución de los errores de salida de Prelink" title="Solucion error prelink"  />](images/Solucion-error-prelink.png)
 
 **Paso 4-** Seguidamente hay que ejecutar los pasos 2 y 3 tantas veces como sea necesario hasta que se pueda finalizar el proceso de enlazado.
 

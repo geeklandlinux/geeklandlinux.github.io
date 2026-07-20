@@ -10,7 +10,7 @@ tags:
   - "publicidad"
   - "ublock"
 cover:
-  image: "images/Evitar-la-detección-del-bloqueador-de-publicidad-con-Anti-adblock-Killer.png"
+  image: "images/evitar-la-deteccion-del-bloqueador-de-publicidad-con-anti-adblock-killer.webp"
   relative: true
 ---
 
@@ -32,7 +32,7 @@ Según lo que he podido experimentar ublock Origin es el mejor bloqueador de pub
 
 En el caso que no tengan instalado el bloqueador de publicidad mencionado, pueden instalarlo siguiendo las siguientes instrucciones:
 
-https://geekland.eu/instalar-ublock-origin-chrome-firefox/
+https://geeklandlinux.github.io/posts/instalar-ublock-origin-chrome-firefox/
 
 ###### Nota: Las instrucciones de instalación que encontrarán en la URL son para el navegador Google Chrome y para Firefox.
 
@@ -133,7 +133,7 @@ Para instalar Quick JavaScript Switcher en Google chrome accedemos a la siguient
 
 Una vez dentro de la URL clicamos encima de del botón **Añadir a Chrome**.
 
-[![Añadir Quick Javascript Switcher en Chrome](images/9-Añadir-Quick-Javascript-Switcher-en-Chrome-300x181.png)](images/9-Añadir-Quick-Javascript-Switcher-en-Chrome.png)
+[![Añadir Quick Javascript Switcher en Chrome](images/Anadir-quick-javascript-switcher-en-chrome.png)](images/9-Añadir-Quick-Javascript-Switcher-en-Chrome.png)
 
 Finalmente aparecerá la siguiente ventana en la que simplemente tenemos que presionar encima del botón **Añadir extensión**.
 
@@ -161,9 +161,7 @@ Una vez instalada la extensión entramos de nuevo en la página web y cuando no 
 
 [![Desactivando Javascript oara evitar que detecten que usamos un bloqueador de publicidad](images/Desactivar-Javascript-300x286.png)](images/Desactivar-Javascript.png)
 
- 
-
-Después de desactivar Javascript y recargar el contenido, podremos leer el contenido de la página web sin ningún tipo de problema.
+ Después de desactivar Javascript y recargar el contenido, podremos leer el contenido de la página web sin ningún tipo de problema.
 
 [![Evitando de la detección de nuestro bloqueador de publicidad bloqueando javascript](images/14-Leyendo-página-web-sin-problemas-300x286.png)](images/14-Leyendo-página-web-sin-problemas.png)
 

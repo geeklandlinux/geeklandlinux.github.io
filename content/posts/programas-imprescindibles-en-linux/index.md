@@ -7,7 +7,7 @@ tags:
   - "debian"
   - "software"
 cover:
-  image: "images/instalacion-de-software.jpg"
+  image: "images/instalacion-de-software.webp"
   relative: true
 ---
 
@@ -55,11 +55,11 @@ A continuación les presento las aplicaciones, que según mi modesto punto de vi
 
 [![pidgin](images/pidgin.png "pidgin")](http://www.pidgin.im/)**[Pidgin](http://www.pidgin.im/ "Pidgin"):**  Cliente **típico cliente de mensajería instantánea** que nos permite conectar a multitud de plataformas como pueden ser AIM, Bonjour, Gadu-Gadu, Google Talk, Groupwise, ICQ, IRC, MSN, MXit, MySpaceIM, SILC, SIMPLE, Sametime, XMPP, Yahoo! y Zephyr. Existen otros clientes que ofrecen prestaciones similar como puede ser [**Emphaty**](https://live.gnome.org/Empathy "Empathy").
 
-[![hotot](images/hotot.png "hotot")](http://www.hotot.org/)**[Hotot](http://www.hotot.org/ "Hotot"):** Según mi punto de vista el mejor **cliente de escritorio de twitter** para Linux. Dispone de una interfaz muy trabajada, es simple, es personalizable, se integra perfectamente con los distintos entornos de escritorio, permite instalar un sinfín de extensiones para ampliar las funcionalidades  y lo más importante está programado en Phyton y es extremadamente ligero. Otras opciones, en el caso de que hotot no sea santo de su devoción, son **[Turpial](http://turpial.org.ve/ "Turpial"), [Choqok](http://choqok.gnufolks.org/ "Choqok")** o [**Gwibber**](http://gwibber.com/ "Gwibber").
+[![hotot](images/hotot.webp "hotot")](http://www.hotot.org/)**[Hotot](http://www.hotot.org/ "Hotot"):** Según mi punto de vista el mejor **cliente de escritorio de twitter** para Linux. Dispone de una interfaz muy trabajada, es simple, es personalizable, se integra perfectamente con los distintos entornos de escritorio, permite instalar un sinfín de extensiones para ampliar las funcionalidades  y lo más importante está programado en Phyton y es extremadamente ligero. Otras opciones, en el caso de que hotot no sea santo de su devoción, son **[Turpial](http://turpial.org.ve/ "Turpial"), [Choqok](http://choqok.gnufolks.org/ "Choqok")** o [**Gwibber**](http://gwibber.com/ "Gwibber").
 
 **[![gpodder](images/gpodder.png "gpodder")](http://gpodder.org/)[G](http://gpodder.org/ "Gpodder")**[**podder**](http://gpodder.org/ "Gpodder"): Como comentamos en un [post]({{< relref "/posts/gestores-de-podcast-en-linux" >}}) de este mismo blog, Gpodder es el mejor gestor de podcast que existe para Linux. Existen otras alternativas como gestionar los podcast como por ejemplo **[Rhythmbox](http://projects.gnome.org/rhythmbox/ "Rhythmbox"), [Banshee](http://banshee.fm/ "Banshee"), [Amarok](http://amarok.kde.org/ "Amarok")**... pero ninguno de los soft que acabo de citar se acercan a las prestaciones que puede aportar Gpodder.
 
-[![Dropbox](images/Dropbox.png "Dropbox")](https://www.dropbox.com/)**[Dropbox](https://www.dropbox.com/ "Dropbox"):** Todo el mundo conoce a Dropbox. El Uso principal que le doy a dropbox es mantener la información que considero esencial sincronizada en la totalidad de mis ordenadores. También a veces es útil en el caso de tener que transferir algún archivo de gran tamaño. En este caso el elegido es Dropbox por ser multiplataforma y también porque es la plataforma que te permite disponer de mayor espacio si tienes una cuenta gratuita. Actualmente dispongo de una cuenta de 19.4Gb. Existen otras opciones equivalentes a Dropbox. Algunas de ellas son [**Ubuntu One**](https://one.ubuntu.com/ "Ubuntu One"), [**Minus**](http://minus.com/ "Minus"), o **Gdrive** que es un cliente de escritorio para gestionar el contenido de google Drive.
+[![Dropbox](images/Dropbox.webp "Dropbox")](https://www.dropbox.com/)**[Dropbox](https://www.dropbox.com/ "Dropbox"):** Todo el mundo conoce a Dropbox. El Uso principal que le doy a dropbox es mantener la información que considero esencial sincronizada en la totalidad de mis ordenadores. También a veces es útil en el caso de tener que transferir algún archivo de gran tamaño. En este caso el elegido es Dropbox por ser multiplataforma y también porque es la plataforma que te permite disponer de mayor espacio si tienes una cuenta gratuita. Actualmente dispongo de una cuenta de 19.4Gb. Existen otras opciones equivalentes a Dropbox. Algunas de ellas son [**Ubuntu One**](https://one.ubuntu.com/ "Ubuntu One"), [**Minus**](http://minus.com/ "Minus"), o **Gdrive** que es un cliente de escritorio para gestionar el contenido de google Drive.
 
 [![filezilla](images/filezilla.png "filezilla")](https://filezilla-project.org/)**[Filezilla](https://filezilla-project.org/ "Filezilla"):** **Cliente FTP , FTPS y SFTP**, muy intuitivo, fácil y útil para la gente que se dediqué al marketing o disponga de una web o blog. Filezilla nos permite pausar y reanudar cargas, nos permite transferir archivos superiores a 4 Gb , Búsqueda remota de archivos y otras muchas más funcionalidades.
 
@@ -79,9 +79,7 @@ A continuación les presento las aplicaciones, que según mi modesto punto de vi
 
 [![skype](images/skype.png "skype")](http://www.skype.com/es/)**[Skype](http://www.skype.com/es/ "Skype"):** Guste o no, no necesita presentación y no tiene alternativa en Linux. Con skype podrás establecer **comunicaciones de texto, voz, video y transferir archivos de forma fácil y eficaz**. Además Skype y messenger se han unido por lo que en skype podemos hablar tanto con nuestro contactos de skype como de Messenger. Muchos hablarán de [**Ekiga**](https://www.ekiga.net/index.php "Ekiga") como sustituto de Skype pero la verdad es que lo instalé para probar y a los 5 minutos tuve que abortar el intento. Ekiga es difícil de configurar y poco intuitivo. Esperemos que Microsoft no se cargue a Skype.
 
-[![xchat](images/xchat.png "xchat")](http://xchat.org/)
-
-**[Xchat](http://xchat.org/ "Xchat"):** **Cliente de IRC** para Linux . Alguna vez me ha sido de gran ayuda cuando he tenido que solucionar problemas en el ordenador ya que en ciertos canales específicos puedes obtener la ayuda de usuarios avanzados.
+[![xchat](images/xchat.webp "xchat")](http://xchat.org/)**[Xchat](http://xchat.org/ "Xchat"):** **Cliente de IRC** para Linux . Alguna vez me ha sido de gran ayuda cuando he tenido que solucionar problemas en el ordenador ya que en ciertos canales específicos puedes obtener la ayuda de usuarios avanzados.
 
 ## PROGRAMAS IMPRESCINDIBLES EN LINUX (MULTIMEDIA)
 

@@ -8,7 +8,7 @@ tags:
   - "memoria"
   - "ram"
 cover:
-  image: "images/consumo-memoria-ram-de-un-programa.png"
+  image: "images/consumo-memoria-ram-de-un-programa.webp"
   relative: true
 ---
 

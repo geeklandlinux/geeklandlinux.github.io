@@ -9,7 +9,7 @@ tags:
   - "privacidad"
   - "tor"
 cover:
-  image: "images/Todo-sobre-el-bitcoin.jpg"
+  image: "images/todo-sobre-el-bitcoin.webp"
   relative: true
 ---
 

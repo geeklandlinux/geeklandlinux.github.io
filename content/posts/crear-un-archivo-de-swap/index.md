@@ -8,7 +8,7 @@ tags:
   - "particion-de-swap"
   - "swap"
 cover:
-  image: "images/Crear-archivo-swap.png"
+  image: "images/crear-archivo-swap.webp"
   relative: true
 ---
 

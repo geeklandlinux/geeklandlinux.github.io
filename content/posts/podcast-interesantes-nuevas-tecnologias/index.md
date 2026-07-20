@@ -8,7 +8,7 @@ tags:
   - "linux"
   - "podcast-2"
 cover:
-  image: "images/podcast.jpg"
+  image: "images/podcast.webp"
   relative: true
 ---
 

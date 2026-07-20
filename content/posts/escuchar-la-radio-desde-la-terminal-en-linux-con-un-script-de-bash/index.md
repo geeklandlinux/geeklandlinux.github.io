@@ -8,7 +8,7 @@ tags:
   - "mpv"
   - "vlc"
 cover:
-  image: "images/escuhar-la-radio-desde-la-terminal-en-linux.jpg"
+  image: "images/escuchar-la-radio-desde-la-terminal-en-linux.webp"
   relative: true
 ---
 

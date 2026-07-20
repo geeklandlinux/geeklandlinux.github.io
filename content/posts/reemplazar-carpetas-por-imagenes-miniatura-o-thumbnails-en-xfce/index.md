@@ -8,7 +8,7 @@ tags:
   - "thunar"
   - "xfce"
 cover:
-  image: "images/reemplazar-carpetas-por-imagenes-miniatura-xfce-.png"
+  image: "images/reemplazar-carpetas-por-imagenes-miniatura-xfce.webp"
   relative: true
 ---
 

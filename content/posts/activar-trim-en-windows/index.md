@@ -7,7 +7,7 @@ tags:
   - "disco-duro"
   - "trim"
 cover:
-  image: "images/configurar-y-activar-trim-en-windows.png"
+  image: "images/configurar-y-activar-trim-en-windows.webp"
   relative: true
 ---
 

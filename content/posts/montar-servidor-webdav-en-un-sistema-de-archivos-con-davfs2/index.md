@@ -6,7 +6,7 @@ categories:
 tags: 
   - "webdav"
 cover:
-  image: "images/Servidor-WebDAV-automontado-en-un-sistema-de-archivos-con-Davfs2.jpg"
+  image: "images/Servidor-WebDAV-automontado-en-un-sistema-de-archivos-con-Davfs2.webp"
   relative: true
 ---
 

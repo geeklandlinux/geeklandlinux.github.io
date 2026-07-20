@@ -11,7 +11,7 @@ tags:
   - "windows-10"
   - "windows-defender"
 cover:
-  image: "images/protegerse-del-ransomware-windows-defender.png"
+  image: "images/protegerse-del-ransomware-windows-defender.webp"
   relative: true
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "memoria"
   - "ram"
 cover:
-  image: "images/Conocer-y-analizar-el-consumo-de-memoria-RAM-en-Linux.png"
+  image: "images/conocer-y-analizar-el-consumo-de-memoria-ram-en-Linux.webp"
   relative: true
 ---
 

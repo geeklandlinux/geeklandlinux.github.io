@@ -9,7 +9,7 @@ tags:
   - "privacidad"
   - "publicidad"
 cover:
-  image: "images/Motivos-para-usar-un-bloqueador-de-publicidad-1.jpg"
+  image: "images/motivos-para-usar-un-bloqueador-de-publicidad.webp"
   relative: true
 ---
 

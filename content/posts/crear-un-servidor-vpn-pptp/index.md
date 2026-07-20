@@ -9,13 +9,13 @@ tags:
   - "internet"
   - "vpn"
 cover:
-  image: "images/servidor-VPN.png"
+  image: "images/servidor-vpn.webp"
   relative: true
 ---
 
 En pasados post vimos como conectarnos a un servidor VPN y además también vimos las numerosas ventajas y usos que nos puede aportar un servidor VPN en determinadas circunstancias. **Para quien quiera consultar de nuevo las ventajas y virtudes de un servidor VPN puede consultar el siguiente post**:
 
-[https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
 
 **Para** quien quiera **montar un servidor VPN** mediante el protocolo [pptpd](https://es.wikipedia.org/wiki/PPTP "Explicación del protocolo pptp") tan solo tienes que **seguir leyendo este post**.<!--more-->
 
@@ -43,7 +43,7 @@ Para instalar el servidor VPN en nuestro ordenador tan solo **tenemos que teclea
 
 **Para conseguir que nuestro servidor tenga una ip interna fija les recomiendo seguir las pasos que se describen en el siguiente post**:
 
-[https://geekland.eu/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
+[https://geeklandlinux.github.io/posts/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
 
 ###### Nota: El método descrito en el enlace que acabo de citar es válido en el caso que estéis usando un servidor sin entorno gráfico. En el caso que estéis usando un servidor con entorno gráfico los cambios los tendréis que aplicar desde vuestro gestor de redes que seguramente serán [network manager](https://projects.gnome.org/NetworkManager/ "Web de Networkmanager") o [wicd](http://wicd.sourceforge.net/ "Web de Wicd").
 
@@ -59,7 +59,7 @@ Una vez tengamos instalado y funcionando nuestro servidor VPN **lo más probable
 
 **Para asociar vuestra dirección IP Pública a un subdominio tan solo tiene que seguir los pasos que se detallan en el siguiente enlace**:
 
-[https://geekland.eu/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
+[https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
 
 ## CONFIGURAR EL SERVIDOR
 
@@ -71,7 +71,7 @@ Una vez realizados la totalidad de pasos que acabamos de citar ya podemos pasar 
 
 Como se puede ver en la imagen, una vez tecleado el comando se abrirá el editor de texto en el que podremos modificar la configuración de nuestro servidor.
 
-[![Configurar el servidor VPN pptpd](images/3-Configurar-pptpd-300x257.png "3- Configurar pptpd")](images/3-Configurar-pptpd.png)
+[![Configurar el servidor VPN pptpd](images/3-Configurar-pptpd.png "3- Configurar pptpd")](images/3-Configurar-pptpd.png)
 
 En este fichero **únicamente vamos a modificar dos parámetros**:
 
@@ -277,7 +277,7 @@ Tal y como puede verse en la captura de pantalla, **en el menú desplegable tien
 
 Una vez presionado el botón Crear aparecerá la siguiente ventana:
 
-[![Introducir el usuario y la contraseña en el cliente](images/19-Intoducción-del-usuario-y-contaseña-300x263.png "19- Intoducción del usuario y contaseña")](images/19-Intoducción-del-usuario-y-contaseña.png)
+[![Introducir el usuario y la contraseña en el cliente](images/19-Intoducción-del-usuario-y-contaseña.png "19- Intoducción del usuario y contaseña")](images/19-Intoducción-del-usuario-y-contaseña.png)
 
 Como se puede ver en la captura de pantalla en está ventana **tenemos que indicar el** **nombre de la conexión**, la **IP Pública de nuestro servidor**, nuestro **nombre de usuario** **y** finalmente nuestra **contraseña**.
 
@@ -339,6 +339,6 @@ Si se observa la captura de pantalla pueden ver que lo máximo que podrá llegar
 
 Como se puede comprobar en la captura de pantalla la totalidad de paquetes capturados están encapsulados.
 
-**Por lo tanto a pesar de ser un protocolo viejo y obsoleto existen mecanismos de defensa que por desgracia a día de hoy son vulnerables para algunas personas**. Por lo tanto **si en vuestro caso manejáis información confidencial o sensible no es recomendable usar pptp. Los más recomendable seria utilizar otros protocolos como por ejemplo** [OpenVPN](https://es.wikipedia.org/wiki/OpenVPN "Explicación del protocolo OpenVPN"), [L2TP](https://es.wikipedia.org/wiki/L2TP "Explicación del protocolo L2TP") o [IPsec](https://es.wikipedia.org/wiki/IPsec "Explicación del protocolo IPsec"). No obstante estos protocolos son bastante más difíciles de configurar que pptp, requieren de certificados digitales y no acostumbran a tener soporte para plataformas o software antiguo. En el caso que alguien maneje información confidencial y necesite la máxima seguridad le aconsejo seguir las instrucciones de este post [https://geekland.eu/crear-y-configurar-servidor-openvpn/]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}}) para poder instalar y configurar su propio servidor OpenVPN.
+**Por lo tanto a pesar de ser un protocolo viejo y obsoleto existen mecanismos de defensa que por desgracia a día de hoy son vulnerables para algunas personas**. Por lo tanto **si en vuestro caso manejáis información confidencial o sensible no es recomendable usar pptp. Los más recomendable seria utilizar otros protocolos como por ejemplo** [OpenVPN](https://es.wikipedia.org/wiki/OpenVPN "Explicación del protocolo OpenVPN"), [L2TP](https://es.wikipedia.org/wiki/L2TP "Explicación del protocolo L2TP") o [IPsec](https://es.wikipedia.org/wiki/IPsec "Explicación del protocolo IPsec"). No obstante estos protocolos son bastante más difíciles de configurar que pptp, requieren de certificados digitales y no acostumbran a tener soporte para plataformas o software antiguo. En el caso que alguien maneje información confidencial y necesite la máxima seguridad le aconsejo seguir las instrucciones de este post [https://geeklandlinux.github.io/posts/crear-y-configurar-servidor-openvpn/]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}}) para poder instalar y configurar su propio servidor OpenVPN.
 
 **En el caso que la información que manejáis no sea confidencial no veo porqué no podemos usar pptp**. Deberemos tomar ciertas precauciones como por ejemplo elegir claves largas y complejas y cambiar nuestra contraseña de forma periódica. De esta forma conseguiremos minimizar el riesgo de un ataque.

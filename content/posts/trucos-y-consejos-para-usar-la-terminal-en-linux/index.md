@@ -7,7 +7,7 @@ tags:
   - "terminal"
   - "trucos"
 cover:
-  image: "images/trucos-para-usar-la-terminal-de-forma-eficiente-en-linux.jpeg"
+  image: "images/trucos-para-usar-la-terminal-de-forma-eficiente-en-linux.webp"
   relative: true
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "dual-boot"
   - "uefi"
 cover:
-  image: "images/Crear-particion-uefi-en-Windows.jpg"
+  image: "images/crear-particion-uefi-en-windows.webp"
   relative: true
 ---
 

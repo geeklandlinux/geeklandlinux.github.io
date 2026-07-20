@@ -7,7 +7,7 @@ tags:
   - "configuracion"
   - "xfce"
 cover:
-  image: "images/window-tiling-xfce-4.8.jpg"
+  image: "images/window-tiling-xfce-4.8.webp"
   relative: true
 ---
 
@@ -21,13 +21,13 @@ Lo primero que echo de menos de XFCE 4.8 respecto a otros entornos de escritorio
 
 El window tiling es la característica que cuando arrastras una de las ventanas a un extremo del escritorio, esta se redimensiona automáticamente ocupando justo la mitad del espacio de la pantalla. Os muestro lo que es exactamente ya que una imagen vale más que mil palabras:
 
-[![Window tiling en XFCE 4.8 ventanas horizontales](images/Window-tiling-en-xfce-horzintal-300x187.png "Window tiling en xfce 4.8 ventanas horizontales")](images/Window-tiling-en-xfce-horzintal.png)
+[![Window tiling en XFCE 4.8 ventanas horizontales](images/Window-tiling-en-xfce-horzintal.png "Window tiling en xfce 4.8 ventanas horizontales")](images/Window-tiling-en-xfce-horzintal.png)
 
 Como podéis ver esta característica es ideal para la gente que posea una pantalla de gran tamaño ya que nos permite agilizar nuestro trabajo y simultanear tareas sin estar cambiando constantemente de ventana. Por ejemplo cuando estamos realizando algún trabajo podemos tener el navegador a un lado de nuestra pantalla mientas que en el otro podemos tener nuestro procesador de textos. Así de esta forma podemos leer y escribir al mismo tiempo y de forma fácil.
 
 Otro problema que me molesta un poco de XFCE 4.8 es que no te dejar pegar archivos directamente en el escritorio. Por ejemplo, Si copiamos un archivo que tenemos en nuestra home, nos vamos al escritorio, cuando demos click al botón derecho para buscar la opción pegar veremos que está desactivada. Para dar solución a este problema solo tenéis que leer el siguiente apartado. Una solución alternativa para poder pegar un archivo es creando una acción personalizada con thunar para pegar en el escritorio. Para saber como crear una acción personalizada pueden consultar el siguiente post:
 
-**[https://geekland.eu/acciones-personalizadas-en-thunar/]({{< relref "/posts/acciones-personalizadas-en-thunar" >}})**
+**[https://geeklandlinux.github.io/posts/acciones-personalizadas-en-thunar/]({{< relref "/posts/acciones-personalizadas-en-thunar" >}})**
 
 ## COMO OBTENER WINDOW TILING EN XFCE 4.8 Y PODER PEGAR DIRECTAMENTE EN EL ESCRITORIO
 
@@ -39,15 +39,15 @@ Para obtener el window tiling en xfce 4.8 abrimos una terminal y tecleamos los s
 
 Después del proceso, como podemos observar en las imágenes, nuestro sistema operativo ya dispone de window tiling y podemos pegar archivos en el escritorio sin problema alguno:
 
-[![Window tiling en xfce 4.8 ventanas horizontales](images/Window-tiling-en-xfce-horzintal1-300x187.png "Window tiling en xfce 4.8 ventanas horizontales")](images/Window-tiling-en-xfce-horzintal1.png)
+[![Window tiling en xfce 4.8 ventanas horizontales](images/Window-tiling-en-xfce-horzintal1.png "Window tiling en xfce 4.8 ventanas horizontales")](images/Window-tiling-en-xfce-horzintal1.png)
 
 Window tiling con ventanas en horizontal (Habilitado)
 
-[![Window tiling en xfce 4.8 vertical](images/Window-tiling-en-xfce-vertical-300x187.png "Window tiling en xfce 4.8 vertical")](images/Window-tiling-en-xfce-vertical.png)
+[![Window tiling en xfce 4.8 vertical](images/Window-tiling-en-xfce-vertical.png "Window tiling en xfce 4.8 vertical")](images/Window-tiling-en-xfce-vertical.png)
 
 Window tilling con ventanas en vertical (Habilitado)
 
-[![window tilling en xfce 4.8 pegar habilitado](images/c128-300x175.png "window tilling en xfce 4.8")](images/c128.png)
+[![window tilling en xfce 4.8 pegar habilitado](images/c128.png "window tilling en xfce 4.8")](images/c128.png)
 
 Pegar archivo en el escritorio activado (Habilitado)
 
@@ -77,7 +77,7 @@ Una vez descargado el script traslados el zip o el tar dentro de nuestra home y 
 
 Una vez cambiado el nombre este proceso nuestra home tiene que quedar de la siguiente forma:
 
-[![window tilling Quicktile home](images/Quicktile-en-home-300x244.png "window tilling en xfce 4.8")](images/Quicktile-en-home.png)
+[![window tilling Quicktile home](images/Quicktile-en-home.png "window tilling en xfce 4.8")](images/Quicktile-en-home.png)
 
 Seguidamente ejecutaremos quicktail para ver que funcione. Para ejecutarlo entramos dentro de la termina y tecleamos:
 
@@ -95,7 +95,7 @@ Una vez ejecutado por primera vez cerramos la terminal sin hacer nada. Ahora vam
 
 Se abrirá el editor de textos. Tenéis que asegurar que el contenido es el mismo que el de la siguiente imagen:
 
-[![window tilling Configuración teclado](images/Configuración-quicktile-300x259.png "window tilling en xfce 4.8")](images/Configuración-quicktile.png)
+[![window tilling Configuración teclado](images/Configuración-quicktile.png "window tilling en xfce 4.8")](images/Configuración-quicktile.png)
 
 Guardamos y cerramos el editor. Seguidamente ya solo nos falta configurar que quicktile arranque de forma automática cuando arrancamos nuestro ordenador. Para ello abrimos una terminal y tecleamos:
 
@@ -105,7 +105,7 @@ Guardamos y cerramos el editor. Seguidamente ya solo nos falta configurar que qu
 
 Se abrirá una ventana. Dento de la ventana que se abre tenemos que selecionar la pestaña Autoarranque de aplicaciones. Una vez dentro de la pestaña tenemos que darle click al botón de añadir.
 
-[![window tilling Arranque de inicio](images/quicktile-inicio-300x203.png "window tilling en xfce 4.8")](images/quicktile-inicio.png)
+[![window tilling Arranque de inicio](images/quicktile-inicio.png "window tilling en xfce 4.8")](images/quicktile-inicio.png)
 
 Una vez le hemos dado al botón de añadir tenemos que rellenar el menú como se puede ver en la imagen de arriba. El apartado comando queda cortado. El texto completo que hay que poner en el apartado comando es:
 
@@ -119,7 +119,7 @@ Hay que apretar simultáneamente las teclas ctrl+tecla windows+(cualquier núm
 
 Os dejo una pantalla para que podías observar lo que se puede hacer con quicktile:
 
-[![window tilling resultado Final](images/resultado-final-300x187.png "window tilling en xfce 4.8")](images/resultado-final.png)
+[![window tilling resultado Final](images/resultado-final.png "window tilling en xfce 4.8")](images/resultado-final.png)
 
 Además los usuarios de XFCE poseen aún de otras alternativas a las 2 que acabamos de citar. Tres alternativas adicionales que se me ocurren son las que presento a continuación:
 

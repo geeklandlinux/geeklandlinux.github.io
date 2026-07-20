@@ -12,7 +12,7 @@ tags:
   - "ssh"
   - "tor"
 cover:
-  image: "images/encadenar-proxy-con-proxychains.jpg"
+  image: "images/encadenar-proxy-con-proxychains.webp"
   relative: true
 ---
 
@@ -20,9 +20,9 @@ En pasados post pudimos ver detalladamente como podemos conectarnos a un servido
 
 Antes de proseguir con la lectura del post y entender el 100% del contenido que se detalla se aconseja dar un vistazo a los siguientes post:
 
-[https://geekland.eu/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
 
-[https://geekland.eu/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
+[https://geeklandlinux.github.io/posts/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
 
 ## ¿QUÉ NECESITAMOS PARA ENCADENAR SERVIDORES PROXY?
 
@@ -38,7 +38,7 @@ Para instalar proxychains tan solo tenemos que abrir una terminal y teclear el s
 
 En la siguiente captura de pantalla pueden observar este paso tan simple:
 
-[![Comando para instalar proxychains](images/1-Instalar-Proxychains-300x188.png "1- Instalar Proxychains")](images/1-Instalar-Proxychains.png)
+[![Comando para instalar proxychains](images/1-Instalar-Proxychains.png "1- Instalar Proxychains")](images/1-Instalar-Proxychains.png)
 
 Una vez realizado este paso ya solo nos falta comprender el funcionamiento de proxychains y aprender a configurarlo adecuadamente.
 
@@ -52,11 +52,11 @@ Supongamos que estamos en nuestra casa. Nuestro ordenador tiene una IP Pública 
 
 **En el caso que no estemos usando ningún proxy** se establecerá una conexión directa entre nuestro ordenador y el servidor web tal y como se muestra en la siguiente imagen:
 
-[![Conexión en el caso que no se use proxychains](images/2-Conexión-directa-300x123.jpg "2- Conexión directa")](images/2-Conexión-directa.jpg)
+[![Conexión en el caso que no se use proxychains](images/2-Conexión-directa.jpg "2- Conexión directa")](images/2-Conexión-directa.jpg)
 
 **En el caso que estemos usando varios servidores proxy encadenados a través de proxychains** el esquema de conexión al servidor web es el que se muestra en la siguiente imagen:
 
-[![Conexión en el caso que se use proxychains](images/3-Conexión-con-proxychains-300x123.jpg "3- Conexión con proxychains")](images/3-Conexión-con-proxychains.jpg)
+[![Conexión en el caso que se use proxychains](images/3-Conexión-con-proxychains.jpg "3- Conexión con proxychains")](images/3-Conexión-con-proxychains.jpg)
 
 1. La petición inicial de nuestro ordenador con IP (**77.123.21.3**) se dirige a un servidor proxy con IP (**200.123.231.321**).
 2. Seguidamente el servidor proxy con IP (**200.123.231.321**) dirige la petición a otro servidor proxy con IP (**212.234.127.121**)
@@ -68,13 +68,13 @@ Supongamos que estamos en nuestra casa. Nuestro ordenador tiene una IP Pública 
 
 En el siguiente post se detallan de forma muy detallada las ventajas que podemos obtener de conectarnos a internet a través de un servidor Proxy:
 
-[https://geekland.eu/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
 
 Pero ahora el kit que de la cuestión es... ¿Qué obtenemos encadenando un proxy detrás de otro?
 
 La respuesta es simple. **En el caso que alguien intente localizar nuestra IP, y nosotros estamos conectados a internet a través de una cadena de proxy, le será mucho más difícil identificarnos y atacarnos**. **El motivo por el cual le será más difícil es el siguiente**:
 
-[![Ventajas de utilizar una cadena de proxy](images/4-Ventajas-de-un-servidor-proxy-300x108.jpg "4- Ventajas de utilizar una cadena de proxy")](images/4-Ventajas-de-un-servidor-proxy.jpg)
+[![Ventajas de utilizar una cadena de proxy](images/4-Ventajas-de-un-servidor-proxy.jpg "4- Ventajas de utilizar una cadena de proxy")](images/4-Ventajas-de-un-servidor-proxy.jpg)
 
 Si volvemos al ejemplo anterior vemos que nosotros hacemos una petición para visitar una página web y esta va pasando por distintos proxy que nosotros podemos definir.
 
@@ -90,7 +90,7 @@ Una vez instalado proxychains, y una vez conocemos como funciona, tan solo tenem
 
 ### Seleccionar los proxy a que nos queremos conectar
 
-[![Esquema de conexión usado en el ejemplo](images/3-Conexión-con-proxychains-300x123.jpg "3- Conexión con proxychains")](images/3-Conexión-con-proxychains.jpg)
+[![Esquema de conexión usado en el ejemplo](images/3-Conexión-con-proxychains.jpg "3- Conexión con proxychains")](images/3-Conexión-con-proxychains.jpg)
 
 ###### Nota: Siguiendo el esquema de la figura vamos a seleccionar 3 servidores proxy para encadenarlos uno tras otro.
 
@@ -100,7 +100,7 @@ Una vez instalado proxychains, y una vez conocemos como funciona, tan solo tenem
 > ssh -p 22 -N -D 8081 joan@geekland.sytes.net
 > ```
 
-[![Conexión al primero proxy](images/5-Tunel-SSH-Establecido-300x188.png "5- Tunel SSH Establecido")](images/5-Tunel-SSH-Establecido.png)
+[![Conexión al primero proxy](images/5-Tunel-SSH-Establecido.png "5- Tunel SSH Establecido")](images/5-Tunel-SSH-Establecido.png)
 
 Como se puede ver en la captura de imagen, una vez aplicado el comando nos pide la contraseña de nuestro servidor SSH. Una vez hemos introducido la contraseña se establece la conexión y tan solo tenemos que minimizar la ventana.
 
@@ -118,7 +118,7 @@ _**Puerto de acceso del servidor proxy:**_ Como el túnel SSH se ha abierto por 
 
 [https://hidemyass.com/proxy-list/](https://hidemyass.com/proxy-list/ "Lista de proxy")
 
-[![Listado de proxy de hidemyass](images/6-listado-de-proxy-300x276.png "6- listado de proxy")](images/6-listado-de-proxy.png)
+[![Listado de proxy de hidemyass](images/6-listado-de-proxy.png "6- listado de proxy")](images/6-listado-de-proxy.png)
 
 **Una vez hayáis accedido dentro del link tan solo tenéis que seleccionar uno de los proxy**. Para seleccionar un proxy tenéis que anotar los siguientes datos:
 
@@ -170,7 +170,7 @@ _**Random:**_ **En el momento de realizar las peticiones de conexión el orden d
 
 **Una vez visto los tipos de cadena existentes ahora tenemos que seleccionar el tipo que queremos.**
 
-[![Tipos de cadena en el fichero de configuración de proxychains](images/7-Tipos-de-cadena-300x251.png "7- Tipos de cadena")](images/7-Tipos-de-cadena.png)
+[![Tipos de cadena en el fichero de configuración de proxychains](images/7-Tipos-de-cadena.png "7- Tipos de cadena")](images/7-Tipos-de-cadena.png)
 
 **Como se puede ver en la captura de pantalla, en el archivo de configuración, existen tres lineas con el siguiente texto:**
 
@@ -190,7 +190,7 @@ _Linea 1_: **dynamic\_chain** _Linea 2_: **#strict\_chain** _Linea 3_: **#random
 
 Una vez seleccionado el tipo de cadena tenemos que asegurarnos que la resolución DNS se haga a través de los servidores proxy para no dejar rastros de nuestra identidad ni perder nuestra privacidad.
 
-[![Asegurar que la resolución de DNS se haga a través del servidor proxy](images/8-Proxy-DNS-leak-300x133.png "8- Proxy DNS leak")](images/8-Proxy-DNS-leak.png)
+[![Asegurar que la resolución de DNS se haga a través del servidor proxy](images/8-Proxy-DNS-leak.png "8- Proxy DNS leak")](images/8-Proxy-DNS-leak.png)
 
 Para ello, tal y como se puede ver en la captura de pantalla **tenemos que buscar la linea que tiene el siguiente contenido:**
 
@@ -202,7 +202,7 @@ Para ello, tal y como se puede ver en la captura de pantalla **tenemos que busca
 
 Finalmente ya solo nos falta indicar la lista de servidores proxy que vamos a usar. **Para introducir la lista de proxy tenemos que irnos justo al final del archivo de configuración y añadir los datos que anotamos en el apartado de** **Seleccionar los proxy a que nos queremos conectar**.
 
-[![Ejemplo de introducción del listado de servidores proxy](images/9-proxy-introducidos-300x190.png "9- proxy introducidos")](images/9-proxy-introducidos.png)
+[![Ejemplo de introducción del listado de servidores proxy](images/9-proxy-introducidos.png "9- proxy introducidos")](images/9-proxy-introducidos.png)
 
 **Tal y como se puede ver en la captura de pantalla añadimos el siguiente contenido:**
 
@@ -226,7 +226,7 @@ Así por lo tanto **si queremos usar iceweasel tan solo tenemos que introducir e
 > proxychains iceweasel
 > ```
 
-[![Como usar proxychains](images/10-Ejecutar-Proxychains-300x188.png "10- Ejecutar Proxychains")](images/10-Ejecutar-Proxychains.png)
+[![Como usar proxychains](images/10-Ejecutar-Proxychains.png "10- Ejecutar Proxychains")](images/10-Ejecutar-Proxychains.png)
 
 ###### Nota:  El procedimiento sirve para cualquier programa que queramos usar. Así por lo tanto podremos usar proxychains con [firefox](https://www.mozilla.org/es-ES/firefox/new/ "Web Firefox"), [thunderbird](https://www.mozilla.org/es-ES/thunderbird/ "Web Thunderbird"), [nmap](http://nmap.org/ "Web de Nmap"), [wget](https://es.wikipedia.org/wiki/GNU_Wget "Información sobre wget"), [curl](http://curl.haxx.se/ "Información sobre Curl"), etc.
 
@@ -234,7 +234,7 @@ Una vez introducido el comando se abrirá iceweasel. **Una vez se abierto icewea
 
 [http://www.vermiip.es/](http://www.vermiip.es/ "Averiguar IP Pública")
 
-[![Comprobación del funcionamiento de proxychains](images/11-Comprobación-del-funcionamiento-300x170.png "11- Comprobación del funcionamiento")](images/11-Comprobación-del-funcionamiento.png)
+[![Comprobación del funcionamiento de proxychains](images/11-Comprobación-del-funcionamiento.png "11- Comprobación del funcionamiento")](images/11-Comprobación-del-funcionamiento.png)
 
 Como se puede ver en la captura de pantalla **la web de** [vermiip.es](http://www.vermiip.es/ "Averiguar IP Pública") **nos está indicando la IP del último servidor proxy de la lista que introducimos**. Además **como elegimos la opción de cadena estricta y vemos que la conexión se ha realizado** **podemos estar seguros que la totalidad de servidores proxy están funcionando adecuadamente**.
 
@@ -244,7 +244,7 @@ Como se puede ver en la captura de pantalla **la web de** [vermiip.es](http://ww
 > sudo apt-get install curl
 > ```
 
-[![Comando de instalación de Curl](images/12-Instalación-de-Curl-300x188.png "12- Instalación de Curl")](images/12-Instalación-de-Curl.png)
+[![Comando de instalación de Curl](images/12-Instalación-de-Curl.png "12- Instalación de Curl")](images/12-Instalación-de-Curl.png)
 
 **Una vez instalado curl** ahora tan solo tenemos que empezar a usarlo. Para usarlo **en una terminal podemos escribir el siguiente comando**:
 
@@ -254,7 +254,7 @@ Como se puede ver en la captura de pantalla **la web de** [vermiip.es](http://ww
 
 ###### Nota: Con el comando introducido lo que vamos a obtener es la ruta que sigue nuestra petición para conectarnos a la página web de [www.moddle.org](http://moddle.org/ "página moddle"). El resultado obtenido después de aplicar el comando será el siguiente:
 
-[![Información obtenida con Curl](images/13-Curl-funcinando-con-DNS-Response-300x188.png "13- Curl funcinando con DNS Response")](images/13-Curl-funcinando-con-DNS-Response.png)
+[![Información obtenida con Curl](images/13-Curl-funcinando-con-DNS-Response.png "13- Curl funcinando con DNS Response")](images/13-Curl-funcinando-con-DNS-Response.png)
 
 Como se puede ver en la captura de pantalla el primer paso es realizar resolución DNS de la petición que hemos realizado. **Observamos que para realizar la petición DNS las etapas que se han seguido son**:
 

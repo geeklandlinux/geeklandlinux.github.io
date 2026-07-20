@@ -12,7 +12,7 @@ tags:
   - "placa-base"
   - "tarjeta-grafica"
 cover:
-  image: "images/Comprar-odenador.jpg"
+  image: "images/comprar-odenador.webp"
   relative: true
 ---
 
@@ -52,7 +52,7 @@ Al comprar un ordenador hay bajo mi punto de vista hay que asegurarse que la tot
 
 ### Punto 6. No por tener más RAM el ordenador nos irá más rápido
 
-[![Comprar un ordenador Memoria RAM](images/Memoria-RAM-150x150.jpg "Memoria RAM")](images/Memoria-RAM.jpg)Al comprar un ordenador no por tener una cantidad desmesurada de RAM nuestro ordenador irá más rápido. Para el uso descrito en el punto número 4 tener 8 gigas de RAM es una exageración, con 4 o incluso me atrevería decir 2 Gigas vas sobrado. El usuario no notará ninguna mejora por tener 2 u 8 Gigas de RAM. Por lo tanto quedaté con 4 Gb y ahorrarás dinero.
+[![Comprar un ordenador Memoria RAM](images/Memoria-RAM.jpg "Memoria RAM")](images/Memoria-RAM.jpg)Al comprar un ordenador no por tener una cantidad desmesurada de RAM nuestro ordenador irá más rápido. Para el uso descrito en el punto número 4 tener 8 gigas de RAM es una exageración, con 4 o incluso me atrevería decir 2 Gigas vas sobrado. El usuario no notará ninguna mejora por tener 2 u 8 Gigas de RAM. Por lo tanto quedaté con 4 Gb y ahorrarás dinero.
 
 Piensa que la RAM es un simple espacio donde están trabajando los programas en ejecución. Por lo tanto si tenemos 8Gb lo único que nos permitirá es lanzar más aplicaciones al mismo tiempo. El uso de mucha RAM solo es necesaria en el caso que nos queramos dedicar al tratamiento de vídeo o fotografía, diseño gráfico, necesidad de virtualizar sistemas operativos, etc.
 
@@ -62,7 +62,9 @@ Así por lo tanto si tenemos una placa base que admite memorias DDR2 y tiene una
 
 ### Punto 7. Elección del microprocesador al comprar un ordenador
 
-[![Comprar ordenador Microprocesador](images/Microprocesador-150x150.jpg "Microprocesador")](images/Microprocesador.jpg)Al comprar un ordenador la gente se suele deslumbrar por las increíbles velocidades del procesador que se muestran en los folletos. Esto es un error. No es necesariamente más bueno el procesador que tiene más MHz. Los MHz que nos acostumbran a enseñar en los folletos corresponden a la velocidad interna que funciona el microprocesador o lo que es lo mismo a las operaciones que puede realizar este microprocesador por segundo y solo es una medida de fuerza bruta.
+[![Comprar ordenador Microprocesador](images/Microprocesador.jpg "Microprocesador")](images/Microprocesador.jpg)
+
+Al comprar un ordenador la gente se suele deslumbrar por las increíbles velocidades del procesador que se muestran en los folletos. Esto es un error. No es necesariamente más bueno el procesador que tiene más MHz. Los MHz que nos acostumbran a enseñar en los folletos corresponden a la velocidad interna que funciona el microprocesador o lo que es lo mismo a las operaciones que puede realizar este microprocesador por segundo y solo es una medida de fuerza bruta.
 
 Aparte de la velocidad interna también tenemos que considerar la velocidad externa (frecuencia de reloj) de este procesador. La velocidad externa nos da la velocidad de comunicación entre el micro y la placa y por tanto nos da una idea de la velocidad de la comunicación  entre el procesador y los distintos componentes de nuestro ordenador. Por lo tanto al comprar un ordenador también es interesante analizar la velocidad externa del procesador y asegurar que coincida con la velocidad de bus de la placa base y con la velocidad de la RAM.
 
@@ -74,7 +76,9 @@ Por último decir que existen también existen procesadores que son más ideales
 
 ### Punto 8. Elección del disco duro al comprar un ordenador
 
-[![Comprar un ordenador Discos Duro](images/Disco-Duro-150x150.jpg "Disco Duro")](images/Disco-Duro.jpg)Respecto al disco duro la gente solo se acostumbra a fijarse en la la capacidad de almacenaje que tiene. Este es un parámetro importante pero también hay otros como por ejemplo la velocidad de escritura.
+[![Comprar un ordenador Discos Duro](images/Disco-Duro.jpg "Disco Duro")](images/Disco-Duro.jpg)
+
+Respecto al disco duro la gente solo se acostumbra a fijarse en la la capacidad de almacenaje que tiene. Este es un parámetro importante pero también hay otros como por ejemplo la velocidad de escritura.
 
 Los mejores discos duros existentes en la actualidad son los SSD ya que son muchos más rápidos que los convencionales, no hacen ruido, son más pequeños, no existe la [fragmentación]({{< relref "/posts/la-fragmentacion-en-linux-existe" >}}), consumen menos pero tienen el problema que son caros. También existen los discos duros PATA (IDE) que personalmente intentaría evitar a toda costa. ¿Por qué?
 
@@ -92,7 +96,9 @@ Otros parámetros a tener en cuenta:
 
 ### Punto 9. Elección de la tarjeta gráfica al comprar un ordenador
 
-[![Comprar un ordenador Tarjeta de Video](images/Tarjeta-de-Video-150x150.jpg "Tarjeta de Video")](images/Tarjeta-de-Video.jpg)Elegir una tarjeta adecuada en función de las aplicaciones que tengamos que realizar. Si no eres un gamer, ni un diseñador gráfico y simplemente usas el ordenador para navegar y para realizar cuatro trabajos con suites ofimáticas la mayoría de tarjetas integradas en las placas base te será suficiente.
+[![Comprar un ordenador Tarjeta de Video](images/Tarjeta-de-Video.jpg "Tarjeta de Video")](images/Tarjeta-de-Video.jpg)
+
+Elegir una tarjeta adecuada en función de las aplicaciones que tengamos que realizar. Si no eres un gamer, ni un diseñador gráfico y simplemente usas el ordenador para navegar y para realizar cuatro trabajos con suites ofimáticas la mayoría de tarjetas integradas en las placas base te será suficiente.
 
 En el caso de ser un usuario exigente hay que ir con cuidado a la hora de elegir una tarjeta gráfica. No hay que elegir la tarjeta gráfica exclusivamente por el tamaño de memoria de que esta disponga. La memoria RAM no es más que un simple espacio de almacenamiento. Los parámetros que hay que tener en cuenta a la hora de comprar una tarjeta gráfica son:
 
@@ -122,7 +128,9 @@ Si tenemos una memoria DDR5 de 1502 MHz con un ancho de bus de 256 bits nuestro 
 
 ### Punto 10. Elección de la fuente de alimentación al comprar un ordenador
 
-[![Comprar un ordenador Fuente de Alimentación](images/Fuente-de-Alimentación-150x150.jpg "Fuente de Alimentación")](images/Fuente-de-Alimentación.jpg)Muchos usuarios acostumbran a descuidarse de la fuente de alimentación al comprar un ordenador. Es más importante de lo que parece ya que en muchas ocasiones la fuente de alimentación es la responsable de cuelgues y problemas diversos. Tenemos que asegurarnos que los Watios que proporciona la fuente sean los necesarios para alimentar los componentes de nuestro ordenador dejando siempre un margen de seguridad. Si la fuente de alimentación va muy justa de potencia el ventilador hará mucho ruido y habrá un calentamiento excesivo. El rendimiento óptimo de trabajo de una fuente de alimentación se acostumbra a obtener cuando consume un 50 % de su potencia nominal .También es aconsejable que sea de una marca reconocida como por ejemplo Antec, Corsair, Enermax, Fortron, Seasonic.
+[![Comprar un ordenador Fuente de Alimentación](images/Fuente-de-Alimentación.jpg "Fuente de Alimentación")](images/Fuente-de-Alimentación.jpg)
+
+Muchos usuarios acostumbran a descuidarse de la fuente de alimentación al comprar un ordenador. Es más importante de lo que parece ya que en muchas ocasiones la fuente de alimentación es la responsable de cuelgues y problemas diversos. Tenemos que asegurarnos que los Watios que proporciona la fuente sean los necesarios para alimentar los componentes de nuestro ordenador dejando siempre un margen de seguridad. Si la fuente de alimentación va muy justa de potencia el ventilador hará mucho ruido y habrá un calentamiento excesivo. El rendimiento óptimo de trabajo de una fuente de alimentación se acostumbra a obtener cuando consume un 50 % de su potencia nominal .También es aconsejable que sea de una marca reconocida como por ejemplo Antec, Corsair, Enermax, Fortron, Seasonic.
 
 La función de una fuente de alimentación es transformar corriente de alterna a continua y alimentar los componentes del ordenador. Existen varias tecnologías para el proceso de transformación de corriente alterna a continua. Actualmente las fuentes con PFC Activo son las que realizar el proceso de transformación más eficiente. Por lo tanto PFC activo será más eficazmente que PFC Pasivo.
 
@@ -130,7 +138,7 @@ Las tarjetas gráficas de gama alta o algunos procesadores pueden requerir de mu
 
 ### Punto 11. Elección del disipador de calor al comprar un ordenador
 
-[![Comprar un ordenador Disipador](images/Disipador-150x150.jpg "Disipador")](images/Disipador.jpg)
+[![Comprar un ordenador Disipador](images/Disipador.jpg "Disipador")](images/Disipador.jpg)
 
 Existen distintos tipos de disipadores en el mercado. Los puntos a tener en cuenta cuando queremos comprar o elegir un disipador de calor:
 
@@ -144,7 +152,7 @@ En el mercado existen multitud de disipadores y por lo tanto en función de los 
 
 ### Punto 12. Elección de la placa base al comprar un ordenador
 
-[![Comprar un ordenador Placa Base](images/Placa-Base-150x150.jpg "Placa Base")](images/Placa-Base.jpg)
+[![Comprar un ordenador Placa Base](images/Placa-Base.jpg "Placa Base")](images/Placa-Base.jpg)
 
 Los factores a considerar para una elección óptima de una placa base son los siguientes:
 
@@ -178,7 +186,9 @@ El número de slots de memoria que tiene la placa (2 o 4), los tipos de memoria 
 
 ### Punto 13. Torre del ordenador y ventilación
 
-[![Comprar un ordenador Torre ordenador](images/Torre-ordenador-150x150.jpg "Torre ordenador")](images/Torre-ordenador.jpg)La torre del ordenador tenemos que asegurarnos que elimine el calor que generan nuestros componentes de forma eficaz. Si los componentes que elegimos son potentes precisaremos de una caja más gran y con mayor capacidad para eliminar el calor. Como contrapartida los equipos de gama más baja la torre del ordenador no tiene tanta importancia.
+[![Comprar un ordenador Torre ordenador](images/Torre-ordenador.jpg "Torre ordenador")](images/Torre-ordenador.jpg)
+
+La torre del ordenador tenemos que asegurarnos que elimine el calor que generan nuestros componentes de forma eficaz. Si los componentes que elegimos son potentes precisaremos de una caja más gran y con mayor capacidad para eliminar el calor. Como contrapartida los equipos de gama más baja la torre del ordenador no tiene tanta importancia.
 
 Por lo tanto en función del uso que queremos dar al ordenador deberemos analizar que la torre sea suficientemente espaciosa para colocar el disipador que necesitamos, que traiga soportes para añadir ventiladores adicionales, filtros antipolvo, tipo de acabados, estética, etc.
 

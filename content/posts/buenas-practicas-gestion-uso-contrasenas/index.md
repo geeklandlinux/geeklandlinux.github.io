@@ -7,7 +7,7 @@ tags:
   - "contrasenas"
   - "seguridad"
 cover:
-  image: "images/buenas-practicas-gestion-de-contraseñas.jpg"
+  image: "images/buenas-practicas-gestion-de-contraseñas.webp"
   relative: true
 ---
 

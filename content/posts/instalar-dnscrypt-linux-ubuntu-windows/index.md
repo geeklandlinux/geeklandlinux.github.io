@@ -9,7 +9,7 @@ tags:
   - "dnscrypt"
   - "privacidad"
 cover:
-  image: "images/Instalar-DNSCrypt-en-Linux-ubuntu-y-Windows.png"
+  image: "images/instalar-dnscrypt-en-linux-ubuntu-y-windows.webp"
   relative: true
 ---
 
@@ -226,7 +226,7 @@ Una vez terminada la descompresión dispondremos de las siguientes carpetas:
 
 Accedemos a la carpeta **dnscrypt-winservicemgr-master\\DNSCrypt Windows Service Manager Package** y copiamos el archivo **dnscrypt-winservicemgr.exe**
 
-[![Copiar la interfaz gráfica de DNSCrypt](images/Copiar-la-interfaz-gráfica-300x181.png)](images/Copiar-la-interfaz-gráfica.png)
+[![Copiar la interfaz gráfica de DNSCrypt](images/copiar-la-interfaz-grafica.png)](images/Copiar-la-interfaz-gráfica.png)
 
 Una vez copiado el archivo lo pegamos dentro de la carpeta **dnscrypt-proxy-win32**
 
@@ -238,10 +238,10 @@ Una vez pegado el archivo copiamos la carpeta **dnscrypt-proxy-win32** dentro de
 
 Una vez finalizada la instalación tan solo nos falta configurar y comprobar que DNSCrypt funciona de forma adecuada. Para ello pueden seguir las instrucciones que encontrarán en el siguiente enlace:
 
-https://geekland.eu/configurar-dnscrypt-en-gnu-linux/
+https://geeklandlinux.github.io/posts/configurar-dnscrypt-en-gnu-linux/
 
 ## CONFIGURACIÓN DE DE DNSCRYPT EN WINDOWS
 
 Una vez finalizada la instalación tan solo nos falta configurar y comprobar que DNSCrypt funciona de forma adecuada. Para ello pueden seguir las instrucciones que dejo en el siguiente enlace:
 
-https://geekland.eu/configurar-dnscrypt-en-windows/
+https://geeklandlinux.github.io/posts/configurar-dnscrypt-en-windows/

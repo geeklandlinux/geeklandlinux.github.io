@@ -11,7 +11,7 @@ tags:
   - "privacidad"
   - "seguridad"
 cover:
-  image: "images/Configurar-Pi-Hole-para-usar-DNS-over-https-DoH-en-una-Raspberry-Pi.jpg"
+  image: "images/configurar-Pi-Hole-para-usar-DNS-over-https-DoH-en-una-raspberry-pi.webp"
   relative: true
 ---
 
@@ -50,7 +50,7 @@ Si usamos un navegador, como por ejemplo Firefox o Chrome, únicamente tendremos
 
 Obviamente tendremos que tener instalado Pi-hole en nuestra Raspberry Pi. En el caso que no lo tengan instalado pueden seguir las instrucciones que encontrarán en el siguiente enlace:
 
-https://geekland.eu/instalar-configurar-pi-hole-raspberry-pi/
+[https://geeklandlinux.github.io/posts/instalar-configurar-pi-hole-raspberry-pi/](https://geeklandlinux.github.io/posts/instalar-configurar-pi-hole-raspberry-pi/)
 
 ### Instalar el demonio Cloudflared en la Raspberry Pi
 

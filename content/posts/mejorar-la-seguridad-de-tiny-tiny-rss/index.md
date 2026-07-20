@@ -10,7 +10,7 @@ tags:
   - "tiny-tiny-rss"
   - "ubuntu"
 cover:
-  image: "images/mejorar-la-seguridad-de-tiny-tiny-rrss.jpg"
+  image: "images/mejorar-la-seguridad-de-tiny-tiny-rrss.webp"
   relative: true
 ---
 
@@ -213,7 +213,7 @@ Modificando el numero que está en rojo podremos fácilmente definir el número 
 
 Obviamente cada uno de los usuarios de Tiny Tiny RSS debe usar una contraseña robusta. Si quieren consejos útiles para crear contraseñas robustas les dejo el siguiente enlace:
 
-https://geekland.eu/buenas-practicas-gestion-uso-contrasenas/
+[https://geeklandlinux.github.io/posts/buenas-practicas-gestion-uso-contrasenas/](https://geeklandlinux.github.io/posts/buenas-practicas-gestion-uso-contrasenas/)
 
 ### Borrar el usuario admin para incrementar la seguridad
 

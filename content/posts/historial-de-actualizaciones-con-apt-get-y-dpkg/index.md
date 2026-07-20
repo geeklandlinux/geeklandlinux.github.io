@@ -10,7 +10,7 @@ tags:
   - "historial"
   - "ubuntu"
 cover:
-  image: "images/Ver-el-historial-de-actualizaciones-en-apt-get.jpg"
+  image: "images/ver-el-historial-de-actualizaciones-en-apt-get.webp"
   relative: true
 ---
 

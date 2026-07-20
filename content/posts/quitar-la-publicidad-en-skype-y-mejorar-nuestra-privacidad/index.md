@@ -8,7 +8,7 @@ tags:
   - "publicidad"
   - "skype"
 cover:
-  image: "images/Quitar-la-publicidad-en-Skype.jpg"
+  image: "images/quitar-la-publicidad-en-skype.webp"
   relative: true
 ---
 

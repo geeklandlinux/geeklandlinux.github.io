@@ -11,7 +11,7 @@ tags:
   - "internet"
   - "xfce"
 cover:
-  image: "images/Notificacion-mail-en-xfce.png"
+  image: "images/notificacion-mail-en-xfce.webp"
   relative: true
 ---
 

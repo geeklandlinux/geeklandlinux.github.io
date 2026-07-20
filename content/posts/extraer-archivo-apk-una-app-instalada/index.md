@@ -8,7 +8,7 @@ tags:
   - "es-explorer"
   - "tips-android"
 cover:
-  image: "images/Extraer-el-archivo-apk-de-una-App-instalada.png"
+  image: "images/extraer-el-archivo-apk-de-una-app-instalada.webp"
   relative: true
 ---
 

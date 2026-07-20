@@ -10,7 +10,7 @@ tags:
   - "privacidad"
   - "publicidad"
 cover:
-  image: "images/Bloquear-publicidad-en-Android-sin-ser-Root.png"
+  image: "images/bloquear-publicidad-en-android-sin-ser-root.webp"
   relative: true
 ---
 
@@ -140,7 +140,7 @@ En la captura de pantalla podemos ver que tengo configurado un punto de acceso [
 
 **7-** Una vez disponemos de todos los datos, incluida nuestra contraseña, **crearemos un nuevo APN. Para crear el nuevo APN cuando están en la siguiente pantalla tienen que apretar el botón +**.
 
-[![Introducción de nueva configuración del APN](images/9-Acceso-a-la-configuración-del-APN-168x300.png "9- Acceso a la configuración del APN")](images/9-Acceso-a-la-configuración-del-APN.png)
+[<img src="images/9-Acceso-a-la-configuración-del-APN.png" alt="Introducción de nueva configuración del APN" title="9- Acceso a la configuración del APN" style="zoom:67%;" />](images/9-Acceso-a-la-configuración-del-APN.png)
 
 **8-** Una vez presionado el botón + se abrirá una ventana donde tendrán que **introducir los datos de vuestro nuevo APN**. **Los datos del nuevo APN tienen que ser exactamente los mismos que los anotados en el punto 6 con excepción de los siguientes campos:**
 
@@ -164,7 +164,7 @@ Tal y como se puede ver en la captura de pantalla tan solo **tenemos que selecci
 
 Ahora tan solo falta comprobar que todo funciona a la perfección. Por lo tanto volveremos a acceder a la misma aplicación que al principio hemos visto que tenia publicidad.
 
-[![APN Funcionado con el plan de datos](images/13-Adblock-PLus-bloqueando-publicidad-168x300.png "13- Adblock Plus bloqueando publicidad")](images/13-Adblock-PLus-bloqueando-publicidad.png)
+[<img src="images/13-Adblock-PLus-bloqueando-publicidad.png" alt="APN Funcionado con el plan de datos" title="13- Adblock Plus bloqueando publicidad" style="zoom:67%;" />](images/13-Adblock-PLus-bloqueando-publicidad.png)
 
 Como se puede ver en la captura de pantalla ahora la publicidad ha desaparecido completamente. Por lo tanto ya podemos dar el proceso por concluido.
 
