@@ -28,3 +28,15 @@ enableEmoji = true
     name = "Artículos"
     url = "/posts/"
     weight = 1
+
+[[menu.main]]
+    identifier = "categories"
+    name = "Categorías"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Etiquetas"
+    url = "/tags/"
+    weight = 3
