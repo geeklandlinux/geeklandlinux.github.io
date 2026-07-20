@@ -5,11 +5,20 @@ theme = "PaperMod"
 defaultContentLanguage = "es"
 enableEmoji = true
 
+# Habilita la generación del índice JSON requerido para la búsqueda de PaperMod
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   description = "Blog sobre tecnología, Linux, privacidad y software libre"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   env = "production"
+
+# Icono de RSS en el pie de página
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
 
 # Icono del sitio / Favicon para navegadores
 [params.assets]
@@ -29,7 +38,7 @@ enableEmoji = true
     url = "/posts/"
     weight = 1
 
-[[menu.main]]
+  [[menu.main]]
     identifier = "categories"
     name = "Categorías"
     url = "/categories/"
@@ -40,3 +49,15 @@ enableEmoji = true
     name = "Etiquetas"
     url = "/tags/"
     weight = 3
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Buscar"
+    url = "/search/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
