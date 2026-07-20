@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ocr"
 cover:
-  image: "images/que-es-ocr-ventajas-y-limitaciones_min.png"
+  image: "images/que-es-ocr-ventajas-y-limitaciones_min.webp"
   relative: true
 ---
 
@@ -20,11 +20,11 @@ En el caso que después de la explicación aún exista algún tipo de duda, les 
 
 Supongamos que en nuestras manos ha llegado un archivo pdf que contiene texto escaneado. El archivo que hemos recibido es el siguiente:
 
-[![Transformar texto a OCR](images/Texto-para-aplicar-OCR-225x300.jpg "Ejemplo de texto para realizar reconocimiento OCR")](images/Texto-para-aplicar-OCR.jpg)
+[![Transformar texto a OCR](images/Texto-para-aplicar-OCR.jpg "Ejemplo de texto para realizar reconocimiento OCR")](images/Texto-para-aplicar-OCR.jpg)
 
 Ahora mediante técnicas OCR convertiremos el texto en formato de imagen a texto real que podremos editar. Después de aplicar técnicas de reconocimiento óptico de caracteres (OCR) en la imagen que acabamos de mostrar obtendremos el siguiente resultado:
 
-[![Resultados del OCR](images/Comprobación-de-los-resultados-OCR-223x300.png "Resultados del reconocimiento óptico de caracteres")](images/Comprobación-de-los-resultados-OCR.png)
+[![Resultados del OCR](images/Comprobación-de-los-resultados-OCR.png "Resultados del reconocimiento óptico de caracteres")](images/Comprobación-de-los-resultados-OCR.png)
 
 Como se puede ver en la captura de imagen, después de finalizar el reconocimiento óptico de caracteres tendremos la totalidad de texto que contenía la imagen inicial en un procesador de texto. Ahora con este texto podemos hacer lo que queramos. Lo podemos borrar, modificar, copiar, pegar, etc.
 
