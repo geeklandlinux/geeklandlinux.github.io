@@ -31,16 +31,17 @@ enableEmoji = true
   text = "Geekland"
   icon = "/favicon.ico"
 
-# Para permitir renderizado de html en formulario de contacto
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
 
 # Iconos sociales (Aparecen abajo en el pie o en el profileMode)
 [[params.socialIcons]]
   name = "rss"
   url = "/index.xml"
+
+# Para permitir renderizado de html en formulario de contacto
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Menú Principal
 [menu]
