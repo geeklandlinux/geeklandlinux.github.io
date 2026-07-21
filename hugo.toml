@@ -31,6 +31,12 @@ enableEmoji = true
   text = "Geekland"
   icon = "/favicon.ico"
 
+# Para permitir renderizado de html en formulario de contacto
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     identifier = "posts"
