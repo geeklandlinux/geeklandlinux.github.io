@@ -31,9 +31,8 @@ enableEmoji = true
   text = "Geekland"
   icon = "/favicon.ico"
 
-
 # Iconos sociales (Aparecen abajo en el pie o en el profileMode)
-[[params.socialIcons]]
+[params.socialIcons]
   name = "rss"
   url = "/index.xml"
 
