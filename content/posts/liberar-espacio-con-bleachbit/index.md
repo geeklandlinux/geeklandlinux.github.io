@@ -55,7 +55,7 @@ Para arrancarlo en modo root tecleamos:
 
 Ahora el programa ya está abierto. El primer paso a realizar una vez abierto es configurar las opciones del programa. Para acceder a las configuraciones del programa clicamos sobre el menú editar ya posteriori seleccionamos preferencias. Nos aparecerá un menú similar al siguiente:
 
-[![liberar espacio con Bleachbit preferencias general](images/Bleachbit-preferencias-general-300x249.png "liberar espacio con Bleachbit preferencias general")](images/Bleachbit-preferencias-general.png)
+[![liberar espacio con Bleachbit preferencias general](images/Bleachbit-preferencias-general.png "liberar espacio con Bleachbit preferencias general")](images/Bleachbit-preferencias-general.png)
 
 Como podemos ver en la imagen, la pestaña general tiene tres opciones:
 
@@ -65,13 +65,13 @@ Como podemos ver en la imagen, la pestaña general tiene tres opciones:
 
 Finalizada la configuración general ahora seleccionamos la pestaña unidades:
 
-[![Liberar espacion con Bleachbit preferencias Unidades](images/Bleachbit-preferencias-Unidades-300x249.png "Liberar espacion con Bleachbit preferencias Unidades")](images/Bleachbit-preferencias-Unidades.png)
+[![Liberar espacion con Bleachbit preferencias Unidades](images/Bleachbit-preferencias-Unidades.png "Liberar espacion con Bleachbit preferencias Unidades")](images/Bleachbit-preferencias-Unidades.png)
 
 Dentro de la pestaña unidades unidades seleccionamos los directorios que queremos que se sobrescriban para borrar todos los archivos definitivamente y eliminar cualquier rastro. Por defecto tenemos seleccionado la home y la carpeta de archivos temporales. Ustedes pueden añadir las ubicaciones que crean oportunas.
 
 Una vez Configurada la opción unidades seleccionamos idiomas:
 
-[![Liberar espacio con Bleachbit preferencias idiomas](images/Bleachbit-preferencias-idiomas-300x249.png "Liberar espacio con Bleachbit preferencias idiomas")](images/Bleachbit-preferencias-idiomas.png)
+[![Liberar espacio con Bleachbit preferencias idiomas](images/Bleachbit-preferencias-idiomas.png "Liberar espacio con Bleachbit preferencias idiomas")](images/Bleachbit-preferencias-idiomas.png)
 
  En la pestaña idiomas seleccionamos los idiomas preferentes en nuestro sistema. En mi caso elijo el Inglés por ser el idioma base de mi distro y el Español que es mi idioma. De está forma aseguramos que se eliminaran paquetes de programas y del sistema instalados que hagan referencia a idiomas que no usamos.
 
@@ -79,22 +79,29 @@ Una vez Configurada la opción unidades seleccionamos idiomas:
 
 Al seleccionar la última pestaña, denominada Lista Blanca, podemos añadir las rutas o carpetas que queremos que bleachbit no pueda tener acceso y por lo tanto no pueda modificar. Al no seleccionar nada, bleachbit podrá modificar y tener acceso a la totalidad de información de nuestro ordenador.
 
-[![Liberar espacio con Bleachbit preferencias lista blanca](images/Bleachbit-preferencias-lista-blanca1-300x249.png "Liberar espacio con Bleachbit preferencias lista blanca")](images/Bleachbit-preferencias-lista-blanca1.png)
+[![Liberar espacio con Bleachbit preferencias lista blanca](images/Bleachbit-preferencias-lista-blanca1.png "Liberar espacio con Bleachbit preferencias lista blanca")](images/Bleachbit-preferencias-lista-blanca1.png)
 
 ## 5- Usar Bleachbit para liberar espacio de nuestro disco duro
 
 Una vez configurado el programa ya podemos ejecutar el limpiador.
 
-[![Liberar espacio con Bleachbit funcionamiento](images/Bleachbit-funcionamiento-300x233.png "Liberar espacio con Bleachbit funcionamiento")](images/Bleachbit-funcionamiento.png)
+[![Liberar espacio con Bleachbit funcionamiento](images/Bleachbit-funcionamiento.png "Liberar espacio con Bleachbit funcionamiento")](images/Bleachbit-funcionamiento.png)
 
 Primero usaremos bleachbit sin ser root. Como podemos ver en la imagen:
 
 1. Vemos que al lado izquierdo se enumeran las opciones de limpieza que tenemos disponibles así como también cada uno de los programas que bleachbit puede optimizar y liberar espacio.
+
 2. En la parte derecha podemos ver una detallada descripción de los archivos que se eliminarán en función de las opciones seleccionadas en la parte derecha.
+
 3. Seleccionar la totalidad de opciones de limpieza que queremos aplicar. Algunas de las opciones de limpieza seleccionadas se pueden ver en la imagen de este apartado. Como podéis ver por ejemplo he seleccionado la opción sistema y dentro de sistema he seleccionado la totalidad de acciones excepto de liberar espacio en disco (Sí queréis ver los motivos podéis leer el apartado 2 de este post).
+
 4. Si continuamos viendo la lista vemos que también he seleccionado skype. Skype solo nos ofrece la opción de borrar registros de chat. Como puedes ver en la parte derecha de la pantalla bleachbit nos informa que si seleccionamos esta opción se borrará el histórico de conversaciones que tenemos almacenadas en nuestro ordenador.
-5. Una vez seleccionadas la totalidad de opciones clicaremos sobre el icono de la lupa. Entonces Bleachbit buscará la totalidad de archivos que quiere eliminar. [![Liberar espacio con bleachbit limpiar lupa](images/bleachbit-limpiar-lupa-300x233.png "Liberar espacio con bleachbit limpiar lupa")](images/bleachbit-limpiar-lupa.png)
-6. Estudiamos detalladamente los archivos que bleachbit quiere eliminar. Si no vemos problema en eliminarlos solamente tenemos que apretar el símbolo de eliminar que está justo al lado de la lupa. Justo al apretar eliminar nos aparecerá un mensaje si estamos seguros de eliminar los archivos. Al responder eliminar eliminaremos los archivos. [![Liberar espacio con bleachbit elimnar definitivamente](images/bleachbit-elimnar-definitivamente-300x108.png "Liberar espacio con bleachbit elimnar definitivamente")](images/bleachbit-elimnar-definitivamente.png)
+
+5. Una vez seleccionadas la totalidad de opciones clicaremos sobre el icono de la lupa. Entonces Bleachbit buscará la totalidad de archivos que quiere eliminar. [![Liberar espacio con bleachbit limpiar lupa](images/bleachbit-limpiar-lupa.png "Liberar espacio con bleachbit limpiar lupa")](images/bleachbit-limpiar-lupa.png)
+
+6. Estudiamos detalladamente los archivos que bleachbit quiere eliminar. Si no vemos problema en eliminarlos solamente tenemos que apretar el símbolo de eliminar que está justo al lado de la lupa. Justo al apretar eliminar nos aparecerá un mensaje si estamos seguros de eliminar los archivos. Al responder eliminar eliminaremos los archivos.
+
+    [![Liberar espacio con bleachbit elimnar definitivamente](images/bleachbit-elimnar-definitivamente.png "Liberar espacio con bleachbit elimnar definitivamente")](images/bleachbit-elimnar-definitivamente.png)
 
 ###### Nota: Al finalizar el proceso de borrar un archivo nos presentará un informe. En el informe veréis un detalle de los archivos borrados. En color rojo también veréis una serie de archivos que no se han podido borrar por falta de privilegios. Para eliminar los archivos que han aparecido en rojo solo tenemos que repetir el proceso descrito en el apartado 5 arrancando bleachbit como superusuario.
 
@@ -104,7 +111,7 @@ Como se ha comentado en el apartado 4 de este mismo post, si queremos podemos el
 
 En el caso que solo deseemos triturar archivos específicos como por ejemplo un archivo de texto que queremos que una vez eliminado nadie pueda tener acceso a el solamente tenemos que:
 
-1. Dar click en el menú archivo y seleccionar la opción adecuada que en nuestro caso es Triturar archivos. [![Liberar espacio con Bleachbit Triturar archivos](images/Triturar-archivos-300x233.png "Liberar espacio con Bleachbit Triturar archivos")](images/Triturar-archivos.png)
+1. Dar click en el menú archivo y seleccionar la opción adecuada que en nuestro caso es Triturar archivos. [![Liberar espacio con Bleachbit Triturar archivos](images/Triturar-archivos.png "Liberar espacio con Bleachbit Triturar archivos")](images/Triturar-archivos.png)
 2. Seguidamente aparecerá el navegador de archivos y deberemos solamente deberemos buscar y seleccionar el archivo a eliminar. Una vez encontrado lo seleccionamos y apretamos el botón de eliminar. Al apretar el botón de eliminar nos dirá si estamos seguros de eliminar permanentemente el archivo seleccionado. Solo tendremos que decirlo que sí y el proceso habrá finalizado.
 
 ###### Nota: En el caso que quisiéramos triturar una carpeta el procedimiento es el mismo que el que acabamos de ver pero en el paso uno deberíamos seleccionar triturar carpetas.
@@ -113,4 +120,4 @@ Una vez terminado el proceso vais a quedar altamente sorprendidos de la cantidad
 
 En el caso que queráis seguir optimizando vuestro sistema operativo podéis encontrar más información en le siguiente enlace.
 
-[https://geekland.eu/limpiar-nuestro-sistema/]({{< relref "/posts/limpiar-nuestro-sistema" >}})
+[https://geeklandlinux.github.io/posts/limpiar-nuestro-sistema/]({{< relref "/posts/limpiar-nuestro-sistema" >}})

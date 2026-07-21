@@ -122,7 +122,7 @@ Por estos motivos si queremos podemos nosotros mismos podemos hacernos nuestro a
 
 Para reemplazar el archivo hosts actual por el que construiremos nosotros necesitamos usar el explorador de archivos iFile. Para instalarlo deben seguir los siguientes pasos:
 
-https://geekland.eu/instalar-el-explorador-de-archivos-ifile/
+https://geeklandlinux.github.io/posts/instalar-el-explorador-de-archivos-ifile/
 
 Obtener el archivo hosts de nuestro ipadPara obtener el archivo hosts original de nuestro iPad o iPhone abrimos iFile. A continuación clicamos encima del icono de la bola del mundo para activar el servidor WebDAV que trae incorporado iFile.[![Abrir el servicio WebDAV de iFile](images/conectarse-al-iphone-o-ipad-con-webdav.png "Abrir el servicio WebDAV de iFile")](images/conectarse-al-iphone-o-ipad-con-webdav.png)
 

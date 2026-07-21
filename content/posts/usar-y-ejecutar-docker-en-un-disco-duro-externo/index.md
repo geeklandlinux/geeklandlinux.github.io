@@ -30,7 +30,7 @@ Los pasos a seguir se resumen a continuación.
 
 En nuestro ordenador o Raspberry Pi tenemos que conseguir que el dispositivo de almacenamiento se automonte al arrancar el sistema operativo. Para ello tan solo tienen que seguir las [instrucciones]({{< relref "/posts/montar-particion-ntfs-fat-o-ext4-en-el-arranque-del-sistema" >}}).
 
-https://geekland.eu/montar-particion-ntfs-fat-o-ext4-en-el-arranque-del-sistema/
+https://geeklandlinux.github.io/posts/montar-particion-ntfs-fat-o-ext4-en-el-arranque-del-sistema/
 
 En mi caso cada vez que arranque el sistema operativo, mi unidad de almacenamiento se automontará en la siguiente ubicación:
 

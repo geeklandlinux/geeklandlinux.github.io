@@ -36,7 +36,7 @@ Una vez instalado el paquete ya podemos abrir otra terminal y analizar los paque
 > apt-show-versions -b|awk 'BEGIN{FS="/"}$2=="stable"{print $1}'
 > ```
 
-[![paquetes de Debian clasificados por rama estable](images/estable-300x195.png "paquetes de Debian clasificados por rama estable")](images/estable.png)
+[![paquetes de Debian clasificados por rama estable](images/estable.png "paquetes de Debian clasificados por rama estable")](images/estable.png)
 
 Como pueden ver en la imagen no tengo ningún paquete instalado de la rama estable ya que no tengo los repositorios introducidos.
 
@@ -46,7 +46,7 @@ Para obtener los paquetes que tenemos instalados de la rama testing tenemos que 
 > apt-show-versions -b|awk 'BEGIN{FS="/"}$2=="testing"{print $1}'
 > ```
 
-[![paquetes de Debian clasificados por rama testing](images/testing-300x195.png "paquetes de Debian clasificados por rama testing")](images/testing.png)
+[![paquetes de Debian clasificados por rama testing](images/testing.png "paquetes de Debian clasificados por rama testing")](images/testing.png)
 
 Como pueden ver en la imagen hay una gran cantidad de paquetes. Debian testing es mi rama principal y por lo tanto es normal el resultado obtenido.
 
@@ -56,7 +56,7 @@ Para obtener los paquetes que tenemos instalados de la rama Unstable o Sid tenem
 > apt-show-versions -b|awk 'BEGIN{FS="/"}$2=="unstable"{print $1}'
 > ```
 
-[![paquetes de Debian clasificados por rama usntable](images/unstable-300x195.png "paquetes de Debian clasificados por rama unstable")](images/unstable.png)
+[![paquetes de Debian clasificados por rama usntable](images/unstable.png "paquetes de Debian clasificados por rama unstable")](images/unstable.png)
 
 Como pueden ver en la imagen en mi ordenador solo tengo instalado el paquete Gpodder.
 
@@ -66,7 +66,7 @@ Para obtener los paquetes que tenemos instalados de la rama experimental tenemos
 > apt-show-versions -b|awk 'BEGIN{FS="/"}$2=="experimental"{print $1}'
 > ```
 
-[![paquetes de Debian clasificados por rama experimental](images/experimental-300x195.png "paquetes de Debian clasificados por rama experimental")](images/experimental.png)
+[![paquetes de Debian clasificados por rama experimental](images/experimental.png "paquetes de Debian clasificados por rama experimental")](images/experimental.png)
 
 Como podeis ver en la imagen tengo instalado diversos paquetes de la rama experimental.
 
@@ -74,6 +74,6 @@ Por lo tanto como podéis ver de forma muy simple podemos tener un listado de 
 
 Para configurar el apt-pinning de forma adecuada pueden consultar el siguiente enlace:
 
-[https://geekland.eu/apt-pinning-en-debian/]({{< relref "/posts/apt-pinning-en-debian" >}})
+[https://geeklandlinux.github.io/posts/apt-pinning-en-debian/]({{< relref "/posts/apt-pinning-en-debian" >}})
 
 Fuente:  [http://www.esdebian.org/wiki/sistemas-mixtos](http://www.esdebian.org/wiki/sistemas-mixtos)

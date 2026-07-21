@@ -25,15 +25,21 @@ Una unidad SSD está formada por bloques y cada uno de los bloques se subdivide 
 
 A modo de ejemplo, los datos de un archivo se almacenan en las páginas A, B, C y D del bloque X.
 
-\[caption id="attachment\_10123" align="alignnone" width="257"\][![2 Bloques que almacenan el contenido de un archivo](images/bloques-con-contenido-archivo-257x300.png "2 Bloques que almacenan el contenido de un archivo")](images/bloques-con-contenido-archivo.png) Figura 1: Ilustración de 2 bloques con el contenido de un archivo.\[/caption\]
+[![2 Bloques que almacenan el contenido de un archivo](images/bloques-con-contenido-archivo-257x300.png "2 Bloques que almacenan el contenido de un archivo")](images/bloques-con-contenido-archivo.png) 
+
+Figura 1: Ilustración de 2 bloques con el contenido de un archivo.
 
 Con el tiempo se crea un nuevo archivo que se almacena en las páginas E, F, G y H del bloque X. A posteriori el contenido del archivo almacenado en las páginas A, B, C y D del bloque X varia y como como las unidades SSD no permiten la reescritura de páginas sin que antes se hayan borrado lo que pasará es que las páginas A, B, C y D del bloque X se marcaran como inválidas en el sistema de archivos y se escribirán las nuevas páginas A’, B’, C’ y D’ que contendrán el contenido modificado del primer archivo. Por lo tanto, en esto momentos tenemos el bloque X lleno y los bloques A, B, C y D estarán ocupando espacio útil que no podemos usar hasta que borremos la totalidad del bloque X.
 
-\[caption id="attachment\_10124" align="alignnone" width="248"\][![Bloque lleno con páginas marcadas como inválidas](images/bloque-lleno-con-paginas-invalidas-248x300.png "Bloque lleno con páginas marcadas como inválidas")](images/bloque-lleno-con-paginas-invalidas.png) Figura 2: Bloque X lleno con páginas marcadas como inválidas.\[/caption\]
+[![Bloque lleno con páginas marcadas como inválidas](images/bloque-lleno-con-paginas-invalidas-248x300.png "Bloque lleno con páginas marcadas como inválidas")](images/bloque-lleno-con-paginas-invalidas.png) 
+
+Figura 2: Bloque X lleno con páginas marcadas como inválidas.
 
 Para que poder recuperar el espacio de las páginas A, B, C y D se copiará el contenido válido del bloque X al bloque Y. Entonces se podrá borrar el contenido entero del Bloque X. Recordad que el tamaño mínimo de borrado de una unidad SSD es un bloque.
 
-\[caption id="attachment\_10125" align="alignnone" width="248"\][![Ilustración del proceso de borrado de un bloque de una unidad SSD](images/ilustracion-operacion-borrado-bloque-248x300.png "Ilustración del proceso de borrado de un bloque de una unidad SSD")](images/ilustracion-operacion-borrado-bloque.png) Figura 3: Proceso de borrado de un bloque en un SSD\[/caption\]
+[![](images/ilustracion-operacion-borrado-bloque-248x300.png "Ilustración del proceso de borrado de un bloque de una unidad SSD")](images/bloque-lleno-con-paginas-invalidas.png) 
+
+Figura 3: Proceso de borrado de un bloque en un SSD
 
 ### La función del soporte TRIM en el funcionamiento de una unidad SSD
 
@@ -41,11 +47,15 @@ En el proceso descrito en el apartado anterior, TRIM informa de los bloques y p�
 
 Si en el ejemplo del apartado anterior no dispusiéramos de TRIM, la unidad SSD vería el siguiente escenario:
 
-\[caption id="attachment\_10126" align="alignnone" width="263"\][![Estado de los bloques X e Y sin TRIM](images/estado-bloques-x-y-sin-trim-263x300.png "Estado de los bloques X e Y sin TRIM")](images/estado-bloques-x-y-sin-trim.png) Figura 4: Estado de los bloques X e Y sin TRIM\[/caption\]
+[![Estado de los bloques X e Y sin TRIM](images/estado-bloques-x-y-sin-trim-263x300.png "Estado de los bloques X e Y sin TRIM")](images/estado-bloques-x-y-sin-trim.png) 
+
+Figura 4: Estado de los bloques X e Y sin TRIM
 
 Cuando el escenario real con el soporte TRIM seria el siguiente:
 
-\[caption id="attachment\_10127" align="alignnone" width="247"\][![Estado de los bloques X e Y con TRIM](images/estado-bloques-x-y-con-trim-247x300.png "Estado de los bloques X e Y con TRIM")](images/estado-bloques-x-y-con-trim.png) Figura 5: Estado de los bloques X e Y con TRIM\[/caption\]
+[![Estado de los bloques X e Y con TRIM](images/estado-bloques-x-y-con-trim-247x300.png "Estado de los bloques X e Y con TRIM")](images/estado-bloques-x-y-con-trim.png) 
+
+Figura 5: Estado de los bloques X e Y con TRIM
 
 Por lo tanto, sin TRIM la unidad SSD pensará que tenemos multitud de bloques y páginas ocupados que realmente no lo están. Frente a este escenario, cuando la unidad SSD se quede sin espacio iniciará un proceso de varias lecturas para encontrar bloques que no estén en uso. Cuando encuentre un bloque con contenido inválido lo tendrá que borrar y a posteriori escribir el nuevo contenido. Este proceso que acabo de describir ocasiona los siguientes problemas:
 
@@ -67,11 +77,11 @@ Con la explicación realizada en los apartado anteriores podemos concluir que la
 
 En estos momentos conocemos que es TRIM, la función que realiza y la ventajas que nos proporciona. **Si quieren activarlo y configurarlo en GNU-Linux** tan solo tienen que seguir las siguientes instrucciones:
 
-https://geekland.eu/activar-trim-correctemente-linux/
+https://geeklandlinux.github.io/posts/activar-trim-correctemente-linux/
 
 En el caso que usen Windows pueden consultar el siguiente enlace:
 
-https://geekland.eu/activar-trim-en-windows/
+https://geeklandlinux.github.io/posts/activar-trim-en-windows/
 
 ###### FUENTES
 

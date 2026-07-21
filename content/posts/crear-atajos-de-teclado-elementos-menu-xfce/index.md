@@ -26,7 +26,7 @@ Los programas que acabamos de citar deben usar librerías GTK2. En el caso que a
 
 Para saber si un programa utiliza librerías GTK2 o GTK3 pueden consultar el siguiente enlace:
 
-[https://geekland.eu/que-son-librerias-gtk-version-usamos/]({{< relref "/posts/que-son-librerias-gtk-version-usamos" >}})
+[https://geeklandlinux.github.io/posts/que-son-librerias-gtk-version-usamos/]({{< relref "/posts/que-son-librerias-gtk-version-usamos" >}})
 
 ###### Nota: Es posible que hayan otros programas que permitan crear atajos de teclado a los elementos de un menú. Todo dependerá de si los desarrolladores del programa pensaron en este aspecto cuando crearon el programa.
 
@@ -52,7 +52,7 @@ Otra forma alternativa para activar los aceleradores editables es teclear el sig
 
 Acto seguido aparecerá la ventana de **Apariencia**, seguidamente clicaremos encima de la pestaña **Configuración** y finalmente tendremos que activar la opción **Activar aceleradores editables**.
 
-[![Activar los aceleradores editables](images/Activar-los-aceleradores-editables-300x288.png "Activar los aceleradores editables")](images/Activar-los-aceleradores-editables.png)
+[![Activar los aceleradores editables](images/Activar-los-aceleradores-editables.png "Activar los aceleradores editables")](images/Activar-los-aceleradores-editables.png)
 
 Una vez activados los aceleradores editables ya podemos crear los atajos de teclado que queramos.
 

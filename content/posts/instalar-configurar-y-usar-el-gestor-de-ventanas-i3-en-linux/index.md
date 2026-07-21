@@ -91,7 +91,7 @@ A partir de estos momentos ya podemos usar las fuentes Yosemite San Francisco y 
 
 Para que les quede un sistema operativo a su gusto pueden cambiar la imagen de fondo de LightDM. Para ello pueden seguir las instrucciones que se indican en el siguiente enlace.
 
-https://geekland.eu/personalizar-y-configurar-lightdm/
+https://geeklandlinux.github.io/posts/personalizar-y-configurar-lightdm/
 
 ## HACER QUE I3 SEA EL ESCRITORIO QUE ARRANCA DE FORMA PREDETERMINADA
 

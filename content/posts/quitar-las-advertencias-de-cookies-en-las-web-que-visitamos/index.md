@@ -69,7 +69,7 @@ Por lo tanto en mi caso lo que hago es lo siguiente:
 
 Obviamente lo primero que tienen que tener instalado es un bloqueador de anuncios en su navegador. Pueden usar tanto uBlock Origin como Adblock Plus. En mi caso les recomiendo el uso de uBlock Origin. Para instalar uBlock Origin en Firefox o en Chrome deberán seguir las siguientes instrucciones:
 
-https://geekland.eu/instalar-ublock-origin-chrome-firefox/
+https://geeklandlinux.github.io/posts/instalar-ublock-origin-chrome-firefox/
 
 Una vez instalada la extensión acceden a la siguiente página web.
 

@@ -56,7 +56,7 @@ Con estos pasos tan simples ya tendremos un tema oscuro en el entorno de escrito
 
 En el caso que los iconos se visualicen correctamente no hay que realizar absolutamente nada. Pero en el caso que los iconos no se integren con el tema oscuro tendrán que cambiarlos. Para cambiarlos deberán seguir el siguiente procedimiento:
 
-https://geekland.eu/cambiar-el-tema-iconos-en-libreoffice/
+https://geeklandlinux.github.io/posts/cambiar-el-tema-iconos-en-libreoffice/
 
 **Nota:** En mi caso uso los iconos Breeze (Dark). Tal y como pueden ver en las capturas de pantalla anteriores el tema Breeze (Dark) se visualiza perfecto cuando usamos temas oscuros.
 

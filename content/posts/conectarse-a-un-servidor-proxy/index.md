@@ -14,7 +14,7 @@ cover:
 
 En este post detallaremos como conectarse a un servidor web proxy con el fin de poder navegar anónimamente. Este post guarda relación con el post de como conectarse a un VPN que postee en el pasado y podéis consultar en el siguiente enlace:
 
-[https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
 
 <!--more-->En el post de VPN vimos su funcionamiento teórico, las beneficios que nos puede proporcionar y finalmente vimos como establecer conexión con una serie de servidores VPN gratuitos que podemos encontrar en internet.
 
@@ -34,7 +34,7 @@ Si después de leer este apartado aún tenéis dudas leer el siguiente apartado.
 
 En el siguiente gráfico se puede ver el funcionamiento de un servidor proxy:
 
-[![Conectarse a un servidor Proxy - Funcionamiento](images/Funcionamiento-servidor-Proxy-300x71.png "Funcionamiento servidor Proxy")](images/Funcionamiento-servidor-Proxy.png)
+[![Conectarse a un servidor Proxy - Funcionamiento](images/funcionamiento-servidor-proxy.png "Funcionamiento servidor Proxy")](images/Funcionamiento-servidor-Proxy.png)
 
 En el gráfico vemos que nosotros queremos visitar una página web alojada en un servidor web. Por lo tanto realizamos la petición a través del servidor proxy. Por lo tanto el servidor proxy recibirá una petición de nuestro ordenador con una ip externa **46.36.114.66**.
 
@@ -52,7 +52,7 @@ Ser anónimo es sumamente importante por varios motivos. En el momento que que e
 
 Cuando accedas a la web obtendrás una información similar a la siguiente:
 
-[![Conectarse a un servidor Proxy - Servicio Myip 1](images/Servicio-Myip-1-300x209.png "Servicio Myip 1")](images/Servicio-Myip-1.png)
+[<img src="images/Servicio-Myip-1.png" alt="Conectarse a un servidor Proxy - Servicio Myip 1" title="Servicio Myip 1" style="zoom:80%;" />](images/Servicio-Myip-1.png)
 
 ###### Nota:  Por motivos obvios he ocultado la información que aparece en la captura de pantalla.
 
@@ -64,7 +64,7 @@ Aparte de lo que acabamos de ver aún hay mas. Cada vez que visitamos una págin
 
 Al conectaros obtendréis una pantalla similar a la siguiente:
 
-[![Conectarse a un servidor Proxy - Servicio xhaus 1](images/Servicio-xhaus-1-300x209.png "Servicio xhaus 1")](images/Servicio-xhaus-1.png)
+[<img src="images/Servicio-xhaus-1.png" alt="Conectarse a un servidor Proxy - Servicio xhaus 1" title="Servicio xhaus 1" style="zoom:80%;" />](images/Servicio-xhaus-1.png)
 
 ###### Nota:  En la captura de pantalla podéis ver la totalidad de información que entegamos al visitar una página web. Parte de la información que entregamos es necesaria para hacer que el servidor web interprete nuestra petición. La gente que esté interesada en el protocolo de comunicación http les dejo el siguiente enlace de introducción: [http://es.kioskea.net/contents/264-el-protocolo-http](http://es.kioskea.net/contents/264-el-protocolo-http "Protocolo de Comunicación http")
 
@@ -117,7 +117,7 @@ Otras páginas web similares a las que acabo de citar son las siguientes:
 
 Una vez hemos accedido dentro de la página web veremos información que se asemeja a la que podéis ver en la siguiente captura de pantalla:
 
-[![Conectarse a un servidor Proxy - Listado de servidores Proxy](images/Listado-de-servidores-Proxy-300x209.png "Listado de servidores Proxy")](images/Listado-de-servidores-Proxy.png)
+[![Conectarse a un servidor Proxy - Listado de servidores Proxy](images/listado-de-servidores-proxy.png "Listado de servidores Proxy")](images/Listado-de-servidores-Proxy.png)
 
 Cada una de las lineas que vemos en la captura de pantalla muestra un servidor proxy distinto. Ahora tenemos que elegir uno de los servidores que se muestran en el listado. En lo primero que nos tenemos que fijar en en el tipo de servidor. En la captura de pantalla vemos que hay de 2 tipos. **Anónimo y Elite**. También existe un tercer tipo que es el **transparente**. De entre los 3 tipos solo aconsejo utilizar los Anónimos y los Elite. Los motivos son los siguientes:
 
@@ -139,35 +139,35 @@ Una vez vistos los tipos de servidor proxy existente ahora debemos elegir al que
 
 En este apartado veremos como configurar el navegador para conectarnos al servidor Proxy. En el ejemplo usamos Firefox. Lo mas aconsejable para realizar la conexión es usar el complemento Foxy Proxy Standard. Para instalar Foxy Proxy standard abrimos al navegador. Una vez vez abierto el navegador como podéis ver en la captura de pantalla vamos al menú de complementos.
 
-[![Conectarse a un servidor Proxy - Instalar Foxy Proxy 1](images/Instalar-Foxy-Proxy-1-300x140.png "Instalar Foxy Proxy 1")](images/Instalar-Foxy-Proxy-1.png)
+[<img src="images/Instalar-Foxy-Proxy-1.png" alt="Conectarse a un servidor Proxy - Instalar Foxy Proxy 1" title="Instalar Foxy Proxy 1" style="zoom:80%;" />](images/Instalar-Foxy-Proxy-1.png)
 
 Seguidamente se abrirá una pestaña. En el cuadro de búsqueda tal y como podéis ver la captura de pantalla tecleamos foxyproxy y tecleamos Enter:
 
-[![Conectarse a un servidor Proxy - Instalar Foxy Proxy 2](images/Instalar-Foxy-Proxy-2-300x140.png "Instalar Foxy Proxy 2")](images/Instalar-Foxy-Proxy-2.png)
+[<img src="images/instalar-foxy-proxy-2.png" alt="Conectarse a un servidor Proxy - Instalar Foxy Proxy 2" title="Instalar Foxy Proxy 2" style="zoom:80%;" />](images/Instalar-Foxy-Proxy-2.png)
 
 Una vez terminada la búsqueda solo tenemos que apretar el botón instalar de la extensión **FoxyProxy Standard** 4.1.3. Empezará el proceso de instalación y una vez terminado tendremos que reiniciar el navegador.
 
 Una vez abierto el navegador veremos un pequeño icono. Le damos un click tal y como se puede ver en la siguiente captura:
 
-[![Conectarse a un servidor Proxy - Configurar Proxy 1](images/Configurar-Proxy-1-300x173.png "Configurar Proxy 1")](images/Configurar-Proxy-1.png)
+[<img src="images/Configurar-Proxy-1.png" alt="Conectarse a un servidor Proxy - Configurar Proxy 1" title="Configurar Proxy 1" style="zoom:80%;" />](images/Configurar-Proxy-1.png)
 
 Una vez le hayamos dado click al botón del complemento instalado se abrirá la siguiente ventana:
 
-[![Conectarse a un servidor Proxy - Configurar Proxy 2](images/Configurar-Proxy-2-300x152.png "Configurar Proxy 2")](images/Configurar-Proxy-2.png)
+[<img src="images/Configurar-Proxy-2.png" alt="Conectarse a un servidor Proxy - Configurar Proxy 2" title="Configurar Proxy 2" style="zoom:80%;" />](images/Configurar-Proxy-2.png)
 
 Ahora tenemos que apretar el botón añadir nuevo proxy. Una vez apretado el botón aparecerá la siguiente pantalla:
 
-[![Conectarse a un servidor Proxy - Configurar Proxy 3](images/Configurar-Proxy-3-300x163.png "Configurar Proxy 3")](images/Configurar-Proxy-3.png)
+[<img src="images/Configurar-Proxy-3.png" alt="Conectarse a un servidor Proxy - Configurar Proxy 3" title="Configurar Proxy 3" style="zoom:80%;" />](images/Configurar-Proxy-3.png)
 
 En el paso 3 hemos decido que queríamos conectarnos al servidor proxy de Emiratos Árabos de tipo anónimo con **IP 94.200.77.244 a través del servidor 8080**. Por lo tanto lo único que tenemos que hacer es **rellenar el campo Host or IP Address y Puerto** tal y como se muestra en la captura de pantalla. Una vez realizado apretamos el botón de aceptar. Justo al darle aceptar aparecerá otra ventana al cual tenemos que darle otra vez aceptar. En estos momento ya tenemos configurado nuestro proxy.
 
 Ahora para activar la conexión arrancamos el navegador y tal como se puede ver en la captura de pantalla y damos un click encima del botón del complemento que hemos instalado:
 
-[![Conectarse a un servidor Proxy - Configurar Proxy 1](images/Configurar-Proxy-1-300x173.png "Configurar Proxy 1")](images/Configurar-Proxy-1.png)
+[<img src="images/Configurar-Proxy-1.png" alt="Conectarse a un servidor Proxy - Configurar Proxy 1" title="Configurar Proxy 1" style="zoom:80%;" />](images/Configurar-Proxy-1.png)
 
 Una vez accionado el botón aparecerá la siguiente pantalla:
 
-[![Conectarse a un servidor Proxy - conexión al servidor](images/conexion-al-servidor-300x152.png "conexión al servidor")](images/conexion-al-servidor.png)
+[<img src="images/conexion-al-servidor.png" alt="Conectarse a un servidor Proxy - conexión al servidor" title="conexión al servidor" style="zoom:80%;" />](images/conexion-al-servidor.png)
 
 Tal y como veis en la captura de pantalla vamos a **seleccionar modo**. En seleccionar modo elegimos el proxy que acabamos de configurar que es el de los Emiratos Árabes. Una vez seleccionado apretamos el botón cerrar. En estos momentos ya estamos conectados a través del servidor proxy.
 
@@ -189,9 +189,9 @@ Para poder testear el nivel de protección que ofrece el proxy una vez nos hemos
 
 Ahora los resultados son los siguientes:
 
-[![Conectarse a un servidor Proxy - Servicio Myip 2](images/Servicio-Myip-2-300x209.png "Servicio Myip 2")](images/Servicio-Myip-2.png)
+[![Conectarse a un servidor Proxy - Servicio Myip 2](images/Servicio-Myip-2.png "Servicio Myip 2")](images/Servicio-Myip-2.png)
 
-[![Conectarse a un servidor Proxy - Servicio xhaus 2](images/Servicio-xhaus-2-300x209.png "Servicio xhaus 2")](images/Servicio-xhaus-2.png)
+[![Conectarse a un servidor Proxy - Servicio xhaus 2](images/Servicio-xhaus-2.png "Servicio xhaus 2")](images/Servicio-xhaus-2.png)
 
 Como se puede ver en las capturas de pantalla la IP esta completamente oculta. Ahora mi IP y mi ubicación pertenecen a los Emiratos Árabes. En la última captura de pantalla se puede ver que aparece la variable Via. Esto es un indicativo que los sitios donde me conecto pueden detectar que estoy conectando a través de un servidor proxy.
 
@@ -211,11 +211,11 @@ Otros problemas que puede generar la conexión a través de un servidor proxy so
 
 Alternativas que tenemos a los servidores proxy son las servidores VPN y la red Tor. En el caso que precisen información de servidores VPN o de la red Tor pueden consultar los siguientes enlances:
 
-[https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
 
-[https://geekland.eu/acceder-a-la-deep-web/]({{< relref "/posts/acceder-a-la-deep-web" >}})
+[https://geeklandlinux.github.io/posts/acceder-a-la-deep-web/]({{< relref "/posts/acceder-a-la-deep-web" >}})
 
-[https://geekland.eu/instalar-tails-para-ser-anonimo/]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}})
+[https://geeklandlinux.github.io/posts/instalar-tails-para-ser-anonimo/]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}})
 
 ## FUENTES
 

@@ -24,7 +24,7 @@ Lo más probable es que nuestra tarjeta de red inalámbrica no funcione porque n
 
 En la mayoría de casos, los drivers que necesitaremos se encuentran en los repositorios no libres de Debian. Por lo tanto lo primero que tendremos que realizar es activar los repositorios no libres de Debian siguiendo las instrucciones que encontrará en el siguiente enlace:
 
-[https://geekland.eu/activar-los-repositorios-privativos-debian/]({{< relref "/posts/activar-los-repositorios-privativos-debian" >}})
+[https://geeklandlinux.github.io/posts/activar-los-repositorios-privativos-debian/]({{< relref "/posts/activar-los-repositorios-privativos-debian" >}})
 
 ## IDENTIFICAR EL CHIP DE NUESTRA TARJETA DE RED WIFI
 
@@ -38,7 +38,7 @@ En el caso que vuestra tarjeta de red wifi esté integrada dentro del ordenador 
 
 En mi caso el resultado obtenido es el siguiente:
 
-[![Modelo de mi tarjeta de red wifi PCI](images/chip-tarjeta-de-red-PCI-300x134.png "Modelo de mi tarjeta de red wifi PCI")](images/chip-tarjeta-de-red-PCI.png)
+[![Modelo de mi tarjeta de red wifi PCI](images/chip-tarjeta-de-red-PCI.png "Modelo de mi tarjeta de red wifi PCI")](images/chip-tarjeta-de-red-PCI.png)
 
 Por lo tanto queda en mi caso estoy usando una tarjeta de red Wifi Realtek con el chip RTL8187SE
 
@@ -68,7 +68,7 @@ De este modo podremos conocer fácilmente el paquete que tenemos que instalar pa
 
 Los paquetes a instalar en función de la tarjeta de red que dispongamos son los siguientes:
 
- 
+
 |   **Marca**   |   **Paquete**   |
 | --- | --- |
 |   Atheros   |   firmware-atheros   |

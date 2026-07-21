@@ -25,7 +25,7 @@ Para poder seguir este tutorial es necesario cumplir una serie de requisitos. Lo
 
 **En el caso que no cumplan alguno de estos 2 requisitos** tendrán que instalar o reinstalar de nuevo el tema de iconos Numix. Para ello les recomiendo **seguir las instrucciones que encontrarán en el siguiente enlace**:
 
-https://geekland.eu/instalar-tema-iconos-numix-linux/
+https://geeklandlinux.github.io/posts/instalar-tema-iconos-numix-linux/
 
 ## INSTALACIÓN DEL SCRIPT NUMIX FOLDERS PARA MODIFICAR EL COLOR Y DISEÑO DE LAS CARPETAS
 
@@ -97,7 +97,7 @@ Una vez aplicados los cambios el proceso de instalación ha finalizado.
 
 Tal y como se puede ver en la captura de pantalla, vamos al menú de nuestra distro y ejecutamos Numix Folders.
 
-[![Abrir el script Numix folders](images/Abrir-el-script-Numix-folders-232x300.png)](images/Abrir-el-script-Numix-folders.png)
+[![Abrir el script Numix folders](images/Abrir-el-script-Numix-folders.png)](images/Abrir-el-script-Numix-folders.png)
 
 ###### Nota: Si quieren también pueden ejecutar el script Numix folders vía terminal. Para ello abren una terminal y ejecutan el comando **/opt/numix-folders/numix-folders** o el comando numix-folders
 
@@ -105,19 +105,19 @@ Tal y como se puede ver en la captura de pantalla, vamos al menú de nuestra dis
 
 Justo después de abrir el script los aparecerá la siguiente ventana en la que podremos **seleccionar el diseño y el color de nuestras carpetas**.
 
-[![Pantalla de configuración de numix folders](images/Pantalla-de-configuración-de-las-carpetas-209x300.png)](images/Pantalla-de-configuración-de-las-carpetas.png)
+[![Pantalla de configuración de numix folders](images/Pantalla-de-configuración-de-las-carpetas.png)](images/Pantalla-de-configuración-de-las-carpetas.png)
 
 En mi caso selecciono el color naranja y el estilo 5. Una vez realizada la selección hay que **presionar en el botón Apply**.
 
-[![Aspecto y color de las carpetas seleccionados](images/Aplicar-la-configuración-209x300.png)](images/Aplicar-la-configuración.png)
+[![Aspecto y color de las carpetas seleccionados](images/Aplicar-la-configuración.png)](images/Aplicar-la-configuración.png)
 
 Después de presionar encima del botón tenemos que **esperar unos segundos** para que el script numix folders cambie el color y el diseño de nuestras carpetas. **Una vez aplicados los cambios** en mi caso **obtengo el siguiente resultado**:
 
-[![Color y diseño de las carpetas modificados](images/Resultado-después-de-aplicar-el-script-de-numix-folders-300x181.png)](images/Resultado-después-de-aplicar-el-script-de-numix-folders.png)
+[![Color y diseño de las carpetas modificados](images/Resultado-después-de-aplicar-el-script-de-numix-folders.png)](images/Resultado-después-de-aplicar-el-script-de-numix-folders.png)
 
 Como podéis ver he sido conservador y el aspecto final no difiere mucho del aspecto inicial. No obstante **si nos lo proponemos podemos llegar a obtener aspectos similares al siguiente**:
 
-[![Muestra del resultados que podemos obtener](images/Aspecto-radical-300x173.png)](images/Aspecto-radical.png)
+[![Muestra del resultados que podemos obtener](images/aspecto-radical.png)](images/Aspecto-radical.png)
 
 ## OPTIMIZAR EL RENDIMIENTO DE NUMIX FOLDERS
 
@@ -145,7 +145,7 @@ Una vez modificado el aspecto de nuestras carpetas es recomendable actualizar lo
 
 Si algún día queremos desinstalar el script Numix Folders tan solo tenemos que deshacer los cambios realizados. Para ello **ejecutamos el script Numix Folders y seleccionamos el estilo 6 y el color Default**. Una vez realizada la selección **presionamos el botón Apply y esperamos unos segundos**.
 
-[![Pantalla de configuración de numix folders](images/Pantalla-de-configuración-de-las-carpetas-209x300.png)](images/Pantalla-de-configuración-de-las-carpetas.png)
+[![Pantalla de configuración de numix folders](images/Pantalla-de-configuración-de-las-carpetas.png)](images/Pantalla-de-configuración-de-las-carpetas.png)
 
 Una vez podamos visualizar las carpetas estándar **abrimos una terminal y borramos el archivo numix-folders.desktop ejecutando el siguiente comando en la terminal**:
 

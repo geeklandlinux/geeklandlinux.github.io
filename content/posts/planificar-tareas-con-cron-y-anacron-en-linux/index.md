@@ -63,7 +63,7 @@ A diferencia de Cron, Anacron **es capaz de ejecutar tareas que han quedado pend
 
 Una vez descrito que es Cron y que es Anacron detallaremos las principales diferencias entre ellos:
 
- 
+
 |   **Cron**   |   **Anacron**   |
 | --- | --- |
 |   Permite ejecutar tareas en una fecha y minuto determinado. Cron te da un control total de la hora y fecha en que se ejecutará la tarea.   |   Permite planificar tareas en periodos diarios, semanales o mensuales. Ejecuta tareas que hace más de un determinado número de días que no se ha realizado.   |
@@ -123,7 +123,7 @@ Los scripts almacenados en cron.daily, cron.hourly, cron.monthly y cron.weekly s
 
 En resumen:
 
- 
+
 |   **Directorio**   |   **Función del directorio**   |
 | --- | --- |
 |   /etc/cron.daily   |   **Si usamos únicamente** **C****ron**, Cron ejecuta todos los scripts ubicados en cron.daily una vez al día en la hora especificada en /etc/crontab. **En el caso de usar Cron y Anacron**, Anacron ejecuta todos los scripts ubicados en cron.daily que hace más de un día que no se ejecutan. La configuración de Anacron se realiza en /etc/anacrontab.   |
@@ -199,7 +199,7 @@ Al ejecutar el comando se abrirá el editor de textos por defecto para que podam
 
 Cada uno de los parámetros que acabo de citar se deberá sustituir por los siguientes valores:
 
- 
+
 |   **Parámetro**   |   **Explicación del parámetro**   |
 | --- | --- |
 |   Minuto (m)   |   Especificamos el minuto en que queremos ejecutar la tarea. Posibles valores que puede tomar este parámetro son entre el 0 y el 59. También podemos usar \* que tendría el significado que se ejecute todos los minutos.   |
@@ -211,7 +211,7 @@ Cada uno de los parámetros que acabo de citar se deberá sustituir por los sigu
 
 Algunos ejemplos de programación de tareas que podríamos introducir después de ejecutar el comando crontab -e serían los siguientes:
 
- 
+
 |   **Ejemplo**   |   **Significado**   |
 | --- | --- |
 |   14 22 \* \* \* /home/pi/scripts/nextcloudbkp.sh   |   Todos los días del año a las 22 horas y 14 minutos se ejecutará el script nextcloudbkp.sh   |
@@ -351,7 +351,7 @@ Una vez se abra el editor de texto tendremos que programar las tareas introducie
 
 Cada uno de los parámetros que acabo de citar se deberá sustituir por los siguientes valores:
 
- 
+
 |   Parámetro   |   Explicación del parámetro   |
 | --- | --- |
 |   periodo\_tarea   |   Indicamos la frecuencia en días con que queremos que se ejecute la tarea. Si la ejecución de la tarea tiene que ser diaria escribiremos 1 o @daily. Si es semanal escribiremos 7 o @weekly, si es mensual escribiremos 30 o @monthly. Si queremos que se ejecute cada dos días escribiremos 2. |
@@ -392,4 +392,4 @@ Acto seguido se iniciará el proceso para ejecutar todas las tareas de Anacron.
 
 En mi caso siempre uso Cron y Anacron. No obstante existen alternativas como por ejemplo los timer de systemd (Systemd/Timers). Para ver el funcionamiento de los Systemd Timers pueden visitar el siguiente enlace:
 
-https://geekland.eu/programar-la-ejecucion-de-tareas-con-systemd-timers-y-reemplazar-cron/
+https://geeklandlinux.github.io/posts/programar-la-ejecucion-de-tareas-con-systemd-timers-y-reemplazar-cron/

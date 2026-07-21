@@ -60,7 +60,7 @@ Es muy importante asegurar que nuestro servidor SFTP disponga de una IP interna 
 
 **Para conseguir disponer de un servidor con ip interna fija tan solo hay que seguir los pasos que se detallan en el siguiente enlace**:
 
-[https://geekland.eu/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
+[https://geeklandlinux.github.io/posts/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
 
 ###### Nota: El método descrito en el enlace es válido en el caso que estéis usando un servidor sin entorno gráfico. En el caso que el servidor que uséis disponga de entorno gráfico tendréis que configurar este aspecto a través de las interfaces visuales de vuestro gestor de red que probablemente será network manager o wicd.
 
@@ -74,7 +74,7 @@ Los clientes remotos necesitaran nuestra IP Pública para poderse conectar al se
 
 Para solucionar este problema **tenemos que asociar la IP Pública de nuestro servidor a un dominio. Para poder realizar este paso tan solo tienen que seguir las indicaciones del siguiente enlace**:
 
-[https://geekland.eu/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
+[https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
 
 Una vez realizados estos pasos tendréis vuestra IP Pública asociada a un dominio. En mi caso mi IP Pública está asociada al dominio **geekland.sytes.net**
 

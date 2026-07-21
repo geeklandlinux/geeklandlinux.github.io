@@ -53,7 +53,7 @@ Así por lo tanto un firewall debidamente configurado nos podrá proteger por ej
 
 ## COMO FUNCIONA UN FIREWALL
 
-[![Funcionamiento de un firewall](images/como-funciona-un-firewall-300x175.jpg "como funciona un firewall")](images/como-funciona-un-firewall.jpg)
+[![Funcionamiento de un firewall](images/como-funciona-un-firewall.jpg "como funciona un firewall")](images/como-funciona-un-firewall.jpg)
 
 El firewall normalmente se encuentra en el punto de unión entre 2 redes. En el caso que podéis ver en la captura de pantalla se halla en el punto de unión de una red pública (internet) y una red privada.
 
@@ -63,11 +63,11 @@ Lo primero que tenemos que saber para conocer el funcionamiento de un firewall e
 
 Si el tráfico cumple con las **reglas** que se han configurado en los firewall el trafico podrá entrar o salir de nuestra red.
 
-[![Que es y para que sirve un firewall - Tráfico permitido](images/trafico-permitido-300x186.jpg "trafico permitido")](images/trafico-permitido.jpg)
+[![Que es y para que sirve un firewall - Tráfico permitido](images/trafico-permitido.jpg "trafico permitido")](images/trafico-permitido.jpg)
 
 Si el tráfico no cumple con las **reglas** que se han configurado en los firewall entonces el tráfico se bloqueará no pudiendo llegar a su destino.
 
-[![Que es y para que sirve un firewall - Tráfico Denegado](images/tráfico-denegado-300x186.jpg "tráfico denegado")](images/tráfico-denegado.jpg)
+[![Que es y para que sirve un firewall - Tráfico Denegado](images/tráfico-denegado.jpg "tráfico denegado")](images/tráfico-denegado.jpg)
 
 ## TIPOS DE REGLAS QUE SE PUEDEN IMPLEMENTAR EN UN FIREWALL
 
@@ -113,4 +113,4 @@ El firewall por software se instala directamente en los ordenadores o servidores
 
 En el caso que deseen consultar información adicional de como configurar un firewall pueden consultar el siguiente post:
 
- [https://geekland.eu/configurar-el-firewall-gufw/]({{< relref "/posts/configurar-el-firewall-gufw" >}})
+ [https://geeklandlinux.github.io/posts/configurar-el-firewall-gufw/]({{< relref "/posts/configurar-el-firewall-gufw" >}})

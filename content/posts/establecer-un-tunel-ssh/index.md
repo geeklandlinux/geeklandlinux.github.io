@@ -17,7 +17,7 @@ cover:
 
 Hace aproximadamente un mes redacte un post en el que comentaba que era un tunel SSH y los usos más habituales que nosotros como usuarios comunes podemos darle. Ahora que conocemos que es y para que sirve un tunel SSH pasaremos a ver como hacer un tunel SSH. Antes de ver como se realiza el tunel es interesante que deis un vistazo al siguiente post para tener los conceptos claros:
 
-[https://geekland.eu/que-es-y-para-que-sirve-un-tunel-ssh/]({{< relref "/posts/que-es-y-para-que-sirve-un-tunel-ssh" >}})
+[https://geeklandlinux.github.io/posts/que-es-y-para-que-sirve-un-tunel-ssh/]({{< relref "/posts/que-es-y-para-que-sirve-un-tunel-ssh" >}})
 
 <!--more-->Una vez leído el post nos imaginamos la siguiente situación. **Estamos conectados y navegando por Internet en una cafetería y tenemos miedo que alguien que esté conectado en la misma red que nosotros pueda realizarnos un ataque**, como por ejemplo un [Man in the middle](http://es.wikipedia.org/wiki/Ataque_Man-in-the-middle "Descripción de un ataque man in the middle"), para poder obtener datos confidenciales como por ejemplo podrían ser contraseñas, datos bancarios, etc.
 
@@ -33,7 +33,7 @@ Lo primero que tenemos que hacer es **asegurar que nuestro ordenador dispone de 
 > sudo apt-get install openssh-server openssh-client
 > ```
 
-[![paquetes necesarios para instalar un servidor SSH](images/1-instalacion-del-servidor-ssh-300x183.png "1- instalacion del servidor ssh")](images/1-instalacion-del-servidor-ssh.png)
+[![paquetes necesarios para instalar un servidor SSH](images/1-instalacion-del-servidor-ssh.png "1- instalacion del servidor ssh")](images/1-instalacion-del-servidor-ssh.png)
 
 ###### Nota: Es necesario que tanto la parte del servidor como la parte del cliente tengan instalados los 2 paquetes que se acaban de mencionar. En caso contrario no podremos establecer el tunel.
 
@@ -53,13 +53,13 @@ El objetivo de modificar ciertos parámetros es hacer más seguro nuestro servid
 
 [http://www.vermiip.es/](http://www.vermiip.es/ "Averiguar IP Pública")
 
-[![Comprobación de nuestra IP pública](images/2-IP-Publica-300x187.png "2-IP-Publica")](images/2-IP-Publica.png)
+[![Comprobación de nuestra IP pública](images/2-IP-Publica.png "2-IP-Publica")](images/2-IP-Publica.png)
 
 Como se puede ver en la captura de pantalla aparecerá nuestra IP Pública y al disponer de un servicio de IP Fija siempre tendremos la misma IP. Desafortunadamente la mayoría de ISP acostumbran a ofrecer sus productos básicos con IP Dinámica.
 
 **En el caso de disponer de una IP Dinámica** para encontrar nuestro servidor SSH **tendremos que usar un servicio DNS Dinámico** tal y como se explica en el siguiente post:
 
-[https://geekland.eu/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
+[https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
 
 ## REDIRECCIONAR LA PETICIÓN DEL ROUTER AL SERVIDOR SSH
 
@@ -73,7 +73,7 @@ Una vez conocemos nuestra IP Pública o una vez tengamos configurado el servicio
 
 El resultado obtenido es el siguiente:
 
-[![Averiguar la IP interna del servidor SSH](images/3-ip-interna-300x167.png "3- ip interna")](images/3-ip-interna.png)
+[![Averiguar la IP interna del servidor SSH](images/3-ip-interna.png "3- ip interna")](images/3-ip-interna.png)
 
 Como se puede ver en la captura de pantalla la IP interna de nuestro servidor SSH es la 192.168.1.115.
 
@@ -81,15 +81,15 @@ Como se puede ver en la captura de pantalla la IP interna de nuestro servidor SS
 
 **Una vez conocemos la IP interna del servidor SSH accedemos a la configuración del Router abriendo el navegador e introduciendo nuestra puerta de entrada**. Una vez introducida la puerta de entrada, que acostumbra a ser 192.168.1.1, tal y como podemos ver en la captura de pantalla tendremos que introducir nuestro nombre de usuario y contraseña:
 
-[![Acceder a la configuración del Router](images/4-Accediendo-al-router-300x175.png "4- Accediendo al router")](images/4-Accediendo-al-router.png)
+[<img src="images/4-Accediendo-al-router.png" alt="Acceder a la configuración del Router" title="4- Accediendo al router" style="zoom:80%;" />](images/4-Accediendo-al-router.png)
 
 Una vez hemos accedido a la configuración del Router **buscamos en el menú de nuestro router un apartado que ponga Virtual Servers**. En mi router como se puede ver en la captura de pantalla se halla en **Advanced Setup / NAT / Virtual Servers**:
 
-[![Acceder a NAT/Virtual Servers](images/5-Nat-virtual-servers-300x169.png "5- Nat virtual servers")](images/5-Nat-virtual-servers.png)
+[![Acceder a NAT/Virtual Servers](images/5-Nat-virtual-servers.png "5- Nat virtual servers")](images/5-Nat-virtual-servers.png)
 
 **Una vez dentro de Virtual Servers** **presionamos el botón Add** para añadir nuestro servidor SSH. Una vez presionado el botón Add aparecerá la siguiente pantalla:
 
-[![Redireccionar la petición exterior al servidor SSH](images/6-Configuracion-router-servidor-ssh-300x169.png "6- Configuracion router servidor ssh")](images/6-Configuracion-router-servidor-ssh.png)
+[![Redireccionar la petición exterior al servidor SSH](images/6-Configuracion-router-servidor-ssh.png "6- Configuracion router servidor ssh")](images/6-Configuracion-router-servidor-ssh.png)
 
 Como se puede ver en la captura de pantalla **en Server IP Address tendremos que indicar la IP interna de nuestro servidor SSH**.
 
@@ -105,7 +105,7 @@ Una vez realizados los pasos tan solo tenemos que **apretar el botón Save/Apply
 
 Si el proceso lo vais a realizar con gufw pueden consultar al siguiente post para hacer que nuestro servidor permita las conexiones entrantes por el puerto 22.
 
-[https://geekland.eu/configurar-el-firewall-gufw/]({{< relref "/posts/configurar-el-firewall-gufw" >}})
+[https://geeklandlinux.github.io/posts/configurar-el-firewall-gufw/]({{< relref "/posts/configurar-el-firewall-gufw" >}})
 
 En el caso que prefieran hacerlo directamente con iptables tan solo tienen que usar las siguientes reglas para permitir el trafico entrante y saliente por el puerto 22 en nuestro servidor:
 
@@ -129,7 +129,7 @@ Una vez realizados todos los pasos correctamente ya podemos establecer el tunel 
 > ssh -p 22 -N -D 8081 joan@geekland.sytes.net
 > ```
 
-[![Comando para establecer el tunel SSH](images/7-Conectando-con-el-servidor-300x192.png "7- Conectando con el servidor")](images/7-Conectando-con-el-servidor.png)
+[![Comando para establecer el tunel SSH](images/7-Conectando-con-el-servidor.png "7- Conectando con el servidor")](images/7-Conectando-con-el-servidor.png)
 
 Una vez introducido el comando en la terminal nos pedirá la contraseña de la cuenta de usuario del servidor SSH. Una vez introducida la contraseña el tunel se establecerá. Ahora tan solo tenemos que mantener la terminal abierta y sin cerrarla.
 
@@ -159,23 +159,23 @@ A estas alturas el tunel ya se ha establecido. Ahora **el siguiente paso es conf
 
 El primer paso que haremos es **abrir el navegador Firefox**. Tal y como podemos ver en la captura de pantalla accedemos al menú de **Complementos**:
 
-[![Acceder a los complementos de Firefox](images/8-Instalar-Complementos-Firefox-300x213.png "8- Instalar Complementos Firefox")](images/8-Instalar-Complementos-Firefox.png)
+[![Acceder a los complementos de Firefox](images/8-Instalar-Complementos-Firefox.png "8- Instalar Complementos Firefox")](images/8-Instalar-Complementos-Firefox.png)
 
 Una vez estamos dentro del menú de complementos **nos ubicamos encima del cuadro de búsqueda del extremos superior derecho y escribimos Foxy Proxy**. Seguidamente presionamos Enter:
 
-[![Instalar Foxyproxy](images/9-Instalar-Foxy-Proxy-300x210.png "9- Instalar Foxy Proxy")](images/9-Instalar-Foxy-Proxy.png)
+[![Instalar Foxyproxy](images/9-Instalar-Foxy-Proxy.png "9- Instalar Foxy Proxy")](images/9-Instalar-Foxy-Proxy.png)
 
 Como se puede ver en la captura de pantalla una vez terminada la búsqueda tan solo tenemos que **presionar el botón de Instalar y seguidamente reiniciaremos el navegador**. Una vez reiniciado el navegador veremos que aparece el icono que selecciono con el puntero del mouse en la captura de pantalla:
 
-[![Configurar Foxyproxy](images/10-Icono-de-Foxy-Proxy-300x210.png "10- Icono de Foxy Proxy")](images/10-Icono-de-Foxy-Proxy.png)
+[![Configurar Foxyproxy](images/10-Icono-de-Foxy-Proxy.png "10- Icono de Foxy Proxy")](images/10-Icono-de-Foxy-Proxy.png)
 
 **Presionamos el botón de FoxyProxy con el botón izquierdo del mouse**. Una vez presionado el botón aparecerá la siguiente pantalla:
 
-[![Añadir Proxy Socks en Foxyproxy](images/11-Configurar-Foxyproxy-300x170.png "11- Configurar Foxyproxy")](images/11-Configurar-Foxyproxy.png)
+[![Añadir Proxy Socks en Foxyproxy](images/11-Configurar-Foxyproxy.png "11- Configurar Foxyproxy")](images/11-Configurar-Foxyproxy.png)
 
 Como se puede ver en la captura de pantalla anterior **apretamos el botón de Añadir nuevo Proxy**. Una vez presionado el botón aparecerá la siguiente pantalla que es donde vamos a configurar Firefox:
 
-[![Proxy Socks Configurado](images/12-Proxy-Socks-Configurado-300x195.png "12- Proxy Socks Configurado")](images/12-Proxy-Socks-Configurado.png)
+[<img src="images/12-Proxy-Socks-Configurado.png" alt="Proxy Socks Configurado" title="12- Proxy Socks Configurado" style="zoom:80%;" />](images/12-Proxy-Socks-Configurado.png)
 
 Si observamos la captura de pantalla podremos ver la configuración que tenemos que introducir. Primero de todo tenemos que **tildar la casilla de configuración manual del proxy**. A continuación como el servidor proxy socks actuará localmente en nuestro ordenador **en el apartado Host or IP address tenemos que introducir 127.0.0.1**. Como el tunel SSH lo hemos abierto a través del puerto 8081 **en la celda puerto tenemos que introducir el número de puerto 8081**. Para finalizar tan solo tenemos que **tildar la opción ¿proxy socks? y seleccionar la opción Socks v5** ya que la versión 5 del protocolo socks es más moderna y ofrece mayor seguridad que la versión 4.
 
@@ -187,21 +187,21 @@ Justo al abrir el navegador analizamos cual es nuestra IP. Para ello accedemos a
 
 El resultado obtenido es el siguiente:
 
-[![Comprobación de la IP sin Proxy Socks](images/13-IP-sin-porxy-Socks-300x210.png "13-IP-sin-porxy-Socks")](images/13-IP-sin-porxy-Socks.png)
+[![Comprobación de la IP sin Proxy Socks](images/13-IP-sin-porxy-Socks.png "13-IP-sin-porxy-Socks")](images/13-IP-sin-porxy-Socks.png)
 
 Como se puede ver en la captura de pantalla nuestra IP es XX.XX.XX.163 . S**eguidamente nos conectamos a través del tunel SSH y comprobamos de nuevo nuestra IP**.
 
-[![Redirigir el tráfico al proxy Socks](images/14-Activación-del-proxy-Socks1-300x210.png "14-Activación-del-proxy-Socks")](images/14-Activación-del-proxy-Socks1.png)
+[![Redirigir el tráfico al proxy Socks](images/14-Activación-del-proxy-Socks1.png "14-Activación-del-proxy-Socks")](images/14-Activación-del-proxy-Socks1.png)
 
 **Para hacer que el tráfico entrante y saliente de Firefox circule por el tunel SSH**, como se puede ver en la captura de pantalla lo único que tenemos que hacer es **dar click con el botón derecho encima del icono de Foxy Proxy y seleccionar la opción que contiene los datos 127.0.0.1:8081**. Una vez seleccionada la opción pasamos de nuevo a comprobar nuestra IP y el resultado es el siguiente:
 
-[![Comprobación de la IP conectados a través del tunel SSH](images/15-IP-a-través-del-proxy-Socks-300x210.png "15-IP-a-través-del-proxy-Socks")](images/15-IP-a-través-del-proxy-Socks.png)
+[![Comprobación de la IP conectados a través del tunel SSH](images/15-IP-a-través-del-proxy-Socks.png "15-IP-a-través-del-proxy-Socks")](images/15-IP-a-través-del-proxy-Socks.png)
 
 Como se puede ver **ahora nuestra IP pública ahora es diferente. Antes terminaba en 163 y ahora termina en 243**. **Este hecho es indicativo que todo está funcionando a la perfección**. La IP que podréis visualizar es la IP de vuestro servidor SSH.
 
 En el caso que queramos que Firefox vuelva a utilizar la configuración estándard y que no se use el tunel SSH para enviar y recibir nuestro tráfico, como se puede ver la captura de pantalla, tan solo tenemos que volver a presionar el botón derecho del mouse encima del icono de FoxyProxy y seleccionar la opción **Deshabilitar FoxyProxy completamente** :
 
-[![Desactivar el servidor Proxy Socks](images/16-Deshabilitar-proxy-Socks-300x210.png "16-Deshabilitar-proxy-Socks")](images/16-Deshabilitar-proxy-Socks.png)
+[![Desactivar el servidor Proxy Socks](images/16-Deshabilitar-proxy-Socks.png "16-Deshabilitar-proxy-Socks")](images/16-Deshabilitar-proxy-Socks.png)
 
 ###### Nota: En el caso que estemos navegando y nuestro servidor SSH se cayera no hay que temer por nada. En el momento que se cayera el servidor SSH simplemente no podríamos navegar. Por lo tanto en principio nunca estaremos expuestos a los ataques que nos puedan lanzar otros usuario de la red local dónde estemos.
 
@@ -213,11 +213,11 @@ Por si os queda alguna duda de si puede ser efectivo un tunel SSH os voy a ense�
 
 **Imaginemos que estamos conectados en la cafetería y queremos entrar en un foro de Lubuntu**.
 
-[![foro de Lubuntu](images/17-accediendo-al-forum-de-lubuntu-300x207.png "17- accediendo al forum de lubuntu")](images/17-accediendo-al-forum-de-lubuntu.png)
+[![foro de Lubuntu](images/17-accediendo-al-forum-de-lubuntu.png "17- accediendo al forum de lubuntu")](images/17-accediendo-al-forum-de-lubuntu.png)
 
 Como se puede ver en la captura de pantalla, **para acceder al foro de Lubuntu estamos introduciendo nuestro número de usuario y contraseña**. Una vez introducidos accederemos dentro del foro. **¿Pero que pasa si alguien esta esnifando el tráfico que generamos?** Pues pasará lo siguiente:
 
-[![Esnifando paquetes en texto plano](images/18-Robo-de-Contaseña-300x160.png "18- Robo de Contaseña")](images/18-Robo-de-Contaseña.png)
+[![Esnifando paquetes en texto plano](images/18-Robo-de-Contaseña.png "18- Robo de Contaseña")](images/18-Robo-de-Contaseña.png)
 
 Como se puede ver en la captura de pantalla alguien ha estado esnifando nuestro tráfico con el [sniffer](http://es.wikipedia.org/wiki/Analizador_de_paquetes "Explicación de que es un sniffer") [wireshark](http://www.wireshark.org/ "Wireshark"). Si observamos la captura de pantalla **podemos ver que el paquete 8 contiene nuestro usuario y contraseña del foro de Lubuntu**. **Por lo tanto un atacante real se podría haber apoderado de nuestro usuario (password) y contraseña (password) de forma muy simple**.
 
@@ -229,13 +229,13 @@ Para hacer la comprobación volveremos a entrar en el Foro de Lubuntu. Igual que
 
 Ahora pasaremos a ver lo que un posible atacante podría haber capturado:
 
-[![Esnifando paquetes cifrados](images/19-Trafico-capturado-con-tunel-ssh-300x158.png "19- Trafico capturado con tunel ssh")](images/19-Trafico-capturado-con-tunel-ssh.png)
+[![Esnifando paquetes cifrados](images/19-Trafico-capturado-con-tunel-ssh.png "19- Trafico capturado con tunel ssh")](images/19-Trafico-capturado-con-tunel-ssh.png)
 
 Como se puede ver en la captura de pantalla **de la totalidad de paquetes esnifados no hay ninguno de color verde que son los que corresponden al protocolo http**. Lo que si podemos observar es que ahora **la mayoría de paquetes usan el protocolo SSH** **y además en información podemos leer la palabra** **Encrypted Response**. Además si intentáramos reconstruir cualquiera de los paquetes con el protocolo SSH el resultado seria completamente ilegible.
 
 Además si realizamos un filtro por tipo de paquete podemos ver que no se ha capturado ni un solo paquete http que son los que acostumbran a contener información en texto plano como por ejemplo passwords, nombres de usuario, etc.
 
-[![Filtrando paquetes http](images/20-No-hay-paquetes-Http-300x184.png "20- No hay paquetes Http")](images/20-No-hay-paquetes-Http.png)
+[![Filtrando paquetes http](images/20-No-hay-paquetes-Http.png "20- No hay paquetes Http")](images/20-No-hay-paquetes-Http.png)
 
 Por lo tanto realizada esta pequeña prueba podemos afirmar que en estos momentos es mucho más difícil ser espiado y ser atacado por usuarios que están conectados dentro de nuestra misma red local.
 

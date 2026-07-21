@@ -87,4 +87,4 @@ Si veo que los 512MB asignados son insuficientes, en un futuro incrementaré el 
 
 Si quieren una explicación detallada de que es y como funciona el espacio de intercambio SWAP pueden leer siguiente artículo:
 
-https://geekland.eu/optimizar-el-uso-de-la-memoria-swap/
+https://geeklandlinux.github.io/posts/optimizar-el-uso-de-la-memoria-swap/

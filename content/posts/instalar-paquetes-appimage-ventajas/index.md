@@ -105,7 +105,7 @@ Existen programas que se integran en el menú de forma automática, pero tambié
 
 Si queremos introducir un programa en el menú de nuestra distribución tan solo tenemos que seguir las instrucciones del siguiente enlace:
 
-https://geekland.eu/editar-el-menu-linux-menulibre/
+https://geeklandlinux.github.io/posts/editar-el-menu-linux-menulibre/
 
 ### Hacer que una extensión de archivo se abra con un programa instalado a través de un AppImage
 

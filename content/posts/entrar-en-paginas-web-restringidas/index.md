@@ -33,7 +33,7 @@ Por lo tanto normalmente los empresarios acostumbran a ponerse en contacto con s
 
 En la mayoría de empresas el sistema de protección que se implementa es el que se puede ver representado en la siguiente imagen:
 
-[![Entrar en paginas web restringidas - Protección Empresa](images/Funcionamiento-proteccion-empresa-300x271.png "Funcionamiento proteccion empresa")](images/Funcionamiento-proteccion-empresa.png)
+[![Entrar en paginas web restringidas - Protección Empresa](images/Funcionamiento-proteccion-empresa.png "Funcionamiento proteccion empresa")](images/Funcionamiento-proteccion-empresa.png)
 
 Como se puede ver en la imagen, y como acostumbra a pasar en la mayoría de empresas, la totalidad de equipos disponen de ip fija y están interconectados entre si mediante switches.
 
@@ -69,11 +69,11 @@ Para usar Hidester tan solo tenemos que clicar encima del siguiente link:
 
 Una vez clicado el link se abrirá el navegador y veréis una web similar a la siguiente:
 
-[![Webproxy de hidester](images/Acceso-a-la-página-de-hidester-300x223.png)](images/Acceso-a-la-página-de-hidester.png)
+[![Webproxy de hidester](images/Acceso-a-la-página-de-hidester.png)](images/Acceso-a-la-página-de-hidester.png)
 
 Si queremos ver algún vídeo de youtube, tal y como se puede ver en la captura de pantalla, tan solo tenemos que teclear la URL de Youtube y presionar el botón **Navegar Anónimamente**. Una vez presionado el botón, tal y como se puede ver en la captura de pantalla, nos conectaremos a Youtube y podremos ver los vídeos que queramos:
 
-[![Navegando en Yotube](images/Navegando-con-hidester-300x223.png)](images/Navegando-con-hidester.png)
+[![Navegando en Yotube](images/Navegando-con-hidester.png)](images/Navegando-con-hidester.png)
 
 Bajo mi punto de vista algunos de los puntos destacables de Hidester son los siguientes:
 
@@ -92,11 +92,11 @@ Para acceder a este servicio tan solo tienen que entrar la siguiente url:
 
 Una vez estamos en la página web de vpnbook veremos una página similar a la siguiente:
 
-[![Entrar en paginas web restringidas - Acceso](images/VPNBook-Acceso-300x222.png "VPNBook Acceso")](images/VPNBook-Acceso.png)
+[![Entrar en paginas web restringidas - Acceso](images/VPNBook-Acceso.png "VPNBook Acceso")](images/VPNBook-Acceso.png)
 
 Como se puede ver en la captura de pantalla tan solo tenemos que ir a la celda entrar **Enter URL** e introducir el nombre de la página a la que nos queremos conectarnos. Una vez introducida clicamos a **Go** y como se puede ver en al siguiente captura de pantalla nos conectaremos a facebook:
 
-[![Entrar en paginas web restringidas - facebook](images/VPNBook-Conectadas-a-facebook-300x222.png "VPNBook Conectadas a facebook")](images/VPNBook-Conectadas-a-facebook.png)
+[![Entrar en paginas web restringidas - facebook](images/VPNBook-Conectadas-a-facebook.png "VPNBook Conectadas a facebook")](images/VPNBook-Conectadas-a-facebook.png)
 
 Una vez en facebook si queremos conectarnos a Youtube tan solo tenemos que introducir la dirección de Youtube en el recuadro correspondiente ubicado en la parte superior de la pantalla y darle otra vez al botón de **Go**.
 
@@ -117,11 +117,11 @@ El servicio de hidemyass es muy similar al de vpnbook. Para acceder al servicio 
 
 Una vez hemos hemos accedido a la página web veremos la siguiente pantalla:
 
-[![Entrar en paginas web restringidas - Acceso Hidemyass](images/hidemyass-opciones-estandard-300x222.png "hidemyass opciones estandard")](images/hidemyass-opciones-estandard.png)
+[![Entrar en paginas web restringidas - Acceso Hidemyass](images/hidemyass-opciones-estandard.png "hidemyass opciones estandard")](images/hidemyass-opciones-estandard.png)
 
 El funcionamiento es exactamente igual al de **VPNBook**. Si queremos tan solo tenemos que introducir la URL que queremos visitar en el celda correspondiente y apretar el botón de **Hide my ass !**. Pero además Hidemyass ofrece una serie de configuraciones adicionales interesantes que vale la pena comentar:
 
-[![Entrar en paginas web restringidas - Hidemyass](images/hidemyass-configuración-de-acceso-300x222.png "hidemyass configuración de acceso")](images/hidemyass-configuración-de-acceso.png)
+[![Entrar en paginas web restringidas - Hidemyass](images/hidemyass-configuración-de-acceso.png "hidemyass configuración de acceso")](images/hidemyass-configuración-de-acceso.png)
 
 Si observamos la captura de pantalla vemos que nos queremos conectar a facebook.com. También observamos que las opciones de configuración las hemos cambiado.
 
@@ -131,7 +131,7 @@ También vemos que hemos cambiado el método de **ofuscación de URL a Encriptad
 
 Una vez hayamos introducido la página y la configuración tan solo tenemos que clicar al botón **Hide my ass !** y tal y como se puede ver en la captura de la pantalla nos dirigiremos a facebook:
 
-[![Entrar en paginas web restringidas - Hidemyass dacebook](images/hidemyass-conectado-facebook-300x222.png "hidemyass conectado facebook")](images/hidemyass-conectado-facebook.png)
+[![Entrar en paginas web restringidas - Hidemyass dacebook](images/hidemyass-conectado-facebook.png "hidemyass conectado facebook")](images/hidemyass-conectado-facebook.png)
 
 Una vez en Facebook si queremos conectarnos a Twitter tan solo tenemos que introducir la dirección de Twitter en el recuadro correspondiente ubicado en la parte superior de la pantalla y darle a **GO**.
 
@@ -150,11 +150,11 @@ Como cuarto y último método podemos elegir el traductor de google. Para accede
 
 Una vez cargado el traductor de google introducís una página web cualquiera tal y como me muestra en la siguiente captura de pantalla:
 
-[![Entrar en paginas web restringidas - traductor de google](images/traductor-de-google-300x222.png "traductor de google")](images/traductor-de-google.png)
+[![Entrar en paginas web restringidas - traductor de google](images/traductor-de-google.png "traductor de google")](images/traductor-de-google.png)
 
 Una vez introducida la web apretáis el botón de traducir. Como resultado de la traducción obtendréis exactamente la misma web. Tal y como se puede ver en la captura de pantalla, el siguiente paso es dar clic encima del resultado que nos ha dado la traducción. Veremos que después de dar click encima del resultado de la traducción accederemos a la página web que está restringida. En mi caso en la siguiente captura de imagen podéis ver que estoy viendo tranquilamente un vídeo en Youtube:
 
-[![Entrar en paginas web restringidas - Youtube](images/youtube-funcionando-google-300x222.png "youtube funcionando google")](images/youtube-funcionando-google.png)
+[![Entrar en paginas web restringidas - Youtube](images/youtube-funcionando-google.png "youtube funcionando google")](images/youtube-funcionando-google.png)
 
 Particularmente considero que este método es destacable porqué en principio google es un proveedor fiable que no intentará robarnos datos sensibles como contraseñas u otro tipo de datos. Además si el informático de nuestro empresa se dedica a consultar las páginas web a la que nos hemos conectado en principio solo debería ver que nos hemos conectado al traductor de google.
 
@@ -168,7 +168,7 @@ La totalidad de servicios que se citan en este apartado básicamente servirán e
 
 ###### Nota: La totalidad de métodos descritos en este post se basan en saltarse las restricciones de conexión a internet mediante la conexión a través de un proxy web. Para quien quiera saber que es un proxy web y como funciona puede consultar el siguiente enlace:
 
-[https://geekland.eu/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
 
 ## ADVERTENCIAS
 

@@ -144,7 +144,7 @@ PasswordAuthentication no
 
 Una vez realizadas la totalidad de modificaciones al fichero de configuración guardan los cambios y cierran el fichero. Acto seguido sigan las siguientes instrucciones para poderse loguear mediante claves asimétricas.
 
-https://geekland.eu/conectarse-servidor-ssh-sin-contrasena/
+https://geeklandlinux.github.io/posts/conectarse-servidor-ssh-sin-contrasena/
 
 ### Comprobar el funcionamiento de la nueva configuración
 
@@ -242,11 +242,11 @@ sudo ufw enable
 
 Fail2ban tiene la función de bloquear a la totalidad de usuarios que introduzcan repetidamente de forma errónea las credenciales para acceder a un servicio web como por ejemplo podría ser un lector de feeds. Para instalar y configurar fail2ban les recomiendo los siguientes enlaces:
 
-[https://geekland.eu/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta/]({{< relref "/posts/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta" >}})
+[https://geeklandlinux.github.io/posts/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta/]({{< relref "/posts/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta" >}})
 
-[https://geekland.eu/como-consultar-logs-de-fail2ban/]({{< relref "/posts/como-consultar-logs-de-fail2ban" >}})
+[https://geeklandlinux.github.io/posts/como-consultar-logs-de-fail2ban/]({{< relref "/posts/como-consultar-logs-de-fail2ban" >}})
 
-[https://geekland.eu/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker/]({{< relref "/posts/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker" >}})
+[https://geeklandlinux.github.io/posts/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker/]({{< relref "/posts/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker" >}})
 
 Si instalan y configuran de forma adecuada fail2ban cualquier usuario que por ejemplo introduzca x veces mal las credenciales de acceso a un servicio será bloqueado vía IP durante x segundos. De esta forma podremos mitigar ataques de fuerza bruta a nuestros servicios web.
 
@@ -309,7 +309,7 @@ La comprensión y el proceso de instalación y configuración de SElinux son com
 
 Todo el mundo debería tener muy presente que una gestión adecuada de las contraseñas es muy importante. En el siguiente enlace podrán encontrar una serie de consejos para crear y gestionar las contraseñas de acceso:
 
-https://geekland.eu/buenas-practicas-gestion-uso-contrasenas/
+https://geeklandlinux.github.io/posts/buenas-practicas-gestion-uso-contrasenas/
 
 ## RESTRINGIR EL ACCESO POR ZONA GEOGRÁFICA O POR IP
 
@@ -321,11 +321,11 @@ Un modo de incrementar la seguridad de un servicio web es únicamente dar acceso
 
 Si usan Docker y Traefik pueden seguir los consejos detallados en el siguiente enlace para restringir el acceso por rangos de IP o por país.
 
-https://geekland.eu/limitar-acceso-servicio-o-web-por-ip-con-traefik/
+https://geeklandlinux.github.io/posts/limitar-acceso-servicio-o-web-por-ip-con-traefik/
 
 Si pretenden que el acceso al servicio sea mediante una red VPN tienen multitud de opciones disponibles. Por ejemplo podrían usar Tailscale:
 
-https://geekland.eu/tailscale-conecta-equipos-a-una-red-privada-virtual-vpn-facilmente/
+https://geeklandlinux.github.io/posts/tailscale-conecta-equipos-a-una-red-privada-virtual-vpn-facilmente/
 
 ## ACTUALIZAR PERIÓDICAMENTE LOS SERVICIOS QUE USAMOS ASÍ COMO EL SISTEMA OPERATIVO
 
@@ -335,7 +335,7 @@ Actualizar el equipo/servidor y el servicio web es fundamental para incrementar 
 
 Para actualizar el equipo que aloja el servicio web lo pueden hacer manualmente, pero no es lo más recomendable porque requiere de tiempo y de constancia. Lo ideal en este caso será automatizar el proceso de actualización siguiendo los consejos que dejo en el siguiente enlace:
 
-https://geekland.eu/actualizaciones-automaticas-en-nuestro-equipo-con-unattended-upgrades/
+https://geeklandlinux.github.io/posts/actualizaciones-automaticas-en-nuestro-equipo-con-unattended-upgrades/
 
 ### Actualizar el servicio web para mejorar la seguridad de nuestro servidor
 

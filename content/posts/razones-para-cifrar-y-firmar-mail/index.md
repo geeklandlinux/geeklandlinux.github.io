@@ -39,7 +39,7 @@ Es verdad que hoy en día **la mayoría de servicios de correo electrónico ofre
 
 Muchos de vosotros se preguntará que es esto de cifrar los mails. **Cifrar los mails es alterar el contenido que escribimos y adjuntamos de tal forma que si alguien lo intercepta sea totalmente irreconocible e ilegible para el interceptor**. Un ejemplo muy básico de cifrado puede ser el siguiente:
 
-[![Esquema del funcionamiento del Cifrado ROT13](images/Cifrado-ROT13-300x188.png "Cifrado ROT13")](images/Cifrado-ROT13.png)
+[![Esquema del funcionamiento del Cifrado ROT13](images/Cifrado-ROT13.png "Cifrado ROT13")](images/Cifrado-ROT13.png)
 
 En la figura, extraída de la [wikipedia](http://es.wikipedia.org/wiki/Cifrado_por_sustituci%C3%B3n "Cifrado Sustitución ROT13"), se muestra el cifrado [ROT 13](http://es.wikipedia.org/wiki/ROT13 "Cifrado ROT13"). Se llama [ROT 13](http://es.wikipedia.org/wiki/ROT13 "Cifrado ROT13") porqué Rota 13 posiciones las letras del alfabeto.
 
@@ -84,7 +84,7 @@ El funcionamiento de [Enigmail](https://www.enigmail.net/home/index.php "Enigmai
 
 Gráficamente el proceso lo podemos representar de la siguiente forma:
 
-[![Proceso del cifrado y descifrado de un email](images/esquema-funcionamiento-del-cifrado-asimetrico-300x144.png "Esquema funcionamiento del cifrado asimetrico")](images/esquema-funcionamiento-del-cifrado-asimetrico.png)
+[![Proceso del cifrado y descifrado de un email](images/esquema-funcionamiento-del-cifrado-asimetrico.png "Esquema funcionamiento del cifrado asimetrico")](images/esquema-funcionamiento-del-cifrado-asimetrico.png)
 
 ###### Nota: Es importante que no se pierda la clave privada. En el caso de perder nuestra clave privada no podremos descifrar ninguno de los mensaje que estén cifrados. Además si alguien se apodera de nuestra clave privada podrá enviar correos haciéndose pasar por nosotros mismos. De aquí la importancia de no perder nunca nuestra clave privada. En caso de perder la clave privada tendremos que proceder a la revocación de la clave privada.
 
@@ -118,7 +118,7 @@ Existen varias opciones para cifrar y firmar nuestro correo electrónico. Alguna
 
 Una vez vista la parte teórica abordaremos la parte práctica. Para quien quiera abordar la parte práctica tan solo tiene que visitar el siguiente link:
 
-[https://geekland.eu/cifrar-mails-con-enigmal/]({{< relref "/posts/cifrar-mails-con-enigmal" >}})
+[https://geeklandlinux.github.io/posts/cifrar-mails-con-enigmal/]({{< relref "/posts/cifrar-mails-con-enigmal" >}})
 
 Veréis como de forma fácil y simple podemos cifrar y firmar nuestros mails.
 

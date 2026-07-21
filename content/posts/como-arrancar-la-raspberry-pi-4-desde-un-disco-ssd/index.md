@@ -27,11 +27,11 @@ Algunas combinaciones de dispositivos de almacenamiento y adaptadores/carcasas f
 
 | Combinación | Modelo SSD con link de compra | Modelo adaptador con link de compra |
 | --- | --- | --- |
-| 1 | [Kingston A400 SSD SA400S37/240G](https://www.amazon.es/gp/product/B01N5IB20Q/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01N5IB20Q&linkCode=as2&tag=jayc202080-21&linkId=b8a31ea9b2355b2ef33546ae573b36de)![](images/ir) | [StarTech StarTech USB 3.0 a 2.5″ SATA](https://www.amazon.es/gp/product/B00HJZJI84/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00HJZJI84&linkCode=as2&tag=jayc202080-21&linkId=b438a50c96b3b0236f1c10ac10581733)![](images/ir) |
-| 3 | [Crucial MX500 250GB](https://www.amazon.es/gp/product/B0764WCXCV/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0764WCXCV&linkCode=as2&tag=jayc202080-21&linkId=a80d463527802b8123e6995b48ce27bb)![](images/ir) | [ELUTENG 2.5″ SATA a USB 3.0](https://www.amazon.es/gp/product/B06XCV1W97/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B06XCV1W97&linkCode=as2&tag=jayc202080-21&linkId=a382ea5b4b70f2c2c8066f58d07a2502)![](images/ir) |
-| 4 | [Crucial MX500 250GB](https://www.amazon.es/gp/product/B0764WCXCV/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0764WCXCV&linkCode=as2&tag=jayc202080-21&linkId=a80d463527802b8123e6995b48ce27bb)![](images/ir) | [StarTech StarTech USB 3.0 a 2.5″ SATA](https://www.amazon.es/gp/product/B00HJZJI84/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00HJZJI84&linkCode=as2&tag=jayc202080-21&linkId=b438a50c96b3b0236f1c10ac10581733)![](images/ir) |
-| 5 | [Crucial BX500 120 GB CT120BX500SSD1(Z)](https://www.amazon.es/gp/product/B07G3L3DRK/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07G3L3DRK&linkCode=as2&tag=jayc202080-21&linkId=27caff4225e5342933d2b2f0b02aa417)![](images/ir) | [ELUTENG 2.5″ SATA a USB 3.0](https://www.amazon.es/gp/product/B06XCV1W97/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B06XCV1W97&linkCode=as2&tag=jayc202080-21&linkId=a382ea5b4b70f2c2c8066f58d07a2502)![](images/ir) |
-| 6 | [Samsung 860 EVO MZ-76E250B/EU](https://www.amazon.es/gp/product/B078WQJXNF/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B078WQJXNF&linkCode=as2&tag=jayc202080-21&linkId=e0c3ed227e46b7a70cccff46df457097)![](images/ir) | [UGREEN Caja Disco Duro Externo 2.5"](https://www.amazon.es/gp/product/B07D2BHVBD/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07D2BHVBD&linkCode=as2&tag=jayc202080-21&linkId=dedaab3599033b50ec27ecee09872632)![](images/ir) |
+| 1 | [Kingston A400 SSD SA400S37/240G](https://www.amazon.es/gp/product/B01N5IB20Q/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01N5IB20Q&linkCode=as2&tag=jayc202080-21&linkId=b8a31ea9b2355b2ef33546ae573b36de) | [StarTech StarTech USB 3.0 a 2.5″ SATA](https://www.amazon.es/gp/product/B00HJZJI84/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00HJZJI84&linkCode=as2&tag=jayc202080-21&linkId=b438a50c96b3b0236f1c10ac10581733) |
+| 3 | [Crucial MX500 250GB](https://www.amazon.es/gp/product/B0764WCXCV/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0764WCXCV&linkCode=as2&tag=jayc202080-21&linkId=a80d463527802b8123e6995b48ce27bb) | [ELUTENG 2.5″ SATA a USB 3.0](https://www.amazon.es/gp/product/B06XCV1W97/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B06XCV1W97&linkCode=as2&tag=jayc202080-21&linkId=a382ea5b4b70f2c2c8066f58d07a2502) |
+| 4 | [Crucial MX500 250GB](https://www.amazon.es/gp/product/B0764WCXCV/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B0764WCXCV&linkCode=as2&tag=jayc202080-21&linkId=a80d463527802b8123e6995b48ce27bb) | [StarTech StarTech USB 3.0 a 2.5″ SATA](https://www.amazon.es/gp/product/B00HJZJI84/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00HJZJI84&linkCode=as2&tag=jayc202080-21&linkId=b438a50c96b3b0236f1c10ac10581733) |
+| 5 | [Crucial BX500 120 GB CT120BX500SSD1(Z)](https://www.amazon.es/gp/product/B07G3L3DRK/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07G3L3DRK&linkCode=as2&tag=jayc202080-21&linkId=27caff4225e5342933d2b2f0b02aa417) | [ELUTENG 2.5″ SATA a USB 3.0](https://www.amazon.es/gp/product/B06XCV1W97/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B06XCV1W97&linkCode=as2&tag=jayc202080-21&linkId=a382ea5b4b70f2c2c8066f58d07a2502) |
+| 6 | [Samsung 860 EVO MZ-76E250B/EU](https://www.amazon.es/gp/product/B078WQJXNF/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B078WQJXNF&linkCode=as2&tag=jayc202080-21&linkId=e0c3ed227e46b7a70cccff46df457097) | [UGREEN Caja Disco Duro Externo 2.5"](https://www.amazon.es/gp/product/B07D2BHVBD/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07D2BHVBD&linkCode=as2&tag=jayc202080-21&linkId=dedaab3599033b50ec27ecee09872632) |
 
 **Nota**: Si tienen otras opciones que pueden garantizar que funcionan sin deshabilitar UASP por favor informen en los comentarios del artículo. **Nota**: En mi caso recomendaría encarecidamente la combinación 1. Es una opción económica, que funciona y que da buenos resultados en los benchmark.
 
@@ -87,11 +87,9 @@ Finalmente seleccionamos la opción `B1 USB Boot` y presionamos Enter. De esta f
 
 Una vez configurada la Raspberry Pi 4 ya pueden quemar el sistema operativo en la unidad SSD. Lo pueden realizar usando Raspberry Pi Imager siguiendo las instrucciones que les dejo en el siguiente enlace:
 
-https://geekland.eu/instalar-raspbian-con-raspberry-pi-imager/
+https://geeklandlinux.github.io/posts/instalar-raspbian-con-raspberry-pi-imager/
 
- 
-
-**Nota**: Si pretenden arrancar Raspbian desde una unidad SSD les recomiendo que usen Raspbian OS. Es posible que otras distribuciones den problemas al arrancar desde la unidad SSD. Otro sistema alternativo a Raspbian que debería arrancar desde la unidad SSD es Ubuntu 20.10.
+ **Nota**: Si pretenden arrancar Raspbian desde una unidad SSD les recomiendo que usen Raspbian OS. Es posible que otras distribuciones den problemas al arrancar desde la unidad SSD. Otro sistema alternativo a Raspbian que debería arrancar desde la unidad SSD es Ubuntu 20.10.
 
 ## CONECTAR LA UNIDAD DE ALMACENAMIENTO SSD Y ARRANCAR LA RASPBERRY PI
 
@@ -125,7 +123,7 @@ Para deshabilitar UASP tenemos que averiguar el id de nuestro adaptador SATA a U
 
 Si miran la salida del comando vemos que el ID de nuestro adaptador es `152d:0578`. Una vez sabemos el ID accedemos a la partición boot de la unidad de almacenamiento SSD y editamos el fichero `cmdline.txt` con nuestro editor de textos favorito.
 
-[![Editar cmdline.txt para deshabilitar UASP](images/editar-fichero-cmdline.png "Editar cmdline.txt para deshabilitar UASP")](images/editar-fichero-cmdline.png)
+[<img src="images/editar-fichero-cmdline.png" alt="Editar cmdline.txt para deshabilitar UASP" title="Editar cmdline.txt para deshabilitar UASP" style="zoom:80%;" />](images/editar-fichero-cmdline.png)
 
 Una vez se abra el editor de textos tenemos que añadir un texto del siguiente tipo en la parte inicial del fichero:
 
@@ -174,13 +172,13 @@ La partición boot tiene un tamaño de 253M mientras que la partición root de 1
 
 Es importante ejecutar el comando uptime y comprobar que los valores de carga de la Raspberry sean 0. En caso que no sean cero y existan algún proceso que esté haciendo uso inapropiado de la CPU deben seguir las instrucciones del siguiente enlace:
 
-https://geekland.eu/solucionar-el-consumo-alto-de-cpu-al-usar-la-raspberry-pi-con-ssd/
+https://geeklandlinux.github.io/posts/solucionar-el-consumo-alto-de-cpu-al-usar-la-raspberry-pi-con-ssd/
 
 ### Habilitar Trim
 
 De forma predeterminada la función de TRIM viene desactivada. El proceso para habilitar TRIM es largo y no es simple. El procedimiento para activarlo es el que cito en el siguiente enlace:
 
-https://geekland.eu/activar-el-trim-en-una-raspberry-pi-arrancada-por-un-ssd-externo/
+https://geeklandlinux.github.io/posts/activar-el-trim-en-una-raspberry-pi-arrancada-por-un-ssd-externo/
 
 ### Medir el rendimiento de la unidad de almacenamiento SSD
 

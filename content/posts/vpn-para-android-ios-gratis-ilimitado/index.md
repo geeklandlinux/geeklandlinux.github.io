@@ -26,7 +26,7 @@ Para ello clicamos en el siguiente siguiente link:
 
 Una vez estén dentro de la Play Store presionan el botón **Instalar** y acto seguido se procederá a la instalación de la aplicación.
 
-[![Instalar Opera VPN para Android](images/Instalar-Opera-VPN-en-Android-169x300.png "Instalar Opera VPN en Android")](images/Instalar-Opera-VPN-en-Android.png)
+[<img src="images/Instalar-Opera-VPN-en-Android.png" alt="Instalar Opera VPN para Android" title="Instalar Opera VPN en Android" style="zoom:80%;" />](images/Instalar-Opera-VPN-en-Android.png)
 
 ## INSTALAR OPERA VPN EN IOS
 
@@ -38,7 +38,7 @@ Para ello clicamos encima del siguiente link:
 
 Una vez dentro de la App Store clicamos encima del botón **Obtener** y después clicamos en el botón **Instalar**. A continuación introducimos nuestra contraseña de iTunes y se procederá a la instalación de la aplicación.
 
-[![Instalar Opera VPN en iOS](images/Instalar-Opera-VPN-en-iOS-300x225.png "Instalar Opera VPN en iOS")](images/Instalar-Opera-VPN-en-iOS.png)
+[<img src="images/Instalar-Opera-VPN-en-iOS.png" alt="Instalar Opera VPN en iOS" title="Instalar Opera VPN en iOS" style="zoom:67%;" />](images/Instalar-Opera-VPN-en-iOS.png)
 
 ## INSTRUCCIONES USAR EL SERVICIO OPERA VPN
 
@@ -50,7 +50,7 @@ Seguidamente veremos los pasos a seguir para usar el servicio VPN gratuito de Op
 
 Abrimos la aplicación y presionamos encima del botón **Conectar**.
 
-[![Conectarse al servidor VPN](images/Activar-el-servicio-VPN-169x300.png "Conectarse al servidor VPN")](images/Activar-el-servicio-VPN.png)
+[<img src="images/activar-el-servicio-vpn.png" alt="Conectarse al servidor VPN" title="Conectarse al servidor VPN" style="zoom:80%;" />](images/Activar-el-servicio-VPN.png)
 
 Esperamos unos segundos y en el momento que aparezca una llave en el panel de nuestro Android podemos estar seguros que ya estamos conectados al servicio VPN.
 
@@ -62,11 +62,11 @@ No obstante puede darse el caso que nos interese usar un servidor VPN ubicado en
 
 Si este es el caso, una vez conectados al servicio VPN tan solo tenemos que presionar el botón **Cambiar Región**.
 
-[![Cambiar la ubicación del servidor VPN](images/Cambiar-la-ubicación-del-servidor-VPN-169x300.png "Cambiar la ubicación del servidor VPN")](images/Cambiar-la-ubicación-del-servidor-VPN.png)
+[<img src="images/Cambiar-la-ubicación-del-servidor-VPN.png" alt="Cambiar la ubicación del servidor VPN" title="Cambiar la ubicación del servidor VPN" style="zoom:80%;" />](images/Cambiar-la-ubicación-del-servidor-VPN.png)
 
 Seguidamente se abrirá una ventana en la que deberemos seleccionar la región del servidor VPN que queremos usar. Como en mi caso me interesa disponer de una IP Americana seleccionaré la opción **Estados Unidos**.
 
-[![Seleccionar la ubicación del servidor VPN](images/Seleccionar-la-ubicación-del-servidor-VPN-169x300.png "Seleccionar la ubicación del servidor VPN")](images/Seleccionar-la-ubicación-del-servidor-VPN.png)
+[<img src="images/Seleccionar-la-ubicación-del-servidor-VPN.png" alt="Seleccionar la ubicación del servidor VPN" title="Seleccionar la ubicación del servidor VPN" style="zoom:80%;" />](images/Seleccionar-la-ubicación-del-servidor-VPN.png)
 
 Ahora tan solo tenemos que esperar unos segundos y cuando se establezca la conexión dispondré de una IP Americana. Por lo tanto en estos momentos podré usar servicios, como por ejemplo Pandora, que únicamente están disponibles en Estados Unidos.
 
@@ -74,11 +74,11 @@ Ahora tan solo tenemos que esperar unos segundos y cuando se establezca la conex
 
 El servicio VPN también nos permite bloquear los rastreadores publicitarios. Para ello tan solo tenemos que clicar en el símbolo del **ojo tachado**.
 
-[![Acceder al menu de bloqueo de rastreadores publicitarios](images/Pantalla-para-bloquear-rastreadores-de-publicidad-169x300.png "Acceder al menu de bloqueo de rastreadores publicitarios")](images/Pantalla-para-bloquear-rastreadores-de-publicidad.png)
+[<img src="images/Pantalla-para-bloquear-rastreadores-de-publicidad.png" alt="Acceder al menu de bloqueo de rastreadores publicitarios" title="Acceder al menu de bloqueo de rastreadores publicitarios" style="zoom:80%;" />](images/Pantalla-para-bloquear-rastreadores-de-publicidad.png)
 
 A continuación aparecerá la siguiente ventana en la que únicamente tendremos que clicar encima de la opción **Activar el Guardián**.
 
-[![Bloquear los rastreadores publicitarios](images/Bloquear-los-rastreadores-publicitarios-169x300.png "Bloquear los rastreadores publicitarios")](images/Bloquear-los-rastreadores-publicitarios.png)
+[<img src="images/Bloquear-los-rastreadores-publicitarios.png" alt="Bloquear los rastreadores publicitarios" title="Bloquear los rastreadores publicitarios" style="zoom:80%;" />](images/Bloquear-los-rastreadores-publicitarios.png)
 
 ## CARACTERÍSTICAS DEL SERVICIO VPN PARA ANDROID E IOS
 
@@ -90,11 +90,11 @@ La velocidad y el rendimiento son más que sorprendentes para tratarse de un ser
 
 En mi caso si hago un test de velocidad antes de conectarme al servicio VPN obtengo los siguientes resultados:
 
-[![Test de velocidad sin el VPN](images/Test-de-velocidad-sin-el-VPN-169x300.png "Test de velocidad sin el VPN")](images/Test-de-velocidad-sin-el-VPN.png)
+[<img src="images/Test-de-velocidad-sin-el-VPN.png" alt="Test de velocidad sin el VPN" title="Test de velocidad sin el VPN" style="zoom:80%;" />](images/Test-de-velocidad-sin-el-VPN.png)
 
 Una vez conectado al servicio VPN vuelvo a repetir el test obteniendo los siguientes resultados.
 
-[![Test de velocidad usando el servicio VPN](images/Test-de-velocidad-con-el-VPN-169x300.png "Test de velocidad usando el servicio VPN")](images/Test-de-velocidad-con-el-VPN.png)
+[<img src="images/Test-de-velocidad-con-el-VPN.png" alt="Test de velocidad usando el servicio VPN" title="Test de velocidad usando el servicio VPN" style="zoom:80%;" />](images/Test-de-velocidad-con-el-VPN.png)
 
 Si comparamos los resultados obtenidos vemos que las velocidad de carga y descarga son inferiores a las iniciales. No obstante disponemos de una velocidad de descarga de 4,48 Mbps, una velocidad de subida de 0.3 Mbps y un ping de únicamente 185 ms.
 
@@ -151,9 +151,9 @@ Con esto simplemente quiero decir que el servicio VPN funcionará para absolutam
 
 En varios de las artículos escritos en este blog he citado las ventajas que proporcionan los servicios VPN. Quien esté interesado en consultar esta información puede visitar los siguientes enlaces:
 
-[https://geekland.eu/activar-y-usar-vpn-gratuito-en-opera/]({{< relref "/posts/activar-y-usar-vpn-gratuito-en-opera" >}})
+[https://geeklandlinux.github.io/posts/activar-y-usar-vpn-gratuito-en-opera/]({{< relref "/posts/activar-y-usar-vpn-gratuito-en-opera" >}})
 
-[https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
 
 ## CONCLUSIONES
 

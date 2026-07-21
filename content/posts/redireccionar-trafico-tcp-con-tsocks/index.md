@@ -22,7 +22,8 @@ Pero también vimos que hay **ciertos programas que no tienen la opción de pode
 
 ###### Nota: Para las personas interesadas en consultar los post en que se explica como establecer un túnel SSH para poder navegar de forma segura pueden consultar los siguientes links:
 
-[https://geekland.eu/que-es-y-para-que-sirve-un-tunel-ssh/]({{< relref "/posts/que-es-y-para-que-sirve-un-tunel-ssh" >}}) [https://geekland.eu/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
+[https://geeklandlinux.github.io/posts/que-es-y-para-que-sirve-un-tunel-ssh/]({{< relref "/posts/que-es-y-para-que-sirve-un-tunel-ssh" >}}) 
+[https://geeklandlinux.github.io/posts/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
 
 ## INSTALAR TSOCKS
 
@@ -32,7 +33,7 @@ Para instalar tsocks tan solo tenemos que abrir la terminal y teclear el siguien
 > sudo apt-get install tsocks
 > ```
 
-[![Comando para instalar Tsocks](images/1-instalar-tsocks-300x218.png "1- instalar tsocks")](images/1-instalar-tsocks.png)
+[![Comando para instalar Tsocks](images/1-instalar-tsocks.png "1- instalar tsocks")](images/1-instalar-tsocks.png)
 
 ###### Nota:  Prácticamente la totalidad de distros linux disponen del paquete tsocks. Por lo tanto no deberían tener ningún problema para instalarlo.
 
@@ -56,7 +57,7 @@ La totalidad de parámetros que tenemos que configurar dentro del archivo de con
 
 Seguidamente les muestro una captura de pantalla del trabajo realizado hasta el momento:
 
-[![Detalles de la configuración de tsocks](images/2-Archivo-de-configuración-tsocks-300x240.png "2-Archivo de configuración tsocks")](images/2-Archivo-de-configuración-tsocks.png)
+[![Detalles de la configuración de tsocks](images/2-Archivo-de-configuración-tsocks.png "2-Archivo de configuración tsocks")](images/2-Archivo-de-configuración-tsocks.png)
 
 Con la configuración introducida es más que suficiente para nuestos propositos. En el caso que alguien precise profundizar más sobre la configuración de tsocks puede consultar el siguiente enlace:
 
@@ -72,7 +73,7 @@ Lo primero que tenemos que hacer es abrir nuestro navegador. En este caso abrire
 
 Una vez hemos accedido a la página web vemos que nuestra IP es la siguiente:
 
-[![Ver nuestra IP Pública](images/3-Ip-sin-proxy-socks-300x222.png "3- Ip sin proxy socks")](images/3-Ip-sin-proxy-socks.png)
+[![Ver nuestra IP Pública](images/3-Ip-sin-proxy-socks.png "3- Ip sin proxy socks")](images/3-Ip-sin-proxy-socks.png)
 
 En la captura de pantalla **vemos que nuestra nuestra IP Pública real termina en 163**.
 
@@ -82,11 +83,11 @@ En la captura de pantalla **vemos que nuestra nuestra IP Pública real termina e
 > ssh -p 22 -N -D 8081 joan@geekland.sytes.net
 > ```
 
-###### Nota: Quien necesite información sobre el comando que acabo de introducir puede consultar el siguiente post: [https://geekland.eu/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
+###### Nota: Quien necesite información sobre el comando que acabo de introducir puede consultar el siguiente post: [https://geeklandlinux.github.io/posts/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
 
 Como podemos ver en la captura de pantalla el túnel se ha establecido:
 
-[![Abrir el túnel SSH](images/4-Establecer-conexion-con-el-servidor-SSH-300x197.png "4- Establecer conexion con el servidor SSH")](images/4-Establecer-conexion-con-el-servidor-SSH.png)
+[![Abrir el túnel SSH](images/4-Establecer-conexion-con-el-servidor-SSH.png "4- Establecer conexion con el servidor SSH")](images/4-Establecer-conexion-con-el-servidor-SSH.png)
 
 **Seguidamente tenemos ejecutar el programa que queremos que trabaje con nuestro proxy socks** y nuestro túnel SSH. **Para ejecutar un programa tenemos que abrir una terminal y usar la siguiente sintaxis**:
 
@@ -106,7 +107,7 @@ Así por lo tanto si queremos ejecutar midori de tal forma que todo su tráfico 
 
 El resultado obtenido es el siguiente:
 
-[![IP Pública con tsocks](images/5-Comprobar-que-la-conexion-es-con-tsocks-300x196.png "5- Comprobar que la conexion es con tsocks")](images/5-Comprobar-que-la-conexion-es-con-tsocks.png)
+[![IP Pública con tsocks](images/5-Comprobar-que-la-conexion-es-con-tsocks.png "5- Comprobar que la conexion es con tsocks")](images/5-Comprobar-que-la-conexion-es-con-tsocks.png)
 
 **Como podemos ver ahora nuestra IP Pública termina en 243**. **Antes terminaba en 163**. Por lo tanto podemos afirmar que **la totalidad del tráfico de nuestro navegador está pasando a través de nuestro proxy socks** y nuestro túnel SSH.
 
@@ -142,11 +143,11 @@ Una vez establecido el túnel abrimos otra terminal y **activamos el usuario roo
 
 En la siguiente captura de pantalla se pueden ver los pasos realizados hasta el momento:
 
-[![Comando para redirigir el tráfico TCP](images/6-Redireccionar-el-tráfico-al-proxy-300x197.png "6- Redireccionar el tráfico al proxy")](images/6-Redireccionar-el-tráfico-al-proxy.png)
+[![Comando para redirigir el tráfico TCP](images/6-Redireccionar-el-tráfico-al-proxy.png "6- Redireccionar el tráfico al proxy")](images/6-Redireccionar-el-tráfico-al-proxy.png)
 
 **Una vez realizados todos estos pasos cualquiera de las aplicaciones que ejecutemos, ya sea en modo gráfico o desde la terminal, se hará a través de nuestro proxy socks y desde nuestro túnel SSH**. Si queréis hacer la comprobación tan solo tenemos que abrir nuestro navegador y comprobar la IP pública de nuevo.
 
-[![Comprobación que Tsocks funciona](images/5-Comprobar-que-la-conexion-es-con-tsocks-300x196.png "5- Comprobar que la conexion es con tsocks")](images/5-Comprobar-que-la-conexion-es-con-tsocks.png)
+[![Comprobación que Tsocks funciona](images/5-Comprobar-que-la-conexion-es-con-tsocks.png "5- Comprobar que la conexion es con tsocks")](images/5-Comprobar-que-la-conexion-es-con-tsocks.png)
 
 Como se puede ver en la captura de pantalla **la IP pública no termina en 163**. **Termina en 243**. **Por lo tanto el tráfico circula a través del túnel SSH**.
 
@@ -164,7 +165,7 @@ Como se puede ver en la captura de pantalla **la IP pública no termina en 163**
 
 Como se puede ver en la captura de imagen se abrirá un editor de texto que contiene la siguiente linea de texto “**/usr/lib/libtsocks.so**”:
 
-[![Deshacer la redirección de tráfico](images/7-Deshacer-el-redireccionamiento-de-tráfico-300x193.png "7- Deshacer el redireccionamiento de tráfico")](images/7-Deshacer-el-redireccionamiento-de-tráfico.png)
+[![Deshacer la redirección de tráfico](images/7-Deshacer-el-redireccionamiento-de-tráfico.png "7- Deshacer el redireccionamiento de tráfico")](images/7-Deshacer-el-redireccionamiento-de-tráfico.png)
 
 **Lo que tienen que hacer es borrar la linea** **/usr/lib/libtsocks.so**. **Una vez la han borrado completamente guardan el fichero**.
 
@@ -182,7 +183,7 @@ Una vez guardado el fichero el tráfico entrante y saliente ya no se redirigirá
 
 Así por ejemplo en el caso que intentemos usar Chrome con tsocks el resultado que obtendremos es el siguiente:
 
-[![Chrome no funciona](images/8-Limitaciones-de-Tsocks-300x175.png "8- Limitaciones de Tsocks")](images/8-Limitaciones-de-Tsocks.png)
+[![Chrome no funciona](images/8-Limitaciones-de-Tsocks.png "8- Limitaciones de Tsocks")](images/8-Limitaciones-de-Tsocks.png)
 
 Como pueden ver no se puede establecer ninguna conexión.
 

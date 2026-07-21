@@ -51,4 +51,4 @@ El procedimiento que acabamos de ver lo podemos repetir todas las veces que quer
 
 Otra solución es reproducirlo desde la terminal tal y como se muestras en el siguiente enlace.
 
-https://geekland.eu/escuchar-la-radio-desde-la-terminal-en-linux-con-un-script-de-bash/
+https://geeklandlinux.github.io/posts/escuchar-la-radio-desde-la-terminal-en-linux-con-un-script-de-bash/

@@ -37,6 +37,12 @@ enableEmoji = true
     [markup.goldmark.renderer]
       unsafe = true
 
+# Iconos sociales (Aparecen abajo en el pie o en el profileMode)
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+# Menú Principal
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -51,25 +57,13 @@ enableEmoji = true
     weight = 2
 
   [[menu.main]]
-    identifier = "tags"
-    name = "Etiquetas"
-    url = "/tags/"
-    weight = 3
-
-  [[menu.main]]
     identifier = "search"
     name = "Buscar"
     url = "/search/"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "rss"
-    name = "RSS"
-    url = "/index.xml"
-    weight = 5
+    weight = 3
 
   [[menu.main]]
     identifier = "contacto"
     name = "Contacto"
     url = "/pages/contacto/"
-    weight = 6
+    weight = 4

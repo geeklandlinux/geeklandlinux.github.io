@@ -58,7 +58,7 @@ Una vez instalada la librería `**webp-pixbuf-loader**` tienen que reiniciar el 
 
 La versión actual de Debian estable no dispone de `**webp-pixbuf-loader**` en sus repositorios estándar. Para instalar el paquete `**webp-pixbuf-loader**` deberán añadir el repositorio Backports del siguiente modo:
 
-https://geekland.eu/repositorio-backports-debian-estable/
+https://geeklandlinux.github.io/posts/repositorio-backports-debian-estable/
 
 Una vez añadido el repositorio podrán ejecutar el siguiente comando para instalar webp-pixbuf-loader.
 
@@ -170,7 +170,7 @@ En el caso que tengan problemas para visualizar las miniaturas en el gestor de f
 
 Si después de borrar la cache siguen con problemas y usan el gestor de ficheros Thunar les recomiendo que sigan las siguientes instrucciones:
 
-https://geekland.eu/ver-miniaturas-o-thumbnails-de-las-imagenes-webp-en-thunar/
+https://geeklandlinux.github.io/posts/ver-miniaturas-o-thumbnails-de-las-imagenes-webp-en-thunar/
 
 ### FUENTES
 

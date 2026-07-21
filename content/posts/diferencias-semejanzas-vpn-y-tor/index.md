@@ -31,13 +31,13 @@ Por este motivo, en el siguiente artículo citaré las semejanzas y diferencias 
 
 Si quieren tener información concreta y detallada de que es y como trabaja Tor pueden consultar el siguiente enlace:
 
-https://geekland.eu/que-es-y-como-funciona-la-red-tor/
+https://geeklandlinux.github.io/posts/que-es-y-como-funciona-la-red-tor/
 
 ## ¿CÓMO FUNCIONA UNA RED VPN?
 
 Quien esté interesado en saber como funciona una red VPN tan solo tiene que consultar el siguiente enlace:
 
-https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/
+https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/
 
 ## DIFERENCIAS ENTRE UNA RED VPN Y TOR
 
@@ -73,7 +73,7 @@ Para evitar los problemas de seguridad que acabamos de citar tenemos varias solu
 1. En el caso que usemos la red Tor podemos optar por la opción de usar un servicio VPN y Tor al mismo tiempo. De esta forma eliminaremos algunos de los puntos débiles de la red Tor.
 2. En el caso de usar únicamente un servicio VPN deberemos investigar y seleccionar un VPN que sea confiable. A continuación les dejo un enlace para que pueden seleccionar de forma adecuada su proveedor de VPN.
 
-https://geekland.eu/como-elegir-servicio-vpn-adecuado/
+https://geeklandlinux.github.io/posts/como-elegir-servicio-vpn-adecuado/
 
 ### Velocidad y comodidad de los servicios VPN y Tor
 

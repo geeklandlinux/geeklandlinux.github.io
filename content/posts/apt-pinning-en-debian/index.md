@@ -193,7 +193,7 @@ Cada vez que actualicemos el sistema hay que ir con mucho cuidado con los mens
 
 Una vez tenemos instalados multitud de paquetes y de dependencias nos puede interesar tener un listado de los paquetes instalados de cada una de las ramas de Debian. Para ello les dejo el siguiente enlace:
 
-[https://geekland.eu/paquetes-de-debian-clasificados-por-rama/]({{< relref "/posts/paquetes-de-debian-clasificados-por-rama" >}})
+[https://geeklandlinux.github.io/posts/paquetes-de-debian-clasificados-por-rama/]({{< relref "/posts/paquetes-de-debian-clasificados-por-rama" >}})
 
 ## APT-PINNING EN DEBIAN ESTABLE
 

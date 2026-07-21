@@ -27,13 +27,13 @@ Para localizar la ubicación del contenido copiado pueden usar varios métodos. 
 
 Tal y como pueden ver en la captura de pantalla una vez han accedido dentro de la web, ingresan la URL que quieren analizar si ha sido copiada.
 
-[![Servicio para la detección de contenido copiado](images/Ingresar-URL-300x237.png "Servicio Copyscape para la detección de contenido Duplicado")](images/Ingresar-URL.png)
+[![Servicio para la detección de contenido copiado](images/Ingresar-URL.png "Servicio Copyscape para la detección de contenido Duplicado")](images/Ingresar-URL.png)
 
-Cuando hayamos copiado la URL, que en mi caso es [https://geekland.eu/bloquear-publicidad-en-android-sin-root/]({{< relref "/posts/bloquear-publicidad-en-android-sin-root" >}}), presionamos el botón **Go**.
+Cuando hayamos copiado la URL, que en mi caso es [https://geeklandlinux.github.io/posts/bloquear-publicidad-en-android-sin-root/]({{< relref "/posts/bloquear-publicidad-en-android-sin-root" >}}), presionamos el botón **Go**.
 
 Seguidamente aparecerán la totalidad de enlaces que simplemente se han dedicado a copiar y pegar nuestro contenido.
 
-[![Obtención Links que han copiado de mi web](images/Acceder-al-servicio-de-Copyscape-300x237.png "Links a eliminar en Blogger")](images/Acceder-al-servicio-de-Copyscape.png)
+[![Obtención Links que han copiado de mi web](images/Acceder-al-servicio-de-Copyscape.png "Links a eliminar en Blogger")](images/Acceder-al-servicio-de-Copyscape.png)
 
 En mi caso he encontrado he encontrado 3 webs que han usado contenido del artículo que escribí. Después de analizar los 3 enlaces veo que uno de estos ha fotocopiado el post sin referencias a su autor y además esta realizando hotlinking. Tomamos nota del enlace que nos copia que al ser de la plataforma Blogger tendrá un aspecto parecido al siguiente:
 
@@ -59,7 +59,7 @@ Aparecerán una serie de opciones de productos de Google para solicitar informac
 
 Seguidamente nos aparecerá una pantalla que nos preguntará que queremos solicitar de Blogger. Ninguna de las opciones que se muestran en pantalla será la que necesitamos. Por lo tanto tal y como pueden ver en al captura de pantalla seleccionamos la opción **Tengo un problema de carácter legal que no figura entre los anteriores**.
 
-[![Razones para eliminar contenido de Blogger](images/2-Otro-asunto-300x215.png "Seleccionar el motivo para eliminar contenido de Blogger")](images/2-Otro-asunto.png)
+[![Razones para eliminar contenido de Blogger](images/2-Otro-asunto.png "Seleccionar el motivo para eliminar contenido de Blogger")](images/2-Otro-asunto.png)
 
 Al seleccionar esta opción aparecerán otra serie de opciones, y en esta caso si figurará la opción que nosotros tenemos que seleccionar. La que tenemos que seleccionar es **He encontrado contenido que puede infringir mis derechos de autor**.
 
@@ -67,7 +67,7 @@ Al seleccionar esta opción aparecerán otra serie de opciones, y en esta caso s
 
 En el siguiente paso se nos preguntará si somos los propietarios de los derechos de autor. En mi caso tal y como se puede ver en la captura responderé que si que soy el propietario.
 
-[![Propiedad del contenido](images/4-Si-soy-el-propietario-300x215.png "Confirmación que somos los propietarios del contenido")](images/4-Si-soy-el-propietario.png)
+[![Propiedad del contenido](images/4-Si-soy-el-propietario.png "Confirmación que somos los propietarios del contenido")](images/4-Si-soy-el-propietario.png)
 
 #### 4- Seleccionar el tipo de material que se está infringiendo
 
@@ -79,23 +79,23 @@ Ya que el contenido copiado es una fotocopia del post incluyendo imágenes y tex
 
 Tal y como se puede ver en la captura de pantalla, el siguiente paso es clicar encima del enlace **este formulario** para de esta poder dar información adicional a Google para que retire el contenido.
 
-[![Enlace para cumplimentar el informe y eliminar contenido de Blogger](images/6-Enlace-para-cumplimentar-el-informe-300x215.png "Formulario para eliminar contenido de Blogger")](images/6-Enlace-para-cumplimentar-el-informe.png)
+[![Enlace para cumplimentar el informe y eliminar contenido de Blogger](images/6-Enlace-para-cumplimentar-el-informe.png "Formulario para eliminar contenido de Blogger")](images/6-Enlace-para-cumplimentar-el-informe.png)
 
 #### 6- Cumplimentar el formulario de denuncia
 
 Finalmente ya solo nos queda cumplimentar el formulario. Los datos que tendremos que introducir en el formulario son los siguientes:
 
-**Nombre y apellidos:** En esta celda tienen que introducir vuestro **nombre y apellidos**. **Nombre de la empresa:** En el caso que formarais parte de alguna organización empresarial habría que introducir el nombre de la empresa. En mi caso como soy solo una persona pondré **Particular**. **Dirección de email:** Tienen que poner una dirección de email para que google les pueda contactar. **País de residencia:** Tienen que seleccionar vuestro país. Por lo tanto en mi caso tengo que seleccionar España. **URL que contiene el contenido Original:** En este apartado tenemos que indicar la URL que contiene el material original. En mi caso [https://geekland.eu/bloquear-publicidad-en-android-sin-root/]({{< relref "/posts/bloquear-publicidad-en-android-sin-root" >}}). **Identificar y describir el material protegido por los derechos de autor:** En este campo tenemos que describir el material que vulnera los derechos de autor. También tenéis que copiar una muestra del material que vulnera los derechos de autor. **URL a eliminar:** Simplemente tenéis que especificar la URL que queréis eliminar de Internet. En mi caso esta URL es **http://xxxxx.blogspot.com/2014/01/bloquear-publicidad-en-android-sin-ser.html** **Aceptar las declaraciones juradas:** En este paso tan solo tenéis que tildar los 2 cuadrados pequeños. Tildando estos 2 cuadritos estáis diciendo a Google que el propietario de los derechos de autor no autoriza a los presuntos infractores a compartir su contenido. Además estáis jurando bajo pena de perjurio que la denuncia que estáis haciendo es verídica. **Fecha de la firma:** En este campo desplegable tan solo tenemos que introducir la fecha de la denuncia. **Firma:** Como paso final tan solo tenemos que introducir nuestra firma. Para introducir la firma tan solo tenemos que introducir nuestros nombres y apellidos.
+**Nombre y apellidos:** En esta celda tienen que introducir vuestro **nombre y apellidos**. **Nombre de la empresa:** En el caso que formarais parte de alguna organización empresarial habría que introducir el nombre de la empresa. En mi caso como soy solo una persona pondré **Particular**. **Dirección de email:** Tienen que poner una dirección de email para que google les pueda contactar. **País de residencia:** Tienen que seleccionar vuestro país. Por lo tanto en mi caso tengo que seleccionar España. **URL que contiene el contenido Original:** En este apartado tenemos que indicar la URL que contiene el material original. En mi caso [https://geeklandlinux.github.io/posts/bloquear-publicidad-en-android-sin-root/]({{< relref "/posts/bloquear-publicidad-en-android-sin-root" >}}). **Identificar y describir el material protegido por los derechos de autor:** En este campo tenemos que describir el material que vulnera los derechos de autor. También tenéis que copiar una muestra del material que vulnera los derechos de autor. **URL a eliminar:** Simplemente tenéis que especificar la URL que queréis eliminar de Internet. En mi caso esta URL es **http://xxxxx.blogspot.com/2014/01/bloquear-publicidad-en-android-sin-ser.html** **Aceptar las declaraciones juradas:** En este paso tan solo tenéis que tildar los 2 cuadrados pequeños. Tildando estos 2 cuadritos estáis diciendo a Google que el propietario de los derechos de autor no autoriza a los presuntos infractores a compartir su contenido. Además estáis jurando bajo pena de perjurio que la denuncia que estáis haciendo es verídica. **Fecha de la firma:** En este campo desplegable tan solo tenemos que introducir la fecha de la denuncia. **Firma:** Como paso final tan solo tenemos que introducir nuestra firma. Para introducir la firma tan solo tenemos que introducir nuestros nombres y apellidos.
 
 Finalmente una vez cumplimentados todos los campos tan solo tienen que ir a la parte inferior de la página y presionar el botón **Enviar**.
 
 Para a quien la explicación no le haya resultado clara la explicación o tenga alguna duda les dejo las capturas de pantalla de la denuncia que cursé en su día:
 
-[![Impreso rellenado para eliminar contenido de Blogger](images/7-Rellenar-impreso-244x300.png "Ejemplo de informe para eliminar contenido de Blogger")](images/7-Rellenar-impreso.png)
+[![Impreso rellenado para eliminar contenido de Blogger](images/7-Rellenar-impreso.png "Ejemplo de informe para eliminar contenido de Blogger")](images/7-Rellenar-impreso.png)
 
-[![Impreso rellenado para eliminar contenido de Blogger](images/8-Rellenar-Impreso-244x300.png "Ejemplo de informe para eliminar contenido de Blogger")](images/8-Rellenar-Impreso.png)
+[![Impreso rellenado para eliminar contenido de Blogger](images/8-Rellenar-Impreso.png "Ejemplo de informe para eliminar contenido de Blogger")](images/8-Rellenar-Impreso.png)
 
-[![Enviar solicitud para eliminar el contendio](images/9-Submit-244x300.png "Enviar solicitud de retirada de contenido a Blogger")](images/9-Submit.png)
+[![Enviar solicitud para eliminar el contendio](images/9-Submit.png "Enviar solicitud de retirada de contenido a Blogger")](images/9-Submit.png)
 
 ## CONFIRMACIÓN DE LA RETIRADA DEL CONTENIDO
 

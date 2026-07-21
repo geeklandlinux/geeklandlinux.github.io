@@ -25,7 +25,7 @@ En el caso que nos encontremos con las situaciones que acabamos de citar tenemos
 
 Para disponer de la totalidad de paquetes para comprimir, descomprimir, separar y unir archivos les recomiendo que sigan los pasos que se citan en el siguiente artículo:
 
-https://geekland.eu/comprimir-descomprimir-archivos-gestor-archivos/
+https://geeklandlinux.github.io/posts/comprimir-descomprimir-archivos-gestor-archivos/
 
 Si siguen los pasos serán capaces de comprimir, descomprimir, separar y unir todos los tipos de fichero en Linux.
 

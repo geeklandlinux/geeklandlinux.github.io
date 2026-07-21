@@ -147,7 +147,7 @@ Lo que realizaremos es traspasar el contenido que tenemos almacenado en nuestra 
 
 El comando free nos dará la salida que podeís observar en la siguiente captura de imagen:
 
-[![Optimizar el uso de la memoria Swap resultados](images/proceso-liberar-swap2-300x193.png "Optimizar el uso de la memoria Swap")](images/proceso-liberar-swap2.png)
+[![Optimizar el uso de la memoria Swap resultados](images/proceso-liberar-swap2.png "Optimizar el uso de la memoria Swap")](images/proceso-liberar-swap2.png)
 
 Como podemos ver en la captura en nuestra memoria Swap tenemos almacenado 8Kb. Nuestra memoria RAM tiene 78388 Kb libres. Por lo tanto podemos traspasar el contenido de la memoria Swap a la RAM sin tener ningún tipo de problema.
 
@@ -165,7 +165,7 @@ Ahora volveremos a teclear el comando:
 
 Y efectivamente en la siguiente captura de pantalla podemos confirmar que la operación ha tenido éxito, ya que la memoria Swap ahora está completamente libre:
 
-[![](images/proceso-liberar-swap11-300x193.png "proceso-liberar-swap1")](images/proceso-liberar-swap11.png)
+[![](images/proceso-liberar-swap11.png "proceso-liberar-swap1")](images/proceso-liberar-swap11.png)
 
 El proceso que acabamos ver lo podemos automatizar mediante un script y ejecutarlo periódicamente a las 12 de la noche por ejemplo. Para ello tan solo tenemos que añadir la siguiente frase:
 
@@ -175,7 +175,7 @@ El proceso que acabamos ver lo podemos automatizar mediante un script y ejecutar
 
 En el script que aprendimos a generar en el siguiente post:
 
-[https://geekland.eu/liberar-memoria-cache/]({{< relref "/posts/liberar-memoria-cache" >}})
+[https://geeklandlinux.github.io/posts/liberar-memoria-cache/]({{< relref "/posts/liberar-memoria-cache" >}})
 
 Por lo tanto el contenido del script para limpiar la memoria cache de la RAM y traspasar el contenido de la memoria Swap a la RAM es el siguiente:
 

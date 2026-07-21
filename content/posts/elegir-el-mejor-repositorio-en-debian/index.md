@@ -81,17 +81,17 @@ Y si finalmente estáis usando Debian Sid o inestable el comando debería ser el
 
 Los pasos ejecutados hasta el momento los pueden ver resumidos en la siguiente captura de pantalla:
 
-[![Apt-spy para elegir el repositorios mas rapido](images/1-Ejecución-de-apt-spy-300x232.png "1- Ejecución de apt-spy")](images/1-Ejecución-de-apt-spy.png)
+[![Apt-spy para elegir el repositorios mas rapido](images/1-Ejecución-de-apt-spy.png "1- Ejecución de apt-spy")](images/1-Ejecución-de-apt-spy.png)
 
 ###### Nota: Como se puede ver en la captura de pantalla se está analizando los bytes que cada uno de los repositorios es capaz de descargar en 15 segundos. El que pueda descargar más bytes será aquel servidor que tiene la mejor ping y mayor ancho de banda, y por lo tanto será el servidor que más nos conviene.
 
 Una vez finalizado el proceso, que seguramente durará más de una hora, ya podemos **ir a nuestra home a consultar cual es el repositorio más rápido. Como se puede ver en la captura de pantalla abro el archivo newsources.list que se acaba de generar:**
 
-[![Consulta del repositorio mas rapido](images/2-Localizar-los-resultados-de-apt-spy-300x225.png "2- Localizar los resultados de apt-spy")](images/2-Localizar-los-resultados-de-apt-spy.png)
+[![Consulta del repositorio mas rapido](images/2-Localizar-los-resultados-de-apt-spy.png "2- Localizar los resultados de apt-spy")](images/2-Localizar-los-resultados-de-apt-spy.png)
 
 Una vez abierto vemos que el contenido es el siguiente:
 
-[![Repositorio mas rapido](images/3-Resultados-obtenidos-300x180.png "3- Resultados obtenidos")](images/3-Resultados-obtenidos.png)
+[![Repositorio mas rapido](images/3-Resultados-obtenidos.png "3- Resultados obtenidos")](images/3-Resultados-obtenidos.png)
 
 Como se puede ver en la captura de pantalla, **en mi caso el repositorio aconsejado es** [ftp://mirrors.ircam.fr/pub/debian](ftp://mirrors.ircam.fr/pub/debian "Repositorio de Debian Aconsejado"). Por lo tanto **ahora** tan solo **tenemos que ir a nuestro sources.list y remplazar nuestro repositorio actual por el nuevo repositorio**. Para acceder a nuestro sources.list abren una terminal y escriben el siguiente comando:
 
@@ -101,11 +101,11 @@ Como se puede ver en la captura de pantalla, **en mi caso el repositorio aconsej
 
 Se abrirá el editor de textos. Una vez se haya abierto el editor de textos localizan los repositorios a reemplazar que en mi caso son los que se muestran en la siguiente captura de pantalla:
 
-[![Repositorios actuales](images/4-Localización-del-contenido-a-cambiar-300x170.png "4- Localización del contenido a cambiar")](images/4-Localización-del-contenido-a-cambiar.png)
+[![Repositorios actuales](images/4-Localización-del-contenido-a-cambiar.png "4- Localización del contenido a cambiar")](images/4-Localización-del-contenido-a-cambiar.png)
 
 Una vez localizados los repositorios, reemplazan el contenido actual por la recomendación de apt-spy. Seguidamente presionan el botón de guardar tal y como se muestra en la captura de pantalla:
 
-[![Sustitución de los repositorios](images/5-Contenido-cambiado-300x170.png "5- Contenido cambiado")](images/5-Contenido-cambiado.png)
+[![Sustitución de los repositorios](images/5-Contenido-cambiado.png "5- Contenido cambiado")](images/5-Contenido-cambiado.png)
 
 Una vez realizados estos pasos ya podremos disfrutar de los nuevos repositorios.
 
@@ -123,7 +123,7 @@ En el caso de querer acotar más nuestra búsqueda, apt-spy nos ofrece varias op
 
 Una vez introducido el comando os aparecerán las instrucciones para usar apt-spy:
 
-[![Opciones de apt-spy](images/6-Instrucciones-del-comando-apt-spy-300x197.png "6- Instrucciones del comando apt-spy")](images/6-Instrucciones-del-comando-apt-spy.png)
+[![Opciones de apt-spy](images/6-Instrucciones-del-comando-apt-spy.png "6- Instrucciones del comando apt-spy")](images/6-Instrucciones-del-comando-apt-spy.png)
 
 Ahora seréis vosotros quienes a partir de las opciones mostradas por **man apt-spy** tendréis que jugar para obtener los resultados que más os interesan. **Algunas de las variantes del primer comando que hemos usado pueden ser las siguientes:**
 
@@ -179,6 +179,6 @@ Ya para finalizar pondré una variante de los comandos anteriores para la gente 
 
 Aparte de netselect-apt y apt-spy existen otros métodos para seleccionar nuestros repositorios. Una método que también es muy interesante es usar los repositorios redirector de Debian. Para Obtener más información sobre este método pueden consultar el siguiente link:
 
-[https://geekland.eu/repositorios-redirector-en-debian/]({{< relref "/posts/repositorios-redirector-en-debian" >}})
+[https://geeklandlinux.github.io/posts/repositorios-redirector-en-debian/]({{< relref "/posts/repositorios-redirector-en-debian" >}})
 
 Este probablemente será el último post del año 2013. Por lo tanto aprovecho la ocasión para desearos a todos felices fiestas y feliz año nuevo. Nos vemos el año que viene.

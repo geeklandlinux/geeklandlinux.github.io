@@ -170,7 +170,7 @@ Si el usuario y la contraseña son correctas podrán acceder y usar el servicio 
 
 En el caso que lo crean necesario también pueden usar Traefik y Fail2ban para bloquear a los usuarios que introduzcan las credenciales incorrectamente de forma reiterada. Para ello pueden usar las instrucciones que encontrarán en el siguiente enlace:
 
-https://geekland.eu/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker/
+https://geeklandlinux.github.io/posts/usar-fail2ban-con-traefik-para-proteger-servicios-que-corren-en-docker/
 
 #### Fuentes
 

@@ -47,7 +47,7 @@ El valor predeterminado de sawppiness es 60. Con la siguiente línea lo reducimo
 
 Al tener un valor inferior nuestro sistema operativo hará un uso mucho menor de la memoria de intercambio. Como el uso de la memoria de intercambio será menor, la fluidez en la ejecución y uso de los programas debería ser mejor. Si quieren más información sobre el funcionamiento de la memoria Swap pueden consultar el siguiente enlace:
 
-https://geekland.eu/optimizar-el-uso-de-la-memoria-swap/
+https://geeklandlinux.github.io/posts/optimizar-el-uso-de-la-memoria-swap/
 
 ### Cambiar el valor de ”cache\_pressure” para incrementar el rendimiento
 
@@ -134,7 +134,7 @@ Una vez finalizada la instalación ejecutaremos los siguientes comandos para ase
 
 Una vez ejecutados los comando reinicien el equipo. Después de reiniciar el equipo Preload debería estar contribuyendo a mejorar el rendimiento de nuestro equipo. Si quieren más información acerca de preload pueden leer el siguiente enlace:
 
-https://geekland.eu/incrementar-el-rendimiento-con-preload/
+https://geeklandlinux.github.io/posts/incrementar-el-rendimiento-con-preload/
 
 ## ¿POR QUÉ LINUX NO USA LAS OPCIONES QUE CITO EN ARTÍCULO DE FORMA PREDETERMINADA?
 

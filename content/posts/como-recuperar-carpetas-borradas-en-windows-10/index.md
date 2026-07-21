@@ -41,7 +41,7 @@ A continuación tenemos que seleccionar el tipo de fichero que queremos recupera
 
 Seguidamente empezará el escaneo para tratar de recuperar la información borrada accidentalmente. En mi caso, al dar una ruta muy concreta, el proceso de escaneo ha sido extremadamente corto. Los resultados obtenidos después del escaneo han sido los siguientes:
 
-![consejo para buscar las carpetas eliminadas](images/consejo-para-buscar-las-carpetas-eliminadas.webp "consejo para buscar las carpetas eliminadas")
+![consejo para buscar las carpetas eliminadas](images/consejo-para-buscar-las-carpetas-eliminadas-768x469.webp "consejo para buscar las carpetas eliminadas")
 
 Si os fijáis los archivos a recuperar se clasifican por directorios. En la captura de pantalla anterior hay una explicación clara del contenido que encontraremos en cada uno de los directorios.
 
@@ -97,7 +97,7 @@ Finalmente podremos seleccionar y recuperar el contenido que previamente haya si
 
 Si no les funciona ninguna de las opciones anteriores les recomiendo usar la herramienta de versiones anteriores de su sistema operativo Windows 10 o Windows 11. Para saber como recuperar carpetas borradas mediante las versiones anteriores de Windows les recomiendo que visiten el siguiente [enlace]({{< relref "/posts/recuperar-archivos-borrados-sin-programas-windows" >}}).
 
-https://geekland.eu/recuperar-archivos-borrados-sin-programas-windows/
+https://geeklandlinux.github.io/posts/recuperar-archivos-borrados-sin-programas-windows/
 
 ## CONCLUSIONES SOBRE RECUPERAR CARPETAS BORRADAS EN WINDOWS
 

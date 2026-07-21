@@ -21,7 +21,7 @@ Para configurar DNSCrypt en windows tenemos que acceder a la carpeta en la que l
 
 Una vez dentro de la carpeta abrimos DNSCrypt haciendo doble click en el archivo **dnscrypt-winservicemgr.exe**
 
-[![Abrir la interfaz gráfica de DNSCrypt](images/Abrir-DNSCrypt-300x236.png)](images/Abrir-DNSCrypt.png)
+[![Abrir la interfaz gráfica de DNSCrypt](images/Abrir-DNSCrypt.png)](images/Abrir-DNSCrypt.png)
 
 Después de abrir el programa seleccionamos el adaptador de red que está en uso, el servidor DNS que queremos usar y el protocolo que usará DNSCrypt.
 
@@ -31,7 +31,9 @@ En mi caso las opciones seleccionadas son las siguientes:
 2. El servidor DNS seleccionado es **4ARMED** porque no guarda logs, utiliza la validación DNSSEC y es cercano geográficamente.
 3. Elijo el protocolo UDP porque es el protocolo más habitual para resolver las peticiones DNS.
 
-\[caption id="attachment\_7354" align="alignnone" width="300"\][![Configuración de DNSCrypt seleccionada](images/Mi-configuración-de-DNSCrypt-300x271.png)](images/Mi-configuración-de-DNSCrypt.png) Muestra de la configuración Aplicada en mi caso\[/caption\]
+ Muestra de la configuración Aplicada en mi caso:
+
+[![Configuración de DNSCrypt seleccionada](images/Mi-configuración-de-DNSCrypt.png)](images/Mi-configuración-de-DNSCrypt.png)
 
 ###### Nota: Para encontrar información sobre los servidores que ofrece DNSCrypt pueden visitar la siguiente [URL](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv "URL en la que se detalla las características de los servidores de DNSCrypt") o los archivos de la carpeta en que están los archivos de DNSCrypt.
 
@@ -39,11 +41,11 @@ En mi caso las opciones seleccionadas son las siguientes:
 
 Una vez finalizada la configuración tan solo tenemos que presionar encima del botón **Enable**.
 
-[![Activar DNSCrypt](images/Activar-DNSCrypt-300x271.png)](images/Activar-DNSCrypt.png)
+[![Activar DNSCrypt](images/Activar-DNSCrypt.png)](images/Activar-DNSCrypt.png)
 
 Una vez presionado el botón DNSCrypt se activará y podremos visualizar la frase **DNSCrypt Service is Enabled**.
 
-[![DNSCrypt Habilitado](images/DNSCrypt-habilitado-300x271.png)](images/DNSCrypt-habilitado.png)
+[![DNSCrypt Habilitado](images/DNSCrypt-habilitado.png)](images/DNSCrypt-habilitado.png)
 
 Una vez activado, DNSCrypt ya está funcionando sin ningún tipo de problema.
 
@@ -57,19 +59,19 @@ Para ello presionamos la combinación de teclas **Win+R**.
 
 Una vez aparezca la ventana de Ejecutar introducimos el texto **ncpa.cpl** y presionamos el botón **Aceptar**.
 
-[![Acceder a la configuración del adaptador de red](images/Acceder-a-la-configuración-del-adaptador-de-red-300x155.png)](images/Acceder-a-la-configuración-del-adaptador-de-red.png)
+[![Acceder a la configuración del adaptador de red](images/Acceder-a-la-configuración-del-adaptador-de-red.png)](images/Acceder-a-la-configuración-del-adaptador-de-red.png)
 
 En la ventana **Conexiones de Red** seleccionamos nuestro adaptador de red, presionamos el botón derecho del ratón y clicamos en la opción **Propiedades** del menú contextual.
 
-[![Acceder a las propiedades del adaptador de red](images/Acceder-a-las-propiedades-del-adaptador-de-red-300x209.png)](images/Acceder-a-las-propiedades-del-adaptador-de-red.png)
+[![Acceder a las propiedades del adaptador de red](images/Acceder-a-las-propiedades-del-adaptador-de-red.png)](images/Acceder-a-las-propiedades-del-adaptador-de-red.png)
 
 En las propiedades de nuestro adaptador de seleccionamos la opción **Protocolo de Internet versión 4 (TCP/IPv4)** y presionamos el botón **Propiedades**.
 
-[![Propiedad del adaptador](images/Acceder-a-las-propiedades-233x300.png)](images/Acceder-a-las-propiedades.png)
+[![Propiedad del adaptador](images/Acceder-a-las-propiedades.png)](images/Acceder-a-las-propiedades.png)
 
 Finalmente comprobamos que en el campo Servidor DNS preferido hay la IP **127.0.0.1**.
 
-[![Configuración del adaptador de Red](images/Configuración-del-gestor-de-red-para-DNSCrypt-264x300.png)](images/Configuración-del-gestor-de-red-para-DNSCrypt.png)
+[![Configuración del adaptador de Red](images/Configuración-del-gestor-de-red-para-DNSCrypt.png)](images/Configuración-del-gestor-de-red-para-DNSCrypt.png)
 
 En el caso poco probable que hubiera otra IP diferente a la **127.0.0.1** la tendrán que modificar manualmente y presionar el botón **Aceptar**.
 
@@ -81,7 +83,7 @@ Si queremos podemos incluir opciones adicionales para configurar DNSCrypt en Win
 
 Cuando aparezca la ventana de ejecutar escribimos **regedit** y presionamos el botón **Aceptar**.
 
-[![Acceder al registro del sistema](images/Acceder-al-registro-del-sistema-300x155.png)](images/Acceder-al-registro-del-sistema.png)
+[![Acceder al registro del sistema](images/Acceder-al-registro-del-sistema.png)](images/Acceder-al-registro-del-sistema.png)
 
 Una vez dentro del registro del sistema navegamos hacia la siguiente ruta.
 
@@ -186,4 +188,4 @@ Para ello lo único que tenemos que realizar es reiniciar nuestro ordenador.
 
 Finalmente ya solo nos queda comprobar que DNSCrypt está funcionando de forma adecuada. Para ello podemos seguir las instrucciones detalladas en el siguiente enlace:
 
-https://geekland.eu/comprobar-el-funcionamiento-de-dnscrypt/
+https://geeklandlinux.github.io/posts/comprobar-el-funcionamiento-de-dnscrypt/

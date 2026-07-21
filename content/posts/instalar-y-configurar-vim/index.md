@@ -200,4 +200,4 @@ Otra opción que tenéis disponible es usar el comando `:options` dentro del edi
 
 Y si finalmente quieren conocer los atajos de teclado y comandos para usar VIM como un experto les recomiendo leer el siguiente artículo.
 
-https://geekland.eu/atajos-de-teclado-y-comandos-para-usar-vim-eficientemente/
+https://geeklandlinux.github.io/posts/atajos-de-teclado-y-comandos-para-usar-vim-eficientemente/

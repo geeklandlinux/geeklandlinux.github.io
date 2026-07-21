@@ -269,7 +269,7 @@ Acto seguido empezará la actualización de los paquetes:
 
 Si ahora lo que pretenden es crear entornos virtuales de desarrollo en Python les recomiendo que visiten el siguiente enlace:
 
-[https://geekland.eu/crear-entornos-virtuales-de-desarrollo-python-en-linux/]({{< relref "/posts/crear-entornos-virtuales-de-desarrollo-python-en-linux" >}})
+[https://geeklandlinux.github.io/posts/crear-entornos-virtuales-de-desarrollo-python-en-linux/]({{< relref "/posts/crear-entornos-virtuales-de-desarrollo-python-en-linux" >}})
 
 ### Fuente
 
