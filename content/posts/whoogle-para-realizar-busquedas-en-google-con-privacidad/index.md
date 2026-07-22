@@ -48,7 +48,7 @@ En mi caso uso Whoogle a nivel local en una Raspberry Pi que tengo en mi propio 
 
 Para instalar Docker en su Raspberry Pi deberán seguir las instrucciones que se muestran en el siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ### Construir la imagen de Whoogle para la arquitectura ARM
 

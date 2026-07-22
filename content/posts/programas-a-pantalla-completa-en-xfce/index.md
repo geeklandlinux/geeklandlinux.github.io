@@ -19,11 +19,11 @@ Lo que hace el modo de pantalla completa de XFCE es **esconder el panel y la bar
 
 Como una imagen vale más que mil palabras, en la siguiente captura de pantalla podemos ver el aspecto habitual del programa LibreOffice:
 
-[![Programa Libreoffice en modo normal](images/Libreoffice-normal-300x183.png)](images/Libreoffice-normal.png)
+[<img src="images/Libreoffice-normal.png" alt="Programa Libreoffice en modo normal" style="zoom:80%;" />](images/Libreoffice-normal.png)
 
 Si en estos momentos ponemos Libreoffice en modo pantalla completa visualizaremos lo siguiente:
 
-[![Programa Libreoffice en modo pantalla completa](images/Libreoffice-en-modo-pantalla-completa-300x188.png)](images/Libreoffice-en-modo-pantalla-completa.png)
+[<img src="images/Libreoffice-en-modo-pantalla-completa.png" alt="Programa Libreoffice en modo pantalla completa" style="zoom:80%;" />](images/Libreoffice-en-modo-pantalla-completa.png)
 
 ## VENTAJAS DE PONER LOS PROGRAMAS A PANTALLA COMPLETA
 
@@ -70,6 +70,6 @@ En este apartado solo menciono los entornos de escritorio que acostumbro a usar 
 
 **En el caso de que haya un programa que lo queramos abrir directamente en pantalla completa sin tener que presionar Alt+F11** también lo podemos realizar. Para ello les recomiendo que **sigan las instrucciones que se detallan en el siguiente post**:
 
-https://geekland.eu/configurar-el-comportamiento-de-las-ventanas-con-devilspie/
+https://geeklandlinux.github.io/posts/configurar-el-comportamiento-de-las-ventanas-con-devilspie/
 
 Las instrucciones mencionadas en el post que acabo de recomendar también serán útiles para disponer de un modo de pantalla completa en cualquier entorno de escritorio. Saludos y hasta la próxima.

@@ -69,21 +69,21 @@ Supongamos que tenemos un ordenador portátil con su tarjeta de red inalámbrica
 
 El primer paso será **conectarnos vía wifi a nuestro Router.** Como se puede ver en la captura de pantalla lo haremos así de fácil:
 
-[![Conectarse a una wifi para crear una red Ad hoc](images/1-conectarse-a-uan-red-wifi-300x175.png "1- conectarse a una red wifi")](images/1-conectarse-a-uan-red-wifi.png)
+[<img src="images/1-conectarse-a-uan-red-wifi.png" alt="Conectarse a una wifi para crear una red Ad hoc" title="1- conectarse a una red wifi" style="zoom:80%;" />](images/1-conectarse-a-uan-red-wifi.png)
 
 Una vez conectados a la red wifi **enchufamos la tarjeta de red inalámbrica a nuestro USB**. Una vez enchufada veremos que en el [Gnome network manager](https://wiki.gnome.org/NetworkManager "Que es network manager") o [Wicd](http://en.wikipedia.org/wiki/Wicd "Que es Wicd") aparece una tarjeta inalámbrica nueva:
 
-[![Enchufar una tarjeta de red inalámbrica para crear una red Ad hoc](images/2-Conectar-tarjeta-de-red-usb-300x175.png "2- Conectar tarjeta de red usb")](images/2-Conectar-tarjeta-de-red-usb.png)
+[<img src="images/2-Conectar-tarjeta-de-red-usb.png" alt="Enchufar una tarjeta de red inalámbrica para crear una red Ad hoc" title="2- Conectar tarjeta de red usb" style="zoom:80%;" />](images/2-Conectar-tarjeta-de-red-usb.png)
 
 ###### Nota: En mi caso la tarjeta inalámbrica USB que acabo de conectar es la RTL8188S
 
 Seguidamente, como se puede apreciar en la siguiente captura de pantalla, **dentro del menú del [Gnome network manager](https://wiki.gnome.org/NetworkManager "Que es Network Manager") o de [wicd](http://en.wikipedia.org/wiki/Wicd "Que es Wicd") seleccionamos la opción crear una red inalámbrica nueva....**
 
-[![Crear red inalámbrica nueva para crear una red ad hoc](images/3-crear-red-inalambrica-nueva-300x175.png "3- crear red inalambrica nueva")](images/3-crear-red-inalambrica-nueva.png)
+[<img src="images/3-crear-red-inalambrica-nueva.png" alt="Crear red inalámbrica nueva para crear una red ad hoc" title="3- crear red inalambrica nueva" style="zoom:80%;" />](images/3-crear-red-inalambrica-nueva.png)
 
 Una vez seleccionada la opción crear una red inalámbrica nueva aparecerá la siguiente ventana:
 
-[![Opciones de configuración de la red Ad hoc](images/5-Seleccionar-nombre-de-red-300x159.png "5- Seleccionar nombre de red")](images/5-Seleccionar-nombre-de-red.png)
+[![Opciones de configuración de la red Ad hoc](images/5-Seleccionar-nombre-de-red.png "5- Seleccionar nombre de red")](images/5-Seleccionar-nombre-de-red.png)
 
 En la siguiente ventana veremos las siguientes opciones:
 
@@ -97,13 +97,13 @@ En la siguiente ventana veremos las siguientes opciones:
 
 Una vez realizados todos los pasos tendremos la siguiente situación:
 
-[![Red Ad hoc configurada](images/7-Crear-Red-Ad-hoc-300x128.png "7- Crear Red Ad hoc")](images/7-Crear-Red-Ad-hoc.png)
+[![Red Ad hoc configurada](images/7-Crear-Red-Ad-hoc.png "7- Crear Red Ad hoc")](images/7-Crear-Red-Ad-hoc.png)
 
 Ahora tan solo nos falta **presionar el botón Crear**. Una vez presionado el botón hemos terminado el proceso de creación de la red Ad hoc.
 
 Ahora simplemente tenemos comprobar que todos los pasos realizados son los correctos. Para ello presionamos encima del icono de gnome network manager y tiene que aparecer algo parecido a lo siguiente:
 
-[![Comprobar que la configuración de la red Ad hoc es la correcta](images/8-prueba-de-conexion-300x175.png "8- prueba de conexion")](images/8-prueba-de-conexion.png)
+[<img src="images/8-prueba-de-conexion.png" alt="Comprobar que la configuración de la red Ad hoc es la correcta" title="8- prueba de conexion" style="zoom:80%;" />](images/8-prueba-de-conexion.png)
 
 Si todo funciona correctamente, como se puede ver en la captura captura de pantalla, la tarjeta Realtek RTL8187SE está siendo usada para conectarse a la red Wifi WLAN\_CBF4 mientras que la tarjeta de red inalámbrica Realtek RTL8188S está siendo usada para generar la red Ad hoc . Por lo tanto podemos afirmar que a priori todo funciona a la perfección.
 
@@ -111,11 +111,11 @@ Si todo funciona correctamente, como se puede ver en la captura captura de panta
 
 Para comprobar que nuestra red Ad hoc funciona a la perfección lo podemos hacer de la siguiente forma. Cogemos un ordenador cualquiera, un teléfono o una tablet. En mi caso cojo una tablet y como se puede ver en la captura de pantalla nos vamos al gestor de redes wifi. **Una vez dentro del gestor de redes wifi vemos que aparece una red que se llama adhoc que es la que acabamos de generar:**
 
-[![Comprobación del funcionamiento de la red Ad hoc](images/Gestor-de-redes-Wifi-300x225.png "Gestor de redes Wifi")](images/Gestor-de-redes-Wifi.png)
+[<img src="images/Gestor-de-redes-Wifi.png" alt="Comprobación del funcionamiento de la red Ad hoc" title="Gestor de redes Wifi" style="zoom:80%;" />](images/Gestor-de-redes-Wifi.png)
 
-**Presionamos encima de adhoc.** **Unos momentos después de presionar sobre la red Adhoc veremos que nuestro ipad se conecta a la red** sin problema alguno. Una vez conectados a la red abrimos el navegador e ingresamos una página web cualquiera. En mi caso como se puede ver en la captura de pantalla he elegido [www.geekland.eu](https://geekland.eu "Blog de Linux y nuevas tecnologías"):
+**Presionamos encima de adhoc.** **Unos momentos después de presionar sobre la red Adhoc veremos que nuestro ipad se conecta a la red** sin problema alguno. Una vez conectados a la red abrimos el navegador e ingresamos una página web cualquiera. En mi caso como se puede ver en la captura de pantalla he elegido [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Blog de Linux y nuevas tecnologías"):
 
-[![Red Ad hoc funcionando](images/Red-Ad-hoc-funcionando-300x225.png "Red Ad hoc funcionando")](images/Red-Ad-hoc-funcionando.png)
+[<img src="images/Red-Ad-hoc-funcionando.png" alt="Red Ad hoc funcionando" title="Red Ad hoc funcionando" style="zoom:80%;" />](images/Red-Ad-hoc-funcionando.png)
 
 Como se puede ver en la captura de pantalla podemos navegar sin problema alguno. Por lo tanto todo lo realizado funciona a la perfección.
 

@@ -51,7 +51,7 @@ Si nos conectamos a internet de forma habitual y queremos visitar una página we
 
 [![Funcionamiento del enrutamiento tradicional](images/Funcionamiento-enrutamiento-tradicional.png "Funcionamiento del enrutamiento tradicional")](images/Funcionamiento-enrutamiento-tradicional.png)
 
-Así de este modo si nos queremos conectar a [https://geekland.eu](https://geekland.eu) nuestro navegador enviará directamente una petición al servidor de [https://geekland.eu](https://geekland.eu).
+Así de este modo si nos queremos conectar a [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/posts/) nuestro navegador enviará directamente una petición al servidor de [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/posts/).
 
 Cuando se reciba la petición, el servidor analizará el contenido de las cabeceras http (HTTP Headers) de nuestra petición para saber el contenido que tiene que proporcionar.
 
@@ -82,7 +82,7 @@ En la siguiente imagen podemos ver una representación gráfica de la ruta que s
 
 [![Funcionamiento de la red TOR](images/Funcionamiento-Tor.png "Funcionamiento de la red TOR")](images/Funcionamiento-Tor.png)
 
-Supongamos que existe un Cliente (Client) que podemos ser nosotros y queremos conectarnos a un destino (Destination) que puede ser la página Web [https://geekland.eu](https://geekland.eu)
+Supongamos que existe un Cliente (Client) que podemos ser nosotros y queremos conectarnos a un destino (Destination) que puede ser la página Web [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/posts/)
 
 Lo primero que observamos es que en este caso la conexión entre nuestro navegador y el servidor de destino no es directa. Existen multitud de puntos intermedios de conexión denominados nodos (Relays).
 
@@ -120,7 +120,7 @@ Una vez el mensaje llega al nodo intermedio se usa la clave de sesión 2 para de
 
 Al establecerse la conexión se informará de forma segura al Software Tor de nuestro ordenador que la conexión entre el nodo intermedio y el nodo de salida se ha establecido. Acto seguido se creará una clave de sesión 3 entre el software Tor y el nodo de Salida.
 
-Finalmente el nodo de salida de la red Tor será el encargado de contactar con el destino que en nuestro caso será [https://geekland.eu](https://geekland.eu)
+Finalmente el nodo de salida de la red Tor será el encargado de contactar con el destino que en nuestro caso será [https://geeklandlinux.github.io](https://geeklandlinux.github.io/posts/)
 
 Seguidamente pueden ver una representación gráfica de todo el proceso que acabamos de comentar.
 
@@ -156,7 +156,9 @@ Una vez seleccionada la ruta y cifrada la totalidad de nuestra información, TOR
 2. Seguidamente nuestra petición y/o mensaje se dirigirá al nodo intermedio. Allí usaremos la clave privada del nodo intermedio para quitar la segunda de las 3 capas de cifrado.
 3. Para finalizar en el nodo de salida se usará la clave privada del nodo de salida para quitar la última de las capas de cifrado de nuestra petición. Una vez nuestro mensaje está sin cifrar se procederá a la entrega de nuestra petición al servidor, y el servidor nos dará respuesta repitiendo de nuevo el procedimiento que acabamos de describir.
 
-\[caption id="attachment\_7540" align="alignnone" width="498"\][![Descifrado en la red TOR](images/Capas-de-cifrado-de-la-red-Tor.png "Descifrado en la red TOR")](images/Capas-de-cifrado-de-la-red-Tor.png) Representación del proceso de descifrado del mensaje\[/caption\]
+[![Descifrado en la red TOR](images/Capas-de-cifrado-de-la-red-Tor.png "Descifrado en la red TOR")](images/Capas-de-cifrado-de-la-red-Tor.png) 
+
+Representación del proceso de descifrado del mensaje.
 
 ## BENEFICIOS OBTENIDOS AL USAR EL ENRUTADO CEBOLLA DE LA RED TOR
 

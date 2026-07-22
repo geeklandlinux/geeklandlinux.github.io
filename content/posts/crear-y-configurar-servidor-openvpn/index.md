@@ -16,7 +16,7 @@ cover:
 
 En pasados post vimos como podíamos crear muy fácilmente nuestro propio servidor VPN mediante el protocolo pptp.
 
-[https://geekland.eu/crear-un-servidor-vpn-pptp/]({{< relref "/posts/crear-un-servidor-vpn-pptp" >}})
+[https://geeklandlinux.github.io/posts/crear-un-servidor-vpn-pptp/]({{< relref "/posts/crear-un-servidor-vpn-pptp" >}})
 
 Pudimos constatar y experimentar que la instalación y configuración del servidor era sumamente sencilla y era altamente compatible con la totalidad de sistemas operativos existentes, pero como punto negativo también vimos que **a día de hoy pptp presenta serios problemas en lo que a la seguridad se refiere**.<!--more-->
 
@@ -26,15 +26,15 @@ Pudimos constatar y experimentar que la instalación y configuración del servid
 
 Hay distintas formas de configurar un servidor mediante OpenVPN. **Los distintos tipos de configuración existentes son Host to Host, Road to Warrior (Host to LAN) y Net to net**. **Nosotros** **nos focalizaremos en el Road to Warrior o Host to LAN**, por ser el más popular de todos y el que seguramente se adaptar a prácticamente las necesidades de de cualquier usuario.
 
-[![Diagrama Host to net](images/1-Arquitectura-Host-to-Net-300x200.jpg "1- Arquitectura Host to Net")](images/1-Arquitectura-Host-to-Net.jpg)
+[![Diagrama Host to net](images/1-Arquitectura-Host-to-Net.jpg "1- Arquitectura Host to Net")](images/1-Arquitectura-Host-to-Net.jpg)
 
 La configuración **Road to Warrior (Host to LAN mediante túnel) permitirá que múltiples dispositivos u ordenadores se puedan conectar simultáneamente a nuestra red VPN** y compartir recursos e informaciones con la red a que se conectan. Por lo tanto en este caso tenemos varios clientes que se pueden conectar de forma independiente al servidor VPN. Para quien precise de más información acerca de este tipo de configuración puede consultar el siguiente enlace.
 
-[![Diagrama Host to Host](images/2-Arquitectura-host-to-host-300x79.png "2- Arquitectura host to host")](images/2-Arquitectura-host-to-host.png)
+[![Diagrama Host to Host](images/2-Arquitectura-host-to-host.png "2- Arquitectura host to host")](images/2-Arquitectura-host-to-host.png)
 
 **La configuración Host to Host, a diferencia del modo de configuración anterior, únicamente nos permitirá la conexión entre 2 máquinas** o dispositivos conectados a Internet o dentro de una red local. Por lo tanto en este caso solamente existe un cliente y un servidor. Además estás 2 máquinas o dispositivos no podrán compartir recursos e informaciones con otros equipos que estén conectados en la misma red LAN.
 
-[![Diagrama Net to net](images/3-Arquitectura-Net-to-Net-300x209.jpg "3- Arquitectura Net to Net")](images/3-Arquitectura-Net-to-Net.jpg)
+[![Diagrama Net to net](images/3-Arquitectura-Net-to-Net.jpg "3- Arquitectura Net to Net")](images/3-Arquitectura-Net-to-Net.jpg)
 
 Para finalizar tenemos **la configuración Net to Net, Red-red, o LAN to LAN**. Esta configuración mayoritariamente es usada en el mundo empresarial. Esta configuración **lo que hace es unir redes locales (LAN) ubicadas en distintas ubicaciones geográficas** para de esta forma poder compartir información entre todos los clientes de todas las redes. De este modo cada una de las redes locales LAN tiene un punto de acceso o puerta de enlace que proporciona un canal de transmisión seguro entre 2 o más redes.
 
@@ -44,7 +44,7 @@ Es muy importante asegurar que nuestro servidor disponga de una IP interna fija 
 
 **Para conseguir disponer de un servidor con ip interna fija tan solo tienen que seguir los pasos que se detallan en el siguiente enlance:**
 
-[https://geekland.eu/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
+[https://geeklandlinux.github.io/posts/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
 
 ###### Nota: El método descrito en el enlace es válido en el caso que estéis usando un servidor sin entorno gráfico. En el caso que el servidor que uséis disponga de entorno gráfico tendréis que configurar este aspecto a través de las interfaces visuales de vuestro gestor de red que probablemente será [network manager](https://wiki.gnome.org/Projects/NetworkManager "Proyecto Network Manager") o [wicd](http://wicd.sourceforge.net/ "Proyecto Wicd").
 
@@ -58,7 +58,7 @@ Para conectarnos a nuestra red local tendremos que saber nuestra IP Pública per
 
 **Para** solucionar este problema tenemos que **asociar la IP Pública de nuestro servidor a un dominio**. Para poder realizar este paso tan solo **tienen que seguir las indicaciones del siguiente enlace:**
 
-[https://geekland.eu/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
+[https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
 
 Una vez realizados estos pasos tendréis vuestra IP Pública asociada a un dominio. En mi caso mi IP Pública está asociada al dominio **geekland.sytes.net**
 
@@ -104,7 +104,7 @@ Seguidamente tenemos que **copiar los scripts de configuración** de OpenVPN, **
 
 Una captura de pantalla los pasos realizados hasta el momento se puede ver a continuación:
 
-[![Ejemplos de configuración del servidor OpenVPN](images/4-Ejemplos-copiados-300x195.png "4- Ejemplos copiados")](images/4-Ejemplos-copiados.png)
+[![Ejemplos de configuración del servidor OpenVPN](images/4-Ejemplos-copiados.png "4- Ejemplos copiados")](images/4-Ejemplos-copiados.png)
 
 En el caso que que vuestra distro trabaje con la versión 3 de easy-rsa, en el momento de introducir el último comando, obtendréis un error parecido al siguiente error:
 
@@ -190,7 +190,7 @@ Al terminar el proceso dentro de la ubicación **/etc/openvpn/easy-rsa/keys** se
 
 En la siguiente captura de pantalla podrán ver una muestra de los pasos realizados hasta el momento:
 
-[![Creación de los parámetros de Diffie Hellman](images/5-Creando-buildi-heaffy-300x195.png "5- Creando Diffie Hellman")](images/5-Creando-buildi-heaffy.png)
+[![Creación de los parámetros de Diffie Hellman](images/5-Creando-buildi-heaffy.png "5- Creando Diffie Hellman")](images/5-Creando-buildi-heaffy.png)
 
 Finalmente **vamos a a crear el certificado y la clave privada de nuestra propia autoridad certificadora**. **Para ello tenemos que teclear el siguiente comando en la terminal**:
 
@@ -206,7 +206,7 @@ Al terminar el proceso dentro de la ubicación **/etc/openvpn/easy-rsa/keys** se
 
 Una vez creado el certificado y la clave de vuestra autoridad certificador la pantalla de vuestro ordenador tiene que presentar el siguiente estado:
 
-[![Entidad certificadora del servidor Openvpn](images/6-Entidad-certificadora-creada-300x195.png "6- Entidad certificadora creada")](images/6-Entidad-certificadora-creada.png)
+[![Entidad certificadora del servidor Openvpn](images/6-Entidad-certificadora-creada.png "6- Entidad certificadora creada")](images/6-Entidad-certificadora-creada.png)
 
 ## CREAR EL CERTIFICADOS Y LA CLAVE DEL SERVIDOR OPENVPN
 
@@ -230,7 +230,7 @@ Al terminar el proceso dentro de la ubicación **/etc/openvpn/easy-rsa/keys** se
 
 Una vez creado el certificado y la clave del servidor la pantalla de vuestro ordenador tiene que presentar el siguiente estado:
 
-[![Certificado y clave del servidor OpenVPN](images/7-Certificador-y-clave-servidor-creado-300x195.png "7- Certificador y clave servidor creado")](images/7-Certificador-y-clave-servidor-creado.png)
+[![Certificado y clave del servidor OpenVPN](images/7-Certificador-y-clave-servidor-creado.png "7- Certificador y clave servidor creado")](images/7-Certificador-y-clave-servidor-creado.png)
 
 ## CREAR EL CERTIFICADO Y LAS CLAVES DE LOS CLIENTES
 
@@ -252,7 +252,7 @@ Al terminar el proceso dentro de la ubicación **/etc/openvpn/easy-rsa/keys** se
 
 Una vez creado el certificado y la clave del cliente, la pantalla de vuestro ordenador tiene que presentar el siguiente estado:
 
-[![Certificados y claves de los clientes del servidor Openvpn](images/8-Certificados-y-claves-clientes-creados-300x195.png "8- Certificados y claves clientes creados")](images/8-Certificados-y-claves-clientes-creados.png)
+[![Certificados y claves de los clientes del servidor Openvpn](images/8-Certificados-y-claves-clientes-creados.png "8- Certificados y claves clientes creados")](images/8-Certificados-y-claves-clientes-creados.png)
 
 ## FORTIFICAR LA SEGURIDAD DEL SERVIDOR OPENVPN CON TLS-AUTH
 
@@ -272,7 +272,7 @@ Una vez hemos accedido a la ubicación **/etc/opnevpn/easy-rsa/keys** tecleamos 
 
 Justo al ejecutar el comando, Como se puede ver en la captura de pantalla, se generará una clave con el nombre **ta.key** en la misma ubicación dónde hemos aplicado el comando.
 
-[![Claves generadas para el servidor OpenVPN](images/9-Autentificación-TLS-300x195.png "9- Autentificación TLS")](images/9-Autentificación-TLS.png)
+[![Claves generadas para el servidor OpenVPN](images/9-Autentificación-TLS.png "9- Autentificación TLS")](images/9-Autentificación-TLS.png)
 
 **La clave creada servirá para introducir una firma digital HMAC en todas las transacciones del protocolo handshake de SSL/TLS entre el cliente y el servidor. De esta forma podremos verificar la integridad de los paquetes intercambiados entre el cliente y el servidor VPN, y en el caso que un cliente intente conectarse al servidor VPN sin poseer la clave para firmar los paquetes la conexión se rechazará automáticamente**. Además con el uso de autentificación TLS también conseguiremos prevenir los siguientes ataques:
 
@@ -286,7 +286,7 @@ A estas alturas hemos generado multitud de claves y certificados. Si se han segu
 
 Anteriormente ya he detallado el uso de cada una de la claves. Seguidamente pasaré a detallar la ubicación de cada una de las claves:
 
-   
+
 |   _**Archivo**_   |   _**Descripción**_   |   _**Ubicación**_   |   _**Secreto**_   |
 | --- | --- | --- | --- |
 |   _dh2048.pem_   |   Parámetros Diffie Hellman   |   Servidor (/etc/openvpn)   |   Sí   |
@@ -330,7 +330,7 @@ Una vez abierto el editor de texto **introducen las siguientes líneas**:
 > bind-interfaces
 > ```
 
-[![Parámetros de configuración de DNSmasq](images/10-configuración-dnsmasq-300x195.png "10- configuración dnsmasq")](images/10-configuración-dnsmasq.png)
+[![Parámetros de configuración de DNSmasq](images/10-configuración-dnsmasq.png "10- configuración dnsmasq")](images/10-configuración-dnsmasq.png)
 
 ###### Nota: Introduciendo la primera línea lo que estamos haciendo es que Dnsmasq solamente tenga en cuenta las peticiones DNS que se dirijan a las interfaces \[lo\]: 127.0.0.1 y \[tun0\]: 10.8.0.1 que es la de nuestro servidor VPN.
 
@@ -348,7 +348,7 @@ Ahora tan solo tienen que **guardar los cambios y salir del archivo de configura
 
 Es posible que cuando reinicien los servicios o arranquen el sistema vean un error parecido al de la captura de la pantalla:
 
-[![Posible error al iniciar dnsmasq](images/11-error-dnsmasq-300x195.png "11- error dnsmasq")](images/11-error-dnsmasq.png)
+[![Posible error al iniciar dnsmasq](images/11-error-dnsmasq.png "11- error dnsmasq")](images/11-error-dnsmasq.png)
 
 **Starting DNS forwarder and DHCP server: dnsmasq** **dnsmasq: failed to creat listening to socket for 10.8.0.1: No se puede asignar la dirección solicitada.**
 
@@ -364,7 +364,7 @@ Se abrirá el editor de textos y ahora, debajo de las reglas de iptables tan sol
 > /etc/init.d/dnsmasq restart
 > ```
 
-[![Solución para el error de DNSmasq](images/12-fichero-rc.local_-300x195.png "12- fichero rc.local")](images/12-fichero-rc.local_.png)
+[![Solución para el error de DNSmasq](images/12-fichero-rc.local_.png "12- fichero rc.local")](images/12-fichero-rc.local_.png)
 
 Una vez realizado este paso guardan el fichero y salen. Introduciendo esta linea lo que estamos haciendo es reiniciar el servicio dnsmasq una vez se han ejecutado la totalidad de scripts de inicio (init). De este modo cuando se reinicialice dnsmasq la interfaz **\[tun0\]** ya estará levantada.
 
@@ -408,7 +408,7 @@ Para descomprimir el archivo que contiene los archivos de configuración tecleam
 
 Se abrirá el editor de texto en el que podrán ver de forma detallada las opciones de configuración de ejemplo del servidor. Ahora tendréis que c**omprobar que la totalidad de parámetros que se muestran en la tabla de este apartado estén dentro del fichero de configuración** de ejemplo que es el que vamos a usar. En el caso de que los parámetros estén comentados habrá que descomentarlos, en el caso que no existen se deberán añadir y/o modificar.
 
- 
+
 |   **Parámetro**   |   **Descripción**   |
 | --- | --- |
 | _dev tun_ | Dispositivo virtual en el cual se creara el túnel. |
@@ -454,7 +454,7 @@ Una vez configurado el servidor ahora pasaremos a configurar el cliente. Para el
 
 Se abrirá el fichero de configuración en el que podrán ver un ejemplo de configuración para un cliente estándar. **Aseguramos que el fichero de configuración estándar tenga los parámetros que se muestran en la tabla de este apartado**. En caso de no tenerlos habrá que añadirlos manualmente, en el caso de que los parámetros estén comentados habrá que descomentarlos y en el caso que no existan se deberán añadir y/o modificar.
 
- 
+
 |   **Parámetro**   |   **Descripción**   |
 | --- | --- |
 | _dev tun_ | Dispositivo virtual en el cual se creara el túnel. |
@@ -505,7 +505,7 @@ En el caso que a posteriori se precise eliminar el usuariovpn2 tan solo tienen q
 
 Seguidamente en la siguiente captura de pantalla pueden ver un resumen de los pasos realizados:
 
-[![Resumen de la creación y eliminación de usuarios](images/13-Creación-y-eliminación-de-usuarios-300x195.png "13- Creación y eliminación de usuarios")](images/13-Creación-y-eliminación-de-usuarios.png)
+[![Resumen de la creación y eliminación de usuarios](images/13-Creación-y-eliminación-de-usuarios.png "13- Creación y eliminación de usuarios")](images/13-Creación-y-eliminación-de-usuarios.png)
 
 ###### Nota: Para que la autentificación mediante usuario y password funcione tienen que tener configurado el servidor y el cliente tal y como se detalla en los apartados Configurar el servidor y configurar el cliente.
 
@@ -559,21 +559,21 @@ Guardamos los cambios y cerramos el archivo.
 
 Una vez finalizando el proceso guardan el archivo y cierran el editor de textos. Antes de cerrar el archivo el fichero **/etc/rc.local** tendrá un aspecto parecido al siguiente:
 
-[![Reglas de iptables](images/12-fichero-rc.local_-300x195.png "12- fichero rc.local")](images/12-fichero-rc.local_.png)
+[![Reglas de iptables](images/12-fichero-rc.local_.png "12- fichero rc.local")](images/12-fichero-rc.local_.png)
 
 ## CONFIGURAR EL ROUTER Y ABRIR EL PUERTO DEL SERVIDOR OPENVPN
 
 Ya **para finalizar solo nos falta configurar nuestro router, para que redirija las peticiones de los clientes al servidor Opevpn, y abrir el puerto del servidor OpenVPN**. Para realizar esto tenemos que **abrir nuestro navegador y teclear nuestra puerta de entrada**. Una vez realizado esto, tal y como se puede ver en la captura de pantalla, se abrirá una ventana en que nos pedirá nuestro nombre de usuario y contraseña:
 
-[![Accediendo al router](images/14-Acceder-al-Router-300x175.png "14- Acceder al Router")](images/14-Acceder-al-Router.png)
+[<img src="images/14-Acceder-al-Router.png" alt="Accediendo al router" title="14- Acceder al Router" style="zoom:80%;" />](images/14-Acceder-al-Router.png)
 
 Una vez introducida la información accederemos a la configuración de nuestro router. Seguidamente, tal y como se puede ver en la captura de pantalla, tenemos que acceder a los menús **Advanced / NAT / Virtual Servers**:
 
-[![Acceso a virtual servers](images/15-Acceder-a-Virtual-Servers-300x169.png "15- Acceder-a-Virtual-Servers")](images/15-Acceder-a-Virtual-Servers.png)
+[![Acceso a virtual servers](images/15-Acceder-a-Virtual-Servers.png "15- Acceder-a-Virtual-Servers")](images/15-Acceder-a-Virtual-Servers.png)
 
 Seguidamente presionamos el botón **Add** y nos aparecerá la siguiente pantalla:
 
-[![Abrir puerto y configurar Openvpn](images/16-Abrir-puerto-300x175.png "16- Abrir puerto")](images/16-Abrir-puerto.png)
+[<img src="images/16-Abrir-puerto.png" alt="Abrir puerto y configurar Openvpn" title="16- Abrir puerto" style="zoom:80%;" />](images/16-Abrir-puerto.png)
 
 Tal y como se puede ver en la captura de pantalla, en **en el campo** **custom server** hay que **escribir un nombre cualquiera**. En mi caso como se puede ver en la captura de pantalla he escrito **OpenVPN**. Seguidamente **en el campo** **Server IP Address** tenemos que **escribir la IP del servidor OpenVPN**. En mi caso tal y como se puede ver en la captura de pantalla es la **192.168.1.188**. Finalmente tal y como se puede ver en la captura de imagen **seleccionamos el protocolo** **UDP** **y escribimos el puerto de nuestro servidor OpenVPN** (**1194**) en los puertos internos y externos.
 

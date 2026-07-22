@@ -23,12 +23,12 @@ La forma en que los certificados SSL incrementan nuestra seguridad y la de nuest
 
 ### Asegurando que nos conectamos donde nos queremos conectar
 
-Cuando nos conectamos a una web, como por ejemplo [https://geekland.eu](https://geekland.eu), el navegador realiza las siguientes acciones:
+Cuando nos conectamos a una web, como por ejemplo [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/), el navegador realiza las siguientes acciones:
 
-1. Recibe el certificado SSL de [https://geekland.eu](https://geekland.eu). El certificado SSL dispone de información como por ejemplo un nombre de dominio, su fecha de seguridad, un número de serie, etc.
+1. Recibe el certificado SSL de [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/). El certificado SSL dispone de información como por ejemplo un nombre de dominio, su fecha de seguridad, un número de serie, etc.
 2. A continuación el navegador comprueba que el certificado está debidamente firmado por una autoridad de certificación.
 3. Si la verificación de la firma es correcta significa que el sitio al que nos estamos conectando es quien dice ser. Por lo tanto se iniciará el proceso para cargar el contenido de la página web que queremos visitar.
-4. Si la firma del certificado no puede ser verificada a través de las claves pública de alguna de las autoridades de certificación, entonces el navegador nos advertirá que el sitio al que nos estamos conectando es posible que no sea [https://geekland.eu](https://geekland.eu)
+4. Si la firma del certificado no puede ser verificada a través de las claves pública de alguna de las autoridades de certificación, entonces el navegador nos advertirá que el sitio al que nos estamos conectando es posible que no sea [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/)
 
 Por lo tanto siguiendo este metodología podemos estar seguros que siempre nos estamos conectando al sitio web que pretendemos conectarnos.
 
@@ -39,7 +39,7 @@ Una vez confirmada la identidad de la web a la que nos queremos conectar empieza
 1. El navegador y el servidor se comunican entre ellos para establecer el protocolo de intercambio de claves, el tipo de cifrado y el hash.
 2. El servidor envía el certificado SSL. El certificado SSL contiene datos como el propietario de la página web a la que nos conectamos, la fecha de caducidad del certificado, la clave para cifrar toda la información entre el navegador y el servidor, etc.
 3. Mediante un sistema de criptografia asimétrica se establece un túnel cifrado entre nuestro navegador y el servidor.
-4. A continuación la totalidad de información entre nuestro navegador y el servidor de la web [https://geekland.eu](https://geekland.eu) viajará de forma cifrada con el método y características definidas en el punto 1 de este apartado.
+4. A continuación la totalidad de información entre nuestro navegador y el servidor de la web [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/) viajará de forma cifrada con el método y características definidas en el punto 1 de este apartado.
 
 Al cifrar la totalidad de información entre nuestro navegador y el cliente conseguimos lo siguiente:
 

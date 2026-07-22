@@ -27,7 +27,7 @@ Lo primero a realizar es **abrir un Documento en blanco** y definir los estilos 
 
 Para ver los estilos disponibles, podemos **ir al menú Formato y seguidamente seleccionar la opción Estilos y formato**. Otra opción para acceder a los estilos disponibles es presionar la tecla F11. Después de acceder al al menú de Estilos y formato, tal y como se puede ver en la captura de pantalla, podremos ver la totalidad de estilos disponibles.
 
-[![Estilos disponibles para crear el índice de contenido](images/2-Ver-los-estilos-disponibles-300x257.png)](images/2-Ver-los-estilos-disponibles.png)
+[![Estilos disponibles para crear el índice de contenido](images/2-Ver-los-estilos-disponibles.png)](images/2-Ver-los-estilos-disponibles.png)
 
 Después de ver la totalidad de estilos disponibles **voy a seleccionar los 4 estilos que voy a usar**. En mi caso los estilos seleccionados son:
 
@@ -40,11 +40,11 @@ Después de ver la totalidad de estilos disponibles **voy a seleccionar los 4 es
 
 Una vez seleccionado el estilo, tal y como se puede ver en la captura de pantalla, **escribimos una frase de prueba para ver el formato** que tiene el estilo que hemos seleccionado.
 
-[![Ver el formato de los estilos](images/3-Ver-el-formato-de-los-estilos-300x257.png)](images/3-Ver-el-formato-de-los-estilos.png)
+[![Ver el formato de los estilos](images/3-Ver-el-formato-de-los-estilos.png)](images/3-Ver-el-formato-de-los-estilos.png)
 
 Repetimos el mismo procedimiento para poder ver el formato de los estilos Encabezado 2, Encabezado 3 y Encabezado 4. El resultado de repetir el proceso es el que se muestra en la siguiente captura de pantalla:
 
-[![Ver formato de los estilos del índice](images/4-Formato-estandar-de-los-estilos-seleccionados-300x257.png)](images/4-Formato-estandar-de-los-estilos-seleccionados.png)
+[![Ver formato de los estilos del índice](images/4-Formato-estandar-de-los-estilos-seleccionados.png)](images/4-Formato-estandar-de-los-estilos-seleccionados.png)
 
 ## MODIFICAR EL FORMATO DE LOS ESTILOS
 
@@ -52,11 +52,11 @@ Si el formato de los estilos seleccionados nos parece bien, podemos omitir este 
 
 Para modificar estos dos aspectos es sumamente fácil. Tan solo tenemos que **ir a la ventana Estilos y formato**, seguidamente, tal y como se puede ver en la captura de pantalla, **seleccionamos el estilo que queremos modificar**, **presionamos el botón derecho del ratón y seguidamente ejecutamos la opción Modificar...** del menú contextual.
 
-[![Modificar formato de un estilo](images/5-Modificar-formato-de-un-estilo-203x300.png)](images/5-Modificar-formato-de-un-estilo.png)
+[![Modificar formato de un estilo](images/5-Modificar-formato-de-un-estilo.png)](images/5-Modificar-formato-de-un-estilo.png)
 
 Después de presionar en la opción Modificar... **aparecerá la siguiente ventana:**
 
-[![Cambiar color del Encabezado 3](images/6-Cambiar-color-Encabezado-3-300x185.png)](images/6-Cambiar-color-Encabezado-3.png)
+[![Cambiar color del Encabezado 3](images/6-Cambiar-color-Encabezado-3.png)](images/6-Cambiar-color-Encabezado-3.png)
 
 **Esta ventana dispone de distintas pestañas. En cada una de las pestañas se pueden modificar diferentes aspectos del formato del estilo que estamos modificando**. En mi caso como quiero modificar el color, tal y como se puede ver en la captura de pantalla, vamos a la pestaña Efectos tipográficos, y en el apartado color de letra podremos cambiar el color de gris a negro. **Una vez hayamos cambiado todos los parámetros que deseemos presionamos el botón Aceptar.**
 
@@ -64,7 +64,7 @@ Una vez modificado el estilo Encabezado 3, modificaremos el estilo Encabezado 4 
 
 Después de modificar los Estilos Encabezado 3 y Encabezado 4 a nuestro gusto,el formato de nuestros estilos pasará a ser el siguiente:
 
-[![Estilos con el formato que queremos](images/7-Estilos-con-el-formato-que-queremos-300x257.png)](images/7-Estilos-con-el-formato-que-queremos.png)
+[![Estilos con el formato que queremos](images/7-Estilos-con-el-formato-que-queremos.png)](images/7-Estilos-con-el-formato-que-queremos.png)
 
 Una vez tengamos los estilos a nuestro gusto ya podemos pasar al siguiente apartado.
 
@@ -72,7 +72,7 @@ Una vez tengamos los estilos a nuestro gusto ya podemos pasar al siguiente apart
 
 El siguiente paso es configurar la numeración de los estilos que queremos usar. Para configurar la numeración de los estilos, **nos vamos al menú Herramientas y seguidamente seleccionamos la opción Numeración de capítulos...** del menú contextual. Después de seleccionar esta opción aparecerá la siguiente ventana:
 
-[![Configuración numeración de capítulos del índice](images/8-Configuración-numeración-de-capítulos-300x208.png)](images/8-Configuración-numeración-de-capítulos.png)
+[![Configuración numeración de capítulos del índice](images/8-Configuración-numeración-de-capítulos.png)](images/8-Configuración-numeración-de-capítulos.png)
 
 En esta ventana, **para cada uno de los 4 niveles que queremos disponer, tendremos que seleccionar:**
 
@@ -84,7 +84,7 @@ En mi caso las opciones seleccionadas para cada uno de los 4 niveles son las sig
 
 Tal y como se puede ver en la captura de pantalla, **en el Nivel 1 he seleccionado el estilo de párrafo Encabezado 1, y el estilo de numeración 1, 2, 3, …**
 
-[![Configuración de la numeración de capítulos nivel 1](images/9-Configuración-de-la-numeración-de-capítulos-nivel-1-300x208.png)](images/9-Configuración-de-la-numeración-de-capítulos-nivel-1.png)
+[![Configuración de la numeración de capítulos nivel 1](images/9-Configuración-de-la-numeración-de-capítulos-nivel-1.png)](images/9-Configuración-de-la-numeración-de-capítulos-nivel-1.png)
 
 ###### Nota: En el Nivel 1 no es posible configurar la opción mostrar subniveles ya que que al estar en el Nivel 1 no existirán subniveles.
 
@@ -92,13 +92,13 @@ Una vez hayamos terminado de configurar las opciones del nivel 1 ya podemos conf
 
 Una vez seleccionado el nivel 2, tal y como se puede ver en la captura de pantalla, **configuramos que el estilo de párrafo del nivel 2 sea Encabezado 2, el estilo de numeración 1, 2, 3, …, y finalmente que se muestre 1 subnivel de numeración cuando insertemos el estilo encabezado 2**.
 
-[![Configuración de la numeración de capítulos nivel 2](images/10-Configuración-de-la-numeración-de-capítulos-nivel-2-300x208.png)](images/10-Configuración-de-la-numeración-de-capítulos-nivel-2.png)
+[![Configuración de la numeración de capítulos nivel 2](images/10-Configuración-de-la-numeración-de-capítulos-nivel-2.png)](images/10-Configuración-de-la-numeración-de-capítulos-nivel-2.png)
 
 Una vez hemos terminado con el nivel 2 **seleccionamos el nivel 3**. Una vez seleccionado el nivel 3, **configuramos que el estilo de párrafo del nivel 3 sea Encabezado 3, el estilo de numeración 1, 2, 3, …, y finalmente que se muestren 2 subniveles de numeración cuando insertemos el estilo encabezado 3.**
 
 Finalmente solo nos falta configurar el último nivel. Para ello **seleccionamos el Nivel 4**. Una vez lo hemos seleccionado, tal y como se puede ver en la captura de pantalla, **configuramos que el estilo de párrafo del nivel 4 sea Encabezado 4, el estilo de numeración 1, 2, 3, …, y finalmente que se muestren 3 subniveles de numeración cuando insertemos el estilo Encabezado 4.**
 
-[![Configuración de la numeración de capítulos nivel 4](images/11-Configuración-de-la-numeración-de-capítulos-nivel-4-300x208.png)](images/11-Configuración-de-la-numeración-de-capítulos-nivel-4.png)
+[![Configuración de la numeración de capítulos nivel 4](images/11-Configuración-de-la-numeración-de-capítulos-nivel-4.png)](images/11-Configuración-de-la-numeración-de-capítulos-nivel-4.png)
 
 Una vez hemos terminado con el nivel 4 el proceso ha terminado. **Una vez terminado el proceso presionamos sobre el botón Aceptar**. En estos momentos ya hemos terminado de configurar los estilos y la numeración de los estilos.
 
@@ -122,21 +122,21 @@ Una vez configurados los estilos y la numeración de los estilos, ya podemos emp
 
 Empezaremos creando el primero de los títulos del documento, y que además deberá aparecer en el índice. Para crearlo tal y como se puede ver en la captura de pantalla, tenemos que c**licar encima del desplegable Aplicar estilo**. Se abrirá el desplegable, y tal y como se puede ver en la captura de pantalla, tendremos que s**eleccionar el estilo Encabezado 1 ya que el título principal que queremos escribir corresponde al nivel 1**.
 
-[![Aplicar el estilo encabezado 1](images/12-Aplicar-estilo-encabezado-1-300x208.png)](images/12-Aplicar-estilo-encabezado-1.png)
+[![Aplicar el estilo encabezado 1](images/12-Aplicar-estilo-encabezado-1.png)](images/12-Aplicar-estilo-encabezado-1.png)
 
 Una vez seleccionado el estilo Encabezado 1, tal y como se puede ver en la captura de pantalla, ya podemos **escribir el primero de los títulos** que se escribirá con el estilo Encabezado 1.
 
-[![Escribiendo el título encabezado 1](images/13-Escribiendo-el-título-encabezado-1-300x208.png)](images/13-Escribiendo-el-título-encabezado-1.png)
+[![Escribiendo el título encabezado 1](images/13-Escribiendo-el-título-encabezado-1.png)](images/13-Escribiendo-el-título-encabezado-1.png)
 
 **Una vez escrito el título presionamos Enter** y seguidamente podemos empezar a **escribir el contenido de este apartado**. Una vez hayamos terminado de escribir el contenido del primer apartado ya podemos iniciar el segundo apartado.
 
 El título del segundo apartado, en mi caso corresponde al nivel 2. Por lo tanto, tal y como se puede ver en la captura de pantalla, tenemos que **clicar encima del menú desplegable Aplicar Estilo**. Seguidamente se abrirá el desplegable, y a diferencia del apartado anterior, en este caso tendremos que **seleccionar el estilo Encabezado 2, ya que como hemos dicho anteriormente, el título del apartado que estamos insertando corresponde al nivel 2.**
 
-[![Aplicar el estilo encabezado 2](images/14-Aplicar-estilo-encabezado-2-300x179.png)](images/14-Aplicar-estilo-encabezado-2.png)
+[![Aplicar el estilo encabezado 2](images/14-Aplicar-estilo-encabezado-2.png)](images/14-Aplicar-estilo-encabezado-2.png)
 
 Una vez seleccionado el estilo Encabezado 2, tal y como se puede ver en la captura de pantalla, ya podemos **escribir el título del apartado y el contenido del apartado 2**.
 
-[![Escribir contenido en los aparados](images/15-Escribir-contenido-en-los-aparados-300x166.png)](images/15-Escribir-contenido-en-los-aparados.png)
+[![Escribir contenido en los aparados](images/15-Escribir-contenido-en-los-aparados.png)](images/15-Escribir-contenido-en-los-aparados.png)
 
 **De este mismo modo tendremos que ir creando los títulos y contenido para el resto de puntos** de nuestro documento. Cuando terminemos de redactar el documento será el momento de insertar/crear el índice de contenido.
 
@@ -144,7 +144,7 @@ Una vez seleccionado el estilo Encabezado 2, tal y como se puede ver en la captu
 
 Una vez hemos finalizado nuestro trabajo ya solo nos falta crear el Índice de contenido. Para ello **nos iremos a la primera página del documento que es donde queremos insertar el índice**. Una vez estamos allí tendremos que **acceder al menú Insertar**. Al acceder en este menú se desplegará un submenú en el que tendremos que **seleccionar la opción Índice y tablas**, y finalmente de desplegará otro submenú en el que tendremos que **seleccionar la opción Índices**. Una vez seleccionada la opción Índices **aparecerá la siguiente ventana:**
 
-[![Insertar el índice de contenido](images/16-Insertar-Índice-o-tabla-de-contenido-300x138.png)](images/16-Insertar-Índice-o-tabla-de-contenido.png)
+[<img src="images/16-Insertar-Índice-o-tabla-de-contenido.png" alt="Insertar el índice de contenido" style="zoom:80%;" />](images/16-Insertar-Índice-o-tabla-de-contenido.png)
 
 **En esta ventana prácticamente no tenemos que modificar nada ya que la configuración por defecto es la que tenemos que usar** para poder crear el índice de contenido. Los únicos parámetros que es posible que necesitéis modificar son los siguientes:
 
@@ -168,7 +168,7 @@ No obstante para los curiosos, y para los que les gusta probar todas las opcione
 
 **Una vez se hayan configurado la totalidad de opciones ya podemos presionar el botón Aceptar**. Después de presionar el botón Aceptar, tal y como se puede ver en la captura de pantalla, el índice de contenido se insertará en el documento:
 
-[![Índice de contenido insertado](images/17-Índice-de-contenido-insertado-300x175.png)](images/17-Índice-de-contenido-insertado.png)
+[![Índice de contenido insertado](images/17-Índice-de-contenido-insertado.png)](images/17-Índice-de-contenido-insertado.png)
 
 Si miran la captura de pantalla, observaran que se trata de un índice con hiperenlaces. Por lo tanto **si posicionamos el puntero del mouse encima de uno de los apartados, y presionamos la tecla (Ctrl + clic en el botón izquierdo del mouse), veremos que automáticamente podremos ver y editar el contenido de este apartado.**
 
@@ -180,7 +180,7 @@ Una vez insertado el índice es posible que no nos guste su formato, o que quera
 
 Si nos fijamos en el índice que acabamos de insertar, vemos que la numeración de cada apartado sale pegada al texto. Para solucionar este problema **posicionamos el puntero del mouse encima del índice, presionamos el botón derecho del mouse**, después de presionar el botón derecho del mouse aparecerá un menú contextual en el que deberemos **clicar la opción Editar índice/tabla**. Una vez clicada está opción volverá a aparecer la ventana de configuración de insertar Índice o tabla. En la ventana Índice o tabla tendremos que **clicar encima de la pestaña Entradas**. Una vez hayamos clicado encima de esta pestaña aparecerá la siguiente ventana:
 
-[![Configurar estructura del índice de contenido](images/18-Configurar-estructura-del-índice-de-contenido-300x138.png)](images/18-Configurar-estructura-del-índice-de-contenido.png)
+[<img src="images/18-Configurar-estructura-del-índice-de-contenido.png" alt="Configurar estructura del índice de contenido" style="zoom:80%;" />](images/18-Configurar-estructura-del-índice-de-contenido.png)
 
 Para solucionar el problema de que los números salen pegados al título, tal y como se puede en la captura de la pantalla, tendremos que **introducir el carácter – (guión + espacio), en la celda del Apartado Estructura y formato que está entre E#· y E**. Una vez realizado este paso para para el nivel 1, lo deberemos **repetir para el nivel 2, el nivel 3 y el nivel 4**. U**na vez modificados los 4 niveles presionaremos el botón Aceptar** y veremos que el problema ya se ha solucionado.
 
@@ -192,13 +192,13 @@ En el caso que no nos guste el tipo de letra, las tabulaciones, las alineaciones
 
 Para ello **posicionamos el puntero del mouse encima del índice, presionamos el botón derecho del mouse**, después de presionar el botón derecho del mouse aparecerá un menú contextual en el que deberemos **clicar la opción Editar índice/tabla**. Una vez clicada está opción volverá a aparecer la ventana de configuración de insertar Índice o tabla. En la ventana Índice o tabla tendremos que **clicar encima de la pestaña Estilos**. Una vez hayamos clicado encima de esta pestaña aparecerá la siguiente ventana:
 
-[![Modificar estilos del índice](images/19-Modificar-estilos-del-índice-300x138.png)](images/19-Modificar-estilos-del-índice.png)
+[<img src="images/19-Modificar-estilos-del-índice.png" alt="Modificar estilos del índice" style="zoom:80%;" />](images/19-Modificar-estilos-del-índice.png)
 
 En el apartado Niveles veremos el nombre del estilo que se aplica a cada uno de los niveles del índice.
 
 Por lo tanto si queremos modificar alguno de los estilos, como por ejemplo, el estilo Encabezado del índice, tal y como se puede ver en la captura de pantalla, tenemos que irnos al apartado Estilos de párrafo, **seleccionar el estilo que queremos modificar**, que en mi caso es Encabezado del índice, y seguidamente una vez seleccionado **presionamos el botón Editar**. Después de presionar el botón editar aparecerá la siguiente ventana:
 
-[![Modificar el estilo encabezado del índice](images/20-Modificar-el-estilo-encabezado-del-índice-300x199.png)](images/20-Modificar-el-estilo-encabezado-del-índice.png)
+[![Modificar el estilo encabezado del índice](images/20-Modificar-el-estilo-encabezado-del-índice.png)](images/20-Modificar-el-estilo-encabezado-del-índice.png)
 
 Como se puede ver en la captura de pantalla, esta ventana dispone de distintas pestañas. **En cada una de las pestañas se pueden modificar diferentes aspectos del formato del estilo que estamos modificando**. Algunos de los aspectos del formato que podemos modificar son el color de la letra, el tamaño de la letra, el color de fondo de la letra, que se escriba siempre en mayúsculas, las tabulaciones, las sangrías y espaciados, etc.
 
@@ -210,7 +210,7 @@ En mi caso lo único que quiero modificar es la alineación del estilo Encabezad
 
 El índice se presenta en una sola columna. Si queremos presentar el índice en más de una columna lo podemos realizar de forma muy fácil. Tan solo **posicionamos el puntero del mouse encima del índice, presionamos el botón derecho del mouse**, después de presionar el botón derecho del mouse aparecerá un menú contextual en el que deberemos **clicar la opción Editar índice/tabla**. Una vez clicada está opción volverá a aparecer la ventana de configuración de insertar Índice o tabla. En la ventana Índice o tabla tendremos que **clicar encima de la pestaña Columnas**. Una vez hayamos clicado encima de esta pestaña aparecerá la siguiente ventana:
 
-[![Presentar índice de contenido en columnas](images/21-Presentar-índice-de-contenido-en-columnas-300x138.png)](images/21-Presentar-índice-de-contenido-en-columnas.png)
+[<img src="images/21-Presentar-índice-de-contenido-en-columnas.png" alt="Presentar índice de contenido en columnas" style="zoom:80%;" />](images/21-Presentar-índice-de-contenido-en-columnas.png)
 
 En la pestaña columnas, tal y como se puede ver en la captura de pantalla, tan solo tenemos que **seleccionar el número de columnas** que queremos, que en mi caso son 2, **y el espaciado entre columnas**, que en mi caso quiero que sea sea 0,8 cm.
 
@@ -220,7 +220,7 @@ Una vez seleccionados estos valores el proceso ha finalizado, y tan solo tenemos
 
 Una vez aplicados la totalidad de cambios tan solo nos falta ver el resultado final. El resultado final en mi caso es el que se muestra a continuación:
 
-[![Índice de contenido finalizado](images/22-Índice-de-contenido-finalizado-300x173.png)](images/22-Índice-de-contenido-finalizado.png)
+[![Índice de contenido finalizado](images/22-Índice-de-contenido-finalizado.png)](images/22-Índice-de-contenido-finalizado.png)
 
 Como pueden ver en la captura de pantalla, si comparamos el primer índice que insertamos, y el resultado final, podremos observar que se han aplicado todas y cada una de las modificaciones de formato que queríamos realizar.
 
@@ -234,7 +234,7 @@ Si queremos introducir cambios **tenemos que modificar directamente los apartado
 
 Una vez eliminado el contenido, tal y como se puede ver en la captura de pantalla, **nos vamos al índice, posicionamos el puntero del ratón encima del índice, presionamos el botón izquierdo del mouse y** cuando aparezca el menú contextual **presionamos sobre Actualizar índice/tabla**.
 
-[![Modificar el índice de contenido](images/23-Modificar-el-Índice-300x175.png)](images/23-Modificar-el-Índice.png)
+[![Modificar el índice de contenido](images/23-Modificar-el-Índice.png)](images/23-Modificar-el-Índice.png)
 
 Tan solo realizando esta simple operación hemos modificado/actualizado nuestro índice.
 
@@ -244,7 +244,7 @@ Obviamente **no es necesario repetir los pasos descritos en este artículo cada 
 
 Mi recomendación para no tener que repetir siempre los mismos pasos, es que **guarden el documento que contiene los estilos del índice definidos en la carpeta plantillas**. De esta forma cada vez que necesitemos crear un documento, lo podremos realizar a partir de un documento que ya tenga definidos los estilos. **Para obtener más información acerca del funcionamiento de la carpeta plantillas** pueden **consultar** el siguiente enlace:
 
-[https://geekland.eu/usar-la-carpeta-plantillas-en-linux/]({{< relref "/posts/usar-la-carpeta-plantillas-en-linux" >}})
+[https://geeklandlinux.github.io/posts/usar-la-carpeta-plantillas-en-linux/]({{< relref "/posts/usar-la-carpeta-plantillas-en-linux" >}})
 
 ## CONCLUSIONES FINALES
 

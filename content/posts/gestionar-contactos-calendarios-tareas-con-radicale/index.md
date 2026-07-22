@@ -45,7 +45,7 @@ Los pasos a seguir para instalar y configurar Radicale son los que se detallan a
 
 En mi caso he decidido instalar Radicale mediante Docker. Por lo tanto lo primero que tendremos que realizar es instalar Docker siguiendo las instrucciones del siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ### Abrir los puertos necesarios para que funcione Radicale
 
@@ -72,7 +72,7 @@ Finalmente abriremos los puertos 80 y 443 ejecutando los siguientes comandos:
 
 Para poder acceder al servicio Radicale de forma adecuada es necesario disponer de un dominio y de un proxy inverso que nos permita acceder a varios servicios a través del puerto 80 y 443. Para conseguir el dominio e instalar el proxy inverso sigan las instrucciones que se detallan en el siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-el-proxy-inverso-traefik-en-docker/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-el-proxy-inverso-traefik-en-docker/
 
 Una vez seguidas todas las instrucciones tendrán un proxy inverso instalado y configurado en el equipo que actuará como servidor. Además dispondrán del siguiente dominio para poder acceder al servidor que alojará Radicale.
 
@@ -419,7 +419,7 @@ Existen clientes de Radicale para la totalidad de sistemas operativos. A continu
 
 Para instalar el cliente web InfCloud deberán seguir las instrucciones que les dejo en el siguiente enlace:
 
-https://geekland.eu/instalar-infcloud-para-gestionar-nuestros-contactos-calendarios-y-tareas/
+https://geeklandlinux.github.io/posts/instalar-infcloud-para-gestionar-nuestros-contactos-calendarios-y-tareas/
 
 En futuros artículos les mostraré como instalar y sincronizar nuestros calendarios, contactos y tareas con el resto de los clientes citados en la tabla.
 

@@ -672,7 +672,7 @@ Una vez pegado el código salen del fichero presionando la combinación de tecla
 
 Para visualizar y restaurar la copia de seguridad que hemos realizar en Restic deberemos seguir las indicaciones del siguiente enlace:
 
-https://geekland.eu/restaurar-copia-de-seguridad-con-restic/
+https://geeklandlinux.github.io/posts/restaurar-copia-de-seguridad-con-restic/
 
 Además en futuros artículos veremos como:
 

@@ -83,7 +83,7 @@ TabsToolbar, #tabbrowser-tabs {
 
 Una vez pegado el código guardaremos los cambios, cerraremos el fichero y reiniciaremos Firefox. Ahora el tamaño de las pestañas es aún más reducido. Si aún queréis reducir más el tamaño deberán cambiar el tamaño de la fuente dentro del fichero `userChrome.css`. En el ejemplo el tamaño de la fuente es `11px`. Por lo tanto podríamos reemplazar `11px` por `10px` para así reducir aún más el tamaño de las pestañas.
 
-Les aconsejo que visiten el siguiente enlace si quieren ver más trucos sobre como poder [sacar el máximo rendimiento a Firefox](https://geekland.eu/?s=firefox).
+Les aconsejo que visiten el siguiente enlace si quieren ver más trucos sobre como poder [sacar el máximo rendimiento a Firefox](https://https://geeklandlinux.github.io/posts/?s=firefox).
 
 #### Fuentes
 

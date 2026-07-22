@@ -48,7 +48,7 @@ usuario: `geekland@geekland.com` contraseña: geekland
 
 Con la cuenta de MyJDownloader generada instalaremos Docker en el equipo en que instalaremos JDownloader. Las instrucciones a seguir para instalar Docker son las que dejo en el siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ## DEFINIR Y CREAR LOS VOLÚMENES DE PERSISTENCIA Y EL DIRECTORIO EN QUE SE DESCARGARÁ EL CONTENIDO
 

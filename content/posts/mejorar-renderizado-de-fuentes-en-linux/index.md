@@ -31,7 +31,7 @@ Por todos estos motivos recomiendo instalar las siguientes tipográficas en nues
 
 Si requieren de ayuda para instalar estas tipografías pueden seguir las instrucciones que encontrarán en el siguiente enlace:
 
-[https://geekland.eu/instalar-fuentes-en-debian-linux/]({{< relref "/posts/instalar-fuentes-en-debian-linux" >}})
+[https://geeklandlinux.github.io/posts/instalar-fuentes-en-debian-linux/]({{< relref "/posts/instalar-fuentes-en-debian-linux" >}})
 
 ## CONFIGURAR EL RENDERIZADO DE FUENTES MEDIANTE FONTS.CONF
 
@@ -204,7 +204,7 @@ En el caso poco probable que no tengáis un monitor RGB, deberéis reemplazar el
 
 Al usar subpixel rendering tenemos que activar el filtrado LCD. El filtrado LCD ayudará a evitar el fenómeno conocido como color-fringing o franjas de color.
 
-[![Muestra del defecto Color Fringing](images/ejemplo-color-fringing-300x176.png "Muestra del defecto Color Fringing")](images/ejemplo-color-fringing.png)
+[![Muestra del defecto Color Fringing](images/ejemplo-color-fringing.png "Muestra del defecto Color Fringing")](images/ejemplo-color-fringing.png)
 
 Hay varios modos de filtrado LCD para seleccionar. El filtro que funcionará mejor en el 99,9% de los casos es el lcddefault. Para activar el filtro lcdefault usamos el siguiente código en el archivo fonts.conf:
 
@@ -333,7 +333,7 @@ En mi caso, como utilizo Xfce, abro una terminal y ejecuto el siguiente comando:
 
 A continuación clicamos encima de la pestaña Tipos de letra.
 
-[![Elegir el tipo de letra en el sistema](images/elegir-fuente-del-sistema-257x300.png "Elegir el tipo de letra en el sistema")](images/elegir-fuente-del-sistema.png)
+[![Elegir el tipo de letra en el sistema](images/elegir-fuente-del-sistema.png "Elegir el tipo de letra en el sistema")](images/elegir-fuente-del-sistema.png)
 
 Seguidamente seleccionamos un tipo de letra que nos guste para nuestro sistema. En mi caso siempre uso la letra Droid Sans con tamaño 10.
 

@@ -235,7 +235,7 @@ El proceso de configuración ha finalizado. A partir de estos momentos Firefox e
 
 Una vez se abra Firefox reproduzcan un vídeo cualquiera y sigan las siguientes instrucciones para [comprobar que funciona la aceleración gráfica]({{< relref "/posts/saber-si-usamos-la-aceleracion-grafica-por-hardware-en-linux" >}}) por hardware.
 
-https://geekland.eu/saber-si-usamos-la-aceleracion-grafica-por-hardware-en-linux/
+https://geeklandlinux.github.io/posts/saber-si-usamos-la-aceleracion-grafica-por-hardware-en-linux/
 
 Además decir que si en la terminal mestra el mensaje `libva info: va_openDriver() returns 0` quiere decir que se ha cargado correctamente el controlador de aceleración de hardware de video VA-API (Video Acceleration API).
 

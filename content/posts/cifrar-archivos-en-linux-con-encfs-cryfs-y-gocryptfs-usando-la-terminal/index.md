@@ -40,7 +40,7 @@ Los pasos para cifrar un directorio mediante EncFS y la terminal son los siguien
 
 Obviamente el primer paso consiste en instalar el software que usaremos para cifrar los ficheros y directorios. Los comandos a usar para instalar cada uno de los programas en Debian o en distribuciones derivadas de Debian son los siguientes:
 
- 
+
 |   **Software**   |   **Comando de instalación**   |
 | --- | --- |
 |   EncFS   |   ``` sudo apt install encfs fuse ```   |
@@ -53,7 +53,7 @@ Obviamente el primer paso consiste en instalar el software que usaremos para cif
 
 Inicialmente crearemos los directorios que almacenarán el contenido cifrado. Crearé un directorio para cada uno de los software que analizaremos. Los directorios los crearé en mi nube Nextcloud y tendrán los nombres cifrado.encfs cifrado.cryfs y cifrado.gocryptfs. Los comandos a usar para crear los directorios que acabo de citar son los siguientes:
 
- 
+
 |   **Software**   |   **Comando para crear directorios**   |
 | --- | --- |
 |   EncFS   |   mkdir /home/joan/Nextcloud/cifrado.encfs/   |
@@ -64,7 +64,7 @@ Inicialmente crearemos los directorios que almacenarán el contenido cifrado. Cr
 
 Finalmente crearemos los directorios donde montaremos el contenido descifrado. En mi caso crearé los siguiente directorios:
 
- 
+
 |   **Software**   |   **Comando para crear directorios**   |
 | --- | --- |
 |   EncFS   |   mkdir /home/joan/Vaults/sincifrar.encfs   |
@@ -261,7 +261,7 @@ Nunca debéis introducir información directamente en el directorio que contiene
 
 **El segundo punto** es que dentro de cada uno de los directorios cifrados se crearan una serie de archivos ocultos y archivos de configuración. El nombre de estos archivos en función del software que usemos son los siguientes.
 
- 
+
 |   **Software**   |   **Nombre del archivo oculto para descifrar contenido**   |
 | --- | --- |
 |   EncFS   |   .encfs6.xml   |
@@ -278,4 +278,4 @@ En todos los ejemplos vistos hasta el momento partimos de contenido cifrado y lo
 
 No obstante gocryptfs y EncFS permiten realizar lo opuesto. Por lo tanto en nuestro equipo podemos tener información sin cifrar y siempre disponible. A partir de la información sin cifrar podemos montar un volumen cifrado y una vez montado podemos subir la información cifrada a una nube pública o privada de forma segura. Para realizar lo que acabo de describir pueden visitar el siguiente enlace.
 
-https://geekland.eu/cifrado-inverso-de-archivos-y-directorios-para-copias-de-seguridad/
+https://geeklandlinux.github.io/posts/cifrado-inverso-de-archivos-y-directorios-para-copias-de-seguridad/

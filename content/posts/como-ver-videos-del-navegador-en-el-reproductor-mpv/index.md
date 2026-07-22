@@ -45,7 +45,7 @@ La utilidad xclip es un herramienta sin entorno gráfico que nos ayudará a acce
 
 Para instalar y configurar el reproductor de vídeo mpv les recomiendo que sigan las instrucciones del siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-el-reproductor-mpv-en-debian-y-derivados/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-el-reproductor-mpv-en-debian-y-derivados/
 
 La configuración de MPV se halla en el fichero `~/.config/mpv/mpv.conf`. En mi caso el contenido del fichero de configuración para mi equipo de recursos limitados es el siguiente:
 
@@ -145,7 +145,7 @@ Por temas de comodidad ejecutaré el script que acabo de crear mediante el atajo
 
 En el caso que uséis el entorno XFCE podéis seguir los pasos detallados en el siguiente enlace:
 
-[https://geekland.eu/crear-atajos-de-teclado-en-xfce/]({{< relref "/posts/crear-atajos-de-teclado-en-xfce" >}})
+[https://geeklandlinux.github.io/posts/crear-atajos-de-teclado-en-xfce/]({{< relref "/posts/crear-atajos-de-teclado-en-xfce" >}})
 
 ## COMO VER LOS VÍDEOS DEL NAVEGADOR EN MPV
 

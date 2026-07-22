@@ -38,7 +38,7 @@ En nuestro caso instalaremos la versión oficial de Jirafeau mediante Docker y h
 
 Para instalar Docker y Docker-Compose les recomiendo que sigan las instrucciones que les dejo en el siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/instalar-docker-y-docker-compose-en-linux/
 
 ### Abrir los puertos 80 y 443 en el firewall del servidor y en el router
 
@@ -71,7 +71,7 @@ En el caso que estén detrás de un Router recuerden que también tienen que abr
 
 Precisaremos disponer de un dominio y de un proxy inverso para poder instalar y usar Jirafeau de forma segura. Para conseguir lo que acabo de mencionar deben seguir las instrucciones que encontrarán en el siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-el-proxy-inverso-traefik-en-docker/
+https://geeklandlinux.github.io/instalar-y-configurar-el-proxy-inverso-traefik-en-docker/
 
 Una vez finalizado el proceso de configuración tendremos instalado y configurado Traefik. Además dispondremos de un dominio que en mi caso es:
 

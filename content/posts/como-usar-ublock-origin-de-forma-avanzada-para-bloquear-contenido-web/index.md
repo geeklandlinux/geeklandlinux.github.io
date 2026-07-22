@@ -92,13 +92,13 @@ Para realizar lo que acabamos de mencionar tenemos que proceder del siguiente mo
 
 Para bloquear los mensajes de advertencia que las web que visitamos usan cookies sigan las instrucciones del siguiente enlace.
 
-https://geekland.eu/quitar-las-advertencias-de-cookies-en-las-web-que-visitamos/
+https://geeklandlinux.github.io/quitar-las-advertencias-de-cookies-en-las-web-que-visitamos/
 
 ### Evitar que las web que visitamos detecten que usamos un bloqueador de anuncios
 
 Para evitar que las webs detecten que estamos usando un bloqueador de anuncios podemos bloquear el javascript tal y como vimos en el inicio de este artículo. Otra opción es seguir los pasos indicados en el siguiente enlace.
 
-https://geekland.eu/evitar-deteccion-adblock-con-anti-adblock-killer/
+https://geeklandlinux.github.io/evitar-deteccion-adblock-con-anti-adblock-killer/
 
 Otra alternativa diferente a la detalladas puede ser la siguiente:
 

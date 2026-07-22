@@ -50,7 +50,7 @@ Aunque hayamos instalado gufw el firewall aún sigue inactivo ya que en la mayor
 
 El resultado que obtendréis es el siguiente:
 
-[![Configurar un Firewall de forma adecuada](images/Firewall-inactivo-300x188.png "Firewall inactivo")](images/Firewall-inactivo.png)
+[![Configurar un Firewall de forma adecuada](images/Firewall-inactivo.png "Firewall inactivo")](images/Firewall-inactivo.png)
 
 Como se puede leer en la captura de pantalla el estado del firewall **ufw** está en inactivo.
 
@@ -62,7 +62,7 @@ Para reconfirmar que el firewall **Netfilter** no dispone de ninguna regla prede
 
 Y el resultado que obtendréis será el siguiente:
 
-[![Firewall aceptando conexiones entrantes y salientes](images/Firewall-desactivado-300x188.png "Firewall desactivado")](images/Firewall-desactivado.png)
+[![Firewall aceptando conexiones entrantes y salientes](images/Firewall-desactivado.png "Firewall desactivado")](images/Firewall-desactivado.png)
 
 Como se puede ver en la captura de pantalla la totalidad de tráfico existente es aceptado tanto en dirección de entrada como en dirección de salida. Por lo tanto en el estado actual en el caso que un atacante consiguiera acceso root a nuestro equipo podría causar graves daños en nuestro equipo.
 
@@ -76,11 +76,11 @@ Una vez instalado ufw lo vamos a activar. Para activar ufw tan solo tenemos que 
 
 Se abrirá la siguiente pantalla:
 
-[![Pasos para activar el firewall](images/Desbloquar-Firewall-285x300.png "Desbloquar Firewall")](images/Desbloquar-Firewall.png)
+[![Pasos para activar el firewall](images/Desbloquar-Firewall.png "Desbloquar Firewall")](images/Desbloquar-Firewall.png)
 
 Seguidamente tenemos que clicar sobre el botón desbloquear. Una vez desbloqueado el sistema ya podemos Activar el firewall.
 
-[![Activación del firewall](images/Activar-el-Firewall-285x300.png "Activar el Firewall")](images/Activar-el-Firewall.png)
+[![Activación del firewall](images/Activar-el-Firewall.png "Activar el Firewall")](images/Activar-el-Firewall.png)
 
 Para activar el firewall, como se puede ver en la captura de pantalla, tan solo tenemos que clicar encima del botón **Estado**. Seguidamente el Firewall se activará. Para comprobar que se ha activado tan solo tenemos que abrir una terminal y teclear el siguiente comando:
 
@@ -90,7 +90,7 @@ sudo ufw status
 
 El resultado obtenido será el siguiente:
 
-[![Cortafuegos debidamente activado](images/Comprobación-Firewall-Activado-300x188.png "Comprobación Firewall Activado")](images/Comprobación-Firewall-Activado.png)
+[![Cortafuegos debidamente activado](images/comprobacion-firewall-activado.png "Comprobación Firewall Activado")](images/Comprobación-Firewall-Activado.png)
 
 Como se puede ver el firewall ya está activado y protegiendo nuestro equipo.
 
@@ -98,27 +98,27 @@ Como se puede ver el firewall ya está activado y protegiendo nuestro equipo.
 
 Una vez se ha activado el firewall ufw este ya dispondrá de una configuración predefinida que será válida para la gran mayoría de usuarios domésticos.
 
-[![Configuración estádard del cortafuegos](images/Configuración-estandar-285x300.png "Configuración estandar")](images/Configuración-estandar.png)
+[![Configuración estádard del cortafuegos](images/Configuración-estandar.png "Configuración estandar")](images/Configuración-estandar.png)
 
 Como se puede ver en la captura de pantalla la configuración standard de **ufw** bloquea la totalidad de tráfico entrante y permite la totalidad de tráfico saliente. Pero que quiere decir esto?
 
 **Bloquear el tráfico entrante quiere decir** que cuando alguien haga una petición a nuestra red , servidor u ordenador está será rechazada. Así por ejemplo si intento establecer una conexión ssh a un ordenador que está protegido por un firewall obtendré el siguiente resultado:
 
-[![conexión ssh rechazada por el cortafuegos](images/conexión-ssh-rechazada-300x213.png "conexión ssh rechazada")](images/conexión-ssh-rechazada.png)
+[![conexión ssh rechazada por el cortafuegos](images/conexión-ssh-rechazada.png "conexión ssh rechazada")](images/conexión-ssh-rechazada.png)
 
 Como se puede ver en la captura de pantalla la conexión se ha rechazado porqué el firewall del equipo al que me quiero conectar no admite conexiones entrantes.
 
 **Aceptar el tráfico saliente quiere decir** que nosotros desde nuestro ordenador podremos realizar cualquier tipo de petición a servidores, redes u ordenadores exteriores. Un tipo de petición que podemos hacer es conectarnos a una página web. Así por lo tanto abrimos el navegador e introducimos una página la página web:
 
-[https://geekland.eu](https://geekland.eu "Geekland")
+[https://geeklandlinux.github.io](https://geeklandlinux.github.io/posts/ "Geekland")
 
 y el resultado obtenido es el siguiente:
 
-[![Configurar un Firewall de forma adecuada](images/tráfico-saliente-aceptado-300x221.png "tráfico saliente aceptado")](images/tráfico-saliente-aceptado.png)
+[![Configurar un Firewall de forma adecuada](images/tráfico-saliente-aceptado.png "tráfico saliente aceptado")](images/tráfico-saliente-aceptado.png)
 
 En el caso que la totalidad de tráfico saliente estuviera bloqueado obtendríamos un resultado parecido al siguiente:
 
-[![Configurar un Firewall de forma adecuada](images/tráfico-saliente-rechazado-300x208.png "tráfico saliente rechazado")](images/tráfico-saliente-rechazado.png)
+[![Configurar un Firewall de forma adecuada](images/tráfico-saliente-rechazado.png "tráfico saliente rechazado")](images/tráfico-saliente-rechazado.png)
 
 Por lo tanto la configuración estándar es la apropiada para la gran mayoría de usuarios. Es la más apropiada porqué permitir la totalidad de conexiones entrantes es más que imprudente mientras que tener el tráfico saliente bloqueado y aplicar reglas puede representar una auténtica pesadilla a la hora de simplemente navegar por páginas web.
 
@@ -128,7 +128,7 @@ Por lo tanto la configuración estándar es la apropiada para la gran mayoría d
 
 A estas alturas ya tenemos funcionando el firewall y además hemos visto que la configuración estándar es la adecuada para una gran mayoría de usuarios. Pero está claro que en función de nuestras necesidades podemos modificar la configuración estándar del firewall.
 
-[![Opciones del tráfico de entrada del cortafuegos](images/opciones-del-trafico-entrante-285x300.png "opciones del trafico entrante")](images/opciones-del-trafico-entrante.png)
+[![Opciones del tráfico de entrada del cortafuegos](images/opciones-del-trafico-entrante.png "opciones del trafico entrante")](images/opciones-del-trafico-entrante.png)
 
 Como se puede ver en la captura de pantalla, si queremos modificar el comportamiento del tráfico entrante en nuestra red, servidor u ordenador podemos seleccionar 3 opciones. **Las tres opciones de configuración para el tráfico entrante son las siguientes**:
 
@@ -138,7 +138,7 @@ _**REJECT**_: Si elegimos la opción **Reject** **se rechazaran la totalidad de 
 
 _**ALLOW:**_ Si elegimos la opción **Allow** entonces **se aceptaran la totalidad de conexiones entrantes**. Esta opción no es aconsejable ni para un usuario estándar ni para un servidor.
 
-[![Opciones del tráfico de salida del cortafuegos](images/Opciones-trafico-saliente-282x300.png "Opciones trafico saliente")](images/Opciones-trafico-saliente.png)
+[![Opciones del tráfico de salida del cortafuegos](images/Opciones-trafico-saliente.png "Opciones trafico saliente")](images/Opciones-trafico-saliente.png)
 
 Como se puede ver en la captura de pantalla, en el caso que decidamos o necesitamos actuar sobre el tráfico saliente también tenemos tres opciones. **Las tres opciones de configuración para el tráfico tráfico saliente son las siguientes:**
 
@@ -154,15 +154,15 @@ Una vez definida la política general respecto al tráfico entrante y saliente, 
 
 Supongamos que tenemos un ordenador que actúa de servidor ssh y en el firewall hemos definido que rechazamos la totalidad de tráfico entrante a nuestro ordenador. Por lo tanto a priori nadie podrá acceder al servidor ssh de nuestro ordenador. En el caso que alguien se intente conectar al servidor ssh obtendrá el siguiente resultado:
 
-[![Firewall rechazando conexión ssh](images/conexión-ssh-rechazada-300x213.png "conexión ssh rechazada")](images/conexión-ssh-rechazada.png)
+[![Firewall rechazando conexión ssh](images/conexión-ssh-rechazada.png "conexión ssh rechazada")](images/conexión-ssh-rechazada.png)
 
 Para solucionar este problema y que un determinado rango de usuarios puedan conectarse al servidor ssh podemos aplicar **reglas/excepciones** a nuestro firewall. Para aplicar las reglas, como podemos ver en la siguiente captura de pantalla, vamos al firewall del servidor **y apretamos el botón +**:
 
-[![Añadir Regla en el cortafuegos](images/Añadir-Regla-285x300.png "Añadir Regla")](images/Añadir-Regla.png)
+[![Añadir Regla en el cortafuegos](images/Añadir-Regla.png "Añadir Regla")](images/Añadir-Regla.png)
 
 **Una vez apretado el botón +** vamos clicamos sobre la pestaña opciones avanzadas y en vuestra pantalla podréis ver una imagen parecida a la siguiente:
 
-[![Opciones avanzadas de las reglas del firewall](images/Opciones-avanzadas-Firewall-300x104.png "Opciones avanzadas Firewall")](images/Opciones-avanzadas-Firewall.png)
+[![Opciones avanzadas de las reglas del firewall](images/Opciones-avanzadas-Firewall.png "Opciones avanzadas Firewall")](images/Opciones-avanzadas-Firewall.png)
 
 Una vez estamos en esta pantalla tenemos que definir las reglas. Los parámetros a definir son los siguientes:
 
@@ -208,7 +208,7 @@ _**Both:**_ En el caso que exista algún servicio que pueda trabajar con los 2 p
 
 _**PUNTO 4 - Selección de los clientes al que se aplican las reglas**_
 
-[![Selección de clientes del firewall](images/Selección-de-clientes-300x104.png "Selección de clientes")](images/Selección-de-clientes.png)
+[![Selección de clientes del firewall](images/Selección-de-clientes.png "Selección de clientes")](images/Selección-de-clientes.png)
 
 **_Desde:_** En esta celda tenemos que ingresar la IP del cliente/s que queremos permitir, rechazar o limitar la conexión de entrada o de salida.
 
@@ -226,7 +226,7 @@ _**Port Number:**_ Este campo hace referencia al puerto de salida que el cliente
 
 **_PUNTO 5 - Selección del servidor al que se aplican las reglas_**
 
-[![Selección de servidores](images/Selección-de-servidores-300x104.png "Selección de servidores")](images/Selección-de-servidores.png)
+[![Selección de servidores](images/Selección-de-servidores.png "Selección de servidores")](images/Selección-de-servidores.png)
 
 _**a:**_ En esta celda tenemos que ingresar la IP del servidor que queremos permitir, rechazar o limitar la conexión de entrada o de salida.
 
@@ -242,7 +242,7 @@ _**Port Number:**_ Este campo hace referencia al puerto de escucha del servidor 
 
 Una vez vistas y comentadas la totalidad de opciones disponibles tan solo queda nos queda ver el resultado final. Si habéis seguido el ejemplo paso por paso tendremos una situación parecida a la siguiente:
 
-[![Permitir el acceso a un servidor ssh](images/Permiso-1-usuario-al-servidor-ssh-300x104.png "Permiso 1 usuario al servidor ssh")](images/Permiso-1-usuario-al-servidor-ssh.png)
+[![Permitir el acceso a un servidor ssh](images/Permiso-1-usuario-al-servidor-ssh.png "Permiso 1 usuario al servidor ssh")](images/Permiso-1-usuario-al-servidor-ssh.png)
 
 Ahora tal y como se puede ver en la captura de pantalla tan solo nos resta clicar al botón añadir. En estos momentos el cliente con IP 192.168.2.18 ya tiene acceso a nuestro servidor ssh. Para demostrar lo que acabo de decir tan solo hay que abrir una terminal y teclear:
 
@@ -252,7 +252,7 @@ Ahora tal y como se puede ver en la captura de pantalla tan solo nos resta clica
 
 El resultado obtenido es el siguiente:
 
-[![Comprobación que se puede permitir el acceso al servidor ssh](images/acceso-al-servidor-ssh-300x171.png "acceso al servidor ssh")](images/acceso-al-servidor-ssh.png)
+[![Comprobación que se puede permitir el acceso al servidor ssh](images/acceso-al-servidor-ssh.png "acceso al servidor ssh")](images/acceso-al-servidor-ssh.png)
 
 Como se puede ver en la captura de pantalla ahora podemos acceder sin problema dentro de nuestro servidor ssh.
 
@@ -262,37 +262,37 @@ Acabamos de ver como dar acceso a un usuario a nuestro servidor ssh. En el caso 
 
 **1- Dar acceso a la totalidad de usuarios de una red al servidor ssh**:
 
-[![Permitir acceso a una red local](images/Apertura-a-un-rango-de-IP-300x104.png "Apertura a un rango de IP")](images/Apertura-a-un-rango-de-IP.png)
+[![Permitir acceso a una red local](images/Apertura-a-un-rango-de-IP.png "Apertura a un rango de IP")](images/Apertura-a-un-rango-de-IP.png)
 
 Con las opciones definidas en la captura de pantalla estaremos permitiendo que la totalidad de usuarios de la red local se conecten a cualquier servidor ssh.
 
 **2- Dar acceso a la totalidad de usuarios de una red a los servidor ssh y ftp**:
 
-[![Permitir acceso a un servidor ftp y ssh](images/acceso-a-los-usuarios-red-local-ftp-ssh-300x104.png "acceso a los usuarios red local ftp ssh")](images/acceso-a-los-usuarios-red-local-ftp-ssh.png)
+[![Permitir acceso a un servidor ftp y ssh](images/acceso-a-los-usuarios-red-local-ftp-ssh.png "acceso a los usuarios red local ftp ssh")](images/acceso-a-los-usuarios-red-local-ftp-ssh.png)
 
 Con las opciones definidas en la captura de pantalla estaremos permitiendo que la totalidad de usuarios de la red local se conecten a cualquier servidor ssh y ftp.
 
 **3- Hacer que un usuario/cliente determinado no se pueda conectar a páginas web que no dispongan de cifrado ssl**:
 
-[![Rechazar conexión a páginas sin cifrado](images/Rechazar-Conexión-http1-300x104.png "Rechazar Conexión http")](images/Rechazar-Conexión-http1.png)
+[![Rechazar conexión a páginas sin cifrado](images/Rechazar-Conexión-http1.png "Rechazar Conexión http")](images/Rechazar-Conexión-http1.png)
 
 Con las opciones definidas en la captura de pantalla prohibiremos que el cliente con IP 192.168.2.155 se pueda conectar a páginas que no dispongan cifrado ssl (http).
 
 **4- Hacer que un usuario/cliente determinado no se pueda conectar a páginas web que dispongan de cifrado ssl:**
 
-[![Rechazar la conexión a páginas con cifrado](images/rechazar-peticiones-a-https-300x104.png "rechazar peticiones a https")](images/rechazar-peticiones-a-https.png)
+[![Rechazar la conexión a páginas con cifrado](images/rechazar-peticiones-a-https.png "rechazar peticiones a https")](images/rechazar-peticiones-a-https.png)
 
 Con las opciones definidas en la captura de pantalla prohibiremos que el cliente con IP 192.168.2.155 se pueda conectar a páginas que contengan cifrado ssl. (https)
 
 **5- Prohibir a un cliente que se conecte a cualquier servidor ftp o ssh:**
 
-[![Prohibir al acceso a servidores ftp y ssh](images/acceso-prohibido-a-ftp-y-ssh-300x104.png "acceso prohibido a ftp y ssh")](images/acceso-prohibido-a-ftp-y-ssh.png)
+[![Prohibir al acceso a servidores ftp y ssh](images/acceso-prohibido-a-ftp-y-ssh.png "acceso prohibido a ftp y ssh")](images/acceso-prohibido-a-ftp-y-ssh.png)
 
 Con las opciones definidas en la captura de pantalla prohibiremos que el cliente con IP 192.168.2.155 se pueda conectar a servidores ssh y ftp.
 
 **6- Prohibir que una red local que se conecte a cualquier servidor ftp o ssh:**
 
-[![Selección de servidores](images/rechazar-conexiones-a-la-red-local-300x104.png "rechazar conexiones a la red local")](images/rechazar-conexiones-a-la-red-local.png)
+[![Selección de servidores](images/rechazar-conexiones-a-la-red-local.png "rechazar conexiones a la red local")](images/rechazar-conexiones-a-la-red-local.png)
 
 Con las opciones definidas en la captura de pantalla prohibiremos que nuestra red local se pueda conectar a servidores ssh y ftp.
 
@@ -306,24 +306,10 @@ Gufw nos permite registrar los eventos que van sucediendo. Para habilitar esta o
 
 [![Opciones del registro de gufw](images/Nivel-de-registro.png "Nivel de registro")](images/Nivel-de-registro.png)
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Como se puede ver en la captura de pantalla podemos habilitar el registro de acciones clicando sobre registro. Para ello en el apartado Opciones de ufw tenemos que fijar el alcance del registro. Seguidamente en opciones de Gufw tenemos que clicar la muesca Registro. A partir de este momento se registraran la totalidad de eventos que se producen en el cortafuegos. En el hipotético caso que se necesite revisar los eventos, como se puede ver en la captura de pantalla, tan solo tenemos que ir al menú Archivo/registro.
 
 Como se puede ver en la anterior captura de pantalla también tenemos una opción denominada informe de escucha. Si la activamos cuando estemos en la pantalla general del firewall podemos observar que aparece un nuevo apartado que se llama informe de escucha:
 
-[![Informe de escucha de Gufw](images/informe-de-escucha-266x300.png "informe de escucha")](images/informe-de-escucha.png)
+[![Informe de escucha de Gufw](images/informe-de-escucha.png "informe de escucha")](images/informe-de-escucha.png)
 
 Activando esta opción. Como podemos ver en la captura de pantalla podremos ver información del tipo que el puerto 22 que es el del SSH está activado y en escucha a la espera de una conexión entrante.

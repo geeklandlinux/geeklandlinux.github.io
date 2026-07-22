@@ -84,7 +84,7 @@ A raíz de los resultados de la auditoría han salido actualizaciones que resuel
 
 A continuación les dejo una tabla comparativa de las distintas opciones que estamos analizando para cifrar archivos en la nube.
 
-     
+
 |  |   **EncFS**   |   **CryFS**   |   **gocryptfs**   |   **eCryptfs**   |   **Veracrypt**   |
 | --- | --- | --- | --- | --- | --- |
 |   Sistemas operativos   |   Android, Linux, Windows, MacOS  iOS   |   Linux, MacOS, Windows+- |   Linux, MacOS, Windows+- |   Linux   |   Android, Linux, Windows, MacOS   |
@@ -162,7 +162,7 @@ No obstante en otros sistemas operativos podéis encontrar problemas. En ocasion
 
 Para un uso básico de EncFS, CryFS y gocryptFS les recomiendo visitar el siguiente enlace.
 
-https://geekland.eu/cifrar-archivos-en-linux-con-encfs-cryfs-y-gocryptfs-usando-la-terminal/
+https://geeklandlinux.github.io/posts/cifrar-archivos-en-linux-con-encfs-cryfs-y-gocryptfs-usando-la-terminal/
 
 ###### FUENTES
 

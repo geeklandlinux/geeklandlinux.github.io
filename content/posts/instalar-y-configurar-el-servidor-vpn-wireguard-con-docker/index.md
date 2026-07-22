@@ -23,13 +23,13 @@ Existen varios métodos para instalar el VPN Wireguard de forma sencilla en nues
 
 Para completar este tutorial e instalar el servidor VPN Wireguard tienen que usar Docker. Para instalar Docker deberán seguir las instrucciones que les dejo en el siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ## DISPONER DE UNA IP PÚBLICA FIJA O UN DOMINIO DNS DINÁMICO
 
 Obviamente es indispensable tener una IP fija o un servicio de DNS dinámico. En mi caso no dispongo de un servicio de IP fija, por lo tanto usaré Duck DNS para obtener un dominio que siempre esté apuntando a mi servidor VPN. Para ello seguiré las instrucciones del siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-duck-dns-con-docker/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-duck-dns-con-docker/
 
 Una vez instalado y ejecutado el contenedor de Duck DNS dispondremos del dominio ejemplo1.duckdns.org que estará constantemente apuntando a la ip de nuestro servidor VPN.
 
@@ -37,7 +37,7 @@ Una vez instalado y ejecutado el contenedor de Duck DNS dispondremos del dominio
 
 En el tercer paso consiste en tener una IP local fija en el equipo donde instalaremos el servidor VPN Wireguard. Existen muchos métodos para conseguir este propósito pero uno de los más más sencillos es hacerlo a través del router. En mi caso he configurado la IP local 192.168.1.250 siguiendo el siguiente procedimiento:
 
-https://geekland.eu/ip-fija-servidor-dhcp-router/
+https://geeklandlinux.github.io/posts/ip-fija-servidor-dhcp-router/
 
 ## ABRIR EL PUERTO DEL VPN WIREGUARD EN EL ROUTER
 
@@ -104,7 +104,7 @@ Una vez instaladas las cabeceras del kernel deberán ejecutar el comando para cr
 
 En vuestro tenéis y/o podéis reemplazar las partes verdes del comando usado para crear el contenedor del siguiente modo:
 
- 
+
 |   **Comando**   |   **Explicación**   |
 | --- | --- |
 |   \-e PUID=1000   |   Introducimos el identificador de usuario del usuario que arrancará el contenedor. Por norma general es 1000, pero compruébenlo ejecutado id seguido del nombre del usuario.   |
@@ -234,6 +234,6 @@ Finalmente reiniciamos el contenedor del VPN Wireguard ejecutando el siguiente c
 
 Para conectarse al servidor VPN que acaban de crear pueden acceder al siguiente enlace.
 
-https://geekland.eu/conectarse-al-vpn-wireguard-en-windows-android-y-linux/
+https://geeklandlinux.github.io/posts/conectarse-al-vpn-wireguard-en-windows-android-y-linux/
 
 **Fuentes** [https://hub.docker.com/r/linuxserver/wireguard](https://hub.docker.com/r/linuxserver/wireguard)

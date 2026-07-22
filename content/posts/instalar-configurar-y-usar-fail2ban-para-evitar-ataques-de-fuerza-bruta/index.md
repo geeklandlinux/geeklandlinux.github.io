@@ -94,7 +94,7 @@ La ubicación que contiene la totalidad de filtros de fail2ban es la siguiente:
 
 Algunos de los filtros que podemos encontrar son los siguientes:
 
- 
+
 |   **Archivo que contiene el filtro**   |   **Función**   |
 | --- | --- |
 |   **sshd.conf**   |   Filtro para detectar autenticaciones erróneas a un servidor SSH   |
@@ -171,7 +171,7 @@ maxretry = 6
 
 El resto de parámetros de la sección los adaptaremos en función de nuestras necesidades. El significado de los parámetros que nos podemos encontrar dentro de una sección es el siguiente:
 
- 
+
 |   **Parámetro**   |   **Función**   |
 | --- | --- |
 |   **enabled =**   |   Con los valores **true** y **false** activamos y desactivamos la protección que ofrece fail2ban para un determinado servicio.   |
@@ -219,7 +219,7 @@ Acto seguido accedemos dentro del fichero de configuración jail.local ejecutand
 
 A continuación, dentro de la sección **\[ACTIONS\]** localizamos y configuramos los siguientes parámetros del fichero de configuración:
 
- 
+
 |   **Parámetro a configurar**   |   **Valor**   |
 | --- | --- |
 |   **destemail =**   |   Introducimos la dirección de email de gmail, hotmail, etc en la que queremos recibir los avisos.   |
@@ -242,7 +242,7 @@ A partir de estos momentos cada vez que se arranque o pare una de las jaulas de 
 
 En el fichero jail.conf o jail.local existen otros parámetros de configuración que también podemos que considerar. Son los siguientes:
 
- 
+
 |   **Parámetro a configurar**   |   **Valor**   |
 | --- | --- |
 |   **ignoreip =**   |   Se trata de una lista blanca de IP. En este campo podemos indicar una IP, varias IP o un rango de IP que no queremos que sean bloqueadas.  En mi caso introduzco el valor **127.0.0.1/8**. De esta forma ningún equipo de mi red local va a ser bloqueado por fail2ban.   |
@@ -258,7 +258,7 @@ En el fichero jail.conf o jail.local existen otros parámetros de configuración
 
 En el apartado \[ACTIONS\] del fichero de configuración jail.local podemos configurar otros parámetros. Algunos de ellos son los siguientes:
 
- 
+
 |   **Parámetro a configurar**   |   **Valor**   |
 | --- | --- |
 |   **banaction =**   |   Indicamos el bloqueo que se aplicará cuando se tenga que bloquear una ip. La diferentes opciones de bloqueo se hallan en la ubicación **/etc/fail2ban/action.d/.**  En mi caso la configuración que acostumbro a usar es:  **iptables-multiport**   |
@@ -287,7 +287,7 @@ Para acceder a la configuración general de fail2ban ejecutamos el siguiente com
 
 Dentro de este fichero podemos modificar los siguientes parámetros:
 
- 
+
 |   **Parámetro**   |   **Explicación del parámetro**   |
 | --- | --- |
 |   **loglevel =**   |   Según la versión de fail2ban disponemos de diversos valores. Estos valores determinan el nivel de detalle que tendrán los logs de fail2ban. Por defecto el nivel de detalle es el **3** o el **INFO**.   |
@@ -344,4 +344,4 @@ Veremos que ya no existe ningún tipo de bloqueo en el firewall.
 
 Si quieren consultar los logs de fail2ban les invito a seguir las instrucciones que se mencionan en el siguiente artículo:
 
-https://geekland.eu/como-consultar-logs-de-fail2ban/
+https://geeklandlinux.github.io/como-consultar-logs-de-fail2ban/

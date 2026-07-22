@@ -28,11 +28,11 @@ Así por lo tanto si queremos acceder al buscador de google lo podemos realizar 
 > ping www.google.es
 > ```
 
-[![Averiguar la IP de la web de google](images/Averiguar-IP-web-300x193.png "Averiguar IP web")](images/Averiguar-IP-web.png)
+[![Averiguar la IP de la web de google](images/Averiguar-IP-web.png "Averiguar IP web")](images/Averiguar-IP-web.png)
 
 Como se puede ver en la captura de pantalla la IP del servidor de google es **173.194.40.63**. Una vez conocemos la IP nos vamos a nuestro navegador y en la barra de direcciones introducimos la IP **173.194.40.63**. Como se puede ver en la siguiente captura de pantalla hemos accedido al buscador:
 
-[![Acceso al buscador de Google mediante IP](images/Entrar-a-google-con-la-IP-300x190.png "Entrar a google con la IP")](images/Entrar-a-google-con-la-IP.png)
+[![Acceso al buscador de Google mediante IP](images/Entrar-a-google-con-la-IP.png "Entrar a google con la IP")](images/Entrar-a-google-con-la-IP.png)
 
 ###### Nota: El método que se acaba de describir no funcionará en el caso que se intente acceder mediante la IP a un servidor web que aloje varias páginas.
 
@@ -49,10 +49,10 @@ Con el ejemplo que acabamos de ver pienso que queda claro para que sirven los se
 
 Una vez sabemos el uso que tiene un servidor DNS podemos ver como funciona. Para ver el funcionamiento lo mejor es explicarlo de forma simplificada y a través de un ejemplo. El ejemplo es el siguiente:
 
-1. En nuestro navegador tecleamos la página web que queremos visitar. Pongamos el caso que vamos a visitar el la web [www.geekland.eu](https://geekland.eu/ "Geekland")
-2. En el caso de tener instalado un servidor DNS cache en casa, como por ejemplo Bind, nscd o dnsmasq, la primera acción que se realizará es comprobar si la petición [www.geekland.eu](https://geekland.eu/ "Geekland") está almacenada la cache de nuestro servidor. Si la petición está almacenada se termina el proceso. Nuestro servidor DNS cache asociará el nombre de dominio [www.geekland.eu](https://geekland.eu/ "Geekland") con su IP correspondiente.
-3. En el caso que el servidor DNS cache no tenga la petición almacenada , ya que es la primera vez que accedemos a esta web, entonces se realizará la petición al servidor DNS externo. El servidor DNS externo, una vez haya recibido la petición, comprobará si la tiene almacenada en su cache. Si la tiene almacenada el proceso termina y el servidor DNS externo asociará el nombre del dominio [www.geekland.eu](https://geekland.eu/ "Geekland") con su IP.
-4. En el caso que el servidor DNS externo no tuviera almacenada nuestra petición entonces lo que haría seria consultar otro servidor DNS, si el nuevo servidor tampoco tuviera almacenada la petición consultaría a otro servidor y así sucesivamente hasta que al final un servidor nos devolverá la dirección IP del dominio o página que queremos visitar que en este caso es [www.geekland.eu](https://geekland.eu/ "Geekland").
+1. En nuestro navegador tecleamos la página web que queremos visitar. Pongamos el caso que vamos a visitar el la web [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland")
+2. En el caso de tener instalado un servidor DNS cache en casa, como por ejemplo Bind, nscd o dnsmasq, la primera acción que se realizará es comprobar si la petición [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland") está almacenada la cache de nuestro servidor. Si la petición está almacenada se termina el proceso. Nuestro servidor DNS cache asociará el nombre de dominio [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland") con su IP correspondiente.
+3. En el caso que el servidor DNS cache no tenga la petición almacenada , ya que es la primera vez que accedemos a esta web, entonces se realizará la petición al servidor DNS externo. El servidor DNS externo, una vez haya recibido la petición, comprobará si la tiene almacenada en su cache. Si la tiene almacenada el proceso termina y el servidor DNS externo asociará el nombre del dominio [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland") con su IP.
+4. En el caso que el servidor DNS externo no tuviera almacenada nuestra petición entonces lo que haría seria consultar otro servidor DNS, si el nuevo servidor tampoco tuviera almacenada la petición consultaría a otro servidor y así sucesivamente hasta que al final un servidor nos devolverá la dirección IP del dominio o página que queremos visitar que en este caso es [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland").
 
 ###### Nota: El proceso descrito en este apartado es muy rápido. La totalidad de acciones descritas en los 4 puntos, como veremos más adelante, se realizan en cuestión de milisegundos.
 
@@ -60,7 +60,7 @@ Una vez sabemos el uso que tiene un servidor DNS podemos ver como funciona. Para
 
 Acabamos de ver que cada vez que ponemos una dirección en nuestro navegador hay un servidor que se encarga de averiguar la IP del dominio al que nos queremos conectar. Pues bien, hay servidores que obtendrán más rápidamente la IP que no otros. Si obtenemos la IP con menos tiempo podremos acceder antes a la página web que queremos visitar.
 
-Para poder ver que lo que acabo de comentar es cierto podemos verlo de la siguiente forma. Primero analizaremos el tiempo que el serividor DNS de Google necesita para poder resolver la petición para entrar en la web [www.geekland.eu](https://geekland.eu/ "Geekland")
+Para poder ver que lo que acabo de comentar es cierto podemos verlo de la siguiente forma. Primero analizaremos el tiempo que el serividor DNS de Google necesita para poder resolver la petición para entrar en la web [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland")
 
 Para ello primero tenemos que analizar el tiempo que tarda la información en viajar desde nuestro ordenador al servidor de Google, y desde el servidor de Google a nuestro ordenador. Para poder analizar el tiempo lo podemos usar con el comando ping de la siguiente forma. Entramos en la terminal y ponemos el siguiente comando:
 
@@ -78,9 +78,9 @@ Una vez conocemos el tiempo que tardan los paquetes en ir de un sitio a otro, pa
 
 Una vez aplicados estos 2 comandos podéis ver los resultados obtenidos en la siguiente captura de pantalla:
 
-[![Elegir el mejor servidor DNS - Tiempo de resolución de Google](images/Tiempo-de-resolución-google-300x193.png "Tiempo de resolución google")](images/Tiempo-de-resolución-google.png)
+[![Elegir el mejor servidor DNS - Tiempo de resolución de Google](images/Tiempo-de-resolución-google.png "Tiempo de resolución google")](images/Tiempo-de-resolución-google.png)
 
-Si observamos la captura de pantalla vemos que si sumamos el tiempo de resolución del servidor más el tiempo de ida y vuelta, el tiempo total para resolver el dominio [www.geekland.eu](https://geekland.eu/ "Geekland") es de 317ms aproximadamente.
+Si observamos la captura de pantalla vemos que si sumamos el tiempo de resolución del servidor más el tiempo de ida y vuelta, el tiempo total para resolver el dominio [www.https://geeklandlinux.github.io/](https://geeklandlinux.github.io// "Geekland") es de 317ms aproximadamente.
 
 Una vez conocidos los resultados con el servidor DNS de Google pasaremos a realizar el mismo experimento pero ahora con el servidor OpenDNS. Así de esta forma podremos comparar los dos resultados. Para realizar el estudio con el servidor de  OpenDNS tenemos que aplicar los mismos pasos que acabamos de aplicar con el servidor de google. Por lo tanto abrimos la terminal y aplicamos los siguientes comandos:
 
@@ -96,9 +96,9 @@ Una vez conocidos los resultados con el servidor DNS de Google pasaremos a reali
 
 Una vez aplicados estos 2 comandos podéis ver los resultados obtenidos en la siguiente captura de pantalla:
 
-[![Elegir el mejor servidor DNS - Tiempo de resolución de OpenDNS](images/Tiempo-de-resolución-Open-DNS-300x193.png "Tiempo de resolución Open DNS")](images/Tiempo-de-resolución-Open-DNS.png)
+[![Elegir el mejor servidor DNS - Tiempo de resolución de OpenDNS](images/Tiempo-de-resolución-Open-DNS.png "Tiempo de resolución Open DNS")](images/Tiempo-de-resolución-Open-DNS.png)
 
-Como se puede ver en este caso la velocidad de resolución es de 935ms. Si comparamos la velocidad con el caso anterior, 317ms, podemos concluir que la velocidad de resolución del servidor de Google para acceder a [www.geekland.eu](https://geekland.eu/ "Geekland") es mucho mejor que no la del servidor de OpenDNS.
+Como se puede ver en este caso la velocidad de resolución es de 935ms. Si comparamos la velocidad con el caso anterior, 317ms, podemos concluir que la velocidad de resolución del servidor de Google para acceder a [https://geeklandlinux.github.io/](https://geeklandlinux.github.io/ "Geekland") es mucho mejor que no la del servidor de OpenDNS.
 
 Por lo tanto si usamos el servidor DNS de Google conseguiremos acceder en este blog de forma más rápida que los usuarios que usen el servidor DNS de OpenDNS.
 
@@ -168,7 +168,7 @@ Una vez instalado namebench lo ejecutamos. Para ejecutarlo escribimos el siguien
 
 Se ejecutará el programa y nos aparecerá la siguiente pantalla:
 
-[![Elegir el mejor servidor DNS - Opciones de configuración](images/namebench-300x163.png "Opciones de confguración")](images/namebench.png)
+[![Elegir el mejor servidor DNS - Opciones de configuración](images/namebench.png "Opciones de confguración")](images/namebench.png)
 
 ###### Nota: La captura de pantalla muestra las opciones que elegí para saber cuales son los mejores DNS en mi caso. Otras configuraciones también pueden ser completamente válidas.
 
@@ -204,19 +204,19 @@ Como hemos dicho anteriormente namebench realizará peticiones automáticas de n
 
 Una vez realizado el análisis nos dará el siguiente tipo de resultados:
 
-[![Elegir el mejor servidor DNS - Presentación de resultados](images/Resultado-namebench-300x175.png "Resultados namebench")](images/Resultado-namebench.png)
+[![Elegir el mejor servidor DNS - Presentación de resultados](images/Resultado-namebench.png "Resultados namebench")](images/Resultado-namebench.png)
 
 ###### Nota: Como se puede ver en la captura de la imagen si cambiará mi servidor DNS primario actual por el servidor DNS de Google mi velocidad de resolución en las peticiones se incrementaría un 10%.
 
-[![Elegir el mejor servidor DNS - Presentación de resultados 2](images/Resultado-namebench-2-300x175.png "Resultados namebench 2")](images/Resultado-namebench-2.png)
+[![Elegir el mejor servidor DNS - Presentación de resultados 2](images/Resultado-namebench-2.png "Resultados namebench 2")](images/Resultado-namebench-2.png)
 
 ###### Nota: En el primer gráfico podemos ver que Google es el servidor DNS que nos da la mejor velocidad media de resolución de peticiones con 130 ms de media. En el segundo gráfico podemos que la resolución más rápida que ha realizado ha sido de 74ms ocupando prácticamente la última posición. Esto quiere decir que la velocidad de resolución de peticiones del servidor DNS de Google es muy constante independientemente de la web que queramos visitar.
 
-[![Elegir el mejor servidor DNS - Presentación de resultados 3](images/Resultado-namebench-3-300x175.png "Resultados namebench 3")](images/Resultado-namebench-3.png)
+[![Elegir el mejor servidor DNS - Presentación de resultados 3](images/Resultado-namebench-3.png "Resultados namebench 3")](images/Resultado-namebench-3.png)
 
 ###### Nota: En este gráfica se puede que que el servidor DNS de Google resuelve aproximadamente el 80% de peticiones en apenas 70ms. Mientras que el servidor de Terra el 42% de las peticiones las resuelve en apenas 40 ms.
 
-[![Elegir el mejor servidor DNS - Presentación de resultados 4](images/Resultado-namebench-4-300x175.png "Resultados namebench 4")](images/Resultado-namebench-4.png)
+[![Elegir el mejor servidor DNS - Presentación de resultados 4](images/Resultado-namebench-4.png "Resultados namebench 4")](images/Resultado-namebench-4.png)
 
 ###### Nota: Este tipo de gráfico muestra el mismo tipo de información que la anterior. La única diferencia es que el gráfico anterior solo se representaban los 200 primeros ms mientras que en esta se representa hasta los 3500 ms.
 

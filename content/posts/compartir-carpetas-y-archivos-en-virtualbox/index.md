@@ -27,7 +27,7 @@ A continuación iniciamos el tutorial.
 
 El primer paso para compartir carpetas en VirutalBox es instalar las Guest Additions. Para instalarlas en un sistema operativo Linux deben seguir los pasos que encontrarán en el siguiente enlace:
 
-https://geekland.eu/instalar-las-guest-additions-debian-derivadas/
+https://geeklandlinux.github.io/posts/instalar-las-guest-additions-debian-derivadas/
 
 ## DEFINIR LAS CARPETAS QUE QUEREMOS COMPARTIR Y LOS PUNTOS DE MONTAJE
 

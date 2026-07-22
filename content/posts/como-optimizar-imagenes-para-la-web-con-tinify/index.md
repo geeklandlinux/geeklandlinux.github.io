@@ -153,7 +153,7 @@ A continuación darán permisos de ejecución al script ejecutando el siguiente 
 
 Para realizar una acción personalizada en Thunar para ejecutar el script de forma cómoda y sencilla tienen que seguir las instrucciones del siguiente enlace:
 
-[https://geekland.eu/acciones-personalizadas-en-thunar/]({{< relref "/posts/acciones-personalizadas-en-thunar" >}})
+[https://geeklandlinux.github.io/posts/acciones-personalizadas-en-thunar/]({{< relref "/posts/acciones-personalizadas-en-thunar" >}})
 
 Cuando lleguéis a la configuración básica de la acción personalizada tendréis que introducir los parámetros que se muestran en la captura de pantalla.
 

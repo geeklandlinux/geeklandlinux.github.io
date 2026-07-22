@@ -25,7 +25,7 @@ La mejor opción es usar una herramienta como el sistema operativo Tails, o en s
 
 Para saber como usar, instalar y empezar a usar Tails pueden seguir los pasos que se detallan en el siguiente enlace:
 
-https://geekland.eu/instalar-tails-para-ser-anonimo/
+https://geeklandlinux.github.io/posts/instalar-tails-para-ser-anonimo/
 
 Tails es una distribución Linux basada en Debian que se ejecuta en nuestra memoria RAM sin hacer uso de nuestro disco duro.
 

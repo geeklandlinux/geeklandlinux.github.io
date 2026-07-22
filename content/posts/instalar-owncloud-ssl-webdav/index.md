@@ -41,7 +41,7 @@ Las opciones que nos ofrece owncloud son mucho más grandes de lo que a priori u
 
 Para poder instalar Owncloud necesitamos un servidor Web propio con PHP, y Mysql/MariaDB. Para poder disponer de un servidor web propio tan solo hay que **seguir las instrucciones que se muestran en el siguiente enlace**:
 
-[https://geekland.eu/instalar-un-servidor-web-lamp/]({{< relref "/posts/instalar-un-servidor-web-lamp" >}})
+[https://geeklandlinux.github.io/posts/instalar-un-servidor-web-lamp/]({{< relref "/posts/instalar-un-servidor-web-lamp" >}})
 
 ###### Nota: Es posible instalar Owncloud en un servidor externo que no sea de nuestra propiedad. No obstante si dependemos de un servicio de hospedaje externo, no seremos dueños de nuestros propios datos y es posible que nuestra privacidad esté comprometida.
 
@@ -89,7 +89,7 @@ Para descargar Owncloud **accedemos a la siguiente página web**:
 
 Una vez dentro de la página web, tal y como se puede ver en la captura de pantalla, **posicionamos el puntero del mouse encima del link** **.tar.bz2**, **presionamos el botón derecho del mouse** y cuando se despliegue el menú **seleccionamos la opción Copiar dirección de enlace** y presionamos el botón izquierdo del mouse.
 
-[![Ruta de descarga de Owncloud](images/2-Ruta-de-descarga-de-Owncloud-300x183.png)](images/2-Ruta-de-descarga-de-Owncloud.png)
+[<img src="images/2-Ruta-de-descarga-de-Owncloud.png" alt="Ruta de descarga de Owncloud" style="zoom:80%;" />](images/2-Ruta-de-descarga-de-Owncloud.png)
 
 Seguidamente **en la terminal**, y dentro de la ubicación /home/owncloud, **tecleamos el comando wget y seguidamente pegamos la dirección de descarga de owncloud**. Por lo tanto en mi caso el comando para descargar owncloud es el siguiente:
 
@@ -123,31 +123,31 @@ http://192.168.1.96/phpmyadmin
 
 Una vez dentro de la pantalla de login, tal y como se puede ver en la captura de pantalla, **introducimos el usuario y la contraseña** de phpmyadmin y **presionamos le botón** **Continuar**:
 
-[![Acceder a phpmyadmin](images/3-Acceder-a-phpmyadmin-300x201.png)](images/3-Acceder-a-phpmyadmin.png)
+[<img src="images/3-Acceder-a-phpmyadmin.png" alt="Acceder a phpmyadmin" style="zoom:80%;" />](images/3-Acceder-a-phpmyadmin.png)
 
 Seguidamente, tal y como se puede ver en la captura de pantalla, **presionamos el botón Bases de datos**
 
-[![Acceder a base de Datos](images/4-Acceder-a-base-de-Datos-300x201.png)](images/4-Acceder-a-base-de-Datos.png)
+[<img src="images/4-Acceder-a-base-de-Datos.png" alt="Acceder a base de Datos" style="zoom:80%;" />](images/4-Acceder-a-base-de-Datos.png)
 
 El siguiente paso, tal y como se puede ver en la captura de pantalla, es **poner un nombre a la base de datos**. Después de poner el nombre, que en mi caso es **owncloud**, hay que **presionar encima del botón Crear**.
 
-[![Crear base de datos Owncloud](images/5-Crear-base-de-datos-para-Owncloud-300x201.png)](images/5-Crear-base-de-datos-para-Owncloud.png)
+[<img src="images/5-Crear-base-de-datos-para-Owncloud.png" alt="Crear base de datos Owncloud" style="zoom:80%;" />](images/5-Crear-base-de-datos-para-Owncloud.png)
 
 Ahora tenemos que acceder a la base de datos que acabamos de crear. Para ello, tal y como se puede ver en la captura de pantalla, **clicamos encima del nombre de nuestra base de datos**:
 
-[![Acceder a la base de datos](images/6-Acceder-a-la-base-de-datos-300x201.png)](images/6-Acceder-a-la-base-de-datos.png)
+[<img src="images/6-Acceder-a-la-base-de-datos.png" alt="Acceder a la base de datos" style="zoom:80%;" />](images/6-Acceder-a-la-base-de-datos.png)
 
 Una vez dentro de nuestra base de datos, tal y como se puede ver en la captura de pantalla, **cliamos encima de la pestaña** **Privilegios**:
 
-[![Privilegios base de datos Owncloud](images/7-Acceder-a-privilegios-300x201.png)](images/7-Acceder-a-privilegios.png)
+[<img src="images/7-Acceder-a-privilegios.png" alt="Privilegios base de datos Owncloud" style="zoom:80%;" />](images/7-Acceder-a-privilegios.png)
 
 Seguidamente creamos un usuario. Para ello, tal y como se puede ver en la captura de pantalla, lo primero que tenemos que hacer es **clicar encima de** **Agregar usuario**:
 
-[![Crear usuario base de datos owncloud](images/8-Crear-un-usuario-300x201.png)](images/8-Crear-un-usuario.png)
+[<img src="images/8-Crear-un-usuario.png" alt="Crear usuario base de datos owncloud" style="zoom:80%;" />](images/8-Crear-un-usuario.png)
 
 Después de clicar encima de la pestaña agregar usuario, tal y como se puede ver en la captura de pantalla, tenemos que **seleccionar el nombre del usuario, el tipo de servidor y la contraseña del usuario**.
 
-[![Configuración del usuario](images/9-Configuración-del-usuario-300x183.png)](images/9-Configuración-del-usuario.png)
+[<img src="images/9-Configuración-del-usuario.png" alt="Configuración del usuario" style="zoom:80%;" />](images/9-Configuración-del-usuario.png)
 
 En el **campo Nombre de usuario** pueden elegir el nombre de usuario que deseen.
 
@@ -209,7 +209,7 @@ http://192.168.1.96/owncloud
 
 Al presionar Enter es probable que obtengan el error que se muestra en la siguiente captura de pantalla:
 
-[![Acceder a Owncloud con error](images/10-Acceder-a-Owncloud-con-error-300x201.png)](images/10-Acceder-a-Owncloud-con-error.png)
+[<img src="images/10-Acceder-a-Owncloud-con-error.png" alt="Acceder a Owncloud con error" style="zoom:80%;" />](images/10-Acceder-a-Owncloud-con-error.png)
 
 Para solucionar el error **“PHP está configurado para transmitir datos raw”**, tal y como nos indica el texto del error, tecleamos el siguiente comando en la terminal del servidor donde se halla instalado owncloud:
 
@@ -237,7 +237,7 @@ Guardamos los cambios, cerramos el archivo y seguidamente tecleamos el siguiente
 
 Ahora si intentamos acceder de nuevo al servidor owncloud tenemos que obtener el siguiente resultado:
 
-[![Completar la instalación de Owncloud](images/11-Completar-la-instalación-de-Owncloud-300x183.png)](images/11-Completar-la-instalación-de-Owncloud.png)
+[<img src="images/11-Completar-la-instalación-de-Owncloud.png" alt="Completar la instalación de Owncloud" style="zoom:80%;" />](images/11-Completar-la-instalación-de-Owncloud.png)
 
 ###### Nota: En la captura de pantalla se puede ver una advertencia de seguridad. Si os aparece no es tenéis que preocupar. Este problema lo solucionaremos más adelante.
 
@@ -249,7 +249,7 @@ Finalmente, **en el apartado Configurar Base de Datos** introducimos el nombre d
 
 Finalmente tan solo falta **presionar el botón Completar la instalación** para finalizar el proceso de instalación y obtener el siguiente resultado:
 
-[![Owncloud funcionando](images/12-Owncloud-funcionando-300x201.png)](images/12-Owncloud-funcionando.png)
+[<img src="images/12-Owncloud-funcionando.png" alt="Owncloud funcionando" style="zoom:80%;" />](images/12-Owncloud-funcionando.png)
 
 En estos momentos ya podemos acceder al servidor owncloud desde nuestra red local. Ahora intentaremos acceder a él conectándonos desde el exterior. Por lo tanto en mi caso abro el navegador de mi teléfono y visito la siguiente URL:
 
@@ -259,7 +259,7 @@ http://geekland.sytes.net/owncloud
 
 En el momento de acceder lo más probable es que obtengan el error que se muestra en la captura de pantalla:
 
-[![Servidor desde un dominio inseguro](images/13-Owncloud-Dominio-inseguro-169x300.png)](images/13-Owncloud-Dominio-inseguro.png)
+[<img src="images/13-Owncloud-Dominio-inseguro.png" alt="Servidor desde un dominio inseguro" style="zoom:80%;" />](images/13-Owncloud-Dominio-inseguro.png)
 
 **Para solucionar el error** **“Está accediendo al servidor desde un dominio inseguro”** hay que teclear el siguiente comando en la terminal del servidor donde se halla instalado Owncloud:
 
@@ -277,11 +277,11 @@ Una vez abierto el fichero config.php tendremos que editarlo para añadir el dom
 
 Después de añadir el dominio de confianza, que en mi caso es geekland.sytes.net, el fichero config.php tiene que tener un aspecto similar al siguiente:
 
-[![Agregar dominio seguros Owncloud](images/14-Agregar-dominio-seguros-Owncloud-300x196.png)](images/14-Agregar-dominio-seguros-Owncloud.png)
+[![Agregar dominio seguros Owncloud](images/14-Agregar-dominio-seguros-Owncloud.png)](images/14-Agregar-dominio-seguros-Owncloud.png)
 
 Si el contenido ha sido añadido correctamente guardamos los cambios y cerramos el fichero. Ahora si intentamos acceder de nuevo al servidor veremos que ya no se produce el error:
 
-[![Acceder a Owncloud fuera red local](images/15-Acceder-a-Owncloud-fuera-red-local-169x300.png)](images/15-Acceder-a-Owncloud-fuera-red-local.png)
+[<img src="images/15-Acceder-a-Owncloud-fuera-red-local.png" alt="Acceder a Owncloud fuera red local" style="zoom:80%;" />](images/15-Acceder-a-Owncloud-fuera-red-local.png)
 
 Por lo tanto a estas alturas tenemos configurado el servidor owncloud para acceder desde nuestra red local y desde el exterior de nuestra red local.
 
@@ -503,7 +503,7 @@ Al ejecutar el comando lo primero que se nos pregunta es una clave. Esta clave t
 
 Seguidamente, tal y como se puede ver en la captura de pantalla, nos irá haciendo preguntas. Las vamos respondiendo una tras otra teniendo **especial cuidado en el campo common name que tendrá que ser el fqdn (fully qualified name). En mi caso el common name (fqdn) es geekland.sytes.net**.
 
-[![Crear autoridad de certificación](images/17-Crear-autoridad-de-certificación-300x186.png)](images/17-Crear-autoridad-de-certificación.png)
+[![Crear autoridad de certificación](images/17-Crear-autoridad-de-certificación.png)](images/17-Crear-autoridad-de-certificación.png)
 
 Una vez creada la autoridad de certificación, dentro de la ubicación /root/SSLCertAuth podrán encontrar los archivos cakey.pem y cacert.pem. Estos archivos hay conservarlos ya que serán necesarios para crear nuestros certificados.
 
@@ -517,7 +517,7 @@ Ahora creamos una clave privada y la solicitud de firma del certificado (CSR). P
 
 Después de ejecutar el comando, tal y como se puede ver en la captura de pantalla, se nos irá haciendo preguntas. Las vamos respondiendo una tras otra teniendo **especial cuidado en el campo common name que tendrá que ser el fqdn (fully qualified name). En mi caso el common name (fqdn) es geekland.sytes.net**.
 
-[![Crear solicitud firma certificado](images/18-Crear-un-solicitud-de-firma-300x207.png)](images/18-Crear-un-solicitud-de-firma.png)
+[![Crear solicitud firma certificado](images/18-Crear-un-solicitud-de-firma.png)](images/18-Crear-un-solicitud-de-firma.png)
 
 En la parte final de las preguntas se nos pregunta un password. Este password será para proteger la clave privada que estamos creando. Esta clave privada será usada más adelante en el proceso de autenticación SSL.
 
@@ -537,7 +537,7 @@ Finalmente tan solo hay que generar nuestro propio certificado autofirmado. Para
 
 Al ejecutar el comando se nos preguntará la clave que fijamos en el apartado de crear una autoridad de certificación. La introducimos y presionamos Enter. Seguidamente se nos preguntará si queremos firmar el certificado e introducirlo en la base de datos. En ambos casos respondemos que Sí. Después de realizar estos pasos, tal y como se puede ver en la captura de pantalla, el proceso ha terminado:
 
-[![Crear y firmar el certificado ssl](images/19-Crear-y-firmar-el-certificado-ssl-300x269.png)](images/19-Crear-y-firmar-el-certificado-ssl.png)
+[![Crear y firmar el certificado ssl](images/19-Crear-y-firmar-el-certificado-ssl.png)](images/19-Crear-y-firmar-el-certificado-ssl.png)
 
 Para confirmar que el proceso ha finalizado, en la ubicación /root/SSLCertAuth, tenemos que comprobar que esté presente el archivo apache-cert.pem que será el certificado SSL que hemos creado.
 
@@ -605,11 +605,9 @@ Una vez abierto el editor de textos nano, tenemos que asegurar que el archivo de
 > 
 > ```
 
- 
+ Una vez aplicados los cambios el archivo default-ssl.conf deberá tener un aspecto parecido al siguiente:
 
-Una vez aplicados los cambios el archivo default-ssl.conf deberá tener un aspecto parecido al siguiente:
-
-[![Configuración https apache](images/20-Configurar-https-300x207.png)](images/20-Configurar-https.png)
+[![Configuración https apache](images/20-Configurar-https.png)](images/20-Configurar-https.png)
 
 Si el contenido de la captura de la pantalla es similar tan solo tenemos que guardar los cambios y cerrar el fichero.
 
@@ -635,19 +633,19 @@ https://192.168.1.96/owncloud
 
 Después de acceder la URL indicada nos aparecerá la advertencia que la conexión no está verificada:
 
-[![Añadir excepciones certificados](images/21-Añadir-excepciones-certificados-300x228.png)](images/21-Añadir-excepciones-certificados.png)
+[![Añadir excepciones certificados](images/21-Añadir-excepciones-certificados.png)](images/21-Añadir-excepciones-certificados.png)
 
 Esta advertencia es completamente normal. El motivo de la advertencia es porqué hemos sido nosotros mismos quien ha creado y firmado el certificado ssl, y obviamente nosotros no somos una autoridad certificadora verificada/reconocida. Lo único que tenemos hacer para solucionar este problema es clicar en el apartado **Entiendo los riesgos**, y seguidamente clicar en el apartado **Añadir excepción**. Después de clicar en Añadir excepción aparecerá la siguiente ventana:
 
-[![Agregar Excepción certificados Firefox](images/22-Agregar-Excepción-297x300.png)](images/22-Agregar-Excepción.png)
+[![Agregar Excepción certificados Firefox](images/22-Agregar-Excepción.png)](images/22-Agregar-Excepción.png)
 
 Presionamos encima del botón **Confirmar excepción de seguridad** y ya podremos acceder a nuestro servidor Owncloud. Una vez dentro de nuestro servidor Owncloud, tal y como se puede ver en la captura de pantalla, accedemos al menú de **Administración**:
 
-[![Acceso administración Owncloud](images/23-Acceso-administración-300x228.png)](images/23-Acceso-administración.png)
+[![Acceso administración Owncloud](images/23-Acceso-administración.png)](images/23-Acceso-administración.png)
 
 Una vez dentro del menú de administración, tal y como se puede ver en la captura de pantalla, dentro del apartado de seguridad tenemos que marcar la opción **Forzar HTTPS**.
 
-[![Forzar HTTPS Owncloud](images/24-Forzar-HTTPS-300x228.png)](images/24-Forzar-HTTPS.png)
+[![Forzar HTTPS Owncloud](images/24-Forzar-HTTPS.png)](images/24-Forzar-HTTPS.png)
 
 Después de marcar esta opción, únicamente se podrá acceder al servidor owncloud mediante https.
 

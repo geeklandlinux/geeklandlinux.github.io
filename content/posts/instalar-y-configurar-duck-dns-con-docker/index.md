@@ -33,7 +33,7 @@ Para solucionar este problema podemos usar un servicio DNS dinámico que realiza
 
 Si quieren información más detallada sobre el funcionamiento de un servicio DNS dinámico les invito a leer el siguiente enlace:
 
-https://geekland.eu/encontrar-servidor-con-dns-dinamico/
+https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/
 
 ## MOTIVOS PARA USAR DUCKDNS
 
@@ -95,7 +95,7 @@ En estos momentos el proceso de configuración de Duck DNS en la web ha finaliza
 
 Probablemente ya tengáis Docker instalado en su equipo, pero en caso contrario lo podéis instalar siguiendo los siguientes pasos:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ### Instalar el servicio DNS Dinámico DUCK DNS con Docker
 

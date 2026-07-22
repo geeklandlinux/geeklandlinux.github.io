@@ -109,7 +109,7 @@ Existen multitud de middlwares preconfigurados en Traefik. En el siguiente enlac
 
 Es necesario disponer de un dominio para poder llegar al servidor en el que instalaremos Traefik y levantaremos los Docker. Si no tenéis ningún dominio podéis usar un dominio de un servicio DDNS como DuckDNS. En mi caso crearé el dominio `ejemplo1.duckdns.org` siguiendo las siguientes instrucciones:
 
-https://geekland.eu/instalar-y-configurar-duck-dns-con-docker/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-duck-dns-con-docker/
 
 ## CREAR UNA CONTRASEÑA PARA LOGUEARSE A TRAEFIK
 
@@ -344,7 +344,7 @@ En futuros artículos veremos como podemos instalar la nube Owncloud en vuestra 
 
 Para ver un ejemplo e uso del proxy inverso Traefik v2 pueden leer el siguiente enlace:
 
-https://geekland.eu/instalar-owncloud-docker-y-traefik-v2/
+https://geeklandlinux.github.io/posts/instalar-owncloud-docker-y-traefik-v2/
 
 #### Fuentes
 

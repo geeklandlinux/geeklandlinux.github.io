@@ -117,7 +117,7 @@ Una vez clicado en Revoke, el usuario geekland no podrá conectarse más al serv
 
 Si tienen conocimientos de como se configura un servidor OpenVPN pueden modificar los parámetros del servidor instalado y configurado por el script. Para ello deberán editar los siguientes ficheros:
 
- 
+
 |   **Parámetros a modificar/consultar**   |   **Archivo/****ubicación** **a** **consultar**   |
 | --- | --- |
 |   Modificar Las reglas del firewall   |   /etc/rc.local   |
@@ -129,6 +129,6 @@ Si tienen conocimientos de como se configura un servidor OpenVPN pueden modifica
 
 Para conectarnos al servidor OpenVPN en Linux deberemos seguir las siguientes instrucciones:
 
-https://geekland.eu/conectarse-servidor-openvpn-linux-terminal-networkmanager/
+https://geeklandlinux.github.io/posts/conectarse-servidor-openvpn-linux-terminal-networkmanager/
 
 En breve detallaré el proceso para el resto de sistemas opeargivos.

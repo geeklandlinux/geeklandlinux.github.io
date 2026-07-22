@@ -25,7 +25,7 @@ La principal utilidad que le podemos dar a un túnel SSH la detallamos a continu
 
 Tan solo tenemos que imaginarnos que estamos en un lugar público, como por ejemplo puede ser la cafetería de un aeropuerto, y nos queremos a conectar a una página web a través de nuestro navegador.
 
-[![Que es y para que sirve un túnel SSH](images/peticion-http-convencional-300x180.png "Representación de una peticion http convencional")](images/peticion-http-convencional.png)
+[![Que es y para que sirve un túnel SSH](images/peticion-http-convencional.png "Representación de una peticion http convencional")](images/peticion-http-convencional.png)
 
 En la cafetería del aeropuerto como podéis imaginar no estaremos solos. Como se puede ver en la imagen habrá multitud de usuarios conectados a la misma [red local (LAN)](http://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local "¿Qué es una red de área Local?") que nosotros y como podéis imaginar esto es un problema de seguridad importante.
 
@@ -33,7 +33,7 @@ Básicamente es un problema de seguridad importante porqué somos susceptibles d
 
 #### 1- Esnifar el tráfico que estamos generando:
 
-[![Que es y para que sirve un túnel SSH - Sniffer](images/sniffer-150x150.jpg "Dniffer")](images/sniffer.jpg)
+[![Que es y para que sirve un túnel SSH - Sniffer](images/sniffer.jpg "Dniffer")](images/sniffer.jpg)
 
 Como todos sabemos, hoy en día multitud de conexiones a Internet se realizan mediante el protocolo http. El protocolo http tiene la particular de transferir la información en texto plano sin cifrar.
 
@@ -49,7 +49,7 @@ Esto es posible porqué el **Host C** se coloca entre el **Host A** y el **Host 
 
 #### 3- Un ataque de envenenamiento ARP o ARP Spoofing:
 
-[![Representación gráfica de un ataque ARP Spoofing](images/Envenenamiento-ARP-300x186.png "Envenenamiento ARP")](images/Envenenamiento-ARP.png)
+[![Representación gráfica de un ataque ARP Spoofing](images/Envenenamiento-ARP.png "Envenenamiento ARP")](images/Envenenamiento-ARP.png)
 
 En el caso que estemos en una red local con un Switch, otro tipo de ataque que cualquiera de los usuarios de la red local nos podría lanzar es el **ARP Spoofing**.
 
@@ -67,7 +67,7 @@ Y la verdad es que la lista de ataques no se termina precisamente aquí. Hay mul
 
 **Estableciendo un túnel SSH seremos capaces de prevenir la serie de ataques que acabamos de describir**.
 
-[![Representación gráfico de una petición http a través de un túnel SSH](images/Funcionamiento-tunnel-SSH-300x169.png "Funcionamiento tunnel SSH")](images/Funcionamiento-tunnel-SSH.png)
+[![Representación gráfico de una petición http a través de un túnel SSH](images/Funcionamiento-tunnel-SSH.png "Funcionamiento tunnel SSH")](images/Funcionamiento-tunnel-SSH.png)
 
 Básicamente **prevendremos los ataques** **porqué** estableciendo nuestras comunicaciones mediante un túnel SSH **estaremos cifrando la totalidad de nuestro tráfico**.
 
@@ -77,7 +77,7 @@ Al establecer el túnel SSH lo primero que hará **el ordenador que está en la 
 
 Como se puede ver en la imagen, **en el momento que el cliente establezca comunicación** con el servidor SSH **se creará un Túnel de comunicación entre el cliente que está en la red local comprometida y el servidor SSH** que está fuera de la red local comprometida.
 
-Un vez establecido el túnel el cliente solicitará por ejemplo visitar una página web como podría ser por ejemplo [www.geekland.eu]({{< relref "/posts/escuchar-la-radio-desde-la-terminal-en-linux-con-un-script-de-bash" >}})
+Un vez establecido el túnel el cliente solicitará por ejemplo visitar una página web como podría ser por ejemplo [https://geeklandlinux.github.io/]({{< relref "/posts/escuchar-la-radio-desde-la-terminal-en-linux-con-un-script-de-bash" >}})
 
 **Cuando el cliente introduzca la dirección en el navegador se enviará una petición http al servidor SSH con las siguientes particularidades**:
 
@@ -114,4 +114,4 @@ Las principales limitaciones de navegar o usar ciertas aplicaciones mediante tú
 
 Llegado a estas alturas quien quiera poner en práctica el uso de túneles SSH tan solo tiene que consultar el siguiente post:
 
-[https://geekland.eu/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})
+[https://geeklandlinux.github.io/posts/establecer-un-tunel-ssh/]({{< relref "/posts/establecer-un-tunel-ssh" >}})

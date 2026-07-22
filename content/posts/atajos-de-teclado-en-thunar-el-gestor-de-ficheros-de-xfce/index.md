@@ -253,7 +253,7 @@ Tan solo hay que realizar las acciones que describiré a continuación:
 
 Para buscar ficheros o directorios pueden seguir las instrucciones que se citan en el siguiente enlace:
 
-[https://geekland.eu/buscar-archivos-en-thunar/]({{< relref "/posts/buscar-archivos-en-thunar" >}})
+[https://geeklandlinux.github.io/posts/buscar-archivos-en-thunar/]({{< relref "/posts/buscar-archivos-en-thunar" >}})
 
 Es una lástima que el buscador de ficheros no disponga de un buscador que permita buscar ficheros por su contenido.
 

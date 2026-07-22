@@ -17,7 +17,7 @@ Hoy estaba redimensionando una imagen con Gimp y he parado el proceso porqué me
 
 Al parar el proceso pensaba que la partición Home volvería a tener el mismo espacio libre que antes de empezar a redimensionar la foto, pero no ha sido así. Al parar el proceso **me ha quedado la Home llena y no tenia ni la más remota idea del archivo que estaba consumiendo este espacio**. El problema que acabo de citar lo podéis ver reflejado en la siguiente captura de pantalla:
 
-[![Disco Duro lleno](images/Particion-Home-disco-duro-llena-300x192.png)](images/Particion-Home-disco-duro-llena.png)
+[![Disco Duro lleno](images/Particion-Home-disco-duro-llena.png)](images/Particion-Home-disco-duro-llena.png)
 
 **Para solucionar este problema** y encontrar el archivo que me estaba generando este problema **he usado el comando find**. Seguidamente podéis ver los pasos que usé:
 
@@ -39,7 +39,7 @@ Como el problema lo tenemos en la partición home tan solo tenemos que **abrir u
 
 Después de ejecutar el comando obtenemos el siguiente resultado:
 
-[![Archivos que llenan mi disco duro](images/Archivos-que-llenan-mi-disco-duro-300x133.png)](images/Archivos-que-llenan-mi-disco-duro.png)
+[![Archivos que llenan mi disco duro](images/Archivos-que-llenan-mi-disco-duro.png)](images/Archivos-que-llenan-mi-disco-duro.png)
 
 Como se puede ver en la captura de pantalla **en mi partición Home solo existen 3 archivos con un tamaño superior a 1Gb**. Dos de ellos corresponden al gestor de correo electrónico Thunderbird, otro corresponde a un archivo muy raro denominado ****sudo****, y finalmente **el archivo** ****gimpswap.26421**** que **sin duda es el archivo que está llenando mi Home de forma inútil**.
 
@@ -47,11 +47,11 @@ Como se puede ver en la captura de pantalla **en mi partición Home solo existen
 
 **Una vez localizado el archivo** que está generando el problema, tal y como se puede ver en la captura de pantalla, tan solo **tenemos que ir a buscarlo en su ubicación y borrarlo**.
 
-[![borrar archivos que llenan mi disco duro](images/borrar-archivos-que-llenan-mi-disco-duro-300x193.png)](images/borrar-archivos-que-llenan-mi-disco-duro.png)
+[![borrar archivos que llenan mi disco duro](images/borrar-archivos-que-llenan-mi-disco-duro.png)](images/borrar-archivos-que-llenan-mi-disco-duro.png)
 
 Una vez eliminado el archivo el problema se ha solucionado y volveremos a tener espacio en nuestra home. Además **después de investigar el archivo sudo y los archivos de thunderbird he visto que aún podía eliminar más contenido que era innecesario. Por lo tanto después de haber terminado la limpieza de mi Home el resultado es el siguiente:**
 
-[![Espacio recuperado en el disco duro](images/Espacio-recuperado-en-el-disco-duro-300x192.png)](images/Espacio-recuperado-en-el-disco-duro.png)
+[![Espacio recuperado en el disco duro](images/Espacio-recuperado-en-el-disco-duro.png)](images/Espacio-recuperado-en-el-disco-duro.png)
 
 Como se puede ver la ganancia de espacio en mi caso ha sido más que sorprendente pasando de un 89% de espacio ocupado a un 37%.
 
@@ -99,13 +99,13 @@ Una vez instalado ya lo podemos usar. Para usarlo **abrimos una terminal y nos p
 
 Una vez ejecutado ncdu tan solo hace falta esperar un poco y veremos un contenido parecido al siguiente:
 
-[![Comprobación partición raíz con ncdu](images/Partición-raíz-con-ncdu-300x190.png)](images/Partición-raíz-con-ncdu.png)
+[![Comprobación partición raíz con ncdu](images/Partición-raíz-con-ncdu.png)](images/Partición-raíz-con-ncdu.png)
 
 Tal y como se puede ver en la captura de pantalla **estamos viendo la totalidad de archivos y carpetas de la partición raíz. Además se nos está indicando el tamaño que ocupa cada una de las carpetas y archivos de forma ordenada de mayor a menor tamaño.**
 
 **Mediante los cursores podremos ir navegando dentro de la estructura de directorios y particiones para analizar si existe algún archivo o carpeta que tiene un tamaño anormal**. Para poner un simple ejemplo en la siguiente captura de pantalla veréis que he navegado dentro dentro de mi partición home:
 
-[![Comprobación partición home con ncdu](images/Partición-home-con-ncdu-300x190.png)](images/Partición-home-con-ncdu.png)
+[![Comprobación partición home con ncdu](images/Partición-home-con-ncdu.png)](images/Partición-home-con-ncdu.png)
 
 Si analizamos el contenido de la captura de pantalla veremos que obviamente no hay ningún anomalía ya que con anterioridad borre la totalidad de archivos que estaban llenando inútilmente mi disco duro.
 
@@ -113,6 +113,6 @@ Si analizamos el contenido de la captura de pantalla veremos que obviamente no h
 
 Si después de realizar todo lo mencionado en este post algunas de las particiones de vuestro disco duro sigue estando llena siempre podéis **aplicar las operaciones que se detallan en los siguiente enlaces:**
 
-[https://geekland.eu/limpiar-nuestro-sistema/]({{< relref "/posts/limpiar-nuestro-sistema" >}})
+[https://geeklandlinux.github.io/posts/limpiar-nuestro-sistema/]({{< relref "/posts/limpiar-nuestro-sistema" >}})
 
-[https://geekland.eu/liberar-espacio-con-bleachbit/]({{< relref "/posts/liberar-espacio-con-bleachbit" >}})
+[https://geeklandlinux.github.io/posts/liberar-espacio-con-bleachbit/]({{< relref "/posts/liberar-espacio-con-bleachbit" >}})

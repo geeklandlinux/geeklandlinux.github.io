@@ -40,9 +40,11 @@ En este apartado mostraremos como podemos crear nuestras propias acciones de bú
 
 Lo primero que tenemos que realizar es acceder al apartado donde tenemos que configurar las acciones de búsqueda. Para ello **posicionamos el puntero del mouse encima del icono de whisker menu**. Tal y como podemos ver en la captura de pantalla, **presionamos el botón derecho del mouse y seleccionamos la opción** **Propiedades**:
 
-[![Acceder a la configuración de Whisker menu](images/1-Acceso-configuración-de-Whisker-menu.png)](images/1-Acceso-configuración-de-Whisker-menu.png) Seguidamente aparecerá una ventana en la que tenemos que **seleccionar la pestaña de** **Acciones de búsqueda**. En estos momentos ya podemos empezar la configuración de la acción de búsqueda. Para ello **presionamos el botón +**. Una vez hayamos presionado el botón +, deberemos **rellenar los campos** **Nombre**, **Patrón** y **Orden** que se pueden ver en la siguiente captura de pantalla:
+[![Acceder a la configuración de Whisker menu](images/1-Acceso-configuración-de-Whisker-menu.png)](images/1-Acceso-configuración-de-Whisker-menu.png) 
 
-[![Configurar una acción de Búsqueda](images/2-Rellenar-acciones-de-búsqueda-210x300.png)](images/2-Rellenar-acciones-de-búsqueda.png)
+Seguidamente aparecerá una ventana en la que tenemos que **seleccionar la pestaña de** **Acciones de búsqueda**. En estos momentos ya podemos empezar la configuración de la acción de búsqueda. Para ello **presionamos el botón +**. Una vez hayamos presionado el botón +, deberemos **rellenar los campos** **Nombre**, **Patrón** y **Orden** que se pueden ver en la siguiente captura de pantalla:
+
+[![Configurar una acción de Búsqueda](images/2-Rellenar-acciones-de-búsqueda.png)](images/2-Rellenar-acciones-de-búsqueda.png)
 
 **En campo Nombre** **introduciremos el nombre de la acción búsqueda**. Podéis elegir el nombre que queráis. En mi caso el nombre seleccionado será:
 
@@ -82,7 +84,7 @@ La segunda parte de la orden se obtiene de la siguiente forma. Abrimos Youtube. 
 
 Seguidamente, tal y como se puede ver en la captura de pantalla, Youtube nos ofrecerá los resultados de nuestra búsqueda.
 
-[![Obtener la Orden para buscar en Youtube](images/3-comando-acción-personalizada-300x198.png)](images/3-comando-acción-personalizada.png)
+[![Obtener la Orden para buscar en Youtube](images/3-comando-acción-personalizada.png)](images/3-comando-acción-personalizada.png)
 
 Una vez mostrados los resultados de búsqueda, tal y como se puede ver en la captura de pantalla, tenemos que ir a la barra de direcciones de nuestro navegador y copiar la URL desde el principio hasta encontrar nuestra palabra de búsqueda que en mi caso es Barcelona. De este modo ya tenemos la segunda parte de nuestra orden.
 
@@ -96,7 +98,7 @@ La tercera parte es muy simple y siempre será igual. Tan solo tenemos que añad
 
 Una vez introducidos el Nombre, el Patrón y la Orden, tal y como se puede ver en la captura de pantalla, **presionamos el botón Cerrar**.
 
-[![Acción de búsqueda configurada](images/4-Acción-de-búsqueda-configurada-210x300.png)](images/4-Acción-de-búsqueda-configurada.png)
+[![Acción de búsqueda configurada](images/4-Acción-de-búsqueda-configurada.png)](images/4-Acción-de-búsqueda-configurada.png)
 
 Ahora ya podemos probar si la acción de búsqueda que acabamos de configurar funciona de la forma que esperamos. Para ello **en el cuadro de búsqueda de whisker menu**, tal y como se puede ver en la captura de pantalla, **introducimos el siguiente texto:**
 
@@ -104,13 +106,13 @@ Ahora ya podemos probar si la acción de búsqueda que acabamos de configurar fu
 > !y debian linux
 > ```
 
-[![Buscar en Youtube mediante acciones de búsqueda](images/5-busqueda-youtube-223x300.png)](images/5-busqueda-youtube.png)
+[![Buscar en Youtube mediante acciones de búsqueda](images/5-busqueda-youtube.png)](images/5-busqueda-youtube.png)
 
 ###### Nota: El texto introducido en el cuadro de búsqueda empieza por !y, ya que !y, es el patrón que hemos seleccionado en la configuración. Después de !y introducimos el texto que queremos buscar en youtube que en mi caso es debian linux.
 
 Finalmente **presionamos** **Enter**. Después de presionar Enter, tal y como se puede ver en la captura de pantalla, se abre nuestro navegador predeterminado con la búsqueda correspondiente:
 
-[![Acción de búsqueda funcionando](images/6-Búsqueda-en-youtube-realizada-300x193.png)](images/6-Búsqueda-en-youtube-realizada.png)
+[![Acción de búsqueda funcionando](images/6-Búsqueda-en-youtube-realizada.png)](images/6-Búsqueda-en-youtube-realizada.png)
 
 Aplicando la metodología que acabamos de ver, podemos crear multitud de acciones de búsqueda. Seguidamente mostraremos el **Nombre**, el **Patrón** y la **Orden** a utilizar para configurar otras acciones de búsqueda diferentes a la que acabamos de crear.
 
@@ -217,7 +219,7 @@ El Nombre, Patrón y Orden para poder realizar búsqueda de temas en mi propio b
 > ```
 > Nombre: Geekland
 > Patrón: !geek
-> Orden: exo-open --launch WebBrowser https://geekland.eu/?s=%u
+> Orden: exo-open --launch WebBrowser https://geeklandlinux.github.io/search/?s=%u
 > ```
 
 Una vez configurada la acción de búsqueda, pueden comprobar su funcionamiento introduciendo y ejecutando el siguiente comando en el cuadro de búsqueda de whisker menu:
@@ -290,13 +292,13 @@ Una vez configurada la acción de búsqueda, lo único que falta es comprobar qu
 > !cat dni
 > ```
 
-[![Buscando un archivo con acciones de búsqueda](images/7-Buscar-un-archivo-en-el-disco-duro-202x300.png)](images/7-Buscar-un-archivo-en-el-disco-duro.png)
+[![Buscando un archivo con acciones de búsqueda](images/7-Buscar-un-archivo-en-el-disco-duro.png)](images/7-Buscar-un-archivo-en-el-disco-duro.png)
 
 ###### Nota: El texto introducido en el cuadro de búsqueda empieza por !cat, ya que !cat, es el patrón que hemos seleccionado en la configuración. Después de !cat introducimos dni ya que es el nombre, o parte del nombre, del archivo de imagen que contiene mi DNI.
 
 Una vez introducido el texto **presionamos la tecla** **Enter**. Seguidamente se abrirá catfish y empezará a buscar la totalidad de archivos que contienen la palabra DNI ubicados en mi partición Home. Después de esperar unos segundos, tal y como se puede ver en la captura de pantalla, ya hemos encontrado el archivo que estábamos buscando:
 
-[![Archivo encontrado](images/8-dni-encontrado-300x191.png)](images/8-dni-encontrado.png)
+[![Archivo encontrado](images/8-dni-encontrado.png)](images/8-dni-encontrado.png)
 
 ## USAR LAS ACCIONES DE BÚSQUEDA PRECONFIGURADAS
 
@@ -349,9 +351,9 @@ Si lo precisamos también podemos ejecutar comandos que ejecutaríamos en la ter
 
 Acceder a cualquier página web a través de Whisker menu es sumamente fácil. Tan solo hay que acceder al cuadro de búsqueda de whisker menu e introducir la URL de la web que quieren visitar. Así por lo tanto, si quieren visitar mi blog, tan solo **hay que introducir la siguiente URL en el cuadro de búsqueda de Whisker menu:**
 
-[https://geekland.eu](https://geekland.eu/ "Web geekland.eu")
+[https://geeklandlinux.github.io](https://geeklandlinux.github.io "Web geekland")
 
-**Una vez introducida la URL presionamos la tecla** **Enter**. Seguidamente se abrirá nuestro navegador web por defecto y accederá al blog geekland.eu
+**Una vez introducida la URL presionamos la tecla** **Enter**. Seguidamente se abrirá nuestro navegador web por defecto y accederá al blog geekland
 
 ## CONCLUSIÓN FINAL SOBRE WHISKER MENU Y LAS ACCIONES DE BÚSQUEDA
 

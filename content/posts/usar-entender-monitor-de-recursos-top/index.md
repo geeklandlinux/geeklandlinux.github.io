@@ -72,7 +72,7 @@ En la segunda línea podremos ver estadísticas referentes a los procesos y tare
 
 El significado de los parámetros mostrados en la segunda línea es el siguiente:
 
- 
+
 |   **Parámetro**   |   **Explicación**   |
 | --- | --- |
 |   **Tasks**   |   Número total de procesos que están cargados en memoria, estén o no ejecutándose.   |
@@ -89,7 +89,7 @@ En la tercera de las líneas encontramos información relativa el consumo de CPU
 
 El significado de cada uno de los parámetros es el siguiente:
 
- 
+
 |   **Parámetro**   |   **Explicación**   |
 | --- | --- |
 |   **us (usuario)**   |   % de CPU que están consumiendo los procesos que se ejecutan en el espacio de usuario. La gran mayoría de programas y aplicaciones que ejecutamos, servidores web, base de datos, etc correarán en el espacio de usuario.   |
@@ -109,7 +109,7 @@ En la cuarta y quinta línea encontraremos información acerca del uso que nuest
 
 Para ver una explicación de los valores mostrados en este apartado pueden visitar el siguiente enlace:
 
-https://geekland.eu/consumo-de-memoria-ram-en-linux/
+https://geeklandlinux.github.io/posts/consumo-de-memoria-ram-en-linux/
 
 ### Entendiendo la área de tareas y procesos del monitor de recursos top
 
@@ -119,7 +119,7 @@ Cada una de las columnas de la área de tareas muestra la siguiente información
 
 El significado de los parámetros de la captura de pantalla es el siguiente:
 
- 
+
 |   **Parámetro**   |   **Explicación**   |
 | --- | --- |
 |   **PID**   |   Identificador del proceso. El identificador de proceso no es más que un número entero que identifica un proceso determinado.   |
@@ -399,7 +399,7 @@ Si en vez de mostrar los procesos que tienen un consumo de CPU superior a 0,2% q
 
 Otros ejemplos de filtro que podríamos haber aplicado son:
 
- 
+
 |   **Filtro**   |   **Acción**   |
 | --- | --- |
 |   !%PR\=20   |   Excluir la totalidad de procesos que tienen prioridad igual a 20   |
@@ -408,9 +408,7 @@ Otros ejemplos de filtro que podríamos haber aplicado son:
 |   !%MEM\=5   |   Excluir la totalidad de procesos con un consumo de RAM inferior al 5%   |
 |   ...   |  |
 
- 
-
-**Una vez aplicado un filtro podemos aplicar otro filtro**. Para ello, una vez hayamos aplicado el primer filtro volvemos a presionar la tecla o. Acto seguido introducimos el segundo filtro que en mi caso será el siguiente:
+ **Una vez aplicado un filtro podemos aplicar otro filtro**. Para ello, una vez hayamos aplicado el primer filtro volvemos a presionar la tecla o. Acto seguido introducimos el segundo filtro que en mi caso será el siguiente:
 
 > ```
 > USER=pi
@@ -448,7 +446,7 @@ Para ver la versión de Top que tenemos instalada tan solo tenemos que ejecutar 
 
 Los atajos de teclado indispensables para trabajar con el monitor de recursos top son las que se muestran a continuación:
 
- 
+
 |   **Operación**   |   **Combinación de teclas o comando a usar**   |
 | --- | --- |
 |   Ordenar los procesos por consumo de CPU   |   Mayus + p   |

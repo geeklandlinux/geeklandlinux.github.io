@@ -28,7 +28,7 @@ El asistente de actualización de Nextcloud creará un punto de restauración en
 
 Para ello pueden seguir las instrucciones que se muestran a continuación:
 
-https://geekland.eu/copia-de-seguridad-backup-nextcloud/
+https://geeklandlinux.github.io/posts/copia-de-seguridad-backup-nextcloud/
 
 ## ACTUALIZAR NEXTCLOUD MEDIANTE SU ASISTENTE DE ACTUALIZACIÓN
 
