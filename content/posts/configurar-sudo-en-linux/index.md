@@ -113,7 +113,9 @@ Para conseguir este propósito tan solo tenemos que añadir la siguiente línea 
 > joan ALL=(ALL:ALL) ALL
 > ```
 
-\[caption id="attachment\_7457" align="alignnone" width="484"\][![Configuración básica del comando sudo](images/Configuración-básica-del-comando-sudo.png "Configuración básica del comando sudo")](images/Configuración-básica-del-comando-sudo.png) Muestra de mi fichero /etc/sudoers\[/caption\]
+[![Configuración básica del comando sudo](images/Configuración-básica-del-comando-sudo.png "Configuración básica del comando sudo")](images/Configuración-básica-del-comando-sudo.png) 
+
+Muestra de mi fichero /etc/sudoers/
 
 Introduciendo esta línea damos permiso al usuario **joan** para que en cualquier equipo pueda ejecutar cualquier comando en nombre de cualquier usuario y grupo existente.
 
@@ -317,7 +319,9 @@ Si queremos ver la totalidad de acciones realizadas con el comando sudo podemos 
 
 Después de ejecutar el comando obtendremos el siguiente resultado:
 
-\[caption id="attachment\_7458" align="alignnone" width="590"\][![Logs del comando sudo](images/logs-sudo-journalctl.png "Muestra de los logs del comando sudo")](images/logs-sudo-journalctl.png) Muestra de los logs de sudo\[/caption\]
+[<img src="images/logs-sudo-journalctl.png" alt="Logs del comando sudo" title="Muestra de los logs del comando sudo" style="zoom:80%;" />](images/logs-sudo-journalctl.png) 
+
+Muestra de los logs de sudo
 
 Si observamos los resultados de la captura de pantalla podemos observar los siguientes registros:
 
@@ -370,6 +374,6 @@ A modo de ejemplo si en xfce quiero ejecutar thunar con permisos de administrado
 
 En el caso que pretendan obtener información adicional sobro como abrir aplicaciones con entorno gráfico como usuario root pueden consultar el siguiente enlace:
 
-[https://geekland.eu/abrir-aplicaciones-graficas-como-root/]({{< relref "/posts/abrir-aplicaciones-graficas-como-root" >}})
+[https://geeklandlinux.github.io/posts/abrir-aplicaciones-graficas-como-root/]({{< relref "/posts/abrir-aplicaciones-graficas-como-root" >}})
 
 Si queréis aportar alguna idea adicional para poder configurar  sudo la podéis dejar en los comentarios del blog.

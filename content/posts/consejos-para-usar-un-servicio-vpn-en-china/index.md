@@ -61,7 +61,7 @@ En el caso hayáis viajado sin tener instalado un VPN os tendréis que buscar la
 2. Preguntar a un compañero que os deje su VPN para contratar un servicio VPN.
 3. Los proveedores de VPN acostumbran a tener clones de sus páginas web en dominios accesibles desde China. Usando los enlaces e emails que dejaré a continuación deberían ser capaces de contratar un servicio VPN en China.
 
- 
+
 |   **NordVPN**  [https://join.securitysite.tech/es/order/](https://join.securitysite.tech/es/order/)  `support@nordvpn.com`   |   **ExpressVPN**  [https://fzxjxkb.com/es/](https://fzxjxkb.com/es/)  `support@expressvpn.zendesk.com`   |
 | --- | --- |
 |   **VyprVPN**  [https://www.getvy.net/](https://www.getvy.net/)  [https://www.vysupport.com](https://www.vysupport.com/)  `support@goldenfrog.com`   |   **Surfshark**  [https://order.surfychinaz.com/](https://order.surfychinaz.com/)  `support@surfshark.com`   |
@@ -121,9 +121,9 @@ El verano pasado tuve la experiencia que prácticamente ningún servicio VPN fun
 
 Curiosamente esta opción nunca me ha fallado. Se trata de comprar una Raspberry Pi o alquilar un servidor VPS. Acto seguido podemos instalar y configurar nuestro propio servicio VPN en nuestro domicilio o servidor VPS del siguiente modo:
 
-https://geekland.eu/instalar-servidor-openvpn-raspberry-pivpn/
+https://geeklandlinux.github.io/posts/instalar-servidor-openvpn-raspberry-pivpn/
 
-https://geekland.eu/instalar-y-configurar-un-servidor-vpn/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-un-servidor-vpn/
 
 ### Servidores VPN de pago que ocasionalmente me han funcionado
 

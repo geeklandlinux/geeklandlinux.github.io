@@ -98,6 +98,6 @@ Para consultar los paquetes disponibles en la sección **non-free** podemos usar
 
 Si en un momento determinado pretenden averiguar la cantidad de software privativo instalado en su equipo pueden seguir las instrucciones del siguiente enlace:
 
-[https://geekland.eu/conocer-software-privativo-instalado/]({{< relref "/posts/conocer-software-privativo-instalado" >}})
+[https://geeklandlinux.github.io/posts/conocer-software-privativo-instalado/]({{< relref "/posts/conocer-software-privativo-instalado" >}})
 
 De este modo siempre podremos controlar de forma fácil los paquetes privativos que tenemos instalados en nuestra distribución.

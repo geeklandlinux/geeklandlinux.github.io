@@ -35,7 +35,7 @@ El primero paso a resolver para disponer de nuestro propio servidor web, es hace
 
 **Para conseguir disponer de un servidor con ip interna fija tan solo hay que seguir los pasos que se detallan en el siguiente enlace**:
 
-[https://geekland.eu/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
+[https://geeklandlinux.github.io/posts/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
 
 ###### Nota: El método descrito en el enlace es válido en el caso que estéis usando un servidor sin entorno gráfico. En el caso que el servidor que uséis disponga de entorno gráfico, tendréis que configurar este aspecto a través de la interfaz visual de vuestro gestor de red que probablemente será network manager o wicd.
 
@@ -49,7 +49,7 @@ Para que los clientes remotos puedan conectarse a nuestro servidor web necesitar
 
 **Para** solucionar este problema tenemos que **asociar la IP Pública de nuestro servidor a un dominio**. Para poder realizar este paso tan solo **tienen que seguir las indicaciones del siguiente enlace**:
 
-[https://geekland.eu/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
+[https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/]({{< relref "/posts/encontrar-servidor-con-dns-dinamico" >}})
 
 Una vez realizados estos pasos tendréis vuestra IP Pública asociada a un dominio. En mi caso mi IP Pública está asociada al dominio geekland.sytes.net
 
@@ -63,21 +63,21 @@ En estos momentos tenemos que configurar nuestro router para que sea capaz de re
 
 Justo después de ejecutar el comando **obtendremos la siguiente captura de pantalla**:
 
-[![ip interna servidor web](images/Consultar-ip-interna-300x186.png)](images/Consultar-ip-interna.png)
+[![ip interna servidor web](images/Consultar-ip-interna.png)](images/Consultar-ip-interna.png)
 
 Como se puede ver en la captura de pantalla, l**a IP interna del que será el futuro servidor web es la 192.168.1.188**
 
 Una vez conocemos la IP interna del futuro servidor web, **accedemos a la configuración del Router abriendo el navegador e introduciendo nuestra puerta de entrada**. Una vez introducida la puerta de entrada, que acostumbra a ser 192.168.1.1, tal y como podemos ver en la captura de pantalla tendremos que **introducir nuestro nombre de usuario y contraseña y presionar el botón Aceptar**:
 
-[![acceder configuracion Router](images/acceder-configuracion-Router-300x186.png)](images/acceder-configuracion-Router.png)
+[<img src="images/acceder-configuracion-Router.png" alt="acceder configuracion Router" style="zoom:80%;" />](images/acceder-configuracion-Router.png)
 
 Una vez hemos accedido a la configuración del Router, **buscamos el apartado Virtual Servers en el menú de configuración**. **En mi router**, como se puede ver en la captura de pantalla, **se halla en Advanced Setup / NAT / Virtual Servers**:
 
-[![Acceder a Virtual servers](images/Acceder-a-Virtual-servers-300x186.png)](images/Acceder-a-Virtual-servers.png)
+[![Acceder a Virtual servers](images/Acceder-a-Virtual-servers.png)](images/Acceder-a-Virtual-servers.png)
 
 Una vez dentro de Virtual Servers **presionamos el botón Add** para añadir nuestro servidor web. Una vez presionado el botón Add aparecerá la siguiente pantalla:
 
-[![Abrir puerto servidor web 80](images/Abrir-puerto-http-300x186.png)](images/Abrir-puerto-http.png)
+[![Abrir puerto servidor web 80](images/Abrir-puerto-http.png)](images/Abrir-puerto-http.png)
 
 Como se puede ver en la captura de pantalla **en Server IP Address tendremos que indicar la IP interna de nuestro servidor web que será la 192.168.1.188**
 
@@ -87,7 +87,7 @@ Una vez realizados los pasos tan solo tenemos que **apretar el botón Save/Apply
 
 **Si** además **tenemos previsto que nuestro servidor web funcione con https, también tendremos que abrir el puerto 443**. **Para abrir el puerto 443**, tal y como se puede ver en la captura de pantalla, **hay que seguir los mismos pasos que para abrir el puerto 80**:
 
-[![Abrir puerto 443 https](images/Abrir-puerto-https-300x186.png)](images/Abrir-puerto-https.png)
+[![Abrir puerto 443 https](images/Abrir-puerto-https.png)](images/Abrir-puerto-https.png)
 
 **La única diferencia es que en vez de seleccionar el servicio Web Server (HTTP), en este caso tendremos que seleccionar Secure Web Server (HTTPS)**. Una vez seleccionada la IP del servidor, y el tipo de servicio tan solo tendremos que volver a presionar el botón Apply/Save.
 
@@ -170,11 +170,11 @@ El siguiente paso es instalar el servidor de base de datos MySQL. Para ello **ej
 
 Durante la instalación del servidor de la base datos, tal y como se puede ver en la captura de pantalla, se nos pedirá **introducir la contraseña del usuario root que administrará la base de datos**.
 
-[![Contraseña usuario root mysql](images/Contraseña-usuario-root-mysql-300x186.png)](images/Contraseña-usuario-root-mysql.png)
+[![Contraseña usuario root mysql](images/Contraseña-usuario-root-mysql.png)](images/Contraseña-usuario-root-mysql.png)
 
 Tal y como se puede ver en la captura de pantalla, introducimos la contraseña y **presionamos Enter**. Justo después de presionar Enter, tal y como se puede ver en la captura de pantalla, **se nos volverá a pedir que repitamos la contraseña que acabamos de introducir**:
 
-[![Confirmación contraseña usuario root mysql](images/Confirmación-contraseña-usuario-root-mysql-300x186.png)](images/Confirmación-contraseña-usuario-root-mysql.png)
+[![Confirmación contraseña usuario root mysql](images/Confirmación-contraseña-usuario-root-mysql.png)](images/Confirmación-contraseña-usuario-root-mysql.png)
 
 **Introducimos la contraseña de nuevo y presionamos Enter**. Ahora tan solo tenemos que esperar unos segundos a que concluya el proceso de instalación de MySQL.
 
@@ -190,19 +190,19 @@ Phpmyadmin es un administrador gráfico web para bases de datos MySQL. Por lo ta
 
 Durante la instalación de Phpmyadmin se nos preguntará el servidor web en el que queremos ejecutar Phpmyadmin. Tal y como se puede ver en la captura de pantalla, **seleccionamos el servidor apache2 que acabamos de instalar y presionamos Enter**.
 
-[![Servidor web que se usará](images/Servidor-en-que-se-usará-phpmyadmin-300x186.png)](images/Servidor-en-que-se-usará-phpmyadmin.png)
+[![Servidor web que se usará](images/Servidor-en-que-se-usará-phpmyadmin.png)](images/Servidor-en-que-se-usará-phpmyadmin.png)
 
 Seguidamente nos aparecerá un mensaje en el que se nos advierte que es necesario disponer de una base de datos instalada y configurada para poder utilizar phpmyadmin. Se nos pregunta si queremos que la creación y configuración de esta base de datos se haga de forma automática. Nosotros, tal y como se puede ver en la captura de pantalla, **seleccionaremos la opción Sí y presionaremos Enter**.
 
-[![Creación y configuración de una base de datos](images/Creación-y-configuración-de-una-base-de-datos-300x186.png)](images/Creación-y-configuración-de-una-base-de-datos.png)
+[![Creación y configuración de una base de datos](images/Creación-y-configuración-de-una-base-de-datos.png)](images/Creación-y-configuración-de-una-base-de-datos.png)
 
 Después de presionar Enter continuará el proceso de instalación. En breves momentos **aparecerá otra ventana en la que se nos pedirá que introduzcamos la contraseña de administrador root de Mysql** para que phpmyadmin pueda acceder al servidor de base de datos Mysql y crear la base de datos. Tal y como se puede ver en la captura de pantalla, **introducimos la contraseña** que definimos previamente y **presionamos Enter**:
 
-[![Contraseña usuario root mysql](images/Contraseña-usuario-root-mysql1-300x186.png)](images/Contraseña-usuario-root-mysql1.png)
+[![Contraseña usuario root mysql](images/Contraseña-usuario-root-mysql1.png)](images/Contraseña-usuario-root-mysql1.png)
 
 Después de presionar Enter continuará el proceso de instalación. En breves momentos **aparecerá otra ventana en la que nos pedirá que introduzcamos la contraseña que queremos usar para loguearnos a phpmyadmin**. Tal y como se puede ver en la captura de pantalla **introducimos la contraseña y presionamos la tecla Enter**.
 
-[![Contraseña de phpmyadmin](images/Contraseña-de-phpmyadmin-300x186.png)](images/Contraseña-de-phpmyadmin.png)
+[![Contraseña de phpmyadmin](images/Contraseña-de-phpmyadmin.png)](images/Contraseña-de-phpmyadmin.png)
 
 Al presionar Enter nos a**parecerá otra pantalla en la que se nos pedirá que reconfirmemos las contraseña que acabamos de introducir**. Por lo tanto **volvemos a teclear la contraseña y presionamos Enter**. En estos momentos el proceso ha finalizado.
 
@@ -237,7 +237,7 @@ Para comprobar que el servidor web está funcionando, tan solo tenemos que **abr
 
 Una vez tecleada la dirección, si todo funciona adecuadamente obtendréis un resultado parecido al siguiente:
 
-[![servidor web funcionando](images/Comprobar-funcionamiento-Apache-169x300.png)](images/Comprobar-funcionamiento-Apache.png)
+[<img src="images/Comprobar-funcionamiento-Apache.png" alt="servidor web funcionando" style="zoom:80%;" />](images/Comprobar-funcionamiento-Apache.png)
 
 ###### Nota: Si la prueba se realiza dentro de nuestra red local, se debe sustituir la dirección del dominio no-ip por la dirección ip estática de nuestro servidor web. En mi caso la dirección ip estática es 192.168.1.188
 
@@ -267,7 +267,7 @@ Una vez generado el script ya podemos realizar la comprobación. Para realizar l
 
 Una vez tecleada la dirección, si todo funciona adecuadamente, obtendréis un resultado parecido al siguiente:
 
-[![Comprobar funcionamiento PHP](images/Comprobar-funcionamiento-PHP-169x300.png)](images/Comprobar-funcionamiento-PHP.png)
+[<img src="images/Comprobar-funcionamiento-PHP.png" alt="Comprobar funcionamiento PHP" style="zoom:80%;" />](images/Comprobar-funcionamiento-PHP.png)
 
 ###### Nota: Si la prueba se realiza dentro de nuestra red local, se debe sustituir la dirección del dominio no-ip por la dirección ip estática de nuestro servidor web que en mi caso es 192.168.1.188.
 
@@ -283,10 +283,10 @@ Para comprobar que MySQL y Phpmyadmin están funcionando, tan solo tenemos que *
 
 Una vez tecleada la dirección, si todo funciona adecuadamente obtendréis un resultado parecido al siguiente:
 
-[![login phpmyadmin](images/Pantalla-Login-phpmyadmin-169x300.png)](images/Pantalla-Login-phpmyadmin.png)
+[<img src="images/Pantalla-Login-phpmyadmin.png" alt="login phpmyadmin" style="zoom:80%;" />](images/Pantalla-Login-phpmyadmin.png)
 
 Ahora tan solo hay que **introducir la contraseña que definimos en etapas anteriores y presionar el botón continuar**. Si todo funciona correctamente obtendremos un resultado similar al siguiente:
 
-[![Comprobar funcionamiento Phpmyadmin](images/Comprobar-funcionamiento-Phpmyadmin-169x300.png)](images/Comprobar-funcionamiento-Phpmyadmin.png)
+[<img src="images/Comprobar-funcionamiento-Phpmyadmin.png" alt="Comprobar funcionamiento Phpmyadmin" style="zoom:80%;" />](images/Comprobar-funcionamiento-Phpmyadmin.png)
 
 Si todas las comprobaciones realizadas son satisfactorias podemos afirmar que disponemos de un servidor web LAMP instalado y funcional. En futuros post veremos como podemos dar uso al servidor web LAMP que acabamos de instalar.

@@ -51,7 +51,7 @@ Seguidamente en el panel lateral ciclamos en el apartado **Privacidad y segurida
 
 Una vez activado el servicio VPN aparecerá un botón azul en la barra de direcciones en que pone **VPN**. Lo presionamos y en el menú que aparecerá podremos seleccionar la ubicación geográfica del servicio VPN que queremos usar. En mi caso selecciono **Estados Unidos**.
 
-[![Seleccionar el país del VPN](images/Seleccionar-VPN-que-queremos-usar-300x210.png "Seleccionar el país del VPN")](images/Seleccionar-VPN-que-queremos-usar.png)
+[![Seleccionar el país del VPN](images/Seleccionar-VPN-que-queremos-usar.png "Seleccionar el país del VPN")](images/Seleccionar-VPN-que-queremos-usar.png)
 
 ###### Nota: Si no es importa la ubicación del servicio es mejor seleccionar la opción Ubicación óptima porque la velocidad de navegación será superior.
 
@@ -125,4 +125,4 @@ Como todo servicio VPN la seguridad radica en las intenciones que tiene la empre
 
 El servicio VPN de Opera también lo podemos usar en iOS y en Android. Para ello tan solo tiene que seguir las instrucciones que encontrarán en el siguiente enlace:
 
-[https://geekland.eu/vpn-para-android-ios-gratis-ilimitado/]({{< relref "/posts/vpn-para-android-ios-gratis-ilimitado" >}})
+[https://geeklandlinux.github.io/posts/vpn-para-android-ios-gratis-ilimitado/]({{< relref "/posts/vpn-para-android-ios-gratis-ilimitado" >}})

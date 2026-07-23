@@ -37,7 +37,7 @@ Para facilitar la conexión al iPad o al iPhone mediante SSH es recomendable dis
 
 Para disponer de una IP fija lo único que tenemos que hacer es seguir los pasos que se detallan en el siguiente post:
 
-[https://geekland.eu/asignar-una-ip-estatica-en-el-iphone-o-en-el-ipad/]({{< relref "/posts/asignar-una-ip-estatica-en-el-iphone-o-en-el-ipad" >}})
+[https://geeklandlinux.github.io/posts/asignar-una-ip-estatica-en-el-iphone-o-en-el-ipad/]({{< relref "/posts/asignar-una-ip-estatica-en-el-iphone-o-en-el-ipad" >}})
 
 Si siguen al pie de la letra las instrucciones mencionadas en el post, nuestro dispositivo con iOS dispondrá de una IP estática que será la **198.168.1.18**.
 
@@ -47,15 +47,15 @@ Una vez disponemos de una IP fija ya podemos instalar OpenSSH.
 
 Para instalar OpenSSH tenemos que acceder a Cydia y buscar el paquete **OpenSSH**.
 
-[![Buscar OpenSHH en Cydia](images/Buscar-OpeSSH-en-Cydia-300x225.png "Buscar OpenSHH en Cydia")](images/Buscar-OpeSSH-en-Cydia.png)
+[<img src="images/Buscar-OpeSSH-en-Cydia.png" alt="Buscar OpenSHH en Cydia" title="Buscar OpenSHH en Cydia" style="zoom:80%;" />](images/Buscar-OpeSSH-en-Cydia.png)
 
 Una vez encontrado el paquete tan solo tenemos que presionar el botón **Instalar**.
 
-[![Aplicación OpenSSH en iOS](images/App-OpenSSH-en-iOS-300x225.png "Aplicación OpenSSH en iOS")](images/App-OpenSSH-en-iOS.png)
+[<img src="images/app-openssh-en-ios.png" alt="Aplicación OpenSSH en iOS" title="Aplicación OpenSSH en iOS" style="zoom:80%;" />](images/App-OpenSSH-en-iOS.png)
 
 Seguidamente aparecerá una ventana parecida a la siguiente en la que tendremos que presionar el botón **Confirmar**.
 
-[![Instlar OpenSSH en iOS](images/Instalar-OpenSSH-en-iOS-300x225.png "Instlar OpenSSH en iOS")](images/Instalar-OpenSSH-en-iOS.png)
+[<img src="images/Instalar-OpenSSH-en-iOS.png" alt="Instlar OpenSSH en iOS" title="Instlar OpenSSH en iOS" style="zoom:80%;" />](images/Instalar-OpenSSH-en-iOS.png)
 
 Después de presionar el botón confirmar se instalará OpenSSH en nuestro dispositivo.
 
@@ -73,23 +73,24 @@ Seguidamente aparecerá la ventana **Abrir ubicación** en la que tenemos que es
 > ssh://root@192.168.1.18
 > ```
 
-\[caption id="attachment\_7558" align="alignnone" width="345"\][![Conectarse con el iPad con SSH en Linux](images/Comando-conexión-SSH-en-Linux.png "Conectarse con el iPad con SSH en Linux")](images/Comando-conexión-SSH-en-Linux.png) Muestra del comando para conectarse a nuestro iPad o iPhone\[/caption\]
+[![Conectarse con el iPad con SSH en Linux](images/Comando-conexión-SSH-en-Linux.png "Conectarse con el iPad con SSH en Linux")](images/Comando-conexión-SSH-en-Linux.png) 
+
+Muestra del comando para conectarse a nuestro iPad o iPhone
 
 El significado de los parámetros introducidos en la ventana Abrir la ubicación es el siguiente:
 
-**ssh://**  : Es el comando a usar para indicar que queremos realizar una conexión a un servidor ssh.
-
-**root@192.168.1.18**  : Es la dirección del dispositivo iOS al que nos queremos conectar. **root** es el nombre de usuario del dispositivo y **192.168.1.18** es la dirección IP del dispositivo. Como podéis observar la ip se trata de una IP interna. En caso de tener necesidad de acceder al dispositivo iOS desde fuera de la red local, deberemos sustituir la ip interna por la ip pública o por un dominio de redireccionamiento DNS.
+* **ssh://**  : Es el comando a usar para indicar que queremos realizar una conexión a un servidor ssh.
+* **root@192.168.1.18**  : Es la dirección del dispositivo iOS al que nos queremos conectar. **root** es el nombre de usuario del dispositivo y **192.168.1.18** es la dirección IP del dispositivo. Como podéis observar la ip se trata de una IP interna. En caso de tener necesidad de acceder al dispositivo iOS desde fuera de la red local, deberemos sustituir la ip interna por la ip pública o por un dominio de redireccionamiento DNS.
 
 Una vez introducida la dirección presionaremos el botón **Abrir** y aparecerá la siguiente ventana:
 
-[![Verificar identidad del servidor SSH](images/Verificar-la-identidad-del-servidor-SSH-300x178.png "Verificar la identidad del servidor SSH")](images/Verificar-la-identidad-del-servidor-SSH.png)
+[![Verificar identidad del servidor SSH](images/Verificar-la-identidad-del-servidor-SSH.png "Verificar la identidad del servidor SSH")](images/Verificar-la-identidad-del-servidor-SSH.png)
 
 ###### Nota: Esta ventana solo aparecerá la primera vez que nos conectemos al iPad o iPhone mediante SSH. El motivo que aparezca es para prevenir conectarnos a un dispositivo malicioso y de esta forma evitar ataques man in the middle.
 
 Como estamos seguros que el dispositivo al que nos estamos conectando es a nuestro dispositivo presionamos el botón **iniciar sesión de todas formas**. Seguidamente aparecerá la siguiente ventana en la que deberemos introducir la contraseña de conexión:
 
-[![Contraseña para conectarse al servidor SSH](images/Contraseña-para-conectarse-al-servidor-SSH-300x186.png "Contraseña para conectarse al servidor SSH")](images/Contraseña-para-conectarse-al-servidor-SSH.png)
+[![Contraseña para conectarse al servidor SSH](images/Contraseña-para-conectarse-al-servidor-SSH.png "Contraseña para conectarse al servidor SSH")](images/Contraseña-para-conectarse-al-servidor-SSH.png)
 
 La contraseña de conexión por defecto es **alpine**. Por lo tanto escribimos **alpine** y presionamos el botón **Conectar**.
 
@@ -155,7 +156,7 @@ A continuación tenemos que rellenar los datos de conexión en la pestaña Gener
 
 Una vez rellenados los campos tan solo tenemos que presionar el botón **Conectar**. Justo en el momento de presionar el botón conectar aparecerá la siguiente ventana:
 
-[![Confianza del servidor SSH](images/Confianza-del-servidor-SSH-al-que-nos-conectamos-300x126.png)](images/Confianza-del-servidor-SSH-al-que-nos-conectamos.png)
+[![Confianza del servidor SSH](images/Confianza-del-servidor-SSH-al-que-nos-conectamos.png)](images/Confianza-del-servidor-SSH-al-que-nos-conectamos.png)
 
 Esta ventana solo aparecerá la primera vez que nos conectemos al iPad o al iPhone. El motivo que aparezca este mensaje es prevenir conectarnos a un dispositivo malicioso y de esta forma evitar ataques man in the middle.
 
@@ -163,11 +164,11 @@ Como nuestra red local es segura y estamos seguros que el dispositivo al que nos
 
 Seguidamente aparecerá la siguiente ventana en la que deberemos introducir la contraseña de conexión que por defecto que es **alpine**:
 
-[![Introducir contraseña a Filezilla](images/Contraeña-Filezilla-para-conectarnos-al-iPad-300x200.png "Introducir contraseña a Filezilla")](images/Contraeña-Filezilla-para-conectarnos-al-iPad.png)
+[![Introducir contraseña a Filezilla](images/Contraeña-Filezilla-para-conectarnos-al-iPad.png "Introducir contraseña a Filezilla")](images/Contraeña-Filezilla-para-conectarnos-al-iPad.png)
 
 Una vez introducida la contraseña presionamos el botón **Aceptar** y nos conectaremos a nuestro dispositivo sin ningún tipo de problema.
 
-[![Conectado a iOS mediante Filezilla y SSH](images/Conectados-a-un-dispositvo-iOS-con-Filezilla.png "Conectado a iOS mediante Filezilla y SSH")](images/Conectados-a-un-dispositvo-iOS-con-Filezilla.png)
+[<img src="images/Conectados-a-un-dispositvo-iOS-con-Filezilla.png" alt="Conectado a iOS mediante Filezilla y SSH" title="Conectado a iOS mediante Filezilla y SSH" style="zoom:80%;" />](images/Conectados-a-un-dispositvo-iOS-con-Filezilla.png)
 
 En estos momentos de forma muy fácil y muy sencilla podremos introducir lo que necesitemos dentro de nuestro iPad o iPhone. Podremos introducir películas, Música, Imágenes, Documentos de la suite ofimática que usamos, etc.
 
@@ -177,29 +178,29 @@ En el caso que queramos conectarnos a nuestro dispositivo iOS desde Android lo p
 
 Para instalar ES explorer pueden consultar el siguiente enlace:
 
-[https://geekland.eu/extraer-archivo-apk-una-app-instalada/]({{< relref "/posts/extraer-archivo-apk-una-app-instalada" >}})
+[https://geeklandlinux.github.io/posts/extraer-archivo-apk-una-app-instalada/]({{< relref "/posts/extraer-archivo-apk-una-app-instalada" >}})
 
 Una vez instalada la aplicación la abrimos y veremos la siguiente ventana:
 
-[![Acceder a las opciones de ES Explorer](images/1-Accesso-a-opciones-169x300.png "Acceder a las opciones de ES Explorer")](images/1-Accesso-a-opciones.png)
+[<img src="images/1-Accesso-a-opciones.png" alt="Acceder a las opciones de ES Explorer" title="Acceder a las opciones de ES Explorer" style="zoom:80%;" />](images/1-Accesso-a-opciones.png)
 
 En la pantalla inicial posicionamos el dedo en el centro de la pantalla y lo deslizamos de izquierda a derecha. Justo después de deslizarlo aparecerá la siguiente pantalla en la que deberemos presionar encima del icono **Red**.
 
-[![Acceder a las opciones de red](images/2-Opciones-de-Red-169x300.png "Acceder a las opciones de red")](images/2-Opciones-de-Red.png)
+[<img src="images/2-Opciones-de-Red.png" alt="Acceder a las opciones de red" title="Acceder a las opciones de red" style="zoom:80%;" />](images/2-Opciones-de-Red.png)
 
 Después de presionar el icono Red aparecerá la siguiente pantalla en la que deberemos presionar encima del icono **Nuevo**.
 
-[![Crear nueva conexión de Red](images/3-Nueva-conexión-de-Red-169x300.png "Crear nueva conexión de Red")](images/3-Nueva-conexión-de-Red.png)
+[<img src="images/3-Nueva-conexión-de-Red.png" alt="Crear nueva conexión de Red" title="Crear nueva conexión de Red" style="zoom:80%;" />](images/3-Nueva-conexión-de-Red.png)
 
 Seguidamente aparecerá una ventana en la que debemos seleccionar la opción **sftp**.
 
-[![Tipo de conexión a crear](images/4-Conexión-del-tipo-sfpt-169x300.png "Tipo de conexión a crear")](images/4-Conexión-del-tipo-sfpt.png)
+[<img src="images/4-Conexión-del-tipo-sfpt.png" alt="Tipo de conexión a crear" title="Tipo de conexión a crear" style="zoom:80%;" />](images/4-Conexión-del-tipo-sfpt.png)
 
 ### Parámetros a introducir para conectarnos a nuestro dispositivo iOS
 
 Finalmente aparecerá la ventana para introducir los datos para conectarnos a nuestro iPhone, iPad o iPod touch.
 
-[![Opciones de los campos para conectarnos](images/5-Campos-a-rellenar-para-conectarse-169x300.png "Opciones de los campos para conectarnos")](images/5-Campos-a-rellenar-para-conectarse.png)
+[<img src="images/5-Campos-a-rellenar-para-conectarse.png" alt="Opciones de los campos para conectarnos" title="Opciones de los campos para conectarnos" style="zoom:80%;" />](images/5-Campos-a-rellenar-para-conectarse.png)
 
 **En el campo Servidor** hay que introducir la dirección ip del dispositivo iOS que tiene instalado OpenSSH. Por lo tanto en nuestro caso deberemos introducir la ip **192.168.1.18** que es la ip estática que hemos configurado en apartados anteriores. En el caso que quisiera acceder al dispositivo estando ubicado fuera de mi red local, debería sustituir 192.168.1.18 por la ip pública o por un dominio de redireccionamiento DNS.
 
@@ -215,13 +216,13 @@ Una vez rellenados la totalidad de campos hay que presionar el botón **OK**.
 
 Una vez presionado el botón OK, aparecerá una carpeta llamada iPad en las ubicaciones de red.
 
-[![Ubicación de red creada](images/6-Ubicaciones-de-Red-Disponibles-169x300.png "Ubicación de red creada")](images/6-Ubicaciones-de-Red-Disponibles.png)
+[<img src="images/6-Ubicaciones-de-Red-Disponibles.png" alt="Ubicación de red creada" title="Ubicación de red creada" style="zoom:80%;" />](images/6-Ubicaciones-de-Red-Disponibles.png)
 
 Para conectarnos vía SSH a nuestro iPad tan solo tenemos que clicar encima de la ubicación de red con nombre **ipad** que hemos creado.
 
 Justo después de clicar en la ubicación de red podremos ver el contenido de nuestro dispositivo iOS en nuestro gestor de archivos.
 
-[![Conectado al iPhone mediante SSH](images/7-Conectado-al-iPad-mediante-Android-169x300.png "Ubicación de red creada")](images/7-Conectado-al-iPad-mediante-Android.png)
+[<img src="images/7-Conectado-al-iPad-mediante-Android.png" alt="Conectado al iPhone mediante SSH" title="Ubicación de red creada" style="zoom:80%;" />](images/7-Conectado-al-iPad-mediante-Android.png)
 
 En estos momentos, de forma muy fácil y muy sencilla, podemos transferir archivos de nuestro dispositivo Android a nuestro dispositivo iOS o viceversa.
 
@@ -237,11 +238,11 @@ Para cambiar la contraseña tenemos que seguir los siguientes pasos:
 
 Primero tenemos que instalar la App iOS Terminal en nuestro dispositivo iOS. Para ello, tal y como se puede ver en la captura de pantalla, tenemos que acceder a Cydia y buscar el paquete **iOS Terminal**.
 
-[![Buscar la App iOS terminal](images/Buscar-la-App-iOS-terminal.png "Buscar la App iOS terminal")](images/Buscar-la-App-iOS-terminal.png)
+[<img src="images/Buscar-la-App-iOS-terminal.png" alt="Buscar la App iOS terminal" title="Buscar la App iOS terminal" style="zoom:80%;" />](images/Buscar-la-App-iOS-terminal.png)
 
 Una vez encontrado lo instalamos presionando encima del botón **Instalar**.
 
-[![Instalar la APP iOS terminal](images/Instalar-la-App-iOS-terminal.png "Instalar la APP iOS terminal")](images/Instalar-la-App-iOS-terminal.png)
+[<img src="images/Instalar-la-App-iOS-terminal.png" alt="Instalar la APP iOS terminal" title="Instalar la APP iOS terminal" style="zoom:80%;" />](images/Instalar-la-App-iOS-terminal.png)
 
 ### Cambiar la contraseña del usuario mobile
 

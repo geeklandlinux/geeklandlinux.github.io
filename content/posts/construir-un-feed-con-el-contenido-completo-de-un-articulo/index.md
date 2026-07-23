@@ -26,11 +26,11 @@ Para solucionar este problema les mostraré el servicio autoalojado Full-Text RS
 
 Como acabo de comentar en la introducción del artículo en multitud de ocasiones únicamente podemos leer el siguiente contenido en el lector de feeds:
 
-![Ejemplo de feed con el contenido incompleto](images/ejemplo-de-feed-con-el-contenido-incompleto.webp "Ejemplo de feed con el contenido incompleto")
+<img src="images/ejemplo-de-feed-con-el-contenido-incompleto.webp" alt="Ejemplo de feed con el contenido incompleto" title="Ejemplo de feed con el contenido incompleto" style="zoom:80%;" />
 
 Gracias a Full-Text RSS conseguiremos generar un feed que contenga la totalidad del contenido del artículo. Por lo tanto en vez de leer el contenido anterior podremos leer el contenido completo:
 
-![Muestra del mismo feed con el contenido completo](images/feed-con-el-contenido-completo.webp "Muestra del mismo feed con el contenido completo")
+<img src="images/feed-con-el-contenido-completo.webp" alt="Muestra del mismo feed con el contenido completo" title="Muestra del mismo feed con el contenido completo" style="zoom:80%;" />
 
 De esta forma sera posible leer la totalidad de nuestros artículos desde nuestro lector de feeds y sin tener que visitar la página web de los creadores del contenido. Además Full Text RSS también nos permitirá realizar lo siguiente:
 
@@ -45,7 +45,7 @@ Los pasos a seguir para poder instalar Full-Text RSS y de este modo poder leer l
 
 Full-Text RSS es un servicio que autoalojaremos en nuestro servidor VPS o en nuestra Raspberry Pi. El método de instalación que usaremos será Docker. Para instalar Docker y Docker Compose seguiremos las siguientes instrucciones:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ### Abrir los puertos 80 y 443
 
@@ -83,7 +83,7 @@ En el caso que estén detrás de un Router recuerden que también tienen que abr
 
 En mi caso estoy usando la versión 2 del proxy inverso Traefik. Para instalar y configurar la versión 2 del proxy inverso Traefik les recomiendo que sigan las instrucciones dle siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-traefik-v2-para-usarlo-como-proxy-inverso/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-traefik-v2-para-usarlo-como-proxy-inverso/
 
 Una vez finalizada la instalación y configuración del proxy inverso tendremos un dominio de direccionamiento DNS similar al siguiente:
 
@@ -183,13 +183,13 @@ A continuación verán el contenido del nuevo feed. La URL del nuevo feed, que c
 
 Acto seguido deberán usar esta URL para suscribirse en su lector de feeds preferido. Una vez suscritos verán que pueden leer la totalidad de los artículos sin tener que salir de su lector de feeds.
 
-![Muestra del mismo feed con el contenido completo](images/feed-con-el-contenido-completo.webp "Muestra del mismo feed con el contenido completo")
+<img src="images/feed-con-el-contenido-completo.webp" alt="Muestra del mismo feed con el contenido completo" title="Muestra del mismo feed con el contenido completo" style="zoom:80%;" />
 
 ## COMO CERRAR EL SERVICIO QUE ACABAMOS DE AUTOALOJAR
 
 El servicio que acabamos de levantar estará abierto a todo el mundo que conozca la URL. Si queremos cerrar el servicio lo podemos realizar del modo que dejo en el siguiente enlace:
 
-https://geekland.eu/autenticacion-con-usuario-y-contrasena-mediante-traefik/
+https://geeklandlinux.github.io/posts/autenticacion-con-usuario-y-contrasena-mediante-traefik/
 
 #### Fuentes
 

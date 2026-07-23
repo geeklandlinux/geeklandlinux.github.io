@@ -41,21 +41,7 @@ En el caso de disponer de los permisos, autorizaciones y autentificaciones neces
 
 ## ¿POR QUÉ A TRAVÉS DE UNA RED VPN SOMOS ANÓNIMOS?
 
-[![Conectarse a un servidor VPN](images/tuvpn-funcionamiento-300x212.png "Funcionamiento de un servidor VPN")](images/tuvpn-funcionamiento.png)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+[![Conectarse a un servidor VPN](images/tuvpn-funcionamiento.png "Funcionamiento de un servidor VPN")](images/tuvpn-funcionamiento.png)
 
 Como se puede ver en el esquema en el caso de una conexión a Internet de forma convencional nuestra ip siempre está al descubierto. Además nuestro Internet Service provider puede fácilmente saber lo que estamos realizando en todo momento.
 
@@ -77,7 +63,7 @@ Para establecer la conexión el primer paso a realizar es conectarnos a:
 
 Una vez abierta la página de vpnbook veremos la información que se puede ver en la siguiente captura de pantalla:
 
-[![Conectarse a un servidor VPN](images/Vpnbook-web-300x191.png "Web servidor VPN")](images/Vpnbook-web.png)
+[![Conectarse a un servidor VPN](images/Vpnbook-web.png "Web servidor VPN")](images/Vpnbook-web.png)
 
 Lo primero que tenemos que realizar es anotar el username y password que figuran en la columna central. Seguidamente debemos elegir el servidor el cual nos vamos a conectar. Actualmente la página de vpnbook ofrece 4 servidores. Lo servidores ofrecidos son los siguientes:
 
@@ -88,11 +74,11 @@ Lo primero que tenemos que realizar es anotar el username y password que figuran
 
 En mi caso elegiré el servidor  US OpenVPN Certificate Bundle. Una vez elegido nos descargaremos los archivos de configuración del VPN. Para descargar los archivos de configuración damos click encima de US OpenVPN Certificate Bundle  y se descargará un archivo Zip. Una vez descargado el archivo Zip podéis crear una carpeta en vuestra home que se llame OpenVPN. Dentro de la carpeta creada guardáis el zip y lo descomprimís obteniendo un resultado parecido al siguiente:
 
-[![Conectarse a un servidor VPN Gratis](images/Carpeta-Open-VPN-300x169.png "Carpeta Open VPN")](images/Carpeta-Open-VPN.png)
+[![Conectarse a un servidor VPN Gratis](images/Carpeta-Open-VPN.png "Carpeta Open VPN")](images/Carpeta-Open-VPN.png)
 
 El siguiente paso es generar el certificado de conexión. Para generar el certificado de conexión CA se puede hacer de la siguiente forma. Primero copiamos cualquiera de los archivos .opvn y lo pegamos. Como se puede ver en la captura de pantalla la situación actual es la siguiente:
 
-[![Conectarse a un Servidor VPN](images/Certificado-CA-300x169.png "Certificado CA")](images/Certificado-CA.png)
+[![Conectarse a un Servidor VPN](images/Certificado-CA.png "Certificado CA")](images/Certificado-CA.png)
 
 Seguidamente el archivo que acabamos de copia lo renombramos. El nombre que le tenemos que poner es el siguiente:
 
@@ -112,35 +98,35 @@ Una vez renombrado el archivo tenemos que aseguramos de tener instalados los s
 
 Seguidamente vamos al icono de red de nuestro escritorio. Le damos un click con el botón derecho. Elegimos la opción Conexiones VPN y seguidamente elegimos la opción Configurar VPN.
 
-[![Conectarse a un servidor VPN](images/vpn3-300x231.png "Paso 2 VPN")](images/vpn3.png)
+[![Conectarse a un servidor VPN](images/vpn3.png "Paso 2 VPN")](images/vpn3.png)
 
 Seguidamente aparecerá la siguiente pantalla. Le damos click a la pestaña importar.
 
-[![Conectarse a un servidor VPN](images/vpn4-300x203.png "Paso 3 vpn")](images/vpn4.png)
+[![Conectarse a un servidor VPN](images/vpn4.png "Paso 3 vpn")](images/vpn4.png)
 
 Al darle click a la pestaña importar se abrirá el navegador de archivos. Seguidamente tenemos que seleccionar el fichero de configuración del servicio VPN y clicar al botón añadir. En función del fichero de configuración que elegimos nos vamos a conectar a través del puerto **TCP80, TCP443, UDP53** o **UDP25000**. Recomiendo usar los ficheros que tienen la nomenclatura **TCP80** o **TCP443** ya que son los más comunes y los que menos problemas de conexión suelen generar. Como podéis ver en la captura de pantalla en mi caso elijo el fichero vpnbook-us1-tcp443.ovpn y presiono en el botón abrir:
 
-[![](images/Configurar-VPN-Puerto-300x138.png "Configurar VPN Puerto")](images/Configurar-VPN-Puerto.png)
+[![](images/Configurar-VPN-Puerto.png "Configurar VPN Puerto")](images/Configurar-VPN-Puerto.png)
 
 Aparecerá otra pantalla. Podemos observarla a continuación:
 
-[![Conectarse a un servidor VPN](images/VPN-Sin-configurar-300x232.png "VPN Sin configurar")](images/VPN-Sin-configurar.png)
+[![Conectarse a un servidor VPN](images/VPN-Sin-configurar.png "VPN Sin configurar")](images/VPN-Sin-configurar.png)
 
 En esta pantalla lo primero que tenemos que hacer es cambiar el tipo de Autentificación. Hay que cambiarlo de Certificado (TLS) a Contraseña. Seguidamente hay que anotar el usuario y la contraseña que anotamos en el principio de este apartado del post. Para finalizar en el campo certificado CA tenemos que clicar sobre el e ir a buscar el archivo **vpnbook-ca.crt** que habíamos creado anteriormente.
 
 Si hemos seguido los pasos correctamente el resultado obtenido tiene que ser el siguiente:
 
-[![Conectarse a un servidor VPN](images/VPN-Configurado-300x232.png "VPN Configurado")](images/VPN-Configurado.png)  
+[![Conectarse a un servidor VPN](images/VPN-Configurado.png "VPN Configurado")](images/VPN-Configurado.png)  
 
 Para finalizar apretamos al botón guardar.
 
 En principio la totalidad de pasos ya han finalizado. Solamente falta conectarnos a la red VPN. Para conectarnos vamos al icono del gestor de redes de nuestro escritorio. Click derecho con el mouse, Conexiones VPN y finalmente le damos click a la red VPN que acabamos de configurar.
 
-## [![Conectarse a un servidor VPN](images/Conectar-VPNa-300x181.png "Paso 6 VPN")](images/Conectar-VPNa.png)
+## [![Conectarse a un servidor VPN](images/Conectar-VPNa.png "Paso 6 VPN")](images/Conectar-VPNa.png)
 
 Dentro de pocos segundos como se puede ver en la imagen la conexión se habrá establecido y podremos navegar disponiendo de la totalidad de ventajas que se detallan en este post.
 
-[![Conectarse a un servidor VPN](images/Conexion-establecidaa-300x142.png "Paso 7 VPN")](images/Conexion-establecidaa.png)
+[![Conectarse a un servidor VPN](images/Conexion-establecidaa.png "Paso 7 VPN")](images/Conexion-establecidaa.png)
 
 ###### Nota: En el caso de no poderse establecer la conexión hay que mirar que los puertos, TCP80, TCP443, UDP53 o UDP25000 estén debidamente abiertos en nuestro firewall. También tenéis que tener en cuenta que ciertos proveedores de Internet restringen y capan funciones. En el caso que esto no funcione podemos entrar en la configuración de nuestro Router y activar UPnP. No obstante los puertos TCP80 o TCP443, bajo mi punto de vista, no debería ofrecer problemas a nadie. 
 
@@ -150,11 +136,11 @@ Dentro de pocos segundos como se puede ver en la imagen la conexión se habrá e
 
 Existen muchos otros servicios para ocultar la identidad  en la red como por ejemplo la red Tor, servidores proxy, etc. En futuros post se comentaran los distintos sistemas y se intentará analizar las ventajas e inconvenientes que nos ofrecen cada uno de los sistemas de los sistemas descritos. En el caso de estar interesado en ser anónimos pueden consultar los siguientes links:
 
-[https://geekland.eu/acceder-a-la-deep-web/]({{< relref "/posts/acceder-a-la-deep-web" >}})
+[https://geeklandlinux.github.io/posts/acceder-a-la-deep-web/]({{< relref "/posts/acceder-a-la-deep-web" >}})
 
-[https://geekland.eu/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-proxy/]({{< relref "/posts/conectarse-a-un-servidor-proxy" >}})
 
-[https://geekland.eu/instalar-tails-para-ser-anonimo/]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}})
+[https://geeklandlinux.github.io/posts/instalar-tails-para-ser-anonimo/]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}})
 
 ## ¿DÓNDE PODEMOS ENCONTRAR SERVICIOS GRATUITOS SIMILARES A VPNBOOK?
 
@@ -182,8 +168,8 @@ El enlace me lo facilito Manuel P. y en el podréis encontrar centenares de re
 
 Es lógico y licito pensar que detrás de todo servicio gratuito hay alguien que puede estar intentando sacar provecho de la información que puede capturar. Por lo tanto para la gente que no se fíe de este tipo de servicios siempre puede montar su propio servidor VPN en su casa. Para ello les dejo 2 enlaces que si siguen al pie de la letra no deberían tener problemas:
 
-[https://geekland.eu/crear-un-servidor-vpn-pptp/]({{< relref "/posts/crear-un-servidor-vpn-pptp" >}})
+[https://geeklandlinux.github.io/posts/crear-un-servidor-vpn-pptp/]({{< relref "/posts/crear-un-servidor-vpn-pptp" >}})
 
-[https://geekland.eu/crear-y-configurar-servidor-openvpn/]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}})
+[https://geeklandlinux.github.io/posts/crear-y-configurar-servidor-openvpn/]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}})
 
 Para finalizar el post comentar que en la página web [http://www.vpnbook.com/](http://www.vpnbook.com/ "conectarse a VPN") pueden realizar sus donaciones para poder mantener este servicio activo.

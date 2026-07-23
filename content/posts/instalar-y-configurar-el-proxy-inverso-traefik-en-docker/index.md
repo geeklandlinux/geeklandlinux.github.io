@@ -46,7 +46,7 @@ Si en vez de acceder a jellyfin quisiéramos acceder al administrador de contras
 
 Lo que acabo de citar se puede ver reflejado en el siguiente esquema:
 
-[![Esquema de funcionamiento del proxy inverso traefik](images/funcionamiento-proxy-inverso-traefik.png "Esquema de funcionamiento del proxy inverso traefik")](images/funcionamiento-proxy-inverso-traefik.png)
+[<img src="images/funcionamiento-proxy-inverso-traefik.png" alt="Esquema de funcionamiento del proxy inverso traefik" title="Esquema de funcionamiento del proxy inverso traefik" style="zoom:80%;" />](images/funcionamiento-proxy-inverso-traefik.png)
 
 Traefik estará permanente escuchando todas las peticiones que vienen de fuera de nuestra red local. Una vez recibidas las peticiones las redirigirá a cualquier servicio que esté corriente dentro de nuestra red local.
 
@@ -66,7 +66,7 @@ Si os fijáis con la explicación anterior verán traefik proporciona las siguie
 
 Obviamente es necesario disponer de un dominio para poder llegar al servidor en el que instalaremos Traefik. Si no tenéis ningún dominio podéis usar un dominio de un servicio DDNS como DuckDNS. En mi caso me crearé el dominio ejemplo1.duckdns.org siguiendo las siguientes instrucciones:
 
-https://geekland.eu/instalar-y-configurar-duck-dns-con-docker/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-duck-dns-con-docker/
 
 ## INSTALAR Y CONFIGURAR EL PROXY INVERSO TRAEFIK EN DOCKER
 
@@ -264,11 +264,11 @@ Según la configuración establecida en apartados anteriores accederemos al pane
 
 Justo después de ingresar en la URL deberemos ingresar el usuario y contraseña que definimos en apartados anteriores:
 
-[![Introducir las credenciales para acceder al panel de control web del proxy inverso traefik](images/introducir-credenciales-panel-control-traefik.png "Introducir las credenciales para acceder al panel de control web del proxy inverso traefik")](images/introducir-credenciales-panel-control-traefik.png)
+[<img src="images/introducir-credenciales-panel-control-traefik.png" alt="Introducir las credenciales para acceder al panel de control web del proxy inverso traefik" title="Introducir las credenciales para acceder al panel de control web del proxy inverso traefik" style="zoom:80%;" />](images/introducir-credenciales-panel-control-traefik.png)
 
 Una vez ingresadas la credenciales tendremos acceso al panel de control. Fíjense que estamos accediendo de forma segura mediante el protocolo https.
 
-[![Panel de control del proxy inverso traefik](images/panel-de-control-web-traefik.png "Panel de control del proxy inverso traefik")](images/panel-de-control-web-traefik.png)
+[<img src="images/panel-de-control-web-traefik.png" alt="Panel de control del proxy inverso traefik" title="Panel de control del proxy inverso traefik" style="zoom:80%;" />](images/panel-de-control-web-traefik.png)
 
 ## CREAR UN SERVICIO Y ACCEDER A ESTE SERVICIO A TRAVÉS DEL PROXY INVERSO TRAEFIK
 
@@ -316,7 +316,7 @@ Cuando se abra el editor de textos introduciremos el código para levantar el co
 
 El significado de cada uno de los parámetro en azul es el siguiente:
 
- 
+
 |   **Código**   |   **Explicación**   |
 | --- | --- |
 |   networks: - web   |   El contenedor bitwarden se levantará en la red web.   |
@@ -335,7 +335,7 @@ Una vez introducido el código en el fichero docker-compose.yml guardamos los ca
 
 Una vez levantado el contenedor veremos que ya aparece en el panel de control web de Traefik.
 
-[![Traefik con el servicio bitwarden añadido](images/traefik-con-servicio-añadido.png "Traefik con el servicio bitwarden añadido")](images/traefik-con-servicio-añadido.png)
+[<img src="images/traefik-con-servicio-añadido.png" alt="Traefik con el servicio bitwarden añadido" title="Traefik con el servicio bitwarden añadido" style="zoom:80%;" />](images/traefik-con-servicio-añadido.png)
 
 A partir de estos momentos abrimos el navegador y según la configuración aplicada ingresamos la siguiente dirección URL:
 
@@ -345,13 +345,13 @@ A partir de estos momentos abrimos el navegador y según la configuración aplic
 
 Si toda funciona como debe verán que podemos acceder al contenedor desde fuera de nuestra red local y mediante el protocolo https.
 
-[![Contenedor bitwarden accedido a través del proxy inverso](images/servicio-bitwarden-a-traves-proxy-inverso.png "Contenedor bitwarden accedido a través del proxy inverso")](images/servicio-bitwarden-a-traves-proxy-inverso.png)
+[<img src="images/servicio-bitwarden-a-traves-proxy-inverso.png" alt="Contenedor bitwarden accedido a través del proxy inverso" title="Contenedor bitwarden accedido a través del proxy inverso" style="zoom:80%;" />](images/servicio-bitwarden-a-traves-proxy-inverso.png)
 
 ## AÑADIR SERVICIOS A TRAEFIK QUE CORREN EN CUALQUIER EQUIPO DE NUESTRA RED LOCAL
 
 En este artículo hemos visto como añadir contenedores a traefik que corren dentro de la misma red que Traefik. Si además pretenden acceder a servicios que corren en cualquier equipo de su red local deberán seguir las siguientes instrucciones:
 
-https://geekland.eu/anadir-servicios-a-traefik-que-estan-corriendo-en-maquinas-remotas/
+https://geeklandlinux.github.io/posts/anadir-servicios-a-traefik-que-estan-corriendo-en-maquinas-remotas/
 
 **Fuentes**
 

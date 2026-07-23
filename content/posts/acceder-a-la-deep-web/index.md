@@ -77,13 +77,13 @@ Para instalar Tor-Bundle y poder navegar por la deep web lo primeros que tenemos
 
 [https://www.torproject.org/download/download-easy.html.en](https://www.torproject.org/download/download-easy.html.en "Descargar El navegador Tor Bundle")
 
-[![acceder a la deep web descargar tor](images/descargar-tor-279x300.png "descargar tor")](images/descargar-tor.png)
+[![acceder a la deep web descargar tor](images/descargar-tor.png "descargar tor")](images/descargar-tor.png)
 
 Como podemos ver en la imagen tenemos que elegir si queremos la versión 32 bits o 64 bits. Además en el cuadro de selección también podemos seleccionar el idioma. En mi caso elijo la versión 32 bits con idioma español.
 
 Una vez descargado el fichero lo descomprimimos en nuestra home. La carpeta descomprimida la podemos renombrar con el nombre Tor. Abajo tenéis una imagen de la situación en este momento:
 
-[![acceder a la deep web](images/tor-en-home-300x212.png "tor en home")](images/tor-en-home.png)
+[![acceder a la deep web](images/tor-en-home.png "tor en home")](images/tor-en-home.png)
 
 Una vez hemos llegado a este punto tan solo nos falta crear un lanzador para abrir la aplicación Tor. Para crear el lanzado el proceso es muy sencillo. Nos vamos por ejemplo a nuestro escritorio y clicamos el botón derecho del mouse. Nos aparecerá el menú de la imagen:
 
@@ -91,7 +91,7 @@ Una vez hemos llegado a este punto tan solo nos falta crear un lanzador para abr
 
 En el menú de la imagen tenemos que seleccionar crear lanzador. Al seleccionar esta opción nos aparecerá la siguiente pantalla para crear el lanzador o acceso directo:
 
-[![acceder a la deep web](images/ventana-creación-lanzador-273x300.png "ventana creación lanzador")](images/ventana-creación-lanzador.png)
+[![acceder a la deep web](images/ventana-creación-lanzador.png "ventana creación lanzador")](images/ventana-creación-lanzador.png)
 
 Como podéis ver en la imagen simplemente tenéis que poner el nombre de nuestro lanzador. Seguidamente un comentario y finalmente rellenar los campos Comando y Directorio de trabajo. Para rellenar estos dos campos:
 
@@ -117,7 +117,7 @@ Finalmente apretamos el botón Crear y ya hemos finalizado el proceso de creaci�
 
 Hacemos doble click sobre el lanzador que acabamos de crear y que  tenemos en el escritorio. Ahora solo falta esperar. Tened paciencia. Es posible que tengáis que esperar  30 segundos o un minuto para que se abra el navegador. Durante la espera veremos que se conecta vidalia para conectarnos a la red Tor. Una vez conectados a la Red Tor se arranca el navegador. Cuando veáis una pantalla parecida a la que mostraré a continuación quiere decir que estáis conectados a la red Tor y por lo tanto podéis navegador por la deep web:
 
-[![acceder a la deep web Navegador funcionando](images/tor-browser-arrancado-300x239.png "tor browser arrancado")](images/tor-browser-arrancado.png)
+[![acceder a la deep web Navegador funcionando](images/tor-browser-arrancado.png "tor browser arrancado")](images/tor-browser-arrancado.png)
 
 ###### Nota: Es posible que algunos ISP capen el acceso a la red Tor. Si este es vuestro caso tenemos la posibilidad de conectarnos a la red Tor mediante bridges. Para mas información:
 
@@ -174,15 +174,15 @@ Existen soluciones a la red Tor para poder acceder a la deep web. Una de estas a
 
 Otra opción comentada anteriormente es usar [Tails]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}}). Tails es una distribución live-USB para poder navegar, chatear, realizar descargas y cualquier tipo de acción de forma anónima y segura. Tails es increíblemente útil ya que nos asegurará que la totalidad de conexiones salientes a Internet se realizan a través de la Red Tor. Para más información sobre esta distribución puede consultar el siguiente link:
 
-[https://geekland.eu/instalar-tails-para-ser-anonimo/]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}})
+[https://geeklandlinux.github.io/posts/instalar-tails-para-ser-anonimo/]({{< relref "/posts/instalar-tails-para-ser-anonimo" >}})
 
 ## Soluciones alternativas para ser anónimos en la red
 
 Como se ha visto en el post la red Tor, aparte de acceder a la deep web, también sirve para ocultar nuestra IP y ser anónimo. Por lo tanto a través de la red Tor también podemos navegar por la Internet que todo el mundo conoce sin dejar rastros. Otras alternativas para navegar por la internet que todo el mundo conoce de forma anónima es mediante servidores Proxy y servidores VPN. Para la gente que esté interesada les dejo los siguientes links para que se puedan informarse sobre estas alternativas:
 
-[https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
 
-[https://geekland.eu/conectarse-a-un-servidor-proxy/]({{< relref "/posts/acceder-a-la-deep-web" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-proxy/]({{< relref "/posts/acceder-a-la-deep-web" >}})
 
 ## Fuentes:
 

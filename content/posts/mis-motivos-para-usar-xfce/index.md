@@ -124,7 +124,7 @@ Seguro que hay gente que piensa que XFCE es ligero porque es un escritorio que t
 
 Esta forma de pensar para mi no es correcta. En mi caso soy un usuario de nivel medio y puedo afirmar que este entorno de escritorio tiene todo lo que yo necesito.
 
-Cuando llevas tiempo usando este entorno de escritorio ves que tiene muchísimas [funcionalidades escondidas](https://geekland.eu/tag/xfce/ "Algunos trucos de XFCE"). Estás funcionalidades escondidas se pueden obtener mediante:
+Cuando llevas tiempo usando este entorno de escritorio ves que tiene muchísimas [funcionalidades escondidas](https://geeklandlinux.github.io/tags/xfce/ "Algunos trucos de XFCE"). Estás funcionalidades escondidas se pueden obtener mediante:
 
 1. Los applets que ofrece el entorno de escritorio.
 2. Conociendo en detalle los atajos de teclado del entorno.

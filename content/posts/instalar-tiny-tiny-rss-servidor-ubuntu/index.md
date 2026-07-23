@@ -381,7 +381,7 @@ https://www.youtube.com/watch?v=mT2VtXbApTM&t
 
 También les dejo el siguiente enlace en que podrán ver como realizar algunas de las tareas más comunes en TTRSS:
 
-https://geekland.eu/caracteristicas-lector-de-feeds-tiny-tiny-rss/
+https://geeklandlinux.github.io/posts/caracteristicas-lector-de-feeds-tiny-tiny-rss/
 
 ## CONFIGURAR Y SECURIZAR TTRSS
 

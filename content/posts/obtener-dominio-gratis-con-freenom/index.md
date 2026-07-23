@@ -59,7 +59,7 @@ Una vez seleccionado el tiempo tenemos que clicar sobre el botón Usar DNS. Acto
 
 [![Indicar la IP del servidor](images/indicar-la-ip-del-servidor.png "Indicar la IP del servidor")](images/indicar-la-ip-del-servidor.png)
 
-###### Nota: La opción **Redirigir este dominio** la podemos usar para redirigir el dominio geeklandserver.ml a otro dominio que queramos como por ejemplo geekland.eu
+###### Nota: La opción **Redirigir este dominio** la podemos usar para redirigir el dominio geeklandserver.ml a otro dominio que queramos como por ejemplo geeklandlinux.github.io
 
 Como último paso tan solo tenemos que Aceptar las condiciones de servicio y clicar sobre el botón Completar Pedido.
 

@@ -32,7 +32,7 @@ Para disponer de un servicio de IP externa fija deben ponerse en contacto con su
 
 En el caso que no sea posible disponer de IP Fija podemos usar un servicio de direccionamiento DNS. En mi caso uso el servicio de NO-IP. Para poder usar y configurar el servicio de NO-IP deben seguir las siguientes instrucciones:
 
-https://geekland.eu/encontrar-servidor-con-dns-dinamico/
+https://geeklandlinux.github.io/posts/encontrar-servidor-con-dns-dinamico/
 
 Siguiendo las instrucciones del link que acabo de dejar asociaremos nuestra IP pública a un dominio de forma permanentemente. De esta forma Nextcloud siempre estará accesible desde el exterior de nuestra red local mediante un dominio del servicio NO-IP.
 
@@ -186,7 +186,7 @@ Las instrucciones a seguir para cada una de las 2 opciones se muestran a continu
 
 Para instalar, configurar y renovar un certificado SSL de Let’s Encrypt a nuestro servidor web tan solo tenemos que seguir las instrucciones que se muestran en el siguiente enlace:
 
-https://geekland.eu/instalar-certificado-ssl-gratis-lets-encrypt-lighttpd/
+https://geeklandlinux.github.io/posts/instalar-certificado-ssl-gratis-lets-encrypt-lighttpd/
 
 ### Instalar y configurar un certificado SSL generado por nosotros mismos
 
@@ -526,7 +526,7 @@ Finalmente editaremos el fichero de configuración ejecutando el siguiente coman
 
 Una vez se abra el editor de textos nano tendré que añadir/modificar los siguientes parámetros:
 
- 
+
 |   **Recomendaciones Mysqltuner**   |   **Parámetros que deben figurar en mi fichero de configuración**   |
 | --- | --- |
 |   query\_cache\_size (=0)   |   query\_cache\_size = 0   |

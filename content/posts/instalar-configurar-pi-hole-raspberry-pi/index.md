@@ -63,11 +63,11 @@ Es indispensable que el dispositivo en que instalamos Pi-hole esté siempre loca
 
 A continuación les dejo 3 enlaces. En cada uno de ellos encontrarán un método diferente para hacer que su dispositivo tenga una IP Fija.
 
-[https://geekland.eu/ip-fija-servidor-dhcp-router/]({{< relref "/posts/ip-fija-servidor-dhcp-router" >}})
+[https://geeklandlinux.github.io/posts/ip-fija-servidor-dhcp-router/]({{< relref "/posts/ip-fija-servidor-dhcp-router" >}})
 
-[https://geekland.eu/instalar-configurar-servidor-torrent/]({{< relref "/posts/instalar-configurar-servidor-torrent" >}})
+[https://geeklandlinux.github.io/posts/instalar-configurar-servidor-torrent/]({{< relref "/posts/instalar-configurar-servidor-torrent" >}})
 
-[https://geekland.eu/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
+[https://geeklandlinux.github.io/posts/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
 
 En mi caso he configurado mi Raspberry Pi para que tenga la IP 192.168.1.200.
 
@@ -278,7 +278,7 @@ A partir de ahora todo debería funciona a la perfección.
 
 Otro de los problemas que nos podemos encontrar es que la interfaz de administración web no mida la temperatura y carga de nuestro servidor:
 
-[![Medición de la carga y temperatura del servidor](images/medicion-carga-y-temperatura-300x199.png "Medición de la carga y temperatura del servidor")](images/medicion-carga-y-temperatura.png)
+[![Medición de la carga y temperatura del servidor](images/medicion-carga-y-temperatura.png "Medición de la carga y temperatura del servidor")](images/medicion-carga-y-temperatura.png)
 
 Para solucionar este problema lo único que tenemos que realizar es habilitar el servicio pihole-FTL. Para iniciarlo tan solo tenemos que ejecutar el siguiente comando en la terminal:
 

@@ -60,7 +60,7 @@ cd ~
 
 En el caso que tengáis que estar constantemente cambiando de directorio en la terminal y estos directorios siempre acostumbren a ser los mismos les aconsejo que sigan las recomendaciones que les dejo en el siguiente enlace:
 
-https://geekland.eu/cambiar-de-directorio-de-forma-rapida-y-sencilla-en-linux/
+https://geeklandlinux.github.io/posts/cambiar-de-directorio-de-forma-rapida-y-sencilla-en-linux/
 
 ## TRUCOS PARA EJECUTAR COMANDOS DE LA FORMA MÁS RÁPIDA Y SENCILLA EN LA TERMINAL
 
@@ -233,7 +233,7 @@ Linux almacena la totalidad de comandos ejecutados en el fichero de texto `~/.ba
 
 Si siguen las instrucciones del siguiente enlace podrán recuperar de forma rápida y sencilla cualquier comando que ya hayan previamente ejecutado en el pasado sin tener que teclear y sin que tener que recordar la totalidad del comando:
 
-https://geekland.eu/como-usar-y-configurar-el-historial-de-comandos-history-en-linux/
+https://geeklandlinux.github.io/posts/como-usar-y-configurar-el-historial-de-comandos-history-en-linux/
 
 De esta forma podremos ejecutar comandos largos de forma extremadamente rápida y sin tener que recordar la totalidad del comando.
 
@@ -341,7 +341,7 @@ Calculando la actualización... Hecho
 
 Los alias también pueden ayudar a ejecutar comandos de una forma mucho más rápida y sencilla. Para saber que es un alias y saber como crearlos les recomiendo que visiten el siguiente enlace.
 
-https://geekland.eu/alias-en-linux-que-son-como-crearlos-y-ejemplos/
+https://geeklandlinux.github.io/posts/alias-en-linux-que-son-como-crearlos-y-ejemplos/
 
 ## TRUCOS Y CONSEJOS PARA OCULTAR Y/O BORRAR EL CONTENIDO DE LA TERMINAL
 
@@ -435,7 +435,7 @@ Y presionamos el atajo de teclado `Ctrl+k` obtendremos el siguiente resultado:
 
 Conocer los atajos de teclado de la terminal les proporcionará velocidad y les permitirá tener acceso a una serie de funciones adicionales. Los atajos de teclado típicos que acostumbran a tener la gran mayoría de emuladores de terminal son los siguientes:
 
-https://geekland.eu/atajos-de-teclado-para-emuladores-de-terminal-en-linux/
+https://geeklandlinux.github.io/posts/atajos-de-teclado-para-emuladores-de-terminal-en-linux/
 
 **Nota**: Los emuladores de terminal acostumbran a usar los atajos predeterminados de Emacs. No obstante si lo prefieren pueden modificar la configuración para usar los atajos de teclado de Vim.
 
@@ -581,7 +581,7 @@ devpts      on  /dev/pts                                   type  devpts         
 
 La terminal de Linux ofrece capacidad de multitarea y podemos ejecutar y realizar distintas tareas de forma simultanea mediante las pestañas o mediante la gestión de trabajos. Para aprender a gestionar las tareas o trabajos de Linux les recomiendo que visiten el siguiente enlace:
 
-https://geekland.eu/gestionar-trabajos-en-linux-terminal/
+https://geeklandlinux.github.io/posts/gestionar-trabajos-en-linux-terminal/
 
 #### Fuentes
 

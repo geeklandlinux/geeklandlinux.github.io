@@ -18,7 +18,7 @@ Hace ya semanas vimos como montar nuestro propio servidor OpenVPN en distribucio
 
 En su día ya vimos que OpenVPN funciona mediante certificados y claves RSA construidas con Openssl. También creamos la totalidad de claves para que los clientes puedan conectarse al servidor OpenVPN. Por lo tanto si seguimos la totalidad de pasos que se detallan en el siguiente [enlace]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}}), en la ubicación **/etc/openvpn/keys** tenéis que tener las siguientes claves:
 
-   
+
 |   **Archivo**   |   **Descripción**   |   **Ubicación**   |   **Secreto**   |
 | --- | --- | --- | --- |
 |   _ca.crt_   |   Certificado raíz de la entidad certificadora   |   Servidor (/etc/openvpn) y cliente   |   No   |
@@ -33,7 +33,7 @@ Al tratarse de un tutorial lo haré mediante una memoria USB porqué considero q
 
 Por lo tanto **conectamos la memoria USB a nuestro servidor**. Una vez enchufada tendremos tendremos que montarla. **Para montarla les recomiendo seguir las instrucciones que se muestran en el siguiente enlace:**
 
-[https://geekland.eu/montar-la-memoria-usb-en-la-terminal/]({{< relref "/posts/montar-la-memoria-usb-en-la-terminal" >}})
+[https://geeklandlinux.github.io/posts/montar-la-memoria-usb-en-la-terminal/]({{< relref "/posts/montar-la-memoria-usb-en-la-terminal" >}})
 
 ###### Nota: Si vuestro servidor dispone de un entorno gráfico la memoria USB se montará automáticamente.
 
@@ -59,13 +59,13 @@ Este fichero también lo copiaremos a nuestra memoria USB. Para ellos **introduc
 
 Si a alguien le puede servir de ayuda les dejo la captura de pantalla del procedimiento que he seguido en mi caso:
 
-[![1- Copia de los archivos para la conexión](images/1-Copia-de-los-archivos-para-la-conexión-300x195.png "Copiar las claves RSA a un Pendrive")](images/1-Copia-de-los-archivos-para-la-conexión.png)
+[![1- Copia de los archivos para la conexión](images/1-Copia-de-los-archivos-para-la-conexión.png "Copiar las claves RSA a un Pendrive")](images/1-Copia-de-los-archivos-para-la-conexión.png)
 
 ## PASO 3: INSTALAR EL PROGRAMA CLIENTE DE OPENVPN EN WINDOWS
 
 Este paso a priori es de los más sencillos. Tan solo tienen **entrar en el siguiente** [enlace](http://openvpn.net/index.php/open-source/downloads.html "Web para descargar OpenVPN") **para poder descargar el cliente Openvpn para Windows 7** que nos permitirá conectarnos a nuestro servidor OpenVPN:
 
-[![1- Descargar cliente openvpn en Windows](images/1-Descargar-cliente-openvpn-300x235.png "Instalar el Cliente OpenVPN em Windows")](images/1-Descargar-cliente-openvpn.png)
+[![1- Descargar cliente openvpn en Windows](images/1-Descargar-cliente-openvpn.png "Instalar el Cliente OpenVPN em Windows")](images/1-Descargar-cliente-openvpn.png)
 
 Tal y como se puede ver en la captura de pantalla, **una vez hayan ingresado en el enlace disponen de varios links para descargar el cliente OpenVPN en Windows**:
 
@@ -76,7 +76,7 @@ Tal y como se puede ver en la captura de pantalla, **una vez hayan ingresado en 
 
 Una vez descargado el instalador **nos vamos a la ubicación donde lo hemos descargado el archivo .exe**:
 
-[![2- Instalar cliente Openvpn en Windows](images/2-Instalar-cliente-Openvpn-300x254.png "Instalar el Cliente OpenVPN en Windows")](images/2-Instalar-cliente-Openvpn.png)
+[![2- Instalar cliente Openvpn en Windows](images/2-Instalar-cliente-Openvpn.png "Instalar el Cliente OpenVPN en Windows")](images/2-Instalar-cliente-Openvpn.png)
 
 Tal y como se puede ver en la captura de pantalla **clicamos el botón derecho del mouse y elegimos la opción “Ejecutar como administrador”**. Una vez realizado esto empezará la instalación del cliente. Las etapas de la instalación serán las siguientes:
 
@@ -86,7 +86,7 @@ Tal y como se puede ver en la captura de pantalla **clicamos el botón derecho d
 
 **3-** Seguidamente, tal y como se puede ver en la captura de pantalla, aparecerá una ventana para **seleccionar los componentes que instalaremos**:
 
-[![3- Elegir opciones por defecto Instalación OpenVPN](images/3-Elegir-opciones-por-defecto-Instalación-OpenVPN-300x233.png "Elegir las opciones de instalación por defecto")](images/3-Elegir-opciones-por-defecto-Instalación-OpenVPN.png)
+[![3- Elegir opciones por defecto Instalación OpenVPN](images/3-Elegir-opciones-por-defecto-Instalación-OpenVPN.png "Elegir las opciones de instalación por defecto")](images/3-Elegir-opciones-por-defecto-Instalación-OpenVPN.png)
 
 Frente a esta ventana **dejaremos las opciones por defecto sin modificar nada y presionaremos el botón Next**.
 
@@ -104,7 +104,7 @@ El paso número 4 consiste en **enchufar la memoria USB que contiene todas las c
 
 Una vez hemos enchufado el pendrive a nuestro ordenador lo abrimos y consultamos su contenido:
 
-[![3- Renombar archivo configuración cliente](images/3-Renombar-archivo-configuración-cliente-300x282.png "Renombrar el archivos de configuración del cliente")](images/3-Renombar-archivo-configuración-cliente.png)
+[![3- Renombar archivo configuración cliente](images/3-Renombar-archivo-configuración-cliente.png "Renombrar el archivos de configuración del cliente")](images/3-Renombar-archivo-configuración-cliente.png)
 
 Tal y como se puede ver en la captura de pantalla **tenemos que localizar el fichero** **client.conf**. **Una vez localizado el fichero** **client.conf** **deberemos cambiar su extensión a** **client.ovpn**
 
@@ -116,7 +116,7 @@ Una vez realizado esto ya podemos pasar al siguiente punto.
 
 El quinto paso es tan simple como copiar las claves y el fichero de configuración del cliente del pendrive a la ubicación **C:/Archivos de programa/OpenVPN/config**
 
-[![4- Traspasar archivos del pendrive al cliente OpenVPN](images/4-Traspasar-archivos-300x168.png "Copiar los archivos del pendrive al cliente OpenVPN")](images/4-Traspasar-archivos.png)
+[![4- Traspasar archivos del pendrive al cliente OpenVPN](images/4-Traspasar-archivos.png "Copiar los archivos del pendrive al cliente OpenVPN")](images/4-Traspasar-archivos.png)
 
 Para ello tal y como podemos ver en la captura de tan solo tenemos que seleccionar los siguientes archivos del pendrive.
 
@@ -135,24 +135,24 @@ Una vez realizados estos pasos ya tenemos copiadas las claves y ficheros de conf
 
 Después de copiar la claves y el fichero de configuración del cliente ya nos podemos conectar al servidor OpenVPN en Windows. Pero antes de conectarnos analizaremos cual es nuestra IP. Para ello **abrimos nuestro navegador y accedemos a la siguiente** [URL](http://www.vermiip.es/ "Link para comprobar la IP Pública actual").
 
-[![5- Ip Antes de conectarnos al servidor](images/5-Ip-Antes-de-conectarnos-al-servidor-300x232.png "Comprobación de la IP antes de conectarnos al servidor OpenVPN")](images/5-Ip-Antes-de-conectarnos-al-servidor.png)
+[<img src="images/5-Ip-Antes-de-conectarnos-al-servidor.png" alt="5- Ip Antes de conectarnos al servidor" title="Comprobación de la IP antes de conectarnos al servidor OpenVPN" style="zoom:80%;" />](images/5-Ip-Antes-de-conectarnos-al-servidor.png)
 
 En la captura de pantalla vemos que **nuestra IP termina en 5.6**. Una vez conectados al servidor OpenVPN en Windows esta terminación tiene que cambiar. En el caso que no cambie querrá decir que algo no esta funcionando de forma adecuada y que no estamos conectados al servidor OpenVPN de forma correcta.
 
 Para conectarnos al servidor OpenVPN en Windows **nos vamos a nuestro escritorio en el que encontraremos un icono de acceso directo al cliente OpenVPN**.
 
-[![6- Conectarse al servidor OpenVPN en Windows](images/6-Conectarse-al-servidor-OpenVPN-159x300.png "Ejectuar el cliente OpenVPN en Windows")](images/6-Conectarse-al-servidor-OpenVPN.png)
+[<img src="images/6-Conectarse-al-servidor-OpenVPN.png" alt="6- Conectarse al servidor OpenVPN en Windows" title="Ejectuar el cliente OpenVPN en Windows" style="zoom:80%;" />](images/6-Conectarse-al-servidor-OpenVPN.png)
 
 Tal y como se puede ver en la captura de pantalla **presionamos con el botón derecho del mouse encima del icono del programa OpenVPN. Aparecerá una lista desplegable de opciones en la que deberemos seleccionar la opción** “**Ejecutar como administador**”
 
 Una vez seleccionada esta opción aparecerá la siguiente pantalla:
 
-[![7- Intoducir el usuario y la contraseña](images/7-Intoducir-contraseña-300x194.png "Introducir el usuario y la contraseña en el cliente")](images/7-Intoducir-contraseña.png)
+[![7- Intoducir el usuario y la contraseña](images/7-Intoducir-contraseña.png "Introducir el usuario y la contraseña en el cliente")](images/7-Intoducir-contraseña.png)
 
 **Introducen el usuario y contraseña** que creamos en la configuración del servidor **y presionan el botón** **OK**. Una vez presionado el botón **OK** esperan unos segundos y en la parte inferior de la pantalla les tiene que aparecer un mensaje similar al que se muestra en la siguiente captura de pantalla:
 
-[![8- Conectado al servidor OpenVPN](images/8-Conectado-al-servidor-OpenVPN-300x92.png "Mensaje de que estamos conectados al servidor")](images/8-Conectado-al-servidor-OpenVPN.png)
+[![8- Conectado al servidor OpenVPN](images/8-Conectado-al-servidor-OpenVPN.png "Mensaje de que estamos conectados al servidor")](images/8-Conectado-al-servidor-OpenVPN.png)
 
 En estos momentos ya estamos conectados al servidor OpenVPN en Windows. Pero para tener la seguridad total que estamos conectados al servidor OpenVPN de forma correcta vamos a comprobar de nuevo nuestra dirección IP. Para ello **abrimos el navegador e ingresamos en la siguiente** [URL](http://www.vermiip.es/ "Web para comprobar nuestra IP Pública"):
 
-[![9- Comprobación IP después de conectarnos al servidor](images/9-Comprobación-IP-300x232.png "IP después de conectarnos del servidor OpenVPN en Windows")](images/9-Comprobación-IP.png) Tal y como se puede observar en la captura de pantalla **nuestra IP pública ahora termina en 235.137**. **Anteriormente terminaba en 5.6**. **Por lo tanto podemos tener cierta seguridad que la conexión al servidor Openvpn en Windows se ha realizado de forma adecuada.**
+[<img src="images/9-Comprobación-IP.png" alt="9- Comprobación IP después de conectarnos al servidor" title="IP después de conectarnos del servidor OpenVPN en Windows" style="zoom:80%;" />](images/9-Comprobación-IP.png) Tal y como se puede observar en la captura de pantalla **nuestra IP pública ahora termina en 235.137**. **Anteriormente terminaba en 5.6**. **Por lo tanto podemos tener cierta seguridad que la conexión al servidor Openvpn en Windows se ha realizado de forma adecuada.**

@@ -36,7 +36,7 @@ Seleccionar el término de búsqueda adecuado es importante para obtener los res
 
 Una vez dentro del buscador de imágenes, tal y como se puede ver en la captura de pantalla, a**rrastramos la imagen a partir de la cual queremos realizar una búsqueda dentro del navegador**.
 
-[![Buscar en Google a través de imágenes](images/Búsqueda-a-través-imágenes-300x228.png)](images/Búsqueda-a-través-imágenes.png)
+[![Buscar en Google a través de imágenes](images/Búsqueda-a-través-imágenes.png)](images/Búsqueda-a-través-imágenes.png)
 
 **Una vez realizada la acción obtendremos los siguientes resultados** de búsqueda:
 
@@ -58,7 +58,7 @@ Si os fijáis en la captura de pantalla **existen una serie de vínculos que nos
 
 Por lo tanto **en el caso que estemos buscando vídeos clicaremos en el vínculo Vídeos y seguidamente todos los resultados de búsqueda que nos dará Google serán vídeos**. Así por lo tanto si queremos buscar un vídeo que hable de nuestro sistema solar, tan solo tenemos que clicar encima del vínculo vídeos y seguidamente, tal y como se puede ver en la captura de pantalla, realizamos una búsqueda por las palabras sistema solar.
 
-[![Resultado de búsqueda de Google vídeos](images/búsqueda-de-vídeos-300x140.png)](images/búsqueda-de-vídeos.png)
+[![Resultado de búsqueda de Google vídeos](images/búsqueda-de-vídeos.png)](images/búsqueda-de-vídeos.png)
 
 ###### Nota: Aparte de buscar vídeos podemos determinar las características de los vídeos que buscará Google. De este modo podemos buscar vídeos con una duración determinada, con una calidad determinada, indexados en una fecha determinada, etc.
 
@@ -78,15 +78,15 @@ En distintas ocasiones **puede resultar** sumamente **útil encontrar la informa
 
 **A modo de ejemplo** para ver como usar esta funcionalidad **vamos a buscar las páginas web que han copiado este determinado post**:
 
-[https://geekland.eu/optimizar-el-rendimiento-con-zram/]({{< relref "/posts/optimizar-el-rendimiento-con-zram" >}})
+[https://geeklandlinux.github.io/posts/optimizar-el-rendimiento-con-zram/]({{< relref "/posts/optimizar-el-rendimiento-con-zram" >}})
 
 Para ello, tal y como se puede ver en la captura de pantalla, en el buscador de Google **escribimos una frase del post original entre comillas y presionamos la tecla Enter**.
 
-[![Búsqueda por palabras exactas](images/Búsqueda-por-palabras-exactas-300x69.png)](images/Búsqueda-por-palabras-exactas.png)
+[<img src="images/Búsqueda-por-palabras-exactas.png" alt="Búsqueda por palabras exactas" style="zoom:80%;" />](images/Búsqueda-por-palabras-exactas.png)
 
 Después de presionar la tecla Enter, tal y como se puede ver en la siguiente captura de pantalla, **Google buscará la totalidad de páginas web que tienen exactamente el texto que hemos puesto entrecomillado**.
 
-[![Resultados de búsqueda de frase exacta](images/Resultados-que-contienen-la-frase-exacta-300x170.png)](images/Resultados-que-contienen-la-frase-exacta.png)
+[<img src="images/Resultados-que-contienen-la-frase-exacta.png" alt="Resultados de búsqueda de frase exacta" style="zoom:80%;" />](images/Resultados-que-contienen-la-frase-exacta.png)
 
 ###### Nota: Al realizar búsquedas con este método hay que ir con cuidado porque si hacemos una búsqueda por el término “John F. Kennedy” se omitirán la totalidad de páginas que hagan referencia a John Fitzgerald Kennedy.
 
@@ -111,7 +111,7 @@ Así de este modo **si queremos buscar un powerpoint que hable de distribuciones
 
 Después de presionar Enter, tal y como se puede ver en la captura de pantalla, los resultados son satisfactorios.
 
-[![Buscar por formato de archivo](images/Búsqueda-por-tipo-de-archivo-300x133.png)](images/Búsqueda-por-tipo-de-archivo.png)
+[![Buscar por formato de archivo](images/Búsqueda-por-tipo-de-archivo.png)](images/Búsqueda-por-tipo-de-archivo.png)
 
 ### ELIMINAR RESULTADOS NO DESEADOS DE LA BÚSQUEDA DE GOOGLE
 
@@ -123,7 +123,7 @@ Imaginemos que estamos buscando información sobre un determinado tipo de salsa 
 
 Después de realizar la búsqueda, tal y como se puede ver en la captura de pantalla, **vemos que los resultados obtenidos hacen referencia a información no deseada como por ejemplo a una marca de pantalones y también al conocido baile**.
 
-[![Resultados de búsqueda iniciales](images/Resultados-de-búsqueda-iniciales-300x190.png)](images/Resultados-de-búsqueda-iniciales.png)
+[![Resultados de búsqueda iniciales](images/Resultados-de-búsqueda-iniciales.png)](images/Resultados-de-búsqueda-iniciales.png)
 
 **Si queremos eliminar estos resultados de búsqueda tan solo tenemos que usar el operador \-**. Así por ejemplo **si queremos buscar páginas web que contengan la palabra salsa y que no contengan las palabras jeans y bailar tenemos que usar la siguiente orden de búsqueda**:
 
@@ -135,7 +135,7 @@ Después de realizar la búsqueda, tal y como se puede ver en la captura de pant
 
 **Después de usar la nueva orden de búsqueda podemos ver que únicamente obtenemos resultados que hablan de salsas de cocina** y por lo tanto hemos conseguido nuestro objetivo.
 
-[![Eliminar resultados de la búsqueda](images/Eliminar-resultados-de-la-búsqueda-300x180.png)](images/Eliminar-resultados-de-la-búsqueda.png)
+[![Eliminar resultados de la búsqueda](images/Eliminar-resultados-de-la-búsqueda.png)](images/Eliminar-resultados-de-la-búsqueda.png)
 
 Si además ahora quisiéramos obtener información sobre salsas de cocina que no contienen tomate podríamos usar el siguiente comando de búsqueda:
 
@@ -196,18 +196,18 @@ En determinados casos puede resultar útil forzar que las palabras usadas para r
 > inurl:luna bella
 > ```
 
-**2-** Si queremos obtener resultados en que todas nuestras palabras de búsqueda estén incluidas en las URL que nos dará Google, tan solo tenemos que usar el comando **allinurl**. Por lo tanto **si queremos buscar URL’s o direcciones de la página web geekland.eu que contengan simultáneamente las palabras deep web podemos realizar la siguiente búsqueda**:
+**2-** Si queremos obtener resultados en que todas nuestras palabras de búsqueda estén incluidas en las URL que nos dará Google, tan solo tenemos que usar el comando **allinurl**. Por lo tanto **si queremos buscar URL’s o direcciones de la página web geeklandlinux.github.io que contengan simultáneamente las palabras deep web podemos realizar la siguiente búsqueda**:
 
 > ```
-> allinurl:deep web site:geekland.eu
+> allinurl:deep web site:geeklandlinux.github.io
 > ```
 
 ###### Nota: Los comandos allinurl y inurl pueden ser útiles para localizar webs que hablan sobre temáticas concretas. Esto puede resultar especialmente útil para el link building.
 
-**3-** Si queremos obtener resultados en que el cuerpo de la página web o body contenga al menos una de nuestras palabras de búsqueda, lo podemos realizar mediante el comando **intext**. Así por ejemplo **si queremos buscar todas las URL’s del blog geekland.eu que en su cuerpo contienen la palabra Ubuntu, la palabra Debian, o ambas podemos realizar la siguiente búsqueda**:
+**3-** Si queremos obtener resultados en que el cuerpo de la página web o body contenga al menos una de nuestras palabras de búsqueda, lo podemos realizar mediante el comando **intext**. Así por ejemplo **si queremos buscar todas las URL’s del blog geeklandlinux.github.io que en su cuerpo contienen la palabra Ubuntu, la palabra Debian, o ambas podemos realizar la siguiente búsqueda**:
 
 > ```
-> intext:ubuntu debian site:geekland.eu
+> intext:ubuntu debian site:geeklandlinux.github.io
 > ```
 
 **4-** Si queremos obtener resultados en que el cuerpo de la página web o body contenga una palabra en concreto lo podemos realizar mediante el comando **allintext**. Así por ejemplo **si queremos buscar páginas web que en su cuerpo contienen la palabra Ubuntu y la palabra devuan, podemos realizar la siguiente búsqueda**:
@@ -242,13 +242,13 @@ En determinados casos puede resultar útil forzar que las palabras usadas para r
 
 ### BUSCAR WEB DE TEMÁTICAS SIMILARES A OTRA
 
-Es posible que hayamos encontrado una página web o un blog que nos guste como por ejemplo https://geekland.eu. Si queremos descubrir nuevos blogs similares al que nos gusta, tan solo tenemos que usar el operador **related:**. De este modo **si queremos encontrar blogs similares a https://geekland.eu podemos usar el siguiente comando de búsqueda**:
+Es posible que hayamos encontrado una página web o un blog que nos guste como por ejemplo https://geeklandlinux.github.io. Si queremos descubrir nuevos blogs similares al que nos gusta, tan solo tenemos que usar el operador **related:**. De este modo **si queremos encontrar blogs similares a https://geeklandlinux.github.io/ podemos usar el siguiente comando de búsqueda**:
 
 > ```
-> related:geekland.eu
+> related:geeklandlinux.github.io
 > ```
 
-Usando este comando la totalidad de resultados obtenidos serán URL’s de blogs similares que tratan temas similares a geekland.eu.
+Usando este comando la totalidad de resultados obtenidos serán URL’s de blogs similares que tratan temas similares a geeklandlinux.github.io
 
 ### BUSCAR EN PÁGINAS WEB CON UN DOMINIOS ESPECIFICO
 
@@ -260,17 +260,17 @@ Si queremos buscar información directamente de páginas web gubernamentales o p
 
 Tal y como se puede ver en la captura de pantalla, la totalidad de resultados encontrados disponen del dominio .gov y dan información sobre las naciones unidas.
 
-[![Buscar información en un dominio específico](images/Buscar-información-en-un-dominio-específico-300x181.png)](images/Buscar-información-en-un-dominio-específico.png)
+[![Buscar información en un dominio específico](images/Buscar-información-en-un-dominio-específico.png)](images/Buscar-información-en-un-dominio-específico.png)
 
-**Si** nos entramos en la situación que **de antemano sabemos que una página web**, como por ejemplo https://geekland.eu/, **contiene buena información sobre servicios VPN, la podemos buscar** a través de google. Así **si usamos el siguiente comando** de búsqueda:
+**Si** nos entramos en la situación que **de antemano sabemos que una página web**, como por ejemplo https://geeklandlinux.github.io/, **contiene buena información sobre servicios VPN, la podemos buscar** a través de google. Así **si usamos el siguiente comando** de búsqueda:
 
 > ```
-> vpn site:geekland.eu
+> vpn site:geeklandlinux.github.io
 > ```
 
-Tal y como se puede ver en la captura de pantalla, los resultados de búsqueda solo contendrán URL’s de la página web geekland.eu que contienen la palabra vpn:
+Tal y como se puede ver en la captura de pantalla, los resultados de búsqueda solo contendrán URL’s de la página web geeklandlinux.github.io que contienen la palabra vpn:
 
-[![Buscar en una página web](images/Buscar-en-una-página-web-300x166.png)](images/Buscar-en-una-página-web.png)
+[![Buscar en una página web](images/Buscar-en-una-página-web.png)](images/Buscar-en-una-página-web.png)
 
 ### BUSCAR UN TEXTO DETERMINADO DENTRO DE UNA PÁGINA WEB
 
@@ -278,7 +278,7 @@ Una vez estamos buscando dentro de una página web es interesante usar la funci�
 
 Así por ejemplo si **estamos en una página** de la wikipedia **que detalla los medallistas olímpicos americanos de las Olimpiadas del 1992**, podemos **presionar la combinación de teclas Ctrl+F**. Seguidamente **aparecerá un cuadro de búsqueda en el que podemos escribir el nombre de un deportista que en mi caso es Carl Lewis**, Después de escribirlo **presionamos la tecla Enter** y, tal y como se puede ver en la captura de pantalla, **el navegador Web nos llevará de forma inmediata a las partes de texto que hablan del deportista Carl Lewis**.
 
-[![Buscar texto en una páginas web](images/Buscar-datos-rápidamente-en-una-página-web-300x208.png)](images/Buscar-datos-rápidamente-en-una-página-web.png)
+<img src="images/buscar-datos-rapidamente-en-una-pagina-web.png" alt="buscar-datos-rapidamente-en-una-pagina-web" style="zoom:80%;" /> 
 
 De esta forma podremos ver de forma fácil y sencilla el número de medallas obtenidas por Carl Lewis en las olimpiadas de 1992.
 
@@ -291,7 +291,7 @@ Por lo tanto si usamos este sencillo consejo obtendremos los siguientes benefici
 
 En muchas ocasiones puede resultar sumamente útil restringir las búsquedas por tiempo. Así por ejemplo **si queremos buscar información que sabemos que ha ocurrido durante las últimas 24** es altamente recomendable restringir los resultados búsqueda a los post que se han publicado/indexado durante las últimas 24 horas. Para ello, tal y como vemos en la siguiente captura de pantalla, **tenemos que buscar por el término que nosotros queramos, seguidamente presionamos el botón Herramientas de búsqueda y finalmente en el apartado Cualquier fecha seleccionamos el periodo temporal en que queremos buscar la información**.
 
-[![Acotar las búsquedas por periodo temporal](images/Restringir-las-Búsquedas-or-tiempo-300x156.png)](images/Restringir-las-Búsquedas-or-tiempo.png)
+[![Acotar las búsquedas por periodo temporal](images/Restringir-las-Búsquedas-or-tiempo.png)](images/Restringir-las-Búsquedas-or-tiempo.png)
 
 De este modo tan simple podemos conseguir la información que estamos buscando de una forma mucho más simple y efectiva.
 
@@ -325,7 +325,7 @@ A lo largo de este apartado 2 hemos visto varias formas para restringir y afinar
 
 **Una vez dentro de la búsqueda avanzada**, tal y como se puede ver en la captura de pantalla, **tendrán que introducir los parámetros de búsqueda** que más les convienen **y** finalmente **presionar el botón Búsqueda avanzada**.
 
-[![Búsqueda avanzada de Google](images/Búsqueda-avanzada-de-Google-300x208.png)](images/Búsqueda-avanzada-de-Google.png)
+[<img src="images/Búsqueda-avanzada-de-Google.png" alt="Búsqueda avanzada de Google" style="zoom:80%;" />](images/Búsqueda-avanzada-de-Google.png)
 
 Después de presionar el botón Búsqueda avanzada, Google nos proporcionará resultados de búsqueda que cumplen con los requisitos que acabamos de especificar.
 
@@ -347,7 +347,7 @@ Las opciones que se nos ofrecen para restringir la búsqueda son numerosas. Algu
 
 Otras veces, tal y como podéis ver a continuación, los primeros resultados en la búsqueda son simplemente anuncios de personas o empresas que pagan a Google para salir en los primero lugares.
 
-[![Resultados de búsqueda patrocinados](images/resultados-de-búsqueda-a-evitar-300x126.png)](images/resultados-de-búsqueda-a-evitar.png)
+[<img src="images/resultados-de-búsqueda-a-evitar.png" alt="Resultados de búsqueda patrocinados"  />](images/resultados-de-búsqueda-a-evitar.png)
 
 ###### Nota: Si queréis evitar que en los resultados de búsqueda aparezcan este tipo de resultados usad un bloqueador de publicidad como por ejemplo uBlock Origin.
 
@@ -358,7 +358,7 @@ Por lo tanto no os limitéis a quedaros con los primeros resultados que os ofrec
 **Una vez obtenemos los resultados de la búsqueda es conveniente que los evaluemos para asegurar que la información encontrada es fiable y creíble**. Algunos de los pasos que podemos llevar a término para evaluar la información encontrada son los siguientes:
 
 1. Intentar analizar **quien es el autor de la información publicada**. El resultado encontrado tendrá más credibilidad si la persona que lo ha escrito tiene buena reputación y dispone de formación especifica sobre el tema que está tratando. A modo de ejemplo es mucho mas creíble un artículo que hable sobre Linux de un administrador de sistemas que no uno que podamos encontrar en Taringa que seguramente se ha copiado y pegado en 5 minutos.
-2. Para averiguar si el contenido obtenido es relevante podemos **analizar las URL que apuntan a la página web que estamos leyendo**. Si la URL está enlazada por páginas webs prestigiosas, como por ejemplo universidades, el contenido encontrado será más creíble. Esta tarea se podía realizar fácilmente con el comando link del buscador de google, pero parece ya no funciona. Una solución alternativa es acceder al buscador de Yahoo, y tal y como se puede ver en la captura de pantalla, usando el comando **linkdomains:** seguido de la URL que queremos analizar podemos conseguir nuestro objetivo.[![Webs que enlacen una URL](images/Buscar-quien-enlaza-una-URL-300x148.png)](images/Buscar-quien-enlaza-una-URL.png)
+2. Para averiguar si el contenido obtenido es relevante podemos **analizar las URL que apuntan a la página web que estamos leyendo**. Si la URL está enlazada por páginas webs prestigiosas, como por ejemplo universidades, el contenido encontrado será más creíble. Esta tarea se podía realizar fácilmente con el comando link del buscador de google, pero parece ya no funciona. Una solución alternativa es acceder al buscador de Yahoo, y tal y como se puede ver en la captura de pantalla, usando el comando **linkdomains:** seguido de la URL que queremos analizar podemos conseguir nuestro objetivo.[![Webs que enlacen una URL](images/Buscar-quien-enlaza-una-URL.png)](images/Buscar-quien-enlaza-una-URL.png)
 3. **Analiza las fuentes de información que ha usado el autor del artículo** ya que nos pueden ayudar a evaluar nuestro resultado de búsqueda.
 4. **Analiza el fin que persigue el autor de la información encontrada**. Una publicación con fines altruistas es mucho más fiable y creíble que publicaciones que podamos encontrar en blogs comerciales o con ánimo de lucro.
 5. **Analizar la fecha de publicación o actualización del artículo**. En muchas ocasiones ciertas publicaciones quedan obsoletas con el paso del tiempo.

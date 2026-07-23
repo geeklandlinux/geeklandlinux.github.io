@@ -37,7 +37,7 @@ Si siguen con detenimiento los pasos que verán a continuación podrán instalar
 
 Obviamente tenemos que tener instalar Docker y Docker Compose en nuestro servidor. En el caso que no los tengáis instalados les recomiendo que lo hagan siguiendo las instrucciones del siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ### Abrir los puertos 80 y 443 en el firewall de su servidor y en el router
 
@@ -73,7 +73,7 @@ En el caso que estén detrás de un Router recuerden que también tienen que abr
 
 Tal y como hemos detallado en el inicio del artículo usaremos el proxy inverso Traefik. Para obtener un dominio e instalar el proxy inverso seguiremos las instrucciones del siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-el-proxy-inverso-traefik-en-docker/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-el-proxy-inverso-traefik-en-docker/
 
 Después de finalizar los pasos detallados en el enlace que acabo de dejar deberán disponer de un dominio y un proxy inverso configurado. En mi caso el dominio que tengo disponible es:
 

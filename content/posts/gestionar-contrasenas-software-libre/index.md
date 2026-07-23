@@ -60,13 +60,13 @@ El paso más importante es instalar Nextcloud. Nextcloud se encargará que las c
 
 Para instalar y configurar Nextcloud en una Raspberry Pi pueden seguir los enlaces que les dejo a continuación:
 
-https://geekland.eu/instalar-nextcloud-mariadb-lighttpd/
+https://geeklandlinux.github.io/posts/instalar-nextcloud-mariadb-lighttpd/
 
-https://geekland.eu/configurar-optimizar-rendimiento-nextcloud/
+https://geeklandlinux.github.io/posts/configurar-optimizar-rendimiento-nextcloud/
 
 Si por lo contrario pretenden instalar Nextcloud en un ordenador o servidor que use el sistema operativo Ubuntu pueden seguir las instrucciones detalladas a continuación:
 
-https://geekland.eu/instalar-nextcloud-en-ubuntu/
+https://geeklandlinux.github.io/posts/instalar-nextcloud-en-ubuntu/
 
 ###### Nota: Si quieren pueden usar otras nubes como Google Drive, Dropbox, OneDrive, etc. Pero en el momento de hacerlo almacenarán sus contraseñas en un servidor que no sabemos que hará con nuestra información.
 

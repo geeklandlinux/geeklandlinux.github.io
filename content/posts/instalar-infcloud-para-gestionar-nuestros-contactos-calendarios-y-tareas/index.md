@@ -18,7 +18,7 @@ Si estamos usando Radicale y queremos gestionar nuestros calendarios, contactos 
 
 **Nota**: Antes de seguir las instrucciones que verán a continuación es necesario instalar Radicale tal y como se muestra en el siguiente enlace:
 
-https://geekland.eu/gestionar-contactos-calendarios-tareas-con-radicale/
+https://geeklandlinux.github.io/posts/gestionar-contactos-calendarios-tareas-con-radicale/
 
 ## INSTALAR Y CONFIGURAR EL CLIENTE WEB INFCLOUD PARA ADMINISTRAR NUESTROS CONTACTOS, TAREAS Y CALENDARIOS VÍA NAVEGADOR WEB
 
@@ -99,13 +99,13 @@ Lo primero que tenemos que realizar es acceder a la pantalla de Login de Radical
 
 Acto seguido podrán ver la pantalla de login de InfCloud. Cuando la vean tan solo tendrán que introducir el usuario y contraseña de Radicale y presionar encima del botón Iniciar sesión.
 
-[![Introducir usuario y password en InfCloud](images/pantalla-de-login-de-infcloud.png "Introducir usuario y password en InfCloud")](images/pantalla-de-login-de-infcloud.png)
+[<img src="images/pantalla-de-login-de-infcloud.png" alt="Introducir usuario y password en InfCloud" title="Introducir usuario y password en InfCloud" style="zoom:80%;" />](images/pantalla-de-login-de-infcloud.png)
 
 ### Gestionar contactos, calendarios y tareas de Radicale con InfCloud
 
 Finalmente accederán al cliente InfCloud. Una vez allí podrán gestionar los calendarios, contactos y tareas de forma fácil, rápida e intuitiva.
 
-[![Usando el cliente web InfCloud](images/gestionar-contactos-tareas-y-calendarios-con-infcloud.png "Usando el cliente web InfCloud")](images/gestionar-contactos-tareas-y-calendarios-con-infcloud.png)
+[<img src="images/gestionar-contactos-tareas-y-calendarios-con-infcloud.png" alt="Usando el cliente web InfCloud" title="Usando el cliente web InfCloud" style="zoom:80%;" />](images/gestionar-contactos-tareas-y-calendarios-con-infcloud.png)
 
 #### Fuente
 

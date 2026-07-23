@@ -20,7 +20,7 @@ El procedimiento descrito a continuación lo he realizado con un teléfono Samsu
 
 En su día ya vimos que OpenVPN funciona mediante certificados y claves RSA construidas con Openssl. También creamos la totalidad de claves para que los clientes puedan conectarse al servidor OpenVPN. Por lo tanto si seguimos la totalidad de pasos que se detallan en el siguiente [enlace]({{< relref "/posts/crear-y-configurar-servidor-openvpn" >}}), en la ubicación **/etc/openvpn/keys** tenéis que tener las siguientes claves:
 
-   
+
 |   **Archivo**   |   **Descripción**   |   **Ubicación**   |   **Secreto**   |
 | --- | --- | --- | --- |
 |   ca.crt   |   Certificado raíz de la entidad certificadora   |   Servidor (/etc/openvpn) y cliente   |   No   |
@@ -35,7 +35,7 @@ Al tratarse de un tutorial lo haré mediante una memoria USB porqué considero q
 
 Por lo tanto **enchufamos la memoria USB a nuestro servidor OpenVPN**. Una vez enchufada tendremos que montarla. **Para montarla les recomiendo seguir las instrucciones que se muestran en el siguiente enlace:**
 
-[https://geekland.eu/montar-la-memoria-usb-en-la-terminal/]({{< relref "/posts/montar-la-memoria-usb-en-la-terminal" >}})
+[https://geeklandlinux.github.io/posts/montar-la-memoria-usb-en-la-terminal/]({{< relref "/posts/montar-la-memoria-usb-en-la-terminal" >}})
 
 ###### Nota: Si vuestro servidor dispone de un entorno gráfico la memoria USB se montará automáticamente y por lo tanto no será necesario seguir los pasos del link que acabo de citar.
 
@@ -61,7 +61,7 @@ Este fichero también lo copiaremos a nuestra memoria USB. Para ellos **introduc
 
 Por si a alguien le puede servir de ayuda les dejo la captura de pantalla del procedimiento que he seguido en mi caso:
 
-[![Ficheros copiados al pendrive](images/1-Copia-de-los-archivos-para-la-conexión-300x195.png)](images/1-Copia-de-los-archivos-para-la-conexión.png)
+[![Ficheros copiados al pendrive](images/1-Copia-de-los-archivos-para-la-conexión.png)](images/1-Copia-de-los-archivos-para-la-conexión.png)
 
 ## PASO 3: INSTALAR EL PROGRAMA CLIENTE DE OPENVPN EN ANDROID
 
@@ -69,7 +69,7 @@ Este paso es el más sencillo de todos. Tan solo **tenemos que ir a la Google Pl
 
 Para que no tengan ningún tipo de duda de la aplicación que se trata les dejo esta captura de pantalla en la que pueden ver información relativa a este programa.
 
-[![Instalar el cliente OpenVPN en Android](images/1-Cliente-Openvpn-for-Android-168x300.png)](images/1-Cliente-Openvpn-for-Android.png)
+[<img src="images/1-Cliente-Openvpn-for-Android.png" alt="Instalar el cliente OpenVPN en Android" style="zoom:80%;" />](images/1-Cliente-Openvpn-for-Android.png)
 
 ###### Nota:  Si en la Google Play Store hacen una búsqueda por Openvpn for Android también encontrarán fácilmente el cliente Openvpn que tenemos que instalar.
 
@@ -79,7 +79,7 @@ El paso número 4 consiste en **enchufar la memoria USB que contiene todas las c
 
 Una vez hemos enchufado el pendrive a nuestro ordenador lo abrimos y consultamos su contenido:
 
-[![cambiar client.txt a client.ovpn](images/3-Renombar-archivo-configuración-cliente-300x282.png)](images/3-Renombar-archivo-configuración-cliente.png)
+[![cambiar client.txt a client.ovpn](images/3-Renombar-archivo-configuración-cliente.png)](images/3-Renombar-archivo-configuración-cliente.png)
 
 Tal y como se puede ver en la captura de pantalla **tenemos que localizar el fichero** **client.conf**. **Una vez localizado el fichero** **client.conf** **deberemos cambiar su extensión a** **client.ovpn**
 
@@ -99,7 +99,7 @@ El quinto paso es trasladar las claves que hemos guardado en el pendrive al tel�
 
 4- Ahora, tal y como se puede ver en la captura de pantalla, en el explorador de archivos **en el** que podemos visualizar el contenido del **teléfono móvil o tablet tenemos que crear una carpeta que se llame **Claves OpenVPN**.**
 
-[![Carpeta de almacenamiento de las claves](images/2-crear-nueva-carpeta-278x300.png)](images/2-crear-nueva-carpeta.png)
+[![Carpeta de almacenamiento de las claves](images/2-crear-nueva-carpeta.png)](images/2-crear-nueva-carpeta.png)
 
 5- El siguiente paso es **copiar parte de las claves ubicadas en el pendrive, dentro de la carpeta ****Claves OpenVPN****** que acabamos de crear en el teléfono móvil o tablet. **Las claves y archivos de configuración a copiar son las siguientes**:
 
@@ -112,7 +112,7 @@ El quinto paso es trasladar las claves que hemos guardado en el pendrive al tel�
 
 Para copiar las claves, **tal y como también podemos ver en la captura de pantalla, tenemos que arrastrar los 6 archivos que acabamos de mencionar dentro de la carpeta claves OpenVPN**.
 
-[![Traslado de los archivos](images/3-Traslado-de-los-archivos-300x189.png)](images/3-Traslado-de-los-archivos.png)
+[![Traslado de los archivos](images/3-Traslado-de-los-archivos.png)](images/3-Traslado-de-los-archivos.png)
 
 Una vez copiadas las claves y el archivo de configuración ya podemos pasar al siguiente paso.
 
@@ -122,19 +122,19 @@ Una vez copiadas las claves y el archivo de configuración ya podemos pasar al s
 
 Para configurar el cliente OpenVPN en Android tan solo tenemos que **abrir el programa OpenVPN for Android** que descargamos e instalamos en el paso número 3. Una vez abierto verán la siguientes pantalla:
 
-[![Importar el perfil de configuración](images/4-Importar-perfil-cliente-168x300.png)](images/4-Importar-perfil-cliente.png)
+[<img src="images/4-Importar-perfil-cliente.png" alt="Importar el perfil de configuración" style="zoom:80%;" />](images/4-Importar-perfil-cliente.png)
 
 Tal y como se indica en la captura de pantalla tenemos que **presionar encima del icono de la carpeta**. Al presionar sobre el icono se iniciará el proceso para la importación del fichero de configuración del cliente. Mediante la información contenida en el fichero de configuración del cliente configuraremos de forma automática el cliente OpenVPN en Android para conectarnos a nuestro servidor. Una vez presionado el botón les aparecerá la siguiente pantalla:
 
-[![Buscar el perfil de configuración](images/5-Buscar-la-carpeta-creada-168x300.png)](images/5-Buscar-la-carpeta-creada.png)
+[<img src="images/5-Buscar-la-carpeta-creada.png" alt="Buscar el perfil de configuración" style="zoom:80%;" />](images/5-Buscar-la-carpeta-creada.png)
 
 En está pantalla estamos observando el contenido que tenemos almacenado en la memoria interna de nuestro teléfono. Ahora tenemos que **ir a buscar la carpeta ******Claves OpenVPN****** que creamos en el paso 5.**  Una vez encontrada la carpeta, tal y como se indica en la captura de pantalla, **presionamos sobre ella y aparecerán la totalidad de claves y el archivo de configuración que copiamos dentro del teléfono o tablet**.
 
-[![Archivo de configuración del cliente](images/6-Seleccionar-el-archivo-de-configuración-ovpn-168x300.png)](images/6-Seleccionar-el-archivo-de-configuración-ovpn.png)
+[<img src="images/6-Seleccionar-el-archivo-de-configuración-ovpn.png" alt="Archivo de configuración del cliente" style="zoom:80%;" />](images/6-Seleccionar-el-archivo-de-configuración-ovpn.png)
 
 Tal y como se indica en la captura de pantalla **presionamos encima del archivo ****client.ovpn,****** ya que es el archivo que contiene la configuración del cliente, y **seguidamente presionamos el botón** ******Seleccionar******. Después de hacer estos pasos les les aparecerá la siguiente pantalla:
 
-[![Perfil de configuración importado](images/7-Guardar-el-perfil-de-configuración-168x300.png)](images/7-Guardar-el-perfil-de-configuración.png)
+[<img src="images/7-Guardar-el-perfil-de-configuración.png" alt="Perfil de configuración importado" style="zoom:80%;" />](images/7-Guardar-el-perfil-de-configuración.png)
 
 En esta pantalla se nos está informando que **la configuración contenido en el archivo** ******client.ovpn****** **se ha importado correctamente al cliente OpenVPN**. Ahora para guardar el perfil y la configuración tan solo tenemos que **presionar en el botón guardar  de la parte inferior derecha que se muestra en la última captura de pantalla**. Una vez realizado esto el proceso de configuración a terminado y ya podemos conectarnos a nuestro servidor.
 
@@ -142,12 +142,12 @@ En esta pantalla se nos está informando que **la configuración contenido en el
 
 Ahora la próxima vez que abran el cliente OpenVPN en Android les aparecerá la siguiente pantalla:
 
-[![Conectarse al perfil generado](images/8-Conectarse-al-perfil-generado-168x300.png)](images/8-Conectarse-al-perfil-generado.png)
+[<img src="images/8-Conectarse-al-perfil-generado.png" alt="Conectarse al perfil generado" style="zoom:80%;" />](images/8-Conectarse-al-perfil-generado.png)
 
 client es el perfil del cliente que acabamos de importar. Ahora, tal y como se indica en la captura de pantalla, **presionamos encima del perfil importado que en nuestro caso es ******client********. Seguidamente **nos preguntará nuestro nombre de usuario y contraseña** para conectarnos al servidor OpenPVN.
 
-[![Usuario y contraseña del servidor OpenVPN en Android](images/9-Introducir-el-usuario-y-contraseña-168x300.png)](images/9-Introducir-el-usuario-y-contraseña.png)
+[<img src="images/9-Introducir-el-usuario-y-contraseña.png" alt="Usuario y contraseña del servidor OpenVPN en Android" style="zoom:80%;" />](images/9-Introducir-el-usuario-y-contraseña.png)
 
 **Una vez introducidos los datos**, tal y como se muestra en la captura de pantalla, **presionamos sobre el botón ******Aceptar********. Ahora tan solo tenemos que esperar unos segundos y si todo va bien podremos ver que nos conectaremos a nuestro servidor OpenVPN:
 
-[![Conectado al servidor](images/10-Conectado-al-servidor-168x300.png)](images/10-Conectado-al-servidor.png)
+[<img src="images/10-Conectado-al-servidor.png" alt="Conectado al servidor" style="zoom:80%;" />](images/10-Conectado-al-servidor.png)

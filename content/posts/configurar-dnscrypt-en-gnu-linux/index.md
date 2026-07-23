@@ -64,7 +64,7 @@ Para ello consultamos el archivo **dnscrypt-proxy.socket** ejecutando el siguien
 
 Después de ejecutar el comando obtendremos un resultado parecido al siguiente:
 
-[<img src="images/Dirección-IP-y-puerto-en-el-que-escucha-DNSCrypt-300x188.png" alt="Dirección IP y puerto en el que escucha DNSCrypt" style="zoom:150%;" />](images/Dirección-IP-y-puerto-en-el-que-escucha-DNSCrypt.png)
+[<img src="images/Dirección-IP-y-puerto-en-el-que-escucha-DNSCrypt.png" alt="Dirección IP y puerto en el que escucha DNSCrypt"  />](images/Dirección-IP-y-puerto-en-el-que-escucha-DNSCrypt.png)
 
 Si leemos detalladamente veremos que en mi caso, la dirección local en la que DNSCrypt está escuchando es la **127.0.2.1** y el puerto es el **53**.
 
@@ -82,7 +82,7 @@ Una vez abierto el editor de textos reemplazamos la IP **127.0.2.1** por otra de
 
 Un ejemplo que podríamos probar es el siguiente:
 
-[![Ejemplo del cambio de IP y puerto en DNSCRypt](images/Cambiar-el-puerto-y-la-IP-en-dnscrypt-300x283.png)](images/Cambiar-el-puerto-y-la-IP-en-dnscrypt.png)
+[![Ejemplo del cambio de IP y puerto en DNSCRypt](images/Cambiar-el-puerto-y-la-IP-en-dnscrypt.png)](images/Cambiar-el-puerto-y-la-IP-en-dnscrypt.png)
 
 Una vez realizados los cambios los guardamos y cerramos el fichero.
 
@@ -94,7 +94,7 @@ Seguidamente ejecutamos el siguiente comando en la terminal:
 
 Una vez se abra el editor de texto deberemos comprobar que en el campo **DNSCRYPT\_PROXY\_LOCAL:ADDRESS** figure la misma IP y el mismo puerto que definimos en el fichero /**etc/systemd/system/sockets.target.wants/dnscrypt-proxy.socket**
 
-[![Modificar IP y Puerto en dnscrypt-proxy](images/Modificar-IP-y-Puerto-en-dnscrypt-proxy-300x183.png)](images/Modificar-IP-y-Puerto-en-dnscrypt-proxy.png)
+[![Modificar IP y Puerto en dnscrypt-proxy](images/Modificar-IP-y-Puerto-en-dnscrypt-proxy.png)](images/Modificar-IP-y-Puerto-en-dnscrypt-proxy.png)
 
 Una vez que ambos ficheros disponen de la misma IP y del mismo puerto guardamos los cambios y cerramos el fichero.
 
@@ -114,11 +114,11 @@ Una vez dentro de la configuración de Network manager o Wicd, reemplazamos los 
 
 Por lo tanto en mi caso pasaré de tener esta configuración:
 
-[![Configuración inicial de Network Manager](images/Configuración-inicial-de-Network-Manager-300x268.png)](images/Configuración-inicial-de-Network-Manager.png)
+[![Configuración inicial de Network Manager](images/Configuración-inicial-de-Network-Manager.png)](images/Configuración-inicial-de-Network-Manager.png)
 
 A tener la siguiente configuración:
 
-[![Configuración final DNSCrypt Nework manager](images/Configuración-final-DNSCrypt-Nework-manager-300x266.png)](images/Configuración-final-DNSCrypt-Nework-manager.png)
+[![Configuración final DNSCrypt Nework manager](images/Configuración-final-DNSCrypt-Nework-manager.png)](images/Configuración-final-DNSCrypt-Nework-manager.png)
 
 ###### Nota: He pasado de usar los DNS de google a usar la dirección local 127.0.2.1 que es en la que está escuchando DNSCrypt.
 
@@ -136,7 +136,7 @@ Por defecto DNSCrypt utiliza los servidores de Cisco. Para comprobar lo que acab
 > nano /etc/default/dnscrypt-proxy
 > ```
 
-[<img src="images/Servidor-DNS-por-defecto-de-DNSCrypt-300x156.png" alt="Servidor DNS por defecto de DNSCrypt" style="zoom:150%;" />](images/Servidor-DNS-por-defecto-de-DNSCrypt.png)
+[<img src="images/Servidor-DNS-por-defecto-de-DNSCrypt.png" alt="Servidor DNS por defecto de DNSCrypt"  />](images/Servidor-DNS-por-defecto-de-DNSCrypt.png)
 
 Una vez ejecutado el comando, tal y como se puede ver en la captura de pantalla, estoy usando los DNS de cisco (OpenDNS) para resolver las peticiones DNS.
 
@@ -152,7 +152,7 @@ Para ver los servidores DNS disponibles ejecutamos el siguiente comando en la te
 
 Una vez ejecutado el comando obtendremos información de todos los servidores disponibles:
 
-[![Selección del servidor DNS](images/Servidores-DNS-disponibles-300x185.png)](images/Servidores-DNS-disponibles.png)
+[![Selección del servidor DNS](images/Servidores-DNS-disponibles.png)](images/Servidores-DNS-disponibles.png)
 
 Elegimos el que nos parezca más oportuno. En mi caso elijo el servidor **dnscrypt.org-fr** por los siguientes motivos:
 
@@ -168,7 +168,7 @@ Para reemplazar el servidor **cisco** por el **dnscrypt.org-fr** abrimos una ter
 
 Una vez abierto el editor de textos reemplazamos el servidor actual, que en el mi caso es el **cisco**, por el **dnscrypt.org-fr**.
 
-[![Servidor DNS Cambiado](images/Servidor-DNS-reemplazado-300x160.png)](images/Servidor-DNS-reemplazado.png)
+[![Servidor DNS Cambiado](images/Servidor-DNS-reemplazado.png)](images/Servidor-DNS-reemplazado.png)
 
 Una vez realizadas las modificaciones guardamos los cambios y cerramos el fichero. Ahora tan solo tenemos que reiniciar DNSCrypt ejecutando el siguiente comando en la terminal.
 
@@ -196,15 +196,15 @@ Después de añadir las opciones extra de funcionamiento la línea queda de la s
 > DNSCRYPT_PROXY_OPTIONS="--edns-payload-size=4096 --ephemeral-keys --logfile=/var/log/dnscrypt-proxy.log"
 > ```
 
-\[caption id="attachment\_7251" align="alignnone" width="544"\][![Muestra de mi fichero de configuración final de DNSCrypt](images/Configuración-con-opciones-de-DNSCrypt.png)](images/Configuración-con-opciones-de-DNSCrypt.png) Muestra de mi fichero de configuración final de DNSCrypt\[/caption\]
+[<img src="images/Configuración-con-opciones-de-DNSCrypt.png" alt="Muestra de mi fichero de configuración final de DNSCrypt" style="zoom:80%;" />](images/Configuración-con-opciones-de-DNSCrypt.png) 
+
+Muestra de mi fichero de configuración final de DNSCrypt
 
 Cada una de las opciones de funcionamiento introducidas tiene el siguiente significado:
 
-**\--edns-payload-size=4096:** Opción para habilitar el mecanismo DNSSEC y de este modo obtener protección frente ataques DNS poisoning. 4096 bytes es el tamaño máximo de respuesta que aceptaremos del servidor DNS.
-
-**\--ephemeral-keys:** DNSCrypt siempre usa la misma clave pública para establecer una conexión cifrada con el servidor DNS. Esto en términos de privacidad es malo porque nuestra clave pública puede ser asociada a nuestra IP. Para evitar este problema introducimos el parámetro --ephermal-keys. Introduciendo el parámetro --ephermal-keys cada petición DNS se realizará mediante una clave diferente. De este modo será prácticamente imposible asociar nuestra IP con las peticiones DNS. Esta opción comporta un consumo de CPU adicional que en algunos casos puede llegar a ralentizar nuestro ordenador.
-
-**\--logfile=/var/log/dnscrypt-proxy.log:** Instrucción para indicar la ubicación donde queremos guardar los log de DNSCrypt.
+* **\--edns-payload-size=4096:** Opción para habilitar el mecanismo DNSSEC y de este modo obtener protección frente ataques DNS poisoning. 4096 bytes es el tamaño máximo de respuesta que aceptaremos del servidor DNS.
+* **\--ephemeral-keys:** DNSCrypt siempre usa la misma clave pública para establecer una conexión cifrada con el servidor DNS. Esto en términos de privacidad es malo porque nuestra clave pública puede ser asociada a nuestra IP. Para evitar este problema introducimos el parámetro --ephermal-keys. Introduciendo el parámetro --ephermal-keys cada petición DNS se realizará mediante una clave diferente. De este modo será prácticamente imposible asociar nuestra IP con las peticiones DNS. Esta opción comporta un consumo de CPU adicional que en algunos casos puede llegar a ralentizar nuestro ordenador.
+* **\--logfile=/var/log/dnscrypt-proxy.log:** Instrucción para indicar la ubicación donde queremos guardar los log de DNSCrypt.
 
 Una vez introducidas las opciones guardamos los cambios y cerramos el fichero.
 
@@ -256,7 +256,7 @@ Para seleccionar el servidor DNS abrimos una terminal y ejecutamos el siguiente 
 
 ###### Nota: Si no tenemos disponible el archivo dnscrypt-resolvers.csv, también podemos consultar servidores DNSCrypt disponibles en la siguiente [URL](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv "URL para ver los servidores DNSCRypt disponibles").
 
-[![Proveedores DNS disponibles](images/porveeedores-DNS-disponibles-300x157.png)](images/porveeedores-DNS-disponibles.png)
+[![Proveedores DNS disponibles](images/porveeedores-DNS-disponibles.png)](images/porveeedores-DNS-disponibles.png)
 
 Una vez ejecutado el comando obtendremos al totalidad de servidores DNS disponibles.
 
@@ -330,27 +330,24 @@ No obstante si queremos podemos modificar el comando para añadir opciones adici
 
 Una vez introducido el comando se guardan los cambios y cerramos el fichero.
 
-\[caption id="attachment\_7253" align="alignnone" width="472"\][![Comando para iniciar DNSCrypt](images/Iniciar-DNSCrypt.png)](images/Iniciar-DNSCrypt.png) Muestra de la introducción del comando para configurar dnscrypt\[/caption\]
+[![Comando para iniciar DNSCrypt](images/Iniciar-DNSCrypt.png)](images/Iniciar-DNSCrypt.png) 
+
+Muestra de la introducción del comando para configurar dnscrypt
 
 #### Explicación del significado de los parámetros para iniciar DNSCrypt
 
 El significado de los parámetros del comando usado para iniciar DNSCrypt es el siguiente:
 
-**dnscrypt-proxy:** Parte del comando para iniciar DNSCrypt.
+* **dnscrypt-proxy:** Parte del comando para iniciar DNSCrypt.
 
-**\--local-address=127.0.0.1:53:** Estoy indicando que DNSCrypt esté escuchando en la IP local 127.0.0.1 y en el puerto 53. Si queremos podemos modificar la IP 127.0.0.1 por otra del tipo 127.x.x.x, y el puerto 53 por cualquier otro puerto que no esté en uso.
+* **\--local-address=127.0.0.1:53:** Estoy indicando que DNSCrypt esté escuchando en la IP local 127.0.0.1 y en el puerto 53. Si queremos podemos modificar la IP 127.0.0.1 por otra del tipo 127.x.x.x, y el puerto 53 por cualquier otro puerto que no esté en uso.
 
-**\--edns-payload-size=4096:** Parte del comando para habilitar el mecanismo DNSSEC y de este modo obtener protección frente ataques DNS poisoning. 4096 bytes es el tamaño máximo de la respuesta que aceptaremos del servidor DNS.
-
-**\--ephemeral-keys:** DNSCrypt siempre usa la misma clave pública para establecer una conexión cifrada con el servidor DNS. Esto en términos de privacidad es malo porque nuestra clave pública puede ser asociada a nuestra IP. Para evitar este problema introducimos el parámetro --ephermal-keys. Introduciendo el parámetro --ephermal-keys cada petición DNS se realizará mediante una clave diferente. De este modo será prácticamente imposible asociar nuestra IP con las peticiones DNS. Esta opción comporta un consumo de CPU adicional que en algunos casos puede llegar a ralentizar nuestro ordenador.
-
-**\--daemonize:** Parte del comando usada para indicar que DNSCrypt se ejecute en segundo plano.
-
-**\--resolver-name=dnscrypt.org-fr:** Parte del comando usada para indicar el servidor de DNSCrypt que queremos usar. Si queremos usar un servidor diferente al dnscrypt.org-fr tan solo tenemos que reemplazar dnscrypt.org-fr por el servidor que queramos.
-
-**\--user=dnscrypt:** Comando para indicar el usuario que iniciará DNSCrypt. En nuestro caso lo iniciará el usuario dnscrypt que hemos creado anteriormente.
-
-**\--logfile=/var/log/dnscrypt-proxy.log:** Instrucción para indicar la ubicación donde queremos guardar los log de DNSCrypt.
+* **\--edns-payload-size=4096:** Parte del comando para habilitar el mecanismo DNSSEC y de este modo obtener protección frente ataques DNS poisoning. 4096 bytes es el tamaño máximo de la respuesta que aceptaremos del servidor DNS.
+* **\--ephemeral-keys:** DNSCrypt siempre usa la misma clave pública para establecer una conexión cifrada con el servidor DNS. Esto en términos de privacidad es malo porque nuestra clave pública puede ser asociada a nuestra IP. Para evitar este problema introducimos el parámetro --ephermal-keys. Introduciendo el parámetro --ephermal-keys cada petición DNS se realizará mediante una clave diferente. De este modo será prácticamente imposible asociar nuestra IP con las peticiones DNS. Esta opción comporta un consumo de CPU adicional que en algunos casos puede llegar a ralentizar nuestro ordenador.
+* **\--daemonize:** Parte del comando usada para indicar que DNSCrypt se ejecute en segundo plano.
+* **\--resolver-name=dnscrypt.org-fr:** Parte del comando usada para indicar el servidor de DNSCrypt que queremos usar. Si queremos usar un servidor diferente al dnscrypt.org-fr tan solo tenemos que reemplazar dnscrypt.org-fr por el servidor que queramos.
+* **\--user=dnscrypt:** Comando para indicar el usuario que iniciará DNSCrypt. En nuestro caso lo iniciará el usuario dnscrypt que hemos creado anteriormente.
+* **\--logfile=/var/log/dnscrypt-proxy.log:** Instrucción para indicar la ubicación donde queremos guardar los log de DNSCrypt.
 
 ###### Nota: Si omitimos el comando \--logfile=/var/log/dnscrypt-proxy.log los logs se guardarán en /var/log/syslog
 
@@ -364,11 +361,11 @@ Por lo tanto accedemos a la configuración de nuestro gestor de red y reemplazam
 
 Una vez dentro del gestor de red, en mi caso pasaré de tener la siguiente configuración:
 
-[![Configuración inicial del Gestor de Red](images/Configuración-inicial-del-Gestor-de-Red-300x192.png)](images/Configuración-inicial-del-Gestor-de-Red.png)
+[![Configuración inicial del Gestor de Red](images/Configuración-inicial-del-Gestor-de-Red.png)](images/Configuración-inicial-del-Gestor-de-Red.png)
 
 A tener la siguiente configuración:
 
-[![Configuración gestor de red para DNSCrypt](images/Configuración-gestor-de-red-para-DNSCrypt-300x182.png)](images/Configuración-gestor-de-red-para-DNSCrypt.png)
+[![Configuración gestor de red para DNSCrypt](images/Configuración-gestor-de-red-para-DNSCrypt.png)](images/Configuración-gestor-de-red-para-DNSCrypt.png)
 
 En estos momentos acaba de finalizar la totalidad del procedimiento para configurar DNSCrypt.
 
@@ -378,10 +375,10 @@ Ahora tan solo tenemos que reiniciar nuestro ordenador y DNSCrypt estará listo 
 
 Para comprobar que DNSCrypt está funcionando de forma adecuada pueden seguir las instrucciones del siguiente enlace:
 
-https://geekland.eu/comprobar-el-funcionamiento-de-dnscrypt/
+https://geeklandlinux.github.io/posts/comprobar-el-funcionamiento-de-dnscrypt/
 
 ## CONFIGURAR DNSCRYPT PARA QUE TRABAJE CONJUNTAMENTE CON DNSMASQ
 
 En el caso que pretendan usar DNSmasq para mejorar el rendimiento de DNSCrypt pueden seguir las instrucciones que encontrarán en el siguiente enlace:
 
-https://geekland.eu/usar-dnsmasq-mejorar-rendimiento-dnscrypt/
+https://geeklandlinux.github.io/posts/usar-dnsmasq-mejorar-rendimiento-dnscrypt/

@@ -108,7 +108,7 @@ Una vez realizada la configuración en el Virtual Host guardaremos los cambios y
 
 Como nota informativa, el significado de los parámetros añadidos en el fichero de configuración de Apache es:
 
- 
+
 |   **Parámetro**   |   **Significado**   |
 | --- | --- |
 |   DavLockDB   |   Especificamos que la ubicación para la base de datos de bloqueos es /var/www/DavLock   |
@@ -143,7 +143,7 @@ En estos momentos todo el mundo que conozca nuestra IP tendrá acceso a la infor
 
 Existen varios métodos de autenticación. A continuación veremos el DIGEST y el BASIC. Usaremos uno u otro en función de las circunstancias detalladas en la siguiente tabla:
 
-  
+
 |  |   **http**   |   **https**   |
 | --- | --- | --- |
 |   Autenticación BASIC   |   Linux, MacOS   |   MacOS, Windows, Linux   |
@@ -247,7 +247,7 @@ Cuando se abra el editor de textos nano, **si estamos usando el método DIGEST**
 
 Una vez realizadas las modificaciones guardaremos los cambios y cerramos el fichero. El significado de cada uno de los parámetros añadidos al fichero es el siguiente:
 
- 
+
 |   **Directivas**   |   **Significado**   |
 | --- | --- |
 |   AuthType   |   Definimos el método de autenticación para acceder al directorio /var/www/webdav. Podemos definir el Basic o el Digest.   |
@@ -345,7 +345,7 @@ Acto seguido introduciremos nuestro usuario y contraseña y presionaremos el bot
 
 Para conectarse y usar el servidor WebDav existen infinidad de opciones. Una de ellas es la que cito a continuación:
 
-https://geekland.eu/montar-servidor-webdav-en-un-sistema-de-archivos-con-davfs2/
+https://geeklandlinux.github.io/posts/montar-servidor-webdav-en-un-sistema-de-archivos-con-davfs2/
 
 En un futuro escribiré otro post detallando el resto de opciones disponibles.
 

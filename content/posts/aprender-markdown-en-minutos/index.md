@@ -155,7 +155,7 @@ Para aprender markdown sigan leyendo los siguientes apartados.
 
 Otro de los motivos para aprender Markdown es que permite dar estilo al texto que escribimos de forma extremadamente rápida. Podemos definir que un texto esté en negrita, cursiva o tachado. Para ello tendremos que utilizar el siguiente código:
 
- 
+
 |   **Formato**   |   **Código a emplear**   |
 | --- | --- |
 |   Negrita   |   **\*\***palabra**\*\***   |
@@ -204,7 +204,7 @@ Si lo creemos oportuno también podemos añadir un título al enlace con la sigu
 De este modo si en el ejemplo anterior queremos introducir el titulo ” explicación de como instalar Pi-hole” haremos lo siguiente:
 
 > ```
-> [pi-hole](https://geekland.eu/instalar-configurar-pi-hole-raspberry-pi/ ”Explicación de como instalar Pi-hole”) es una opción interesante.
+> [pi-hole](https://geeklandlinux.github.io/posts/instalar-configurar-pi-hole-raspberry-pi/ ”Explicación de como instalar Pi-hole”) es una opción interesante.
 > ```
 
 El resultado obtenido de usar el código que acabamos de ver es el siguiente:
@@ -214,7 +214,7 @@ El resultado obtenido de usar el código que acabamos de ver es el siguiente:
 Si tan solo quiero enlazar una URL sin poner título alternativo, sin texto de ancla ni título lo podemos hacer del siguiente modo:
 
 > ```
-> <https://geekland.eu/instalar-servidor-dlna-readymedia-raspberry-pi-linux/>
+> https://geeklandlinux.github.io/posts/instalar-servidor-dlna-readymedia-raspberry-pi-linux/>
 > ```
 
 ## INSERTAR IMÁGENES EN MARKDOWN
@@ -270,10 +270,10 @@ Escribiremos un texto y cada vez que aparezca una palabra que queramos enlazar l
 Una vez finalizado el texto, al final del documento definiremos los enlaces del siguiente modo:
 
 > ```
-> [Geekland]: https://geekland.eu
+> [Geekland]: https://geeklandlinux.github.io/
 > ```
 
-De este modo, todas las palabras Geekland del documento que estén entre corchetes se enlazarán con la URL geekland.eu:
+De este modo, todas las palabras Geekland del documento que estén entre corchetes se enlazarán con la URL geeklandlinux.github.io:
 
 [![Simplificar la creación de enlaces en Markdown](images/simplificar-la-creacion-enlaces.png)](images/simplificar-la-creacion-enlaces.png)
 

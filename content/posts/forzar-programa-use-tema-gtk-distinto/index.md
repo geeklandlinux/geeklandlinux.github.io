@@ -37,7 +37,7 @@ Los pasos a seguir para forzar que un programa se abra con el tema GTK que quere
 
 Para averiguar el tipo de librerías que usa un programa les recomiendo que lean y apliquen los consejos que se muestran en el siguiente enlace:
 
-https://geekland.eu/que-son-librerias-gtk-version-usamos/
+https://geeklandlinux.github.io/posts/que-son-librerias-gtk-version-usamos/
 
 ### Forzar que un programa que usa librerías GTK3 se abra con el tema que queramos
 
@@ -107,7 +107,7 @@ Una vez se abra gestor de archivos thunar navegamos a la ubicación **/usr/share
 
 Seguidamente buscan el archivo .desktop del programa que quieren abrir con un tema GTK diferente al configurado y lo abren con su editor de textos preferido.
 
-[![Acceder a los ficheros .desktop para forzar el tema](images/Acceder-a-los-ficheros-.desktop-300x236.png "Acceder al fichero desktop para forzar un tema determinado")](images/Acceder-a-los-ficheros-.desktop.png)
+[![Acceder a los ficheros .desktop para forzar el tema](images/Acceder-a-los-ficheros-.desktop.png "Acceder al fichero desktop para forzar un tema determinado")](images/Acceder-a-los-ficheros-.desktop.png)
 
 ### Modificaciones en el archivo .desktop para aplicaciones que usen GTK3
 

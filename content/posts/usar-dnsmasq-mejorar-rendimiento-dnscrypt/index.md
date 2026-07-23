@@ -17,9 +17,9 @@ En artículos anteriores vimos los pasos a seguir para instalar, configurar y us
 
 Se recomienda que el punto de partida para aplicar este tutorial sea haber seguido las instrucciones mencionadas en los siguientes enlaces:
 
-https://geekland.eu/instalar-dnscrypt-linux-ubuntu-windows/
+https://geeklandlinux.github.io/posts/instalar-dnscrypt-linux-ubuntu-windows/
 
-https://geekland.eu/configurar-dnscrypt-en-gnu-linux/
+https://geeklandlinux.github.io/posts/configurar-dnscrypt-en-gnu-linux/
 
 ## VENTAJAS OBTENIDAS AL USAR DNSMASQ CON DNSCRYPT
 
@@ -210,7 +210,7 @@ Una vez encontrada la descomentamos quedando del siguiente modo:
 > domain-needed
 > ```
 
-De este modo únicamente se podrán resolver peticiones DNS de nombres de dominio completo como por ejemplo **geekland.eu**.
+De este modo únicamente se podrán resolver peticiones DNS de nombres de dominio completo como por ejemplo **geeklandlinux.github.io**.
 
 Por lo tanto si intentamos resolver la petición del tipo **geekland**, nunca se podrá resolver porqué el el nombre de dominio no es completo.
 
@@ -224,11 +224,11 @@ Para ello accedemos a los ajustes de nuestro gestor de red, que en mi caso es Ne
 
 Por lo tanto en mi caso pasaré de tener esta configuración:
 
-[![Configuración inicial Gestor de red DNSmasq](images/Configuración-inicial-Gestor-de-red-DNSmasq-300x266.png)](images/Configuración-inicial-Gestor-de-red-DNSmasq.png)
+[![Configuración inicial Gestor de red DNSmasq](images/Configuración-inicial-Gestor-de-red-DNSmasq.png)](images/Configuración-inicial-Gestor-de-red-DNSmasq.png)
 
 A tener la siguiente configuración:
 
-[![Configuración final Gestor de red DNSmasq](images/Configuración-final-Gestor-de-red-DNSmasq-300x266.png)](images/Configuración-final-Gestor-de-red-DNSmasq.png)
+[![Configuración final Gestor de red DNSmasq](images/Configuración-final-Gestor-de-red-DNSmasq.png)](images/Configuración-final-Gestor-de-red-DNSmasq.png)
 
 Una vez aplicados los cambios reiniciamos el ordenador para asegurar que se apliquen los cambios efectuados en nuestro gestor de red y en Dnsmasq. Después de reiniciar el equipo ya podremos usar DNSmasq para mejorar el rendimiento de DNSCrypt
 
@@ -271,10 +271,10 @@ Comprobar el funcionamiento de DNSmasq es sumamente sencillo.
 Tan solo tenemos que abrir una terminal y ejecutar el comando **dig** seguido de un **dominio cualquiera**. En mi caso ejecuto el siguiente comando:
 
 > ```
-> dig geekland.eu
+> dig geeklandlinux.github.io
 > ```
 
-[![Tiempo en resolver Petición DNS](images/Tiempo-en-resolver-Petición-DNS-300x194.png)](images/Tiempo-en-resolver-Petición-DNS.png)
+[![Tiempo en resolver Petición DNS](images/Tiempo-en-resolver-Petición-DNS.png)](images/Tiempo-en-resolver-Petición-DNS.png)
 
 Si observamos el resultado obtenido podemos ver lo siguiente:
 
@@ -283,7 +283,7 @@ Si observamos el resultado obtenido podemos ver lo siguiente:
 
 A continuación aplicaremos de nuevo el mismo comando que aplicamos anteriormente obteniendo el siguiente resultado:
 
-[![Tiempo en resolver petición DNS con DNSmasq](images/Tiempo-en-resolver-petición-DNS-con-DNSmasq-300x194.png)](images/Tiempo-en-resolver-petición-DNS-con-DNSmasq.png)
+[![Tiempo en resolver petición DNS con DNSmasq](images/tiempo-en-resolver-petición-dns-con-dnsmasq.png)](images/Tiempo-en-resolver-petición-DNS-con-DNSmasq.png)
 
 El tiempo de resolución de la petición DNS ahora es 0 milisegundos. Esto es signo inequívoco que la petición la ha resuelto DNSmasq. Por lo tanto podemos estar seguros que DNSmasq está funcionando correctamente.
 

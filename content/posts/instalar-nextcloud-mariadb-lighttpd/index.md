@@ -80,11 +80,11 @@ De este modo nuestro dispositivo de almacenamiento se montará de forma automát
 
 A continuación es necesario asegurar que nuestra Raspberry Pi siempre tenga la misma IP interna. De este modo siempre estará localizable dentro de nuestra red local. Para ello pueden usar alguno de los métodos que se detallan en los siguientes enlaces:
 
-[https://geekland.eu/ip-fija-servidor-dhcp-router/]({{< relref "/posts/ip-fija-servidor-dhcp-router" >}})
+[https://geeklandlinux.github.io/posts/ip-fija-servidor-dhcp-router/]({{< relref "/posts/ip-fija-servidor-dhcp-router" >}})
 
-[https://geekland.eu/instalar-configurar-servidor-torrent/]({{< relref "/posts/instalar-configurar-servidor-torrent" >}})
+[https://geeklandlinux.github.io/posts/instalar-configurar-servidor-torrent/]({{< relref "/posts/instalar-configurar-servidor-torrent" >}})
 
-[https://geekland.eu/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
+[https://geeklandlinux.github.io/posts/configurar-ip-fija\_o\_estatica\_ipv4/]({{< relref "/posts/configurar-ip-fija_o_estatica_ipv4" >}})
 
 En mi caso he configurado mi Raspberry Pi para que tenga la IP 192.168.1.200.
 

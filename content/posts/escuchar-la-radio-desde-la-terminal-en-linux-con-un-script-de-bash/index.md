@@ -99,7 +99,7 @@ Cuando se abra el editor de textos nano borren todo su contenido y peguen el sig
 
 Para obtener nuevas URL para escuchar nuevas emisoras de radio tan solo tienen que seguir las instrucciones que se muestran en el siguiente enlace:
 
-https://geekland.eu/obtener-la-url-para-escuchar-radio-en-streaming/
+https://geeklandlinux.github.io/posts/obtener-la-url-para-escuchar-radio-en-streaming/
 
 ### Empezar a escuchar la radio desde la terminal en Linux
 

@@ -228,9 +228,9 @@ A partir de este momento todo usuario o bot que introduzca las credenciales de a
 
 Para entender más el funcionamiento de Fail2ban les recomiendo que lean los siguientes artículos:
 
-https://geekland.eu/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta/
+https://geeklandlinux.github.io/posts/instalar-configurar-y-usar-fail2ban-para-evitar-ataques-de-fuerza-bruta/
 
-https://geekland.eu/como-consultar-logs-de-fail2ban/
+https://geeklandlinux.github.io/posts/como-consultar-logs-de-fail2ban/
 
 ## COMPROBAR EL FUNCIONAMIENTO DE FAIL2BAN
 

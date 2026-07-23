@@ -29,17 +29,17 @@ Inicialmente accedemos a la configuración de Windows Defender.
 
 Para ello en el menú de búsqueda de Windows tecleamos **Configuración de Windows Defender**. Una vez realizada la búsqueda clicamos encima de la opción **Configuración de Windows Defender**.
 
-[![Acceder a la configuración de Windows Defender](images/Acceder-a-la-configuración-de-Windows-Defender-217x300.png "Acceder a la configuración de Windows Defender")](images/Acceder-a-la-configuración-de-Windows-Defender.png)
+[![Acceder a la configuración de Windows Defender](images/Acceder-a-la-configuración-de-Windows-Defender.png "Acceder a la configuración de Windows Defender")](images/Acceder-a-la-configuración-de-Windows-Defender.png)
 
 En las opciones de configuración desactivamos todas y cada una de las opciones de protección. Si observamos el texto que está dentro del recuadro rojo de la siguiente imagen veremos que Windows nos informa que tarde o temprano activará el antivirus de nuevo.
 
-[![Desactivar todas las opciones de la configuración](images/Desactivar-las-opciones-de-Windows-Defender-227x300.png "Desactivar todas las opciones de la configuración")](images/Desactivar-las-opciones-de-Windows-Defender.png)
+[![Desactivar todas las opciones de la configuración](images/Desactivar-las-opciones-de-Windows-Defender.png "Desactivar todas las opciones de la configuración")](images/Desactivar-las-opciones-de-Windows-Defender.png)
 
 Para evitar que el antivirus se vuelva a activar presionamos la combinación de teclas **Win+R**.
 
 Cuando aparezca la ventana de **Ejecutar** tecleamos **regedit** y presionamos el botón **Aceptar**.
 
-[![Acceder al registro de Windows](images/Acceder-al-registro-de-Windows-300x155.png "Acceder al registro de Windows")](images/Acceder-al-registro-de-Windows.png)
+[![Acceder al registro de Windows](images/Acceder-al-registro-de-Windows.png "Acceder al registro de Windows")](images/Acceder-al-registro-de-Windows.png)
 
 Seguidamente aparecerá una ventana que nos informará si queremos realizar cambios en el registro del sistema. En nuestro caso presionaremos encima del botón **Sí**.
 
@@ -51,15 +51,15 @@ A continuación aparecerá el menú de navegación del registro del sistema. Tal
 
 Una vez dentro de la ruta, en el panel derecho hacemos click con el botón derecho del ratón y creamos un nuevo valor de Dword de 32 bits:
 
-[![Crear un valor Dword32](images/Crear-un-valor-DWORD-300x249.png "Crear un valor Dword32")](images/Crear-un-valor-DWORD.png)
+[![Crear un valor Dword32](images/Crear-un-valor-DWORD.png "Crear un valor Dword32")](images/Crear-un-valor-DWORD.png)
 
 Una vez creado el DWORD de 32 bits lo renombramos con el nombre **DisableAntiSpyware**:
 
-[![DWORD Disable AntiSpyware](images/DWORD-Disable-AntiSpyware-300x249.png "DWORD Disable AntiSpyware")](images/DWORD-Disable-AntiSpyware.png)
+[![DWORD Disable AntiSpyware](images/DWORD-Disable-AntiSpyware.png "DWORD Disable AntiSpyware")](images/DWORD-Disable-AntiSpyware.png)
 
 Finalmente hacemos doble click en el DWORD de 32 bits con nombre **DisableAntiSpyware**, cuando aparezca la ventana de **Editar valor** le asignamos el valor **1**, presionamos el botón **Aceptar** y reiniciamos el ordenador.
 
-[![Desactivar permanentemente Windows Defender](images/Desactivar-windows-defender-de-forma-permanente-300x249.png "Desactivar permanentemente Windows Defender")](images/Desactivar-windows-defender-de-forma-permanente.png)
+[![Desactivar permanentemente Windows Defender](images/Desactivar-windows-defender-de-forma-permanente.png "Desactivar permanentemente Windows Defender")](images/Desactivar-windows-defender-de-forma-permanente.png)
 
 En estos momentos el antivirus Windows defender está completamente desactivado y Windows no lo activará de nuevo por su cuenta.
 
@@ -67,7 +67,7 @@ En estos momentos el antivirus Windows defender está completamente desactivado 
 
 Para comprobar que Windows Defender está desactivado tan solo tenemos que intentar abrir el antivirus. Si en el momento de abrirlo les sale la siguiente ventana podemos estar seguros que Windows Defender está totalmente desactivado.
 
-[![Windows Defender desactivado](images/Windows-Defender-desactivado-300x172.png "Windows Defender desactivado")](images/Windows-Defender-desactivado.png)
+[![Windows Defender desactivado](images/Windows-Defender-desactivado.png "Windows Defender desactivado")](images/Windows-Defender-desactivado.png)
 
 ## QUITAR EL ICONO DE WINDOWS DEFENDER DEL PANEL Y DEL MENÚ CONTEXTUAL
 
@@ -75,11 +75,11 @@ Aunque hayan desactivado Windows Defender es posible que el icono de Windows Def
 
 Si quieren eliminar el icono de Windows Defender de la barra de tareas de Windows deben seguir los pasos que encontrarán en el siguiente artículo:
 
-[https://geekland.eu/quitar-el-icono-de-windows-defender/]({{< relref "/posts/quitar-el-icono-de-windows-defender" >}})
+[https://geeklandlinux.github.io/posts/quitar-el-icono-de-windows-defender/]({{< relref "/posts/quitar-el-icono-de-windows-defender" >}})
 
 Para eliminar las entradas de Windows Defender en el menú contextual de Windows deben seguir los consejos del siguiente artículo:
 
-[https://geekland.eu/quitar-windows-defender-del-menu-contextual/]({{< relref "/posts/quitar-windows-defender-del-menu-contextual" >}})
+[https://geeklandlinux.github.io/posts/quitar-windows-defender-del-menu-contextual/]({{< relref "/posts/quitar-windows-defender-del-menu-contextual" >}})
 
 ## REACTIVAR WINDOWS DEFENDER DE NUEVO
 
@@ -97,8 +97,8 @@ Una vez dentro de la ubicación cambian el valor de **DisableAntiSpyware de 1 a 
 
 Acto seguido acceden a la configuración de Windows Defender y presionan el botón **Activar Windows Defender**.
 
-[![Activar Windows Defender](images/Activar-Windows-Defender-300x204.png "Activar Windows Defender")](images/Activar-Windows-Defender.png)
+[![Activar Windows Defender](images/Activar-Windows-Defender.png "Activar Windows Defender")](images/Activar-Windows-Defender.png)
 
 Justo después de presionar el botón se activará Windows Defender y lo único que tendrán que realizar es configurarlo según sus necesidades en la configuración de Windows Defender.
 
-[![Usando Windows Defender](images/Usando-Windows-Defender-300x212.png "Usando Windows Defender")](images/Usando-Windows-Defender.png)
+[![Usando Windows Defender](images/Usando-Windows-Defender.png "Usando Windows Defender")](images/Usando-Windows-Defender.png)

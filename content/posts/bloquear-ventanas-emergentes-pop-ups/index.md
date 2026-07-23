@@ -56,7 +56,7 @@ Para ello en la barra de direcciones de nuestro navegador ingresamos la siguient
 
 Cuando aparezca la ventana de ajustes de Google Chrome deberemos asegurar que la opción Ventanas emergentes esté en **Bloqueado** tal y como se muestra en la captura de pantalla:
 
-[![Bloquear ventanas emergentes en Chrome](images/bloquear-ventanas-emergentes-chrome-300x292.png "Bloquear ventanas emergentes en Chrome")](images/bloquear-ventanas-emergentes-chrome.png)
+[![Bloquear ventanas emergentes en Chrome](images/bloquear-ventanas-emergentes-chrome.png "Bloquear ventanas emergentes en Chrome")](images/bloquear-ventanas-emergentes-chrome.png)
 
 De este modo bloqueamos la totalidad de ventanas emergentes en nuestro navegador. A partir de este momento podemos tener la certeza que ninguna ventana emergente se abrirá en nuestro navegador. Si en algún caso precisamos permitir las ventanas emergentes de alguna web, en el apartado **Permitir** clicamos el botón Añadir.
 
@@ -106,7 +106,7 @@ Para solucionar el problema de una vez por todas la mejor opción es instalar uB
 
 Para instalar ublock origin deberán seguir las instrucciones que se muestran en el siguiente enlace:
 
-https://geekland.eu/instalar-ublock-origin-chrome-firefox/
+https://geeklandlinux.github.io/posts/instalar-ublock-origin-chrome-firefox/
 
 ### Bloquear los pop-up con uBlock origin
 

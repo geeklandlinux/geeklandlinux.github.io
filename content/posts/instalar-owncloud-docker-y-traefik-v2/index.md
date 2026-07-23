@@ -25,13 +25,13 @@ Para seguir las instrucciones de este tutorial tienen que tener instalado Docker
 
 Para la instalación de Docker y Docker-compose deben seguir las instrucciones que dejo en el siguiente enlace:
 
-https://geekland.eu/instalar-docker-y-docker-compose-en-linux/
+https://geeklandlinux.github.io/posts/instalar-docker-y-docker-compose-en-linux/
 
 ### Instalar y configurar el proxy inverso Traefik v2
 
 Necesitamos un dominio y un proxy inverso para poder instalar y usar Owncloud de forma segura. Para conseguir lo que acabo de mencionar deben seguir las instrucciones que encontrarán en el siguiente enlace:
 
-https://geekland.eu/instalar-y-configurar-traefik-v2-para-usarlo-como-proxy-inverso/
+https://geeklandlinux.github.io/posts/instalar-y-configurar-traefik-v2-para-usarlo-como-proxy-inverso/
 
 Una vez finalizado el proceso de configuración tendremos instalado y configurado Traefik. Además dispondremos de un dominio que en mi caso es:
 

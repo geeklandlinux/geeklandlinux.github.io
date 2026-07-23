@@ -15,7 +15,7 @@ cover:
 
 Hoy vamos a conocer una distribución GNU Linux llamada Tails. En otros post de este blog hemos visto como usar la Red Tor para navegar anónimamente y acceder a la deep web. Concretamente me refiero al siguiente post:
 
-[https://geekland.eu/acceder-a-la-deep-web/]({{< relref "/posts/acceder-a-la-deep-web" >}})
+[https://geeklandlinux.github.io/posts/acceder-a-la-deep-web/]({{< relref "/posts/acceder-a-la-deep-web" >}})
 
 <!--more-->Como podéis ver en el post anterior se muestra como instalar el navegador Tor Bundle y de esta forma poder navegar anónimamente a través de la red Tor. ¿Pero que pasa con el resto de conexiones salientes a internet que no vayan a través del navegador Tor?
 
@@ -23,7 +23,7 @@ Pues sencillamente son conexiones convencionales. Por lo tanto nuestra IP quedar
 
 Alternativas que no requieran de grandes esfuerzos ni conocimientos para solucionar este problema hay como mínimo 2. Una de ellas es conectarse a través de un servidor VPN. Si quieren tener los detalles de como hacerlo pueden consultar el siguiente post:
 
-[https://geekland.eu/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
+[https://geeklandlinux.github.io/posts/conectarse-a-un-servidor-vpn-gratis/]({{< relref "/posts/conectarse-a-un-servidor-vpn-gratis" >}})
 
 Otra solución diferente a la que acabamos de citar es usar Tails. Seguidamente veremos que es Tails. Como lo tenemos que instalar y que beneficios podemos obtener.
 
@@ -70,7 +70,7 @@ El siguiente paso será descargar la imagen ISO de tails. Para descargar la imag
 
 Una vez dentro de la página tenemos que seleccionar el método de descarga. Como se puede ver en la captura de pantalla en mi caso he decidido descargar por Torrent.
 
-[![Descargar Tails de la página web](images/Descargar-Tails-300x163.png "Descargar Tails")](images/Descargar-Tails.png)
+[![Descargar Tails de la página web](images/Descargar-Tails.png "Descargar Tails")](images/Descargar-Tails.png)
 
 La descarga de la distro nos llevará unos minutos. La imagen ISO ocupa aproximadamente 900Mb. Una vez terminada la descarga veremos se habrán descargado 2 archivos. El primero es la imagen ISO y el segundo es un archivo con la extensión .key. Esté último nos será útil para comprobar la integridad de la imagen ISO que acabamos de descargar.
 
@@ -88,7 +88,7 @@ Una vez descargada la imagen ISO hay que comprobar la integrad de la imagen ISO 
 
 3- Para descargar la firma digital tenemos que dar click en el botón verde (Tails signing Key) que se puede ver en la siguiente captura de pantalla:
 
- [![](images/Descargar-Llave-300x216.png "Descargar Llave")](images/Descargar-Llave.png)
+ [![](images/Descargar-Llave.png "Descargar Llave")](images/Descargar-Llave.png)
 
 4- Guardamos el archivo que acabamos de descargar en nuestra home y abrimos una terminal. Tecleamos el siguiente comando para importar la llave de Tails a nuestro sistema operativo:
 
@@ -106,7 +106,7 @@ Una vez descargada la imagen ISO hay que comprobar la integrad de la imagen ISO 
 
 Una vez finalizados estos pasos obtendremos un resultado similar al siguiente:
 
-[![ISO validada](images/Captura-pantalla-proceso-de-validación-de-clave-300x193.png "Proceso de validación de la ISO")](images/Captura-pantalla-proceso-de-validación-de-clave.png)
+[![ISO validada](images/Captura-pantalla-proceso-de-validación-de-clave.png "Proceso de validación de la ISO")](images/Captura-pantalla-proceso-de-validación-de-clave.png)
 
 Como se puede ver en la captura de pantalla vemos la frase “Firma correcta de “Tails developers (signing key)”
 
@@ -134,7 +134,7 @@ Ahora tenemos que conseguir de 2 unidades USB. Seleccionamos uno de los 2 USB y 
 
 El resultado obtenido es el siguiente:
 
-[![Instalar Tails - Dispositivo USB](images/Dispositivo-USB-300x163.png "Dispositivos reconocidos por Linux")](images/Dispositivo-USB.png)
+[![Instalar Tails - Dispositivo USB](images/Dispositivo-USB.png "Dispositivos reconocidos por Linux")](images/Dispositivo-USB.png)
 
 Como se puede ver en la imagen hay un dispositivo con denominación /dev/sdf1 que ocupa 1.9 GB. Este es nuestro USB. Por lo tanto ya sabemos que nuestro dispositivo es reconocido con la denominación /dev/sdf.
 
@@ -156,11 +156,11 @@ y seguidamente:
 
 Esperamos unos minutos y el proceso de instalación de Tails en el USB habrá terminado. Ahora ya podemos reiniciar el ordenador y hacer que arranque a través de la memoria USB para ejecutar Tails. Justo al arrancar Tails veréis la siguiente pantalla:
 
-[![Arrancando Tails](images/Tails-Boot-300x225.png "Tails Boot")](images/Tails-Boot.png)
+[![Arrancando Tails](images/Tails-Boot.png "Tails Boot")](images/Tails-Boot.png)
 
 Seleccionamos Live, apretamos Enter y esperamos unos pocos segundos, como se puede ver en la captura de pantalla Tails ya ha arrancado:
 
-[![Tails ejecutandose](images/recien-instalado-300x187.png "Tails recien instalado")](images/recien-instalado.png)
+[<img src="images/recien-instalado.png" alt="Tails ejecutandose" title="Tails recien instalado" style="zoom:80%;" />](images/recien-instalado.png)
 
 ### Activar la totalidad de funcionalidades de Tails
 
@@ -170,15 +170,15 @@ Así por ejemplo si queremos crear un espacio de persistencia para poder almacen
 
 Una vez ya hemos conectado el USB, como se puede ver en la captura de pantalla, vamos al menú Applications/tails/Tails USB Installer
 
-[![Instalar Tails a partir de un USB](images/Instalar-en-otro-USB-300x187.png "Instalar Tails en otro USB")](images/Instalar-en-otro-USB.png)
+[<img src="images/Instalar-en-otro-USB.png" alt="Instalar Tails a partir de un USB" title="Instalar Tails en otro USB" style="zoom:80%;" />](images/Instalar-en-otro-USB.png)
 
 Una hemos hecho click encima de Tails USB Installer,  aparecerá la siguiente pantalla:
 
-[![Opciones del instalador de Tails](images/Instalar-Tails-en-USB-300x218.png "Opciones del instalador de Tails")](images/Instalar-Tails-en-USB.png)
+[![Opciones del instalador de Tails](images/Instalar-Tails-en-USB.png "Opciones del instalador de Tails")](images/Instalar-Tails-en-USB.png)
 
 Seleccionamos la opción Clone & Install. Justo después de seleccionarla aparecerá la siguiente pantalla:
 
-[![Paso final instalar tails otro usb](images/Paso-final-instalar-tails-otro-usb-300x290.png "Seleccionar el dispositivo USB donde instalamos Tails")](images/Paso-final-instalar-tails-otro-usb.png)
+[![Paso final instalar tails otro usb](images/Paso-final-instalar-tails-otro-usb.png "Seleccionar el dispositivo USB donde instalamos Tails")](images/Paso-final-instalar-tails-otro-usb.png)
 
 Ahora en target device tenemos que seleccionar la unidad del USB que acabamos de enchufar. Seguidamente podamos apretar en el botón Create Live USB. Ahora solamente tenemos que esperar y se creará un nuevo USB con Tails.
 
@@ -196,11 +196,11 @@ Para crear el espacio de persistencia tenemos que seguir lo siguientes pasos:
 
 Como se puede ver en la captura de pantalla vamos al menú Applications/Tails/Configure persistent Volume y apretamos el botón derecho del mouse.
 
-[![Crear volumen de persistencia en tails](images/Crear-persistencia-300x187.png "Crear volumen de persistencia en tails")](images/Crear-persistencia.png)
+[<img src="images/Crear-persistencia.png" alt="Crear volumen de persistencia en tails" title="Crear volumen de persistencia en tails" style="zoom:80%;" />](images/Crear-persistencia.png)
 
 Justo al apretar el botón derecho del mouse aparecerá la siguiente pantalla:
 
-[![Cifrando el Volumen persistente](images/Crear-persistencia-Cifrado-261x300.png "Cifrando el Volumen persistente")](images/Crear-persistencia-Cifrado.png)
+[![Cifrando el Volumen persistente](images/Crear-persistencia-Cifrado.png "Cifrando el Volumen persistente")](images/Crear-persistencia-Cifrado.png)
 
 En la captura de pantalla pantalla se puede ver se han detectado 2,27 GiB que no se usan en el Pen Drive donde tenemos instalado Tails. Por defecto Tails coge la totalidad de este espacio libre para crear el volumen de persistencia.
 
@@ -208,7 +208,7 @@ El volumen de persistencia que se creará estará cifrado. Por lo tanto nos pedi
 
 Esperamos un momento y nuestro espacio de persistencia ya se habrá creado. Ahora nos aparecerá la siguiente pantalla para seleccionar la información que queremos que se almacene en nuestro volumen de persistencia:
 
-[![Configuración persistencia](images/Configuración-persistencia-286x300.png "Configuración persistencia")](images/Configuración-persistencia.png)
+[![Configuración persistencia](images/Configuración-persistencia.png "Configuración persistencia")](images/Configuración-persistencia.png)
 
 Las diferentes opciones que no mostrará el menú de configuración son las siguientes:
 
